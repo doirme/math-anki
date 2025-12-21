@@ -3,15 +3,12 @@ Production Streamlit App for Math-Anki
 Complete workflow: PDF → Markdown → Blocks → Validation → Cards → .apkg → Database
 """
 
-import json
 import os
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List
 
 import streamlit as st
 from core.cards import Flashcard, make_definition_card, make_theorem_cards
-from core.config import settings
 
 # Import core modules
 from core.pdf_to_md import pdf_to_markdown
@@ -472,20 +469,19 @@ with tab5:
                         else "unknown",
                     }
 
-                    # Generate cards from validated blocks
                     for block in st.session_state.validated_blocks:
-                        # This is simplified - you'll need to adapt based on your actual block structure
                         kind = block.get("kind", "")
+                        meta_data = block.get("metadata", {})
 
-                        # Convert to expected format
                         if kind == "definition":
+                            # map metadata to SemanticBlock-like object
                             defi_obj = type(
                                 "obj",
                                 (object,),
                                 {
-                                    "name": block.get("tags", ["Definition"])[0]
-                                    if block.get("tags")
-                                    else "Definition",
+                                    "name": meta_data.get("term")
+                                    or block.get("normalized_name")
+                                    or "Définition",
                                     "summary": block.get("normalized_text", ""),
                                     "tags": [
                                         type("tag", (object,), {"name": t})()
@@ -495,22 +491,32 @@ with tab5:
                             )()
                             cards.append(make_definition_card(defi_obj, meta))
 
-                        elif kind == "theorem":
-                            # Create mock objects for theorem
+                        elif kind in ["theorem", "proposition", "lemma", "corollary"]:
                             thm_obj = type(
                                 "obj",
                                 (object,),
                                 {
-                                    "name": block.get("tags", ["Theorem"])[0]
-                                    if block.get("tags")
-                                    else "Theorem",
+                                    "name": meta_data.get("normalized_name")
+                                    or block.get("normalized_name")
+                                    or kind.capitalize(),
                                     "hypotheses": type(
-                                        "obj", (object,), {"summary": "See block"}
-                                    )(),
+                                        "obj",
+                                        (object,),
+                                        {
+                                            "summary": "\n".join(
+                                                meta_data.get("hypotheses", [])
+                                            )
+                                        },
+                                    )()
+                                    if meta_data.get("hypotheses")
+                                    else None,
                                     "conclusion": type(
                                         "obj",
                                         (object,),
-                                        {"summary": block.get("normalized_text", "")},
+                                        {
+                                            "summary": meta_data.get("conclusion")
+                                            or block.get("normalized_text", "")
+                                        },
                                     )(),
                                     "summary": block.get("normalized_text", ""),
                                     "tags": [
@@ -878,7 +884,7 @@ with tab7:
                         st.markdown(f"**Created:** {block['created_at']}")
                         st.text_area(
                             "Summary",
-                            block["summary"][:300],
+                            (block.get("summary") or "")[:300],
                             height=150,
                             key=f"gen_summary_{block['id']}",
                         )
