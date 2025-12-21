@@ -144,10 +144,9 @@ def make_theorem_cards(thm: SemanticBlock, meta: Dict[str, Any]) -> List[Flashca
     cards = []
 
     # Access linked hypotheses/conclusion blocks
-    # Note: thm.hypotheses is a relationship to a SemanticBlock
     H = thm.hypotheses.summary if thm.hypotheses else "(hypothèses non extraites)"
     C = thm.conclusion.summary if thm.conclusion else (thm.summary or "")
-    name = thm.name or "Théorème"
+    name = (thm.name or "Théorème").strip()
 
     Cq = _purge_hints_from_conclusion(C)
 
@@ -156,25 +155,60 @@ def make_theorem_cards(thm: SemanticBlock, meta: Dict[str, Any]) -> List[Flashca
         for tag in thm.tags:
             base_tags.append(f"domain::{tag.name}")
 
-    # H -> C (question: ne pas révéler H)
+    # 1. Carte HYPOTHÈSES : Sous quelles hypothèses peut-on conclure C ?
     cards.append(
         Flashcard(
             deck=meta["deck"],
             note_type="Basic",
-            front=f"Sous quelles hypothèses peut-on conclure : {Cq} ?",
-            back=H,
-            tags=base_tags,
+            front=f"Sous quelles hypothèses peut-on conclure : <br><br> {Cq} ?",
+            back=f"<b>Hypothèses :</b><br>{H}",
+            tags=base_tags + ["facet::hypotheses"],
         )
     )
 
-    # Nom (facette)
-    cards.append(
-        Flashcard(
-            deck=meta["deck"],
-            note_type="Basic (and reversed)",
-            front=f"Quel est le nom du théorème correspondant à : {Cq} ?",
-            back=name,
-            tags=base_tags + ["facet::name"],
+    # 2. Carte NOM : Uniquement si le nom est "célèbre" (pas juste "Théorème")
+    generic_names = [
+        "théorème",
+        "proposition",
+        "lemme",
+        "corollaire",
+        "propriété",
+        "propriété.",
+        "théorème.",
+    ]
+    if name.lower() not in generic_names:
+        cards.append(
+            Flashcard(
+                deck=meta["deck"],
+                note_type="Basic (and reversed)",
+                front=f"Quel est le nom du résultat mathématique correspondant à : <br><br> {Cq} ?",
+                back=f"<b>{name}</b>",
+                tags=base_tags + ["facet::name"],
+            )
         )
-    )
+
+    # 3. Carte DÉMONSTRATION : Énoncé complet -> Preuve
+    # On cherche si une preuve est liée
+    proof_text = None
+    if hasattr(thm, "proof") and thm.proof:
+        proof_text = thm.proof.summary
+    else:
+        # Chercher dans les relations si un bloc "proves" celui-ci
+        if hasattr(thm, "relations_to"):
+            for rel in thm.relations_to:
+                if rel.predicate == "proves" or rel.predicate == "has_proof":
+                    proof_text = rel.subject.summary
+                    break
+
+    if proof_text:
+        cards.append(
+            Flashcard(
+                deck=meta["deck"],
+                note_type="Basic",
+                front=f"<b>Démontrer le résultat suivant ({name}) :</b><br><br><i>Hypothèses :</i> {H}<br><br><i>Conclusion :</i> {C}",
+                back=f"<b>Démonstration :</b><br>{proof_text}",
+                tags=base_tags + ["facet::proof"],
+            )
+        )
+
     return cards
