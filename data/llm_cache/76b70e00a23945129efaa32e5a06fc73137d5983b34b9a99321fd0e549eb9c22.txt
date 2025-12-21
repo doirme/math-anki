@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "La dérivabilité de $f^{-1}$ demande du travail, mais la formule de dérivation en découle aisément. En dérivant simplement la relation $f \\circ f^{-1} = \\text{Id}_J$ , on obtient $(f^{-1})' \\times f' \\circ f^{-1} = 1$ .\n\n- Pour la dérivabilité de $f^{-1}$ , l'hypothèse de non-annulation de $f'$ est cruciale ! Sur la figure ci-contre, $f'$ s'annule en $a$ , donc $f$ possède une tangente horizontale en $a$ . Il en découle que $f^{-1}$ possède une tangente verticale en $f(a)$ , donc n'est pas dérivable en $f(a)$ .\n- On n'a pas besoin de dériver 99 fois une fonction pour savoir qu'elle est 100 fois dérivable ! Par exemple, la fonction $x \\mapsto x^2 e^x$ est de classe $C^\\infty$ sur $\\mathbb{R}$ pour la seule raison que les fonctions $x \\mapsto x^2$ et $x \\mapsto e^x$ le sont.",
+    "tags": ["proof", "derivability", "inverse_function", "tangent"]
+  }
+]
+```

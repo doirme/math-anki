@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Croissances comparées) :\n- Pour tous α > 0 et β ∈ ℝ, x^β/e^x → 0 lorsque x → +∞.\n- Pour tous α > 0 et β ∈ ℝ, (ln x)^β/x^α → 0 lorsque x → +∞.\n- Pour tous α > 0, x^α |ln x| → 0 lorsque x → 0.",
+  "tags": ["croissances comparées", "limites"]
+}

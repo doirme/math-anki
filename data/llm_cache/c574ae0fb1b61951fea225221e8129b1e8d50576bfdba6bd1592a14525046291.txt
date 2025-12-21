@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_50_5161ebc9",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc utilise le concept de convexité, qui est lié au théorème cité dans le bloc candidat."
+    }
+  ]
+}
+```

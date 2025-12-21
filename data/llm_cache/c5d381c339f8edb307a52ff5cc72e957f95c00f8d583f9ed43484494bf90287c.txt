@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_19_9ec7c621",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser contient la démonstration du théorème énoncé dans le bloc block_19_9ec7c621."
+    },
+    {
+      "block_id": "block_21_a5085955",
+      "relation": "none",
+      "confidence": 0.9,
+      "reason": "Le bloc block_21_a5085955 traite d'une définition de fonction périodique, ce qui n'est pas lié au contenu du bloc à analyser."
+    }
+  ]
+}
+```

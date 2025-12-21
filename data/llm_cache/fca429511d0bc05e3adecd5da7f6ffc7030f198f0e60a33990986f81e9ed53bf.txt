@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Exemple** La fonction valeur absolue est convexe sur **\\mathbb{R}** car pour tous **x, y ∈ \\mathbb{R}** et **λ ∈ [0, 1]** , d'après l'inégalité triangulaire :\n- **|(1-λ)x + λy| ≤ (1-λ)|x| + λ|y|.**",
+    "tags": ["example", "absolute value function", "convex function", "triangle inequality"]
+  }
+]

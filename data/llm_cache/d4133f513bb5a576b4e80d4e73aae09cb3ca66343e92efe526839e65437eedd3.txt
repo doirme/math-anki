@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_43_9a91e05b",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème mentionne des fonctions de classe $\\mathcal{C}^k$, ce qui fait référence à la définition de la classe $\\mathcal{C}^k$ donnée dans le bloc block_43_9a91e05b."
+    },
+    {
+      "block_id": "block_45_c6570b8f",
+      "relation": "has_proof",
+      "confidence": 0.7,
+      "reason": "Le bloc block_45_c6570b8f semble contenir une démonstration qui pourrait être liée au théorème sur les opérations sur les fonctions dérivables, bien que la connexion ne soit pas explicitement claire."
+    }
+  ]
+}
+```

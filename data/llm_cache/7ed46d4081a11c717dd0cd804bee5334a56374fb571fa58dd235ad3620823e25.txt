@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_128\_77de4abe",
+      "relation": "uses\_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise la relation mixte du théorème pour exprimer θ en termes d'arc cosinus."
+    }
+  ]
+}

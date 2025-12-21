@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": [],
+  "normalized_text": "2.2 Dérivabilité et dérivées successives\n",
+  "tags": []
+}

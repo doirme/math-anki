@@ -1,0 +1,16 @@
+ ```json
+{
+  "steps": [
+    "Montrer que le résultat est clair si β ≤ 0 car lim_{x→+∞} (ln x)^β ∈ {0, 1} et lim_{x→+∞} x^α = +∞.",
+    "Supposer β > 0 et se ramener à la limite lim_{u→+∞} (ln u)/u = 0.",
+    "Poser u = x^{α/β} et v = (ln u)/u.",
+    "Exprimer (ln x)^β / x^α en fonction de v.",
+    "Montrer que x^{α/β} → +∞ lorsque x → +∞ car α/β > 0.",
+    "Montrer que (ln u)/u → 0 lorsque u → +∞.",
+    "Conclure que v^β → 0 lorsque v → 0 car β > 0.",
+    "Conclure par composition que (ln x)^β / x^α → 0 lorsque x → +∞."
+  ],
+  "uses_definitions": [],
+  "uses_theorems": []
+}
+```

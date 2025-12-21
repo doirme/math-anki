@@ -1,0 +1,19 @@
+ {
+  "steps": [
+    "La fonction continue $f$ possède des primitives sur $I$",
+    "Définition et propriétés de la fonction $\ln$",
+    "Variations et signe de la fonction $\ln$",
+    "Concavité et position de la fonction $\ln$ par rapport à sa tangente en 1",
+    "Transformation des produits en sommes avec la fonction $\ln$",
+    "Croissances comparées avec la fonction $\ln$",
+    "Limites de la fonction $\ln$ en 0 et $+ \infty$"
+  ],
+  "uses_definitions": [
+    "Définition de la fonction logarithme népérien",
+    "Définition de la constante de Néper"
+  ],
+  "uses_theorems": [
+    "Théorème fondamental du calcul intégral",
+    "Théorème de la limite monotone pour les fonctions"
+  ]
+}

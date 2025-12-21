@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Pour tout \( x \in [0, 2] \) : \( \frac{x+1}{x^2+3} \in \left[ \frac{1}{3}, \frac{1}{2} \right] \).\nPour tout \( x \in \mathbb{R} \) : \( \frac{x+1}{x^2+3} \in \left[ -\frac{1}{6}, \frac{1}{2} \right] \).\n\n**Démonstration**\n- **Tentative naïve** :\n  - Pour tout \( x \in [0, 2] \), \( 0 \le x^2 \le 4 \) donc \( 3 \le x^2 + 3 \le 7 \).\n  - \( 1 \le x + 1 \le 3 \).\n  - Par quotient : \( \frac{1}{7} \le \frac{x+1}{x^2+3} \le \frac{3}{7} \).\n  - Résultat moins fin que le résultat attendu.\n\n- **Étude d'une fonction** :\n  - La fonction \( f(x) = \frac{x+1}{x^2+3} \) est définie et dérivable sur \( \mathbb{R} \).\n  - Dérivée : \( f'(x) = -\frac{(x-1)(x+3)}{(x^2+3)^2} \).\n  - Tableau de variations :\n    - \( x \to -\infty \) : \( f(x) \to 0 \).\n    - \( x = -3 \) : \( f(x) = -\frac{1}{6} \).\n    - \( x = 1 \) : \( f(x) = \frac{1}{2} \).\n    - \( x \to +\infty \) : \( f(x) \to 0 \).\n  - Conclusion : \( f(0) = \frac{1}{3} \le \frac{3}{7} = f(2) \).",
+  "tags": ["Encadrement de fonction", "Dérivée", "Tableau de variations"]
+}
+```

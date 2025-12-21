@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_43_9a91e05b",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise le concept de dérivabilité indéfinie, qui est lié à la notion de classe C^k définie dans le bloc candidat."
+    }
+  ]
+}
+```

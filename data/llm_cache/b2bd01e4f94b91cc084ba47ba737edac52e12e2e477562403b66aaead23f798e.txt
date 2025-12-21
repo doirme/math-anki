@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_80_e802487a",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise la propriété algébrique des puissances mentionnée dans le bloc candidat, notamment la relation ln(x^y) = y ln x."
+    }
+  ]
+}
+```

@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block\_id": "block\_119\_06b2e111", "relation": "uses\_definition", "confidence": 0.9, "reason": "Le bloc utilise les définitions des fonctions trigonométriques sinus, cosinus et tangente dans sa formule."},
+{"block\_id": "block\_119\_06b2e111", "relation": "proves", "confidence": 0.7, "reason": "Bien que ce bloc ne soit pas explicitement présenté comme une preuve, il démontre une identité trigonométrique."}
+]
+}

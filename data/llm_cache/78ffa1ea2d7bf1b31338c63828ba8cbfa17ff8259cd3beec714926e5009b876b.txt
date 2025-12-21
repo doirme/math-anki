@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block\_id": "block\_76\_56115b2d", "relation": "has\_proof", "confidence": 0.9, "reason": "This block contains the proof for the theorem presented in block\_74\_fc1520ec"},
+{"block\_id": "block\_73\_66725724", "relation": "uses\_definition", "confidence": 0.8, "reason": "This block contains the definition of the logarithm function, which is used in block\_74\_fc1520ec to define the exponential function"}
+]
+}

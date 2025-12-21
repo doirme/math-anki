@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_47_ca6fb776 - proof]\n**Exemple** La fonction $x \\xrightarrow{f} \\ln(x + \\sqrt{x(1-x)})$ est définie et continue sur $[0, 1]$ et dérivable sur $[0, 1[$ .\n\n**Démonstration** - **Ensemble de\n\nCandidate blocks:\n[Block block_48_7db977f2 - definition]: définition :** $$\\begin{aligned}\\{x \\in \\mathbb{R} \\mid x(1-x) \\ge 0 \\text{ et } x + \\sqrt{x(1-x)} > 0\\} \\\\ = \\{x \\in \\mathbb{R} \\mid x \\in [0, 1] \\text{ et } x > 0\\} = ]0, 1[.\\end{aligned}$$ | x | $-\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

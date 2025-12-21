@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_126\_7ec012cd",
+      "relation": "uses\_theorem",
+      "confidence": 0.9,
+      "reason": "The block uses the trigonometric functions sinus and cosinus, which are defined in the theorem block."
+    }
+  ]
+}

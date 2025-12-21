@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_39_d8010535",
+      "relation": "generalizes",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser semble être une continuation ou une partie plus détaillée du théorème mentionné dans le bloc candidat, partageant le même titre et le même contexte."
+    },
+    {
+      "block_id": "block_41_c6570b8f",
+      "relation": "has_proof",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat semble être une démonstration ou une preuve liée au théorème mentionné dans le bloc à analyser, bien que le lien ne soit pas explicite."
+    }
+  ]
+}
+```

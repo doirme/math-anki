@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_67\_ea0056a9",
+      "relation": "uses\_theorem",
+      "confidence": 0.9,
+      "reason": "L'exemple utilise la formule de la fonction affine donnée dans le théorème pour trouver l'expression de la fonction."
+    }
+  ]
+}

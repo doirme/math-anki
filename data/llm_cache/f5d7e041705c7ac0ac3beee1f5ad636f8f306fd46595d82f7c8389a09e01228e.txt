@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block_id": "block_83_ab1de7e9", "relation": "proves", "confidence": 0.9, "reason": "Le bloc à analyser démontre une limite spécifique, tandis que le bloc candidat est un théorème général des croissances comparées des fonctions logarithme, exponentielle et puissances. Le bloc à analyser semble utiliser ce théorème pour prouver sa limite."},
+{"block_id": "block_83_ab1de7e9", "relation": "uses_theorem", "confidence": 0.8, "reason": "Le bloc à analyser effectue un calcul qui ressemble à la limite de ln(u)/u qui tend vers 0 lorsque u tend vers l'infini. Cette limite est mentionnée dans le bloc candidat."}
+]
+}

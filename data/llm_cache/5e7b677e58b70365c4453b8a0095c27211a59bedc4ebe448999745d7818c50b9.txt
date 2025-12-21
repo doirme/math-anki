@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration de la monotonicité de la somme, du produit et de la composée de fonctions monotones :\n\n(i) Somme de deux fonctions croissantes :\n- Si \( f \) et \( g \) sont croissantes, alors \( f + g \) est croissante.\n- Preuve : Pour \( x, y \in E \) avec \( x < y \), \( f(x) \le f(y) \) et \( g(x) \le g(y) \), donc \( f(x) + g(x) \le f(y) + g(y) \).\n\n(ii) Produit de deux fonctions décroissantes positives :\n- Si \( f \) et \( g \) sont décroissantes et positives, alors \( f \cdot g \) est décroissante.\n- Preuve : Pour \( x, y \in E \) avec \( x < y \), \( 0 \le f(y) \le f(x) \) et \( 0 \le g(y) \le g(x) \), donc \( f(y)g(y) \le f(x)g(x) \).\n\n(iii) Compose d'une fonction croissante et d'une fonction décroissante :\n- Si \( f \) est croissante et \( g \) est décroissante, alors \( g \circ f \) est décroissante.\n- Preuve : Pour \( x, y \in E \) avec \( x < y \), \( f(x) \le f(y) \) et \( g(f(y)) \le g(f(x)) \).\n\n(iv) Injectivité et stricte monotonicité :\n- Si \( f \) est croissante et injective, alors \( f \) est strictement croissante.\n- Preuve : Si \( f(x) = f(y) \), alors \( x = y \).\n- La réciproque \( f^{-1} \) est strictement croissante.\n- Preuve : Si \( y, y' \in F \) avec \( y < y' \), alors \( f^{-1}(y) < f^{-1}(y') \) par croissance de \( f \).",
+  "tags": ["monotonicité", "fonction croissante", "fonction décroissante", "somme de fonctions", "produit de fonctions", "composée de fonctions", "injectivité"]
+}
+```

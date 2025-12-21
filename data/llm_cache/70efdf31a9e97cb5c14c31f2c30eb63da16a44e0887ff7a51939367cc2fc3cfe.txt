@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Définition (Fonction périodique)\n- Soit \( T > 0 \). On suppose que \( E \) est \( T \)-périodique, i.e. que : \( \forall x \in E, x+T \in E \) et \( x-T \in E \).\n- Soit \( f: E \to \mathbb{R} \) une fonction. On dit que \( f \) est \( T \)-périodique ou *périodique de période \( T \)* si : \( \forall x \in E, f(x+T) = f(x) \).\n- Le réel \( T \) est alors appelé *UNE période de \( f \)*.\n- Graphique d'une fonction périodique de période \( T \). ![](_page_3_Figure_23.jpeg)\n- Pas besoin d'étudier une fonction \( f: E \to \mathbb{R} \) \( T \)-périodique sur \( E \) tout entier, une étude sur une période suffit, par exemple \( E \cap [0, T] \).\n- **Attention !** Une fonction périodique ne possède jamais qu'une seule période. Tout multiple entier d'une période \( T \) est encore une période : \( 2T, 3T, 4T, \dots \).\n- Voilà pourquoi on ne parle jamais de « la » période, mais toujours d'une période.\n- Certaines fonctions possèdent en revanche une *plus petite période*, mais pas toutes.\n- On peut montrer que toute fonction continue non constante périodique possède une plus petite période.\n- Les fonctions sinus et cosinus admettent par exemple \( 2\pi \) pour plus petite période.\n- Certaines fonctions admettent au contraire tout réel strictement positif pour période et n'en ont donc pas de plus petite. C'est le cas des fonctions constantes et de la fonction \( 1_Q \).",
+    "tags": ["définition", "fonction périodique", "période", "propriétés"]
+  }
+]
+```

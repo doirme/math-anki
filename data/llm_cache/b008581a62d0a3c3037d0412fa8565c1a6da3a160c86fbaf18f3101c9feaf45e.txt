@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème de Cantor\n\nHypothèses :\n- Le corps ℝ est dénombrable.\n\nConclusion :\n- Le corps ℝ n'est pas dénombrable.\n\nPreuve par l'absurde :\n- On suppose que ℝ est dénombrable et on énumère ses éléments : x₁, x₂, ...\n- On construit des intervalles fermés I₁, I₂, ... tels que Iₙ₊₁ ⊂ Iₙ et xₙ ∉ Iₙ pour tout n.\n- L'intersection des Iₙ est non vide (théorème des segments emboîtés), soit x ∈ ∩ Iₙ.\n- Alors x n'est aucun des xᵢ, ce qui est une contradiction.",
+  "tags": ["Théorème de Cantor", "Théorème des segments emboîtés"]
+}
+```

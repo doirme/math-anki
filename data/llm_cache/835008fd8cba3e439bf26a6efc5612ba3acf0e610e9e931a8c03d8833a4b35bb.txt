@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_88_2be59fe7",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Les deux blocs utilisent des approximations pour démontrer des limites, bien que les fonctions et les contextes soient différents."
+    }
+  ]
+}
+```

@@ -1,0 +1,20 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": [
+    "Definition of 'TVI strictement monotone'",
+    "Proof or reference to the theorem mentioned",
+    "Clarification on the limits and bijectivity conditions"
+  ],
+  "needs_preceding": true,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Exemples de propriétés des fonctions continues et strictement monotones :\n- Si \( f \) est continue et strictement croissante sur \([a, b]\), alors \( f([a, b]) = [f(a), f(b)] \).\n- Si \( f \) est continue et strictement décroissante sur \([a, b]\), alors \( f([a, b]) = [\lim_{b \to a^+} f, \lim_{b \to b^-} f] \).\n- Si \( f \) est continue et strictement croissante sur \([a, b]\), alors \( f \) est bijective de \([a, b]\) sur \([f(a), f(b)]\).\n- Si \( f \) est continue et strictement décroissante sur \([a, b]\), alors \( f \) est bijective de \([a, b]\) sur \([\lim_{b \to b^-} f, \lim_{b \to a^+} f]\).\n\nDiagramme logique démontrant les implications de la continuité et de la strict croissance :\n- Si \( f \) est continue sur \([a, b]\), alors \( f([a, b]) \) n'a pas de trou, c'est un intervalle.\n- Si \( f \) est strictement croissante sur \([a, b]\), alors \( f([a, b]) = [f(a), f(b)]\).\n- Si \( f \) est injective sur \([a, b]\), alors \( f \) est bijective de \([a, b]\) sur son image \( f([a, b]) \).\n- Si \( f \) est bijective de \([a, b]\) sur \( f([a, b]) \), alors \( f \) est injective sur \([a, b]\).\n\nEn pratique, le TVI et sa version strictement monotone sont très utiles quand on cherche des points fixes. Étudier les points fixes de \( f \), c'est étudier les zéros de \( x \mapsto f(x) - x \), i.e. résoudre l'équation \( f(x) - x = 0 \) d'inconnue \( x \).",
+  "tags": [
+    "Théorème de la valeur intermédiaire (TVI)",
+    "Propriétés des fonctions continues et strictement monotones",
+    "Bijectivité des fonctions continues et strictement monotones",
+    "Points fixes"
+  ]
+}
+```

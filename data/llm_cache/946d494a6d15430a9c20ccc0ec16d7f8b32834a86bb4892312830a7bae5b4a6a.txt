@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Opérations sur les fonctions dérivables/k fois dérivables/de classe $\\mathcal{C}^k$)\n\n- **Combinaison linéaire, produit, quotient** :\n  - Pour toutes fonctions $f, g \\in \\mathcal{D}(E, \\mathbb{R})$ et $\\lambda, \\mu \\in \\mathbb{R}$ :\n    - $\\lambda f + \\mu g$ et $f g$ sont dérivables sur $E$.\n    - $\\frac{f}{g}$ est dérivable sur $E$ si $g$ ne s'annule pas.\n  - Formules de dérivation :\n    - $(\\lambda f + \\mu g)' = \\lambda f' + \\mu g'$.\n    - $(fg)' = f'g + fg'$.\n    - $\\left(\\frac{f}{g}\\right)' = \\frac{f'g - fg'}{g^2}$.\n\n- **Composition** :\n  - Pour toutes fonctions $f \\in \\mathcal{D}(E, \\mathbb{R})$ et $g \\in \\mathcal{D}(F, \\mathbb{R})$ avec $f(E) \\subset F$ :\n    - $g \\circ f$ est dérivable sur $E$.\n    - $(g \\circ f)' = f' \\times g' \\circ f$.\n\n- **Réciproque** :\n  - Soient $I$ et $J$ deux intervalles.\n  - Pour toute fonction $f \\in \\mathcal{D}(I, \\mathbb{R})$ bijective de $I$ sur $J$ avec $f'$ ne s'annulant pas sur $I$ :\n    - $f^{-1}$ est dérivable sur $J$.\n    - $(f^{-1})' = \\frac{1}{f' \\circ f^{-1}}$.\n\n- **Généralisation** :\n  - Les propriétés ci-dessus s'appliquent aussi pour les fonctions $k$ fois dérivables ou de classe $\\mathcal{C}^k$ pour tout $k \\in \\mathbb{N} \\cup \\{\\infty\\}$.\n  - Les formules énoncées ne sont valables que pour les dérivées premières.",
+  "tags": ["Théorème des opérations sur les fonctions dérivables", "Formule de dérivation de la combinaison linéaire", "Formule de dérivation du produit", "Formule de dérivation du quotient", "Formule de dérivation de la composition", "Formule de dérivation de la réciproque"]
+}
+```

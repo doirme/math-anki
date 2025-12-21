@@ -1,0 +1,11 @@
+ ```json
+{
+  "term": "Puissances quelconques et racines n-èmes d'un réel strictement positif",
+  "normalized_term": "Puissances quelconques et racines n-èmes",
+  "statement": "Pour x > 0 et y ∈ ℝ, x^y = exp(y ln x). Pour n ∈ ℕ*, x^(1/n) = √[n]{x}. Pour x = e, e^y = exp(y) pour tout y ∈ ℝ. Attention: La définition x^y = e^(y ln x) n'est valable que pour x > 0.",
+  "domain_tags": ["analyse réelle", "algèbre"],
+  "characteristics": ["strictement positif", "bijective", "classe C^∞"],
+  "is_multiple": false,
+  "definitions": []
+}
+```

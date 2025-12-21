@@ -1,0 +1,8 @@
+{
+  "term": "puissance",
+  "normalized_term": "puissance",
+  "statement": "on appelle $x$ puissance $y$ le réel $x^y = exp(y ln x)$",
+  "domain_tags": ["analyse réelle"],
+  "characteristics": [],
+  "is_multiple": false
+}

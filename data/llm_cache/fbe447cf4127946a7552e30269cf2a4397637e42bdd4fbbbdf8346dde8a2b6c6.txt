@@ -1,0 +1,19 @@
+ ```json
+{
+  "steps": [
+    "Supposons par l'absurde que ℝ est dénombrable.",
+    "Énumérons ses éléments : x₁, x₂, ...",
+    "Construisons un intervalle fermé I₁ ne contenant pas x₁.",
+    "Construisons I₂ ⊂ I₁ ne contenant pas x₂, et ainsi de suite.",
+    "L'intersection des Iₙ est non vide (théorème des segments emboîtés), soit x ∈ ∩ Iₙ.",
+    "Alors x n'est aucun des xᵢ, ce qui est une contradiction."
+  ],
+  "uses_definitions": [
+    "Corps ℝ",
+    "Intervalle fermé"
+  ],
+  "uses_theorems": [
+    "Théorème des segments emboîtés"
+  ]
+}
+```

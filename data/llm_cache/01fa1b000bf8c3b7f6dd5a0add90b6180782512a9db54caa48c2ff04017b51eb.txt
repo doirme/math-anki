@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_106\_dac4e914",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise le concept de périodicité des fonctions trigonométriques, qui est défini dans le bloc block\_107\_45a433ba."
+    }
+  ]
+}

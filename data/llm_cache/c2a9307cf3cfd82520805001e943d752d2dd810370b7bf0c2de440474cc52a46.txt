@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["content missing"],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": [],
+  "normalized_text": "Dans le théorème qui suit, les fonctions sont représentées graphiquement dans un repère orthonormal (O, i→, j→).",
+  "tags": []
+}
+```

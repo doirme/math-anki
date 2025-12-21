@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Exemple: La fonction \( x \mapsto \sqrt{x+3} \) est définie sur \([-3, +\infty[\).\n\nDémonstration:\n- La fonction \( x \mapsto x+3 \) est définie sur \(\mathbb{R}\).\n- La fonction \(\sqrt{\cdot}\) est définie sur \(\mathbb{R}_+\).\n- Pour que \(x+3 \ge 0\), il faut que \(x \in [-3, +\infty[\).",
+  "tags": ["Définition de domaine de fonction"]
+}
+```

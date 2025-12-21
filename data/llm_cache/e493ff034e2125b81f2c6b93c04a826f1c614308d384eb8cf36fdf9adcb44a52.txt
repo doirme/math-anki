@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple: La fonction \( x \mapsto e^{-x} \) possède un et un seul point fixe sur \( \mathbb{R} \).\n\nDémonstration: La fonction \( x \mapsto e^{-x} - x \) est continue et strictement décroissante sur \( \mathbb{R} \) par somme des fonctions \( x \mapsto e^{-x} \) et \( x \mapsto -x \) qui le sont. Par ailleurs, \( f(x) \xrightarrow{x \to +\infty} -\infty \) et \( f(x) \xrightarrow{x \to -\infty} +\infty \), donc \( f \) s'annule une et une seule fois sur \( \mathbb{R} \) d'après le TVI strictement monotone.",
+    "tags": ["exemple", "démonstration", "fonction", "point fixe", "TVI strictement monotone"]
+  }
+]
+```

@@ -1,0 +1,8 @@
+ {
+  "term": "constante de Néper",
+  "normalized_term": "constante de Néper",
+  "statement": "La fonction ln est continue, strictement croissante sur R*+, bijective de R*+ sur R et prend la valeur 1 en un unique réel e noté constante de Néper : e ≈ 2,71828.",
+  "domain_tags": ["analyse réelle"],
+  "characteristics": [],
+  "is_multiple": false
+}

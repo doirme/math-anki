@@ -1,0 +1,16 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_36\_3a638100",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Ce bloc prouve que la fonction spécifiée s'annule une et une seule fois sur R en utilisant le théorème de la valeur intermédiaire strictement monotone."
+    },
+    {
+      "block\_id": "block\_37\_cb2e6864",
+      "relation": "uses\_theorem",
+      "confidence": 0.8,
+      "reason": "Ce bloc pourrait utiliser le théorème prouvé dans le bloc block\_36\_3a638100 pour démontrer des propriétés de dérivabilité et de dérivées successives."
+    }
+  ]
+}

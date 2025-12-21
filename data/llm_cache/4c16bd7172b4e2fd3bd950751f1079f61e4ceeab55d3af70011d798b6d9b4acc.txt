@@ -1,0 +1,11 @@
+ {
+  "name": "Lien entre les coordonnées cartésiennes et les coordonnées polaires",
+  "normalized_name": "Cartesian and polar coordinates connection",
+  "hypotheses": ["M est un point de coordonnées cartésiennes (x, y) et de coordonnées polaires (r, θ)"],
+  "hypothesis_text": "M est un point de coordonnées cartésiennes (x, y) et de coordonnées polaires (r, θ)",
+  "conclusion": "x = r cos θ, y = r sin θ, r = √(x^2 + y^2), θ ≡ arctan y/x [2π] si x > 0, θ ≡ π + arctan y/x [2π] si x < 0",
+  "conclusion_text": "x = r cos θ, y = r sin θ, r = √(x^2 + y^2), θ ≡ arctan y/x [2π] si x > 0, θ ≡ π + arctan y/x [2π] si x < 0",
+  "has_proof": null,
+  "domain_tags": ["géométrie", "coordonnées polaires", "coordonnées cartésiennes"],
+  "characteristics": []
+}

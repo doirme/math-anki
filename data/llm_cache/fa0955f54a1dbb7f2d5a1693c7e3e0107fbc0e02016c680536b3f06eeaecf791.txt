@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_81\_4583aa8d",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser fournit une preuve de la dérivabilité de la fonction x ↦ x^α et de la monotonie de sa dérivée seconde, ce qui peut être utilisé pour démontrer des théorèmes sur les croissances comparées de différentes fonctions."
+    },
+    {
+      "block\_id": "block\_81\_4583aa8d",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser utilise des règles de dérivation et des propriétés des exposants, qui peuvent être considérées comme des théorèmes dans un contexte plus formel."
+    }
+  ]
+}

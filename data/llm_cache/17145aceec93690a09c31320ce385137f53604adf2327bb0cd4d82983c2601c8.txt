@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple: La fonction \( x \mapsto \sqrt{x+3} \) est définie sur \([-3, +\infty[\).\n\nDémonstration: La fonction \( x \mapsto x+3 \) est définie sur \(\mathbb{R}\) et la fonction \(\sqrt{\cdot}\) l'est sur \(\mathbb{R}_+\), mais quand \(x\) décrit \(\mathbb{R}\), \(x+3\) n'appartient pas forcément à \(\mathbb{R}_+\). Pour quels \(x \in \mathbb{R}\) est-il vrai que \(x+3 \ge 0\)? Réponse: \(x \in [-3, +\infty[\).",
+    "tags": ["exemple", "démonstration", "fonction", "domaine de définition"]
+  }
+]
+```

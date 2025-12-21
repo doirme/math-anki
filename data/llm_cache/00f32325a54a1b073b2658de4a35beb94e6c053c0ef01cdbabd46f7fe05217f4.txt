@@ -1,0 +1,20 @@
+ ```json
+{
+  "steps": [
+    "Cas (i) : Montrer que la somme de deux fonctions croissantes est croissante",
+    "Cas (ii) : Montrer que le produit de deux fonctions décroissantes positives est décroissant",
+    "Cas (iii) : Montrer que la composition d'une fonction croissante avec une fonction décroissante est décroissante",
+    "Cas (iv) : Montrer qu'une fonction injective et croissante est strictement croissante",
+    "Montrer que l'inverse d'une fonction strictement croissante est strictement croissante"
+  ],
+  "uses_definitions": [
+    "Fonction croissante",
+    "Fonction décroissante",
+    "Fonction injective",
+    "Fonction strictement croissante"
+  ],
+  "uses_theorems": [
+    "Théorème sur les opérations sur les fonctions monotones"
+  ]
+}
+```

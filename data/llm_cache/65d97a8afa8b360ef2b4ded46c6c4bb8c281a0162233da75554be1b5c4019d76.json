@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_125_f2233218 - proof]\n**Démonstration** Dans les deux cas, on commence par placer $\\frac{20\\pi}{3}$ sur le cercle trigonométrique ainsi que le domaine privilégié de la fonction sinus ou cosinus concernée. - **Arccosinus** : $\\frac{20\\pi}{3}$ appartient à $2\\pi$ près au domaine privilégié du cosinus : $\\frac{20\\pi}{3} \\in [0, \\pi] + 2\\pi\\mathbb{Z}$ . Il suffit donc d'ôter un certain nombre de fois $2\\pi$ et c'est fini. - **Arcsinus** : $\\frac{20\\pi}{3}$ n'appartient pas au domaine privilégié du sinus : $\\frac{20\\pi}{3\n\nCandidate blocks:\n[Block block_126_7ec012cd - theorem]: **Théorème (Lien entre les coordonnées cartésiennes et les coordonnées polaires)** Soit $M$ un point de coordonnées cartésiennes $(x, y)$ et de coordonnées polaires $(r, \\theta)$ . $$(i) \\begin{cases}\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

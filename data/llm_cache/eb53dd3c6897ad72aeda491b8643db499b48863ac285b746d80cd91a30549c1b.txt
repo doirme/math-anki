@@ -1,0 +1,20 @@
+ <s> ```json
+{
+  "term": "Fonction paire/impaire",
+  "normalized_term": "Fonction paire/impaire",
+  "statement": "On suppose $E$ symétrique par rapport à $0$, i.e. que : $\\forall x \\in E, -x \\in E$. Soit $f: E \\to \\mathbb{R}$ une fonction. - **Parité** : On dit que $f$ est *paire* si : $\\forall x \\in E, f(-x) = f(x)$. - **Imparité** : On dit que $f$ est *impaire* si : $\\forall x \\in E, f(-x) = -f(x)$.",
+  "domain_tags": ["analyse réelle", "algèbre"],
+  "characteristics": ["symétrique", "paire", "impaire"],
+  "is_multiple": true,
+  "definitions": [
+    {
+      "term": "Fonction paire",
+      "statement": "On dit que $f$ est *paire* si : $\\forall x \\in E, f(-x) = f(x)$."
+    },
+    {
+      "term": "Fonction impaire",
+      "statement": "On dit que $f$ est *impaire* si : $\\forall x \\in E, f(-x) = -f(x)$."
+    }
+  ]
+}
+```

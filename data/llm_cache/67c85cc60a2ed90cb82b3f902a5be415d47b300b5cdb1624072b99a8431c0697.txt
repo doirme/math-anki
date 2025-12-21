@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple\nGraphiques illustrant la symétrie par rapport à l'axe des ordonnées pour les fonctions trigonométriques.\n- $y = \\sin x$\n- $y = \\sin(x+1)$\n- $y = \\sin(2x+1)$\n- $y = \\frac{\\sin(2x+1)}{2}$\n- $y = -\\frac{\\sin(2x+1)}{2}$\n- $y = 1 - \\frac{\\sin(2x+1)}{2}$\n![](_page_3_Figure_2.jpeg)",
+    "tags": ["exemple", "graphique", "symétrie", "fonction trigonométrique"]
+  }
+]
+```

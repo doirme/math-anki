@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_58_722a29f5",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "This block provides a proof for the implication (ii) => (iii) of a theorem, possibly the one described in block_57_5161ebc9."
+    },
+    {
+      "block_id": "block_58_722a29f5",
+      "relation": "uses_theorem",
+      "confidence": 0.8,
+      "reason": "This block uses the assumption that f' is increasing, which might be derived from a theorem stated in another block."
+    }
+  ]
+}

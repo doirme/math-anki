@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Définition - Théorème (Point d'inflexion)\nSoient $I$ un intervalle, $f: I \to \mathbb{R}$ une fonction et $a \in I$ un point qui n'est pas une borne de $I$. On dit que $f$ possède un point d'inflexion en $a$ si $f$ est convexe au voisinage de $a$ à gauche et concave au voisinage de $a$ à droite — ou l'inverse. Si $f$ est deux fois dérivable sur $I$, $f$ possède un point d'inflexion en $a$ si et seulement si $f''$ s'annule en $a$ et est positive au voisinage de $a$ à gauche et négative au voisinage de $a$ à droite — ou l'inverse.",
+    "tags": ["définition", "théorème", "point d'inflexion", "convexité", "concavité", "dérivée seconde"]
+  }
+]
+```

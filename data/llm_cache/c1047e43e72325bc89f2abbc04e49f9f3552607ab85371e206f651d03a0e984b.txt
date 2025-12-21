@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème des valeurs intermédiaires (TVI)\n\nHypothèses:\n- a et b sont deux réels tels que a < b\n- f ∈ C([a, b], ℝ) (f est continue sur [a, b])\n\nConclusion:\nTout réel y compris entre f(a) et f(b) possède au moins un antécédent par f dans [a, b].\n\nRemarques:\n- Le TVI est un théorème d'existence.\n- L'image d'un intervalle par une fonction continue est un intervalle.",
+  "tags": ["Théorème des valeurs intermédiaires (TVI)"]
+}
+```

@@ -1,0 +1,6 @@
+ {
+"relationships": [
+{"block\_id": "block\_137\_1cb0a1db", "relation": "proves", "confidence": 0.9, "reason": "Le bloc à analyser prouve que la fonction g est dérivable sur R* et que sa dérivée est nulle, mais ne peut conclure qu'elle est constante sur R* tout entier."},
+{"block\_id": "block\_138\_cdf4b270", "relation": "uses\_theorem", "confidence": 0.7, "reason": "Le bloc de candidat pourrait utiliser le théorème démontré dans le bloc à analyser pour résoudre l'équation Arccos x = Arcsin x."}
+]
+}

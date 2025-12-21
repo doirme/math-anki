@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (TVI strictement monotone) - En cas de continuité et monotonicité stricte, la forme des intervalles est correctement préservée.\n\n- Si \( f \) est continue et strictement croissante sur \([a, b]\), alors \( f([a, b]) = [f(a), \lim_{b \to b^+} f] \).\n- Si \( f \) est continue et strictement décroissante sur \([a, b]\), alors \( f([a, b]) = [\lim_{b \to a^+} f, \lim_{b \to b^-} f] \).",
+  "tags": ["Théorème (TVI strictement monotone)"]
+}
+```

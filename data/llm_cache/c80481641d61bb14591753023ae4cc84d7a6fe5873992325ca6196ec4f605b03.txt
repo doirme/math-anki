@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition : La fonction logarithme est bijective de ℝ₊* sur ℝ. On appelle *fonction exponentielle* et on note exp sa réciproque, bijective de ℝ sur ℝ₊*.\n\n- **Propriétés de l'exponentielle** :\n  - exp(1) = e\n  - Les graphes de exp et ln sont symétriques par rapport à y = x.\n  - Pour tout x ∈ ℝ : ln(exp(x)) = x\n  - Pour tout x > 0 : exp(ln x) = x\n  - **Régularité** :\n    - exp est de classe C∞ et convexe sur ℝ.\n    - exp' = exp.\n  - **Transformation des sommes en produits** :\n    - Pour tous x, y ∈ ℝ : exp(x + y) = exp(x) exp(y).\n    - exp(-x) = 1 / exp(x).\n  - **Croissances comparées en +∞** :\n    - lim (x → +∞) (x / exp(x)) = 0.\n  - **Comportement au voisinage de 0** :\n    - exp(x) ≥ 1 + x pour tout x ∈ ℝ.\n    - lim (x → 0) (exp(x) - 1) / x = 1.\n\n**Démonstration** :\n- La bijectivité de ln est déjà établie.\n- exp est de classe C∞ car ln est de classe C∞ et sa dérivée ne s'annule pas.\n- exp' = exp car (ln⁻¹)' = 1 / (ln' ∘ ln⁻¹) = ln⁻¹ = exp.\n- exp est convexe car exp' est croissante.\n- exp(x) ≥ x + 1 car exp est convexe et exp(0) = 1.",
+  "tags": ["Définition de la fonction exponentielle", "Propriétés de l'exponentielle", "Régularité de l'exponentielle", "Transformation des sommes en produits", "Croissances comparées", "Comportement au voisinage de 0", "Démonstration de la bijectivité et régularité"]
+}
+```

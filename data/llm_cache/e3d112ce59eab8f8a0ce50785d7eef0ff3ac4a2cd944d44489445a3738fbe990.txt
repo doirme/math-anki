@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_22_9ec7c621",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc de démonstration prouve le théorème énoncé dans le bloc block_22_9ec7c621."
+    },
+    {
+      "block_id": "block_24_a5085955",
+      "relation": "uses_definition",
+      "confidence": 0.2,
+      "reason": "Le bloc de démonstration n'utilise pas la définition de fonction périodique, donc la relation n'est pas pertinente."
+    }
+  ]
+}
+```

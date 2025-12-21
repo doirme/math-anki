@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration de la limite de (ln x)^β / x^α lorsque x tend vers +∞.\n\n- Si β ≤ 0, la limite est claire car (ln x)^β tend vers 0 ou 1 et x^α tend vers +∞.\n- Si β > 0, on pose u = x^(α/β) et v = (ln u)/u.\n  - On a (ln x)^β / x^α = (β/α)^β * v^β.\n  - Puisque v → 0 lorsque u → +∞, v^β → 0 par composition.\n  - Donc (ln x)^β / x^α → 0 lorsque x → +∞.",
+  "tags": ["limite", "fonction puissance", "fonction logarithme"]
+}
+```

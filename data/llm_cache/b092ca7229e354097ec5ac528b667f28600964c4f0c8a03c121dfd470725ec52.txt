@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "exemple : - Si f est continue et strictement croissante sur [a, b] , f est bijective de [a, b] sur [f(a), f(b)] , - Si f est continue et strictement décroissante sur [a, b] , f est bijective de [a, b] sur [lim b -> b^-] f , lim b -> a^+ f ] , - Si f est continue et strictement croissante sur [a, b] , f est bijective de [a, b] sur [lim b -> b^-] f , lim b -> a^+ f ] .",
+    "tags": ["example"]
+  }
+]

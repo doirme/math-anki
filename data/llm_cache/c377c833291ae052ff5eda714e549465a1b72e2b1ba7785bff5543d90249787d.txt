@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["definition of exponentiation for non-integer exponents", "theorem or proof structure"],
+  "needs_preceding": true,
+  "needs_following": true,
+  "suggested_merge_with": ["PRECEDING CONTEXT", "FOLLOWING CONTEXT"],
+  "normalized_text": "Nous n'avons défini jusqu'ici que les puissances \(x^n\) pour \(n\) entier. La notation classique \(e^x\) n'est cependant pas celle d'une puissance, car le réel \(e^x\) n'est pas « et multiplié \(x\) fois par lui-même ». Que signifierait « et multiplié \(\sqrt{2}\) fois par lui-même » ?! Nous pouvons maintenant généraliser proprement notre définition des puissances.",
+  "tags": ["puissance", "notation exponentielle"]
+}
+```

@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_93_7b8b5ac9 - definition]\n## 5.1 FONCTIONS COSINUS, SINUS ET TANGENTE\n\n### Définition-\n\nthéorème(Lien du cosinus et du sinus avec le cercle trigonométrique) - **Lien avec le cercle trigonométrique :** Pour tout $\\theta \\in \\mathbb{R}$ : $\\cos^2 \\theta + \\sin^2 \\theta = 1$ . Réciproquement, pour tout couple $(x, y) \\in \\mathbb{R}^2$ pour lequel $x^2 + y^2 = 1$ , il existe un réel $\\theta$ , unique modulo $2\\pi$ , pour lequel $(x, y) = (\\cos \\theta, \\sin \\theta)$ . En termes géométriques, tout point du cercle trigonométriq\n\nCandidate blocks:\n[Block block_95_b8cb2c44 - example]: **Exemple** Pour tout $x \\in \\mathbb{R}$ : $\\cos x = \\sin x \\iff x \\equiv \\frac{\\pi}{4} [\\pi]$ .\n\n**Démonstration** Cette équivalence se lit bien sur le cercle trigonométrique, mais on peut aussi la d\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

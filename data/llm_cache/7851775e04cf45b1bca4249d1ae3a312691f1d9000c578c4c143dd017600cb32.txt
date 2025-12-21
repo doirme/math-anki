@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : Pour tout \( x \in [-1, 1] \) : \( \text{Arccos } x + \text{Arcsin } x = \frac{\pi}{2} \).\n\nDémonstration : Il s'agit de montrer que la fonction \( x \xrightarrow{f} \text{Arccos } x + \text{Arcsin } x \) est constante sur \([-1, 1]\) de valeur \( \frac{\pi}{2} \). Or cette fonction est dérivable sur l'intervalle ouvert \(]-1, 1[\) et sa dérivée est la fonction nulle, donc \( f \) est constante. Quelle valeur ? Nous pouvons la calculer en 0 par",
+    "tags": ["exemple", "démonstration", "fonction constante", "dérivée nulle"]
+  }
+]
+```

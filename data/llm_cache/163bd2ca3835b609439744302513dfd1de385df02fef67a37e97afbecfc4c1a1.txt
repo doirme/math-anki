@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**VOCABULAIRE USUEL**\n- Définition : une fonction $f : E → ℝ$ est définie sur un ensemble $E$.\n- Exemple : la fonction $x ↦ ln(x^2 - 3x + 2)$ est définie sur $]-∞, 1[ ∪ ]2, +∞[$.",
+    "tags": []
+  }
+]

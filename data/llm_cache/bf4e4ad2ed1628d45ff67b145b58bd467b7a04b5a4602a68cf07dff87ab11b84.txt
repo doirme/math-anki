@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_38_9a91e05b",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème mentionne des fonctions de classe $\\mathcal{C}^k$, ce qui fait référence à la définition de la classe $\\mathcal{C}^k$ donnée dans le bloc block_38_9a91e05b."
+    },
+    {
+      "block_id": "block_40_d8010535",
+      "relation": "has_proof",
+      "confidence": 0.95,
+      "reason": "Le bloc block_40_d8010535 semble être la preuve du théorème énoncé dans le bloc block_39_d8010535, comme indiqué par le titre et le contenu similaire."
+    }
+  ]
+}
+```

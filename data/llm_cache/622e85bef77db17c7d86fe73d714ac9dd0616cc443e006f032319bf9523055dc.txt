@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_43\_9a91e05b",
+      "relation": "used\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser définit les fonctions de classe C^k, qui sont utilisées dans le théorème du bloc candidat."
+    }
+  ]
+}

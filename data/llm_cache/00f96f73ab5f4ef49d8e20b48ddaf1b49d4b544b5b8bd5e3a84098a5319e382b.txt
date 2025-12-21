@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_10_121782a9",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le théorème dans le bloc 'block_10_121782a9' utilise la notion de fonction monotone, qui est définie dans le théorème 'block_9_99a09d7f'."
+    }
+  ]
+}

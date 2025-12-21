@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Étude des fonctions puissances) Soient $\\alpha, \\beta \\in \\mathbb{R}$.\n\n- **Régularité** : La fonction $x \\mapsto x^\\alpha$ est définie et de classe $C^\\infty$ sur $\\mathbb{R}_+^*$ de dérivée $x \\mapsto \\alpha x^{\\alpha-1}$. Elle est concave si $\\alpha \\in [0, 1]$ et convexe sinon.\n- **Positions relatives** :\n  - Pour tout $x \\in ]0, 1[$ : $\\alpha \\le \\beta \\implies x^\\beta \\le x^\\alpha$.\n  - Pour tout $x \\in [1, +\\infty[$ : $\\alpha \\le \\beta \\implies x^\\alpha \\le x^\\beta$.\n- **Prolongement par continuité en 0** : Pour $\\alpha > 0$, on pose $0^\\alpha = 0$. La fonction $x \\mapsto x^\\alpha$ ainsi prolongée est continue sur $\\mathbb{R}_+$ tout entier, y compris en 0. On dit qu'on a prolongé par continuité la fonction $x \\mapsto x^\\alpha$ en 0.\n- **Attention !** Pour $\\alpha \\in ]0, 1[$, la fonction $x \\mapsto x^\\alpha$ est continue en 0 après prolongement, mais elle possède en 0 une tangente verticale, signe qu'elle n'est pas dérivable en 0. C'est typiquement ce qui arrive à la fonction racine carrée.",
+    "tags": ["théorème", "fonctions puissances", "régularité", "positions relatives", "prolongement par continuité"]
+  }
+]
+```

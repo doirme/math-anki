@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_7\_ad608e35",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc 'block\_7\_ad608e35' semble définir un concept de monotonie, qui est basé sur les relations entre les valeurs d'une fonction. Le bloc 'block\_8\_05d1bfd7' fournit une définition formelle d'une fonction monotone, qui est directement liée au concept de monotonie. Par conséquent, il est très probable que le bloc 'block\_7\_ad608e35' utilise la définition fournie dans le bloc 'block\_8\_05d1bfd7'."
+    }
+  ]
+}

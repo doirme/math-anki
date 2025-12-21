@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Fonction exponentielle) :\n- Définition : La fonction logarithme est bijective de $\\mathbb{R}_+^*$ sur $\\mathbb{R}$. On appelle *fonction exponentielle* et on note $\\exp$ sa réciproque, bijective de $\\mathbb{R}$ sur $\\mathbb{R}_+^*$. En particulier : $\\exp(1) = e$ et les graphes des fonctions $\\exp$ et $\\ln$ sont symétriques l'un de l'autre par rapport à la droite d'équation $y = x$. Pour tout $x \\in \\mathbb{R}$ : $\\ln(\\exp(x)) = x$ et pour tout $x > 0$ : $\\exp(\\ln x) = x$.\n- Régularité : La fonction exponentielle $\\exp$ est de classe $C^\\infty$ et convexe sur $\\mathbb{R}$ et $\\exp' = \\exp$.\n- Transformation des sommes en produits : Pour tous $x, y \\in \\mathbb{R}$ : $\\exp(x + y) = \\exp(x) \\exp(y)$ et $\\exp(-x) = \\frac{1}{\\exp(x)}$.\n- Croissances comparées en $+\\infty$ : $\\frac{x}{\\exp(x)} \\xrightarrow{x \\to +\\infty} 0$.\n- Comportement au voisinage de 0 : Le graphe de l'exponentielle est situé au-dessus sa tangente en 0 : $\\forall x \\in \\mathbb{R}$ , $\\exp(x) \\ge 1 + x$.",
+  "tags": ["fonction exponentielle", "définition", "régularité", "transformation des sommes en produits", "croissances comparées", "comportement au voisinage de 0"]
+}

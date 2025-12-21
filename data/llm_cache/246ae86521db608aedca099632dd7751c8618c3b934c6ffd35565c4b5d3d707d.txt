@@ -1,0 +1,7 @@
+{
+  "term": "cosinus hyperbolique",
+  "normalized_term": "cosinus hyperbolique",
+  "statement": "cosinus hyperbolique de $x$: $\\text{ch } x = \\frac{e^x + e^{-x}}{2}$",
+  "domain_tags": ["analyse réelle"],
+  "is_multiple": false
+}

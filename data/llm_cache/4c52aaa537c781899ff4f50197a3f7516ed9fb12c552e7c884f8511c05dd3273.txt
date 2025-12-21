@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition et régularité** : On appelle fonction tangente la fonction $\tan = \frac{\sin}{\cos}$ sur $]-\frac{\pi}{2}, \frac{\pi}{2}[ + \pi\mathbb{Z}$. Impaire et $\pi$-périodique, tan est de classe $\mathcal{C}^\infty$ sur son ensemble de définition et $\tan' = 1 + \tan^2 = \frac{1}{\cos^2}$.",
+    "tags": ["definition", "tangent function", "properties"]
+  }
+]

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_111_4c866564",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise la propriété des fonctions arc cosinus mentionnée dans le théorème des propriétés des fonctions arc cosinus, arc sinus et arc tangente."
+    }
+  ]
+}
+```

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_19_9ec7c621",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème mentionné dans le bloc candidat utilise la définition de fonction impaire donnée dans le bloc à analyser."
+    }
+  ]
+}
+```

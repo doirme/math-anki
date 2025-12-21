@@ -1,0 +1,12 @@
+ <s> [OUT] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_93_7b8b5ac9",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser utilise des concepts trigonométriques (cosinus, sinus) qui sont définis dans le bloc candidat."
+    }
+  ]
+}
+``` 

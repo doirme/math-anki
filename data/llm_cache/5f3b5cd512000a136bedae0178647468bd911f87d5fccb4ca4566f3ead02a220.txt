@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_94_cf78f601",
+      "relation": "has_proof",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat présente un exemple concret de calcul de limite, ce qui pourrait servir de preuve ou d'illustration pour les principes généraux mentionnés dans le bloc à analyser."
+    }
+  ]
+}
+```

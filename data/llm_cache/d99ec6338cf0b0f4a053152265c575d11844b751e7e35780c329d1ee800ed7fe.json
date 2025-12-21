@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_77_9f313a4d - unknown]\n## 3.3 FONCTIONS PUISSANCES Nous n'avons défini jusqu'ici que les puissances $x^n$ pour $n$ ENTIER. La notation classique $e^x$ n'est-elle cependant pas celle d'une puissance, me direz-vous ? Oui et non, car le réel $e^x$ n'est pas « et multiplié $x$ fois par lui-même ». Que signifierait « et multiplié $\\sqrt{2}$ fois par lui-même » ?! Voilà pourquoi, au paragraphe précédent, je me suis momentanément interdit la notation $e^x$ , mais nous pouvons maintenant généraliser proprement notre définitio\n\nCandidate blocks:\n[Block block_78_fb184d3e - definition]: **Définition (Puissances quelconques et racines $n$ èmes d'un réel strictement positif)** Soit $x > 0$ . - **Puissances quelconques :** Pour tout $y \\in \\mathbb{R}$ , on appelle $x$ puissance $y$ le r\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

@@ -1,0 +1,20 @@
+ ```json
+{
+  "steps": [
+    "Placer l'angle $\\frac{20\\pi}{3}$ sur le cercle trigonométrique.",
+    "Vérifier l'appartenance de $\\frac{20\\pi}{3}$ au domaine privilégié du cosinus.",
+    "Pour l'arccosinus, ôter un certain nombre de fois $2\\pi$ pour ramener l'angle dans le domaine privilégié.",
+    "Pour l'arcsinus, constater que $\\frac{20\\pi}{3}$ n'appartient pas au domaine privilégié du sinus.",
+    "Utiliser la relation $\\sin(\\pi - x) = \\sin x$ pour ramener l'angle dans le domaine privilégié.",
+    "Utiliser la $2\\pi$-périodicité du sinus pour simplifier l'expression."
+  ],
+  "uses_definitions": [
+    "Domaine privilégié du cosinus : $[0, \\pi] + 2\\pi\\mathbb{Z}$",
+    "Domaine privilégié du sinus : $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}] + 2\\pi\\mathbb{Z}$",
+    "Relation $\\sin(\\pi - x) = \\sin x$"
+  ],
+  "uses_theorems": [
+    "Théorème de la $2\\pi$-périodicité du sinus"
+  ]
+}
+```

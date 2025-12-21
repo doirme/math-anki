@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_110_0b9da681",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le théorème dans le bloc_111_7c382e46 peut être démontré en utilisant les propriétés des fonctions cosinus et sinus données dans le même bloc."
+    },
+    {
+      "block_id": "block_112_cad90132",
+      "relation": "uses_theorem",
+      "confidence": 0.8,
+      "reason": "Le bloc_112_cad90132 utilise le théorème donné dans le bloc_111_7c382e46 sur la limite de sin(x)/x lorsque x tend vers 0."
+    }
+  ]
+}

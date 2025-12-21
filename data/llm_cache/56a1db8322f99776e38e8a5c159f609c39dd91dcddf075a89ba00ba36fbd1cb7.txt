@@ -1,0 +1,11 @@
+ {
+  "name": "Fonction exponentielle",
+  "normalized_name": "Exponential function",
+  "hypotheses": [],
+  "hypothesis_text": "",
+  "conclusion": "La fonction logarithme est bijective de $\mathbb{R}_+^*$ sur $\mathbb{R}$. On appelle *fonction exponentielle* et on note $\exp$ sa réciproque, bijective de $\mathbb{R}$ sur $\mathbb{R}_+^*$. En particulier : $\exp(1) = e$ et les graphes des fonctions $\exp$ et $\ln$ sont symétriques l'un de l'autre par rapport à la droite d'équation $y = x$ . Pour tout $x \in \mathbb{R}$ : $\ln(\exp(x)) = x$ et pour tout $x > 0$ : $\exp(\ln x) = x$ .",
+  "conclusion_text": "The logarithm function is bijective from $\mathbb{R}_+^*$ to $\mathbb{R}$. We call *exponential function* and denote by $\exp$ its reciprocal, bijective from $\mathbb{R}$ to $\mathbb{R}_+^*$. In particular, $\exp(1) = e$ and the graphs of the functions $\exp$ and $\ln$ are symmetric to each other with respect to the line of equation $y = x$. For all $x \in \mathbb{R}$, $\ln(\exp(x)) = x$ and for all $x > 0$, $\exp(\ln x) = x$.",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["bijective", "convexe", "C^∞"]
+}

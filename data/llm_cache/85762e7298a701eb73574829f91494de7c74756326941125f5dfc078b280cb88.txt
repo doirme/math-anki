@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_47_ca6fb776",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le domaine de définition de la fonction f est décrit dans le bloc block_48_7db977f2."
+    }
+  ]
+}

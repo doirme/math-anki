@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration:\n(i) Si \( f \) et \( g \) sont croissantes, alors pour \( x, y \in E \) avec \( x < y \):\n  - \( f(x) \le f(y) \) et \( g(x) \le g(y) \) par hypothèse\n  - \( f(x) + g(x) \le f(y) + g(y) \) par somme.\n(ii) Si \( f \) et \( g \) sont décroissantes, alors pour \( x, y \in E \) avec \( x < y \):\n  - \( 0 \le f(y) \le f(x) \) et \( 0 \le g(y) \le g(x) \) par hypothèse\n  - \( f(y)g(y) \le f(x)g(x) \) par produit d'inégalités positives.\n(iii) Si \( f \) est croissante et \( g \) décroissante, alors pour \( x, y \in E \) avec \( x < y \):\n  - \( f(x) \le f(y) \) par croissance de \( f \)\n  - \( g(f(y)) \le g(f(x)) \) par décroissance de \( g \).\n(iv) Si \( f \) est strictement croissante, alors \( f^{-1} \) est strictement croissante:\n  - Soient \( y, y' \in F \) avec \( y < y' \).\n  - Si \( f^{-1}(y) \ge f^{-1}(y') \), alors \( y = f(f^{-1}(y)) \ge f(f^{-1}(y')) = y' \) par croissance de \( f \) — contradiction.",
+  "tags": ["Théorème sur la somme de fonctions monotones", "Théorème sur le produit de fonctions décroissantes", "Théorème sur la composition de fonctions monotones", "Théorème sur l'inverse d'une fonction strictement croissante"]
+}
+```

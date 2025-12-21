@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition (Fonction majorée/minorée/bornée)\nSoit \( f : E \to \mathbb{R} \) une fonction.\n- **Majorée** : \(\exists M \in \mathbb{R}, \forall x \in E, f(x) \le M\). \( M \) est un majorant de \( f \).\n- **Minorée** : \(\exists m \in \mathbb{R}, \forall x \in E, f(x) \ge m\). \( m \) est un minorant de \( f \).\n- **Bornée** : \(\exists K \ge 0, \forall x \in E, |f(x)| \le K\).\n\nDémonstration\nLa proposition « \( f \) est majorée et minorée » s'écrit : \(\exists m, M \in \mathbb{R}, \forall x \in E, m \le f(x) \le M\) et est équivalente à : \(\exists K \ge 0, \forall x \in E, |f(x)| \le K\).\n- Si \( |f(x)| \le K \), alors \( -K \le f(x) \le K \), donc \( f \) est minorée par \( -K \) et majorée par \( K \).\n- Réciproquement, si \( f \) est minorée par \( m \) et majorée par \( M \), alors \( K = \max\{|m|, |M|\} \) vérifie \( |f(x)| \le K \).",
+  "tags": ["Définition (Fonction majorée/minorée/bornée)", "Démonstration (Équivalence majorée/minorée et bornée)"]
+}
+```

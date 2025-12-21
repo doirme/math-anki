@@ -1,0 +1,7 @@
+ {
+  "term": "fonction majorée",
+  "normalized_term": "fonction majorée",
+  "statement": "Une fonction $f : E \\to \\mathbb{R}$ est dite majorée s'il existe un réel $M$ tel que, pour tout $x$ dans $E$, $f(x) \\le M$.",
+  "domain_tags": ["analyse réelle"],
+  "is_multiple": false
+}

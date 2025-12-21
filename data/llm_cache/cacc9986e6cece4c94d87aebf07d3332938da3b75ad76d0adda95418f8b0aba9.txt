@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Définition (Fonction de classe $\\mathcal{C}^k$)\n- **Classe $\\mathcal{C}^k$** : Pour tout $k \\in \\mathbb{N}$ , on dit que $f$ est de classe $\\mathcal{C}^k$ sur $E$ si $f$ est $k$ fois dérivable sur $E$ et si $f^{(k)}$ est continue sur $E$ . L'ensemble des fonctions de classe $\\mathcal{C}^k$ sur $E$ est noté $\\mathcal{C}^k(E, \\mathbb{R})$ .\n- **Classe $\\mathcal{C}^\\infty$** : On dit que $f$ est de classe $\\mathcal{C}^\\infty$ sur $E$ si $f$ est $k$ fois dérivable sur $E$ pour tout $k \\in \\mathbb{N}$ . L'ensemble des fonctions de classe $\\mathcal{C}^\\infty$ sur $E$ est noté $\\mathcal{C}^\\infty(E, \\mathbb{R})$ .\n**Attention !** De classe $\\mathcal{C}^1$ $\\Rightarrow$ Dérivable à dérivée continue $\\neq$ Dérivable ET continue. Maladroit, donc à éviter, car la dérivabilité implique la continuité !",
+    "tags": ["définition", "fonction", "classe C^k", "classe C^∞"]
+  }
+]
+```

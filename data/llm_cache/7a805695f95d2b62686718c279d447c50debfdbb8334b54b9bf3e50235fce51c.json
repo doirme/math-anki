@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_48_a8015bbc - manual_review]\n## 2.3 CONVEXITÉ/CONCAVITÉ Soient $I$ un intervalle, $f: I \\to \\mathbb{R}$ une fonction et $x, y \\in \\mathbb{R}$ . Quand $\\lambda$ décrit $[0, 1]$ , $\\lambda(y-x)$ décrit le segment d'extrémités $0$ et $y-x$ , donc $(1-\\lambda)x + \\lambda y = x + \\lambda(y-x)$ décrit le segment d'extrémités $x+0=x$ et $x+x-(y-x)=y$ . Valeurs de $(1-\\lambda)x + \\lambda y \\to x$ $\\frac{3x+y}{4}$ $\\frac{x+y}{2}$ $\\frac{x+2y}{3}$ $y$ Valeurs de $\\lambda \\to 0$ $\\frac{1}{4}$ $\\frac{1}{2}$ $\\frac{2}{3}$ $1$ ![](_page_\n\nCandidate blocks:\n[Block block_49_cd17df10 - example]: **Exemple** La fonction valeur absolue est convexe sur $\\mathbb{R}$ car pour tous $x, y \\in \\mathbb{R}$ et $\\lambda \\in [0, 1]$ , d'après l'inégalité triangulaire : $$|(1-\\lambda)x + \\lambda y| \\le |1\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

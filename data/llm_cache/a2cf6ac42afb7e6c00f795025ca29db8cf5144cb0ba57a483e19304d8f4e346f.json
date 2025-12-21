@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_104_6ac38f4d - example]\n## 5 FONCTIONS TRIGONOMÉTRIQUES Soit $\\alpha \\in \\mathbb{R}$ . Comme nous l'avons déjà vu, la relation $\\equiv [\\alpha]$ de congruence modulo $\\alpha$ est une relation d'équivalence sur $\\mathbb{R}$ . Rappelons qu'elle est définie pour tous $x, y \\in \\mathbb{R}$ par l'équivalence : $x \\equiv y [\\alpha] \\iff \\exists k \\in \\mathbb{Z}, x = y + k\\alpha$ . Pour tout $\\beta \\in \\mathbb{R}$ , la classe d'équivalence de $\\beta$ pour $\\equiv [\\alpha]$ est l'ensemble $\\{x \\in \\mathbb{R} \\mid x \\equiv \\bet\n\nCandidate blocks:\n[Block block_105_c552c859 - example]: **Exemple** L'ensemble $\\frac{\\pi}{4} + \\pi\\mathbb{Z}$ est $\\pi$ -périodique, donc rencontre l'intervalle $[0, 3\\pi]$ de longueur $3\\pi$ en exactement trois points : $\\left(\\frac{\\pi}{4} + \\pi\\mathbb{\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

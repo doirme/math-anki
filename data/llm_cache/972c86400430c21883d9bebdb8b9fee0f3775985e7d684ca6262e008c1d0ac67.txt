@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition :** Pour tout $x > 0$ et $y ∈ ℝ$, on définit $x^y = exp(y ln(x))$.",
+    "tags": []
+  }
+]

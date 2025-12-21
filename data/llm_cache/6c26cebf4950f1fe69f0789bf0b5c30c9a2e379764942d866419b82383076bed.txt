@@ -1,0 +1,16 @@
+{
+  "steps": [
+    "Supposition: f' est croissante et a est fixé dans I",
+    "Définition de la fonction φ(x) = f(x) - f'(a)(x-a) - f(a)",
+    "Détermination de la dérivée φ'(x) = f'(x) - f'(a)",
+    "Utilisation de la croissance de f' pour montrer que φ' est négative à gauche de a et positive à droite",
+    "Conclusion: φ est décroissante à gauche de a et croissante à droite, donc positive sur I tout entier"
+  ],
+  "uses_definitions": [
+    "Définition de la fonction dérivable",
+    "Définition de la dérivée"
+  ],
+  "uses_theorems": [
+    "Théorème de caractérisation des fonctions convexes dérivables"
+  ]
+}

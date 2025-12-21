@@ -1,0 +1,10 @@
+ {
+"relationships": [
+{
+"block\_id": "block\_33\_e869f37f",
+"relation": "uses\_theorem",
+"confidence": 0.9,
+"reason": "Le bloc à analyser utilise les théorèmes de la continuité et de la stricte monotonie de la fonction f pour déterminer l'image de l'intervalle [a, b] par f."
+}
+]
+}

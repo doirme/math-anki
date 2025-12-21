@@ -1,0 +1,18 @@
+ <s> ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_82_362c1eef",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise le principe général des croissances comparées des fonctions logarithme, exponentielle et puissances, qui est mentionné dans le théorème."
+    },
+    {
+      "block_id": "block_84_3eef850d",
+      "relation": "none",
+      "confidence": 0.1,
+      "reason": "Le bloc sur les fonctions hyperboliques n'est pas pertinent pour la démonstration."
+    }
+  ]
+}
+```

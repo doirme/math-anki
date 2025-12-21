@@ -1,0 +1,13 @@
+ {
+  "steps": [
+    "Étape 1 : On montre que $F$ est symétrique par rapport à $0$ en utilisant l'hypothèse que $E$ est symétrique par rapport à $0$ et que $f$ est impaire.",
+    "Étape 2 : On montre que $f^{-1}$ est impaire en utilisant le résultat de l'étape 1."
+  ],
+  "uses_definitions": [
+    "Définition de fonction bijective impaire",
+    "Définition de fonction périodique"
+  ],
+  "uses_theorems": [
+    "Théorème (Réciproque d'une fonction bijective impaire)"
+  ]
+}

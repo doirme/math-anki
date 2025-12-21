@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : \n- Limite : \n  - Expression : \\(\\frac{\\ln(1+x)}{x+\\sinh x}\\xrightarrow{x \\to 0} \\frac{1}{2}\\)\n\nDémonstration :\n- Approximation au brouillon :\n  - Pour \(x\) proche de 0 : \\(\\ln(1+x) \\approx x\\) et \\(\\sinh x \\approx x\\), donc \\(x+\\sinh x \\approx 2x\\)\n  - Conclusion : \\(\\frac{\\ln(1+x)}{x+\\sinh x} \\approx \\frac{x}{2x} = \\frac{1}{2}\\)\n\n- Démonstration rigoureuse :\n  - Expression : \\(\\frac{\\ln(1+x)}{x+\\sinh x} = \\frac{\\frac{\\ln(1+x)}{x}}{1+\\frac{\\sinh x}{x}}\\)\n  - Limite : \\(\\frac{\\ln(1+x)}{x+\\sinh x} \\xrightarrow{x \\to 0} \\frac{1}{1+1} = \\frac{1}{2}\\)\n\n- Remarque :\n  - Limite alternative : \\(\\lim_{x \\to 0} \\frac{x^2}{x-\\sinh x}\\)\n  - Complexité : Plus compliquée car \\(x\\) et \\(\\sinh x\\) ont à peu près la même taille.\n  - Conclusion : Impossible de calculer cette limite à ce stade de l'année.\n\n- Attention :\n  - \\(1^{+\infty}\\) est une nouvelle forme indéterminée.",
+    "tags": ["exemple", "limite", "démonstration", "approximation", "rigueur", "remarque", "attention"]
+  }
+]
+```

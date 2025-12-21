@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_114_57039035 - example]\n**Exemple** $\\frac{3}{5}$ est l'unique solution de l'équation $\\text{Arcsin } x = \\text{Arccos } \\frac{4}{5}$ d'inconnue $x \\in [-1, 1]$ .\n\n**Démonstration** Pour tous $x \\in [-1, 1]$ et $y \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ : $y = \\text{Arcsin } x \\iff x = \\sin y$ par définition de l'arc sinus, et attention, l'équivalence est vraie seulement si $y$ appartient à $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ . Ici, $\\text{Arccos } \\frac{4}{5} \\in [0, \\frac{\\pi}{2}]$ car $\\frac{4}{5} \\in [0, 1]$ , donc pour\n\nCandidate blocks:\n[Block block_115_4d1844cd - example]: **Exemple** Pour tout $x \\in [-1, 1]$ : $\\text{Arccos } x + \\text{Arcsin } x = \\frac{\\pi}{2}$ .\n\n**Démonstration** Il s'agit de montrer que la fonction $x \\xrightarrow{f} \\text{Arccos } x + \\text{Arcs\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

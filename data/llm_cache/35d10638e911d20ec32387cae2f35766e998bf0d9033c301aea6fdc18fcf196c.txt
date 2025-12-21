@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition (Fonction continue)**\n- Soit $f : E \\to \\mathbb{R}$ une fonction.\n- Pour tout $a ∈ E$, $f$ est continue en $a$ si $f(x) \\xrightarrow{x \\to a} f(a)$.\n- Graphique de $f$ continue en $a$: la fonction est représentée par une courbe continue passant par $f(a)$ et $a$.\n- Graphique de $f$ n'est pas continue en $a$: la fonction est représentée par une courbe qui ne passe pas par $f(a)$ et $a$, ou qui est discontinue à $a$.\n- $f$ est continue sur $E$ si $f$ est continue en tout point de $E$.\n- L'ensemble des fonctions continues sur $E$ est noté $\\mathcal{C}(E, \\mathbb{R})$.",
+    "tags": ["definition", "function", "continuity"]
+  }
+]

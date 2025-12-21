@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Démonstration\n- On travaille dans un repère orthonormal direct (O, i→, j→).\n- OM→ = x i→ + y j→ = r(cos θ i→ + sin θ j→), donc x = r cos θ et y = r sin θ par identification des coordonnées. En outre, r = ||OM→|| = √(x² + y²).\n- Cas où x > 0 : θ - 2kπ ∈ ]-π/2, π/2[ pour un certain k ∈ ℤ, or tan(θ - 2kπ) = tan θ = y/x, donc θ - 2kπ = arctan(y/x), et enfin θ ≡ arctan(y/x) [2π].\n- Cas où x < 0 : θ - 2kπ ∈ ]π/2, 3π/2[ pour un certain k ∈ ℤ, or tan(θ - π - 2kπ) = tan θ = y/x avec θ - 2kπ - π ∈ ]-π/2, π/2[, donc θ ≡ π + arctan(y/x) [2π].\n- On a choisi d'exprimer θ comme une arc tangente, mais on aurait pu l'exprimer comme un arc cosinus ou un arc sinus, la stratégie est toujours la même. On place M dans l'un des quatre quadrants que le repère choisi délimite, puis selon qu'on souhaite atteindre un arc cosinus ou un arc sinus, on ramène θ dans le domaine privilégié adapté.",
+    "tags": ["démonstration", "coordonnées polaires", "repère orthonormal", "trigonométrie"]
+  }
+]
+```

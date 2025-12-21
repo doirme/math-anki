@@ -1,0 +1,19 @@
+ <s> ```json
+{
+  "name": "Théorème de Cantor",
+  "normalized_name": "Cantor",
+  "hypotheses": [
+    "Le corps ℝ est dénombrable."
+  ],
+  "hypothesis_text": "Le corps ℝ est dénombrable.",
+  "conclusion": "Le corps ℝ n'est pas dénombrable.",
+  "conclusion_text": "Le corps ℝ n'est pas dénombrable.",
+  "has_proof": true,
+  "domain_tags": [
+    "analyse réelle"
+  ],
+  "characteristics": [
+    "dénombrable"
+  ]
+}
+```

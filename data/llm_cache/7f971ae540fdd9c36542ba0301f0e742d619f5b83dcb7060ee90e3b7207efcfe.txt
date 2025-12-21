@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (La seule formule à connaître sur les fonctions affines)\n- Hypothèses :\n  - f est une fonction affine\n  - a, x ∈ ℝ\n- Conclusion :\n  - f(x) = f'(a)(x - a) + f(a)\n- Remarque :\n  - La pente m de f et sa valeur en un point a déterminent l'expression de f : x ↦ m(x - a) + f(a)",
+    "tags": ["théorème", "fonction affine", "tangente"]
+  }
+]
+```

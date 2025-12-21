@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_119_06b2e111",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc block_119_06b2e111 utilise la définition de la tangente donnée dans le bloc block_118_1f292664 pour simplifier l'expression de la tangente d'une somme."
+    }
+  ]
+}

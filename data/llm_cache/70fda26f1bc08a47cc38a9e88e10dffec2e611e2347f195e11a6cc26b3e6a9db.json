@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_66_7bf88c10 - theorem]\n**Théorème (La seule formule à connaître sur les fonctions affines)** Le graphe d'une fonction affine $f$ est une droite, donc coïncide avec sa tangente en tout point. Ainsi, pour tous $a, x \\in \\mathbb{R}$ : $f(x) = f'(a)(x-a) + f(a)$ . **Attention !** On vous a habitués à utiliser l'ordonnée à l'origine $p$ d'une fonction affine $x \\mapsto mx + p$ , mais la plupart du temps, on se fiche royalement de ce qui se passe à l'origine. Si vous connaissez la pente $m$ de $f$ et sa valeur en un point $\n\nCandidate blocks:\n[Block block_67_ea0056a9 - example]: **Exemple** Quelle fonction affine $f$ envoie 1 sur 3 et 2 sur 5 ? De pente $\\frac{f(2)-f(1)}{2-1} = 2$ , $f$ a tout simplement pour expression $x \\mapsto 2(x-1) + 3 = 2x + 1$ . Aucun calcul supplémen\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

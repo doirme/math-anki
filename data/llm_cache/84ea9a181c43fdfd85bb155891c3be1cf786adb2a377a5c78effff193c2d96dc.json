@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_49_ce397f91 - example]\n**Exemple** La fonction $x \\xrightarrow{f} \\frac{1}{x-1}$ est de classe $C^\\infty$ sur $\\mathbb{R} \\setminus \\{1\\}$ , et pour calculer ses dérivées successives, il vaut mieux l'écrire comme une **PUissance NÉGATIVE** que comme un quotient. En l'occurrence, pour tous $k \\in \\mathbb{N}$ et $x \\in \\mathbb{R} \\setminus \\{1\\}$ : $$f^{(k)}(x) = \\frac{d^k}{dx^k} ((x-1)^{-1}) = (-1)(-2)\\dots(-k)(x-1)^{-k-1} = \\frac{(-1)^k k!}{(x-1)^{k+1}}.$$\n\nCandidate blocks:\n[Block block_50_4925f1a6 - manual_review]: **Théorème (Caractérisation des fonctions dérivables constantes/monotonnes)** Soient $I$ un **INTERVALLE** et $f \\in \\mathcal{D}(I, \\mathbb{R})$ . On ne traite ci-dessous que le cas des fonctions croi\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

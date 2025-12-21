@@ -1,0 +1,10 @@
+ ```json
+{
+  "term": "Fonction logarithme",
+  "normalized_term": "fonction logarithme",
+  "statement": "La fonction logarithme $\\ln$ est définie, de classe $\\mathcal{C}^\\infty$ et concave sur $\\mathbb{R}_+$. Pour tout $x > 0$ : $\\ln'(x) = \\frac{1}{x}$ et $\\ln(1) = 0$. Pour tous $x, y > 0$ : $\\ln(xy) = \\ln x + \\ln y$ et $\\ln \\frac{1}{x} = -\\ln x$. La fonction logarithme prend la valeur 1 en un unique réel $e$ appelé parfois la *constante de Néper* : $e \\approx 2,71828$. $\\frac{\\ln x}{x} \\xrightarrow{x \\to +\\infty} 0$ et $x \\ln x \\xrightarrow{x \\to 0} 0$. Le graphe du logarithme est situé sous sa tangente en 1 : $\\forall x > 0, \\ln x \\le x - 1$ et $\\forall x > -1, \\ln(1+x) \\le x$. En outre, $\\frac{\\ln x}{x-1} \\xrightarrow{x \\to 1} 1$ et $\\frac{\\ln(1+x)}{x} \\xrightarrow{x \\to 0} 1$, i.e. intuitivement : $\\ln x \\approx x - 1$ pour $x$ proche de 1 et $\\ln(1+x) \\approx x$ pour $x$ proche de 1.",
+  "domain_tags": ["analyse réelle", "calcul différentiel"],
+  "characteristics": ["définie sur $\\mathbb{R}_+$", "classe $\\mathcal{C}^\\infty$", "concave", "dérivée $\\ln'(x) = \\frac{1}{x}$", "valeur $\\ln(1) = 0$", "constante de Néper $e$"],
+  "is_multiple": false
+}
+```

@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition (Puissances quelconques et racines $n$ èmes d'un réel strictement positif**) \n- **Puissances quelconques** : Pour tout $y ∈ ℝ$ , on appelle $x$ puissance $y$ le réel $x^y = exp(y ln x)$ .\n- **Racines $n$ èmes** : Pour tout $n ∈ ℕ^*$ , le réel $x^{\\frac{1}{n}}$ est appelé la racine $n$ ème de $x$ et noté $√[n]{x}$ .",
+    "tags": ["definition", "puissances", "racines"]
+  }
+]

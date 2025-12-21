@@ -1,0 +1,24 @@
+ <s> [OUT] ```json
+{
+  "term": "Fonction majorée/minorée/bornée",
+  "normalized_term": "Fonction majorée/minorée/bornée",
+  "statement": "Soit \( f : E \to \mathbb{R} \) une fonction. On dit que \( f \) est **majorée** si : \(\exists M \in \mathbb{R}\), \(\forall x \in E\), \( f(x) \le M \). Un tel réel \( M \) est appelé **UN majorant de \( f \)**. On dit aussi que \( f \) est **majorée par \( M \)** ou que \( M \) **majoré \( f \)**. On dit que \( f \) est **minorée** si : \(\exists m \in \mathbb{R}\), \(\forall x \in E\), \( f(x) \ge m \). Un tel réel \( m \) est appelé **UN minorant de \( f \)**. On dit aussi que \( f \) est **minorée par \( m \)** ou que \( m \) **minore \( f \)**. On dit que \( f \) est **bornée** si \( f \) est à la fois majorée et minorée, i.e. si : \(\exists K \ge 0\), \(\forall x \in E\), \( |f(x)| \le K \).",
+  "domain_tags": ["analyse réelle", "analyse"],
+  "characteristics": ["majorée", "minorée", "bornée"],
+  "is_multiple": true,
+  "definitions": [
+    {
+      "term": "Fonction majorée",
+      "statement": "On dit que \( f \) est **majorée** si : \(\exists M \in \mathbb{R}\), \(\forall x \in E\), \( f(x) \le M \). Un tel réel \( M \) est appelé **UN majorant de \( f \)**. On dit aussi que \( f \) est **majorée par \( M \)** ou que \( M \) **majoré \( f \)**."
+    },
+    {
+      "term": "Fonction minorée",
+      "statement": "On dit que \( f \) est **minorée** si : \(\exists m \in \mathbb{R}\), \(\forall x \in E\), \( f(x) \ge m \). Un tel réel \( m \) est appelé **UN minorant de \( f \)**. On dit aussi que \( f \) est **minorée par \( m \)** ou que \( m \) **minore \( f \)**."
+    },
+    {
+      "term": "Fonction bornée",
+      "statement": "On dit que \( f \) est **bornée** si \( f \) est à la fois majorée et minorée, i.e. si : \(\exists K \ge 0\), \(\forall x \in E\), \( |f(x)| \le K \)."
+    }
+  ]
+}
+```

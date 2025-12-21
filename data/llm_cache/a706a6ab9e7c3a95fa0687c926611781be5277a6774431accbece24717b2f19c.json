@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_5_0344a69a - example]\n**Exemple** La fonction  $x \\mapsto \\frac{1 + e^{\\sqrt{x}}}{x\\sqrt{2-x}}$  est définie sur  $\\{x \\in \\mathbb{R} | x\\sqrt{2-x} \\neq 0 \\text{ et } 2-x \\ge 0 \\text{ et } x \\ge 0\\}$   \n $= \\{x \\in \\mathbb{R} | x \\neq 0 \\text{ et } x \\neq 2 \\text{ et } 0 \\le x \\le 2\\} = ]0, 2[$ .\n\nCandidate blocks:\n[Block block_6_5a84bf7a - unknown]: ## 1 VOCABULAIRE USUEL\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

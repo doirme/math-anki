@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration:\n- Pour tout \( x \in \mathbb{R} \), \( \text{ch}^2 x - \text{sh}^2 x = 1 \).\n- \( \text{ch}^2 x - \text{sh}^2 x = (\text{ch } x + \text{sh } x)(\text{ch } x - \text{sh } x) = e^x e^{-x} = 1 \).\n\nExemple:\n- L'équation \( \text{ch } x = 2 \) a deux solutions : \( x = \ln(2 + \sqrt{3}) \) et \( x = \ln(2 - \sqrt{3}) \).\n\nDémonstration:\n- Pour tout \( x \in \mathbb{R} \), \( \text{ch } x = 2 \) se ramène à une équation du second degré :\n  - \( e^x - 4 + e^{-x} = 0 \)\n  - \( (e^x)^2 - 4e^x + 1 = 0 \)\n  - \( e^x = 2 + \sqrt{3} \) ou \( e^x = 2 - \sqrt{3} \)\n  - \( x = \ln(2 + \sqrt{3}) \) ou \( x = \ln(2 - \sqrt{3}) \).\n\nTableau des variations:\n| \( x \) | \(-\infty\) | 0 | \(+\infty\) |\n|----------------|-----------|---|-----------|\n| \( \text{ch } x \) | | + | |\n| \( \text{sh } x \) | - | 0 | + |\n| \( \text{ch } x \) | | 1 | |\n| \( \text{sh } x \) | | 0 | |\n",
+  "tags": ["Propriété hyperbolique", "Équation hyperbolique", "Variations des fonctions hyperboliques"]
+}
+```

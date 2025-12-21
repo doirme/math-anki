@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_125_f2233218",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_124_398f3690 présente un exemple mathématique, tandis que le bloc block_125_f2233218 fournit une démonstration détaillée de cet exemple."
+    }
+  ]
+}
+```

@@ -1,0 +1,20 @@
+ <s> ```json
+{
+  "name": "Réciproque d'une fonction bijective impaire",
+  "normalized_name": "Réciproque d'une fonction bijective impaire",
+  "hypotheses": [
+    "f: E → F est une fonction bijective de E sur F.",
+    "E est symétrique par rapport à 0.",
+    "f est impaire."
+  ],
+  "hypothesis_text": "f: E → F est une fonction bijective de E sur F. E est symétrique par rapport à 0. f est impaire.",
+  "conclusion": [
+    "F est symétrique par rapport à 0.",
+    "f⁻¹ est impaire."
+  ],
+  "conclusion_text": "F est symétrique par rapport à 0. f⁻¹ est impaire.",
+  "has_proof": true,
+  "domain_tags": ["analyse", "algèbre"],
+  "characteristics": ["bijective", "impaire"]
+}
+```

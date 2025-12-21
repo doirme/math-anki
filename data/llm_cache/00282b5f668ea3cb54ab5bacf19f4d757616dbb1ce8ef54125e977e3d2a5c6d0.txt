@@ -1,0 +1,16 @@
+ <s> [/INST] ```json
+{
+  "name": "Injectivité et stricte monotonicité",
+  "normalized_name": "Injectivité et stricte monotonicité",
+  "hypotheses": [
+    "f: E → ℝ est une fonction.",
+    "f est strictement monotone."
+  ],
+  "hypothesis_text": "f: E → ℝ est une fonction. f est strictement monotone.",
+  "conclusion": "f est injective.",
+  "conclusion_text": "f est injective.",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["monotone", "injectif"]
+}
+```

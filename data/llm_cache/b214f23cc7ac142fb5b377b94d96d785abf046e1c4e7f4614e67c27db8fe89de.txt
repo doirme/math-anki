@@ -1,0 +1,28 @@
+ <s> ```json
+{
+  "name": "Fonction exponentielle",
+  "normalized_name": "Fonction exponentielle",
+  "hypotheses": [
+    "La fonction logarithme est bijective de ℝ₊* sur ℝ.",
+    "La fonction exponentielle, notée exp, est la réciproque de la fonction logarithme, bijective de ℝ sur ℝ₊*.",
+    "exp(1) = e.",
+    "Les graphes des fonctions exp et ln sont symétriques par rapport à la droite d'équation y = x.",
+    "Pour tout x ∈ ℝ : ln(exp(x)) = x.",
+    "Pour tout x > 0 : exp(ln x) = x.",
+    "La fonction exponentielle exp est de classe C∞ et convexe sur ℝ.",
+    "exp' = exp.",
+    "Pour tous x, y ∈ ℝ : exp(x + y) = exp(x) exp(y).",
+    "exp(-x) = 1 / exp(x).",
+    "x / exp(x) → 0 lorsque x → +∞.",
+    "Le graphe de l'exponentielle est situé au-dessus de sa tangente en 0 : ∀x ∈ ℝ, exp(x) ≥ 1 + x.",
+    "(exp(x) - 1) / x → 1 lorsque x → 0, i.e. exp(x) - 1 ≈ x pour x proche de 0.",
+    "exp(0,1) ≈ 1,10517 et exp(0,01) ≈ 1,01005."
+  ],
+  "hypothesis_text": "La fonction logarithme est bijective de ℝ₊* sur ℝ. La fonction exponentielle, notée exp, est la réciproque de la fonction logarithme, bijective de ℝ sur ℝ₊*. exp(1) = e. Les graphes des fonctions exp et ln sont symétriques par rapport à la droite d'équation y = x. Pour tout x ∈ ℝ : ln(exp(x)) = x. Pour tout x > 0 : exp(ln x) = x. La fonction exponentielle exp est de classe C∞ et convexe sur ℝ. exp' = exp. Pour tous x, y ∈ ℝ : exp(x + y) = exp(x) exp(y). exp(-x) = 1 / exp(x). x / exp(x) → 0 lorsque x → +∞. Le graphe de l'exponentielle est situé au-dessus de sa tangente en 0 : ∀x ∈ ℝ, exp(x) ≥ 1 + x. (exp(x) - 1) / x → 1 lorsque x → 0, i.e. exp(x) - 1 ≈ x pour x proche de 0. exp(0,1) ≈ 1,10517 et exp(0,01) ≈ 1,01005.",
+  "conclusion": null,
+  "conclusion_text": null,
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "fonctions"],
+  "characteristics": ["bijective", "convexe", "C∞", "monotone"]
+}
+```

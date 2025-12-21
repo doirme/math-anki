@@ -1,0 +1,8 @@
+{
+  "term": "fonction monotone",
+  "normalized_term": "function monotone",
+  "statement": "Fonction croissante : $\\forall x, y \\in E, x < y \\implies f(x) \\le f(y)$\nFonction strictement croissante : $\\forall x, y \\in E, x < y \\implies f(x) < f(y)$\nFonction décroissante : $\\forall x, y \\in E, x < y \\implies f(x) \\ge f(y)$\nFonction monotone : $f$ est croissante ou décroissante",
+  "domain_tags": ["théorie des ensembles", "analyse réelle"],
+  "is_multiple": false,
+  "characteristics": []
+}

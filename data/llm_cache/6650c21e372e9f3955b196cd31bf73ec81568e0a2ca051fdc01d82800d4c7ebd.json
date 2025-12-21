@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n**Démonstration** La fonction $x \\mapsto \\sqrt{x}$ est concave sur $\\mathbb{R}_+^*$ car sa dérivée $x \\mapsto \\frac{1}{2\\sqrt{x}}$ est décroissante. Son graphe est situé sous sa tangente en 1, d'équation $y = \\frac{1}{2}$ . ![Graphique de la fonction y = sqrt(x) et de sa tangente en x=1, y=1/2, montrant que la tangente est située au-dessus de la fonction.]()![](_page_10_Figure_11.jpeg)\n\nContext (may be empty):\n**Exemple** Soit $n \\in \\mathbb{N}$ . La fonction puissance $x \\mapsto x^{2n}$ est convexe sur $\\mathbb{R}$ car sa dérivée seconde $x \\mapsto 2n(2n-1)x^{2(n-1)}$ est positive sur $\\mathbb{R}$ .\n\n**Exemple** Pour tout $x > 0$ : $\\sqrt{x} \\le \\frac{x+1}{2}$ .\n\n**Définition-\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

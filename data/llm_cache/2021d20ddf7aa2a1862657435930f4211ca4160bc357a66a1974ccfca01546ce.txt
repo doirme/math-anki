@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "La fonction \( x \xrightarrow{g} \text{Arctan } x + \text{Arctan } \frac{1}{x} \) est dérivable sur \( \mathbb{R}^* \) et pour tout \( x \in \mathbb{R}^* \) :\n- \( g'(x) = \frac{1}{1+x^2} + \left(-\frac{1}{x^2}\right) \times \frac{1}{1+\left(\frac{1}{x}\right)^2} = \frac{1}{1+x^2} - \frac{1}{1+x^2} = 0 \).\n- Comme \( \mathbb{R}^* = ]-\infty, 0[ \cup ]0, +\infty[ \) n'est pas un intervalle, on ne peut pas en déduire que \( g \) est constante sur \( \mathbb{R}^* \) tout entier, mais seulement qu'elle l'est sur \( \mathbb{R}_+^* \) et \( \mathbb{R}_-^* \) indépendamment.\n- Calculons \( g(1) \) : \( g(1) = 2 \text{Arctan } 1 = 2 \times \frac{\pi}{4} = \frac{\pi}{2} \).\n- Pour la valeur de \( g \) sur \( \mathbb{R}^* \), remarquer simplement que \( g \) est impair.",
+    "tags": ["dérivabilité", "fonction", "constante", "impair"]
+  }
+]
+```

@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Définition : Arccos(cos(x)) = 0 pour x = 2π.\nThéorème : Pour tout x dans [-1, 1], cos(Arccos(x)) = x.\nThéorème : Pour tout x dans [0, π], Arccos(cos(x)) = x.\nThéorème : Pour tout x dans ℝ, Arccos(cos(x)) ≠ x.",
+    "tags": []
+  }
+]

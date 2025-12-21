@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple : La fonction $f$ définie par $f(x) = (1 + e^{\sqrt{x}}) / (x\sqrt{2-x})$ est définie sur $]0, 2[$.",
+    "tags": []
+  }
+]

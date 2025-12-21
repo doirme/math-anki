@@ -1,0 +1,12 @@
+ <s> [OUT] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_33_3b8cc4f9",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "La démonstration utilise le concept de dérivabilité et de dérivées, qui est introduit dans la définition de la dérivabilité et de la tangente dans le bloc candidat."
+    }
+  ]
+}
+``` 

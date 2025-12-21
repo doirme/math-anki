@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_82_1d9d759b",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc utilise les fonctions hyperboliques ch et sh, qui sont définies dans le bloc à analyser."
+    }
+  ]
+}
+```

@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_47\_ca6fb776",
+      "relation": "has\_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc 'block\_47\_ca6fb776' contient une démonstration de la propriété énoncée dans le bloc 'block\_46\_ca6fb776'."
+    }
+  ]
+}

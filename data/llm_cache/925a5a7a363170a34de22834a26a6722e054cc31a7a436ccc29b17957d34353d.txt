@@ -1,0 +1,20 @@
+ ```json
+{
+  "steps": [
+    "Comparaison des deux quantités $\\sqrt{x^2 + x}$ et $\\sqrt{x^2 - x}$",
+    "Analyse de la première limite $\\sqrt{x^2 + x} - \\sqrt{x}$ pour $x$ très grand",
+    "Développement de $\\sqrt{x^2 + x} - \\sqrt{x}$ pour montrer qu'elle tend vers 0",
+    "Analyse de la deuxième limite $\\sqrt{x^2 + x} - \\sqrt{x^2 - x}$ pour $x$ très grand",
+    "Explication de la différence entre $\\sqrt{x^2 + x}$ et $\\sqrt{x^2 - x}$",
+    "Utilisation de la technique de la quantité conjuguée pour évaluer la limite",
+    "Application de l'identité remarquable $(a+b)(a-b) = a^2 - b^2$",
+    "Simplification de l'expression pour obtenir $\\frac{2}{\\sqrt{1+\\frac{1}{x}}+\\sqrt{1-\\frac{1}{x}}}$",
+    "Calcul de la limite lorsque $x$ tend vers $+\\infty$"
+  ],
+  "uses_definitions": [
+    "Quantité conjuguée",
+    "Identité remarquable $(a+b)(a-b) = a^2 - b^2$"
+  ],
+  "uses_theorems": []
+}
+```

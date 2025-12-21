@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_121_e33429f4 - manual_review]\nDéfinition (Fonctions arc-cosinus, arc-sinus et arc-tangente) - **Arccosinus** : $\\cos|_{[0,\\pi]}$ est bijective de $[0, \\pi]$ sur $[-1, 1]$ et sa réciproque *arcosinus* est notée *Arcos*. Pour tout $x \\in [-1, 1]$ , $\\text{Arcos } x$ est l'unique réel $\\theta$ de $[0, \\pi]$ pour lequel $\\cos \\theta = x$ . - **Arcsinus** : $\\sin|_{[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]}$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $[-1, 1]$ et sa réciproque *arcsinus* est notée *Arcsin*. Pour tout $x \\in [-1\n\nCandidate blocks:\n[Block block_122_824ac57a - example]: exemple : $\\text{Arccos } \\cos(2\\pi) = \\text{Arccos } 1 = 0 \\neq 2\\pi$ . VRAI : $\\forall x \\in [-1, 1]$ , $\\cos \\text{Arccos } x = x$ . FAUX : $\\forall x \\in \\mathbb{R}$ , $\\text{Arccos } \\cos x = x$ \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

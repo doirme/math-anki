@@ -1,0 +1,12 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_14\_f9f7fd44",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise la définition de fonction majorée et minorée présentée dans le bloc block\_13\_13c8d01e."
+    }
+  ]
+}
+
+Le bloc "block\_14\_f9f7fd44" utilise la définition de fonction majorée et minorée présentée dans le bloc "block\_13\_13c8d01e" pour formuler sa proposition. La relation entre ces deux blocs est donc "uses\_definition". La confiance est élevée (0.9) car la correspondance entre les concepts est directe et claire.

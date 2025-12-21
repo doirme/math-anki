@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "La fonction \( x \mapsto \ln(x^2 - 3x + 2) \) est définie sur \( ]-\infty, 1[ \cup ]2, +\infty[ \).\n\n**Démonstration**\n- La fonction \( x \mapsto x^2 - 3x + 2 \) est définie sur \( \mathbb{R} \).\n- La fonction \( x \mapsto \ln x \) est définie sur \( \mathbb{R}_+ \).\n- Pour que \( x^2 - 3x + 2 > 0 \), il faut que \( x \in ]-\infty, 1[ \cup ]2, +\infty[ \) car les racines du polynôme sont 1 et 2 et son coefficient dominant est strictement positif.",
+  "tags": ["Définition de domaine de définition", "Polynôme du second degré"]
+}
+```

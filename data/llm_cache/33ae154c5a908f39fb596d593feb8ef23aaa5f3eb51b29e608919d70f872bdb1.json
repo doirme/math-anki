@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_29_ca307591 - theorem]\n**Théorème (Opérations sur les fonctions continues)** - **Combinaison linéaire, produit, quotient** : Pour toutes fonctions $f, g \\in \\mathcal{C}(E, \\mathbb{R})$ et $\\lambda, \\mu \\in \\mathbb{R}$ , les fonctions $\\lambda f + \\mu g$ et $\\frac{f}{g}$ si $g$ ne s'annule pas. - **Composition** : Pour toutes fonctions $f \\in \\mathcal{C}(E, \\mathbb{R})$ et $g \\in \\mathcal{C}(F, \\mathbb{R})$ , si $f(E) \\subset F$ , alors $g \\circ f$ est continue sur $E$ . - **Réciproque** : Soient $I$ et $J$ deux interv\n\nCandidate blocks:\n[Block block_30_2cb912d2 - theorem]: **Théorème (Théorème des valeurs intermédiaires ou TVI)** Soient $a$ et $b$ deux réels pour lesquels $a < b$ et $f \\in \\mathcal{C}([a, b], \\mathbb{R})$ . Tout réel $y$ compris entre $f(a)$ et $f(b)$ p\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

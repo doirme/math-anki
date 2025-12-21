@@ -1,0 +1,14 @@
+ ```json
+{
+  "steps": [
+    "Montrer que la somme de deux fonctions périodiques est périodique",
+    "Montrer que la multiplication de deux fonctions périodiques est périodique",
+    "Montrer que le quotient de deux fonctions périodiques (avec dénominateur non nul) est périodique",
+    "Montrer qu'une fonction composée avec une transformation linéaire est périodique avec une nouvelle période"
+  ],
+  "uses_definitions": [
+    "Fonction périodique"
+  ],
+  "uses_theorems": []
+}
+```

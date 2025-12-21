@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Définition : La tangente est définie là où le cosinus ne s'annule pas, i.e. sur $]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$.\n- Imparité : Pour tout $x \\in ]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ : $\\tan(-x) = \\frac{\\sin(-x)}{\\cos(-x)} = \\frac{-\\sin x}{\\cos x} = -\\tan x$.\n- Périodicité : Pour tout $x \\in ]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ : $\\tan(x + \\pi) = \\frac{\\sin(x + \\pi)}{\\cos(x + \\pi)} = \\frac{-\\sin x}{-\\cos x} = \\frac{\\sin x}{\\cos x} = \\tan x$.\n- Dérivée : $\\tan' = \\frac{\\sin' \\times \\cos - \\sin \\times \\cos'}{\\cos^2} = \\frac{\\cos^2 + \\sin^2}{\\cos^2}$ , donc $\\tan' = \\frac{1}{\\cos^2} = 1 + \\tan^2$.\n- Variations et limites : Par impairé et $\\pi$ -périodicité, une étude sur $[0, \\frac{\\pi}{2}]$ suffit. La tangente y est strictement croissante car $\\tan' = \\frac{1}{\\cos^2} > 0$ . Enfin, $\\sin x \\xrightarrow{x \\to \\frac{\\pi}{2}^-} 1$ et $\\cos x \\xrightarrow{x \\to \\frac{\\pi}{2}^-} 0^+$ , donc $\\tan x \\xrightarrow{x \\to \\frac{\\pi}{2}^-} +\\infty$.\n- Équation $\\tan x = \\tan y$ : $\\tan x = \\tan y \\iff \\frac{\\sin x}{\\cos x} = \\frac{\\sin y}{\\cos y} \\iff \\sin x \\cos y - \\cos x \\sin y = 0$ $\\iff \\sin(x-y) = 0 \\iff x-y \\equiv 0 [\\pi] \\iff x \\equiv y [\\pi]$.",
+    "tags": ["définition", "tangente", "imparité", "périodicité", "dérivée", "variations", "limites", "équation"]
+  }
+]
+```

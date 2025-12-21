@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_54_0053740c",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_54_0053740c contient une démonstration qui semble être une preuve de l'énoncé donné dans le bloc block_53_c348b737."
+    }
+  ]
+}
+```

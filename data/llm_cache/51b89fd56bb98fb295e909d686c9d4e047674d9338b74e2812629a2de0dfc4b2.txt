@@ -1,0 +1,12 @@
+ <s> [/INST] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_108_7ec012cd",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc utilise le concept de coordonnées polaires et trigonométriques, qui est lié au théorème mentionné dans le bloc candidat."
+    }
+  ]
+}
+```

@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block\_id": "block\_67\_ea0056a9", "relation": "uses\_theorem", "confidence": 0.9, "reason": "La fonction affine donnée dans le bloc utilise la formule de calcul de la pente, qui est un théorème dans le contexte de l'analyse de fonctions."},
+{"block\_id": "block\_67\_ea0056a9", "relation": "generalizes", "confidence": 0.7, "reason": "Bien que le bloc ne soit pas une généralisation explicite, il peut être considéré comme une généralisation implicite de la notion de fonction linéaire."}
+]
+}

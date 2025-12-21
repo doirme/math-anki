@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**FONCTIONS COSINUS, SINUS ET TANGENTE**\n- Définition : \n  - cos($\alpha$) = côté adjacent / hypoténuse\n  - sin($\alpha$) = côté opposé / hypoténuse\n  - tan($\alpha$) = sin($\alpha$) / cos($\alpha$)",
+    "tags": ["definition"]
+  }
+]

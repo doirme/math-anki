@@ -1,0 +1,16 @@
+ ```json
+{
+  "name": "La seule formule à connaître sur les fonctions affines",
+  "normalized_name": "La seule formule à connaître sur les fonctions affines",
+  "hypotheses": [
+    "f est une fonction affine",
+    "a, x ∈ ℝ"
+  ],
+  "hypothesis_text": "f est une fonction affine, a, x ∈ ℝ",
+  "conclusion": "f(x) = f'(a)(x - a) + f(a)",
+  "conclusion_text": "f(x) = f'(a)(x - a) + f(a)",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "algèbre linéaire"],
+  "characteristics": ["affine", "tangente"]
+}
+```

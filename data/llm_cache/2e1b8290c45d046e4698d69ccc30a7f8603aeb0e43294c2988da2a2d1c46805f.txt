@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Théorème (Seule formule à connaître sur les fonctions affines)**\n- Nom : Formule de la fonction affine\n- Hypothèses : Aucune\n- Conclusion : Pour tous $a, x \\in \\mathbb{R}$ : $f(x) = f'(a)(x-a) + f(a)$",
+  "tags": ["théorème", "fonction affine"]
+}

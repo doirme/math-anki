@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_79_90961e06",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_79_90961e06 semble être la preuve du théorème défini dans le bloc block_77_436308a2, car il commence par le même énoncé du théorème."
+    }
+  ]
+}
+```

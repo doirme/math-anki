@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Démonstration**\n- Utiliser la définition de la fonction tangente : tan = sin / cos.\n- Montrer que tan' = 1 + tan² en utilisant la définition de tan et les règles de dérivation.",
+    "tags": ["proof"]
+  }
+]

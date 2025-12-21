@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition (Fonctions arc-cosinus, arc-sinus et arc-tangente)**\n- **Arccosinus** : la fonction arc-cosinus, notée Arcos, est la réciproque de la fonction cosinus restreinte à l'intervalle [0, π]. Pour tout x dans [-1, 1], Arcos x est l'unique réel θ de [0, π] tel que cos θ = x.\n- **Arcsinus** : la fonction arcsinus, notée Arcsin, est la réciproque de la fonction sinus restreinte à l'intervalle [-\frac{π}{2}, \frac{π}{2}]. Pour tout x dans [-1, 1], Arcsin x est l'unique réel θ de [-\frac{π}{2}, \frac{π}{2}] tel que sin θ = x.\n- **Arctangente** : la fonction arctangente, notée Arctan, est la réciproque de la fonction tangente restreinte à l'intervalle [-\frac{π}{2}, \frac{π}{2}]. Pour tout x dans ℝ, Arctan x est l'unique réel θ de [-\frac{π}{2}, \frac{π}{2}] tel que tan θ = x.\n**Attention !** Arccos n'est pas la réciproque du cosinus, mais celle de cos|_{[0,π]} et ça change tout.",
+    "tags": ["definition"]
+  }
+]

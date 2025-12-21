@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Si \( f \) est dérivable en \( a \) :\n- \( f(x) = \frac{f(x) - f(a)}{x - a} \times (x - a) + f(a) \xrightarrow{x \to a} f'(a) \times 0 + f(a) = f(a) \)\n- Donc \( f \) est continue en \( a \).",
+    "tags": ["proof"]
+  }
+]
+```

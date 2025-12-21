@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Preuve"],
+    "needs_preceding": false,
+    "needs_following": true,
+    "suggest_merge_with": [1],
+    "normalized_text": "Théorème de Cantor\n\n- Nom: Théorème de Cantor\n- Hypothèses: Aucune hypothèse explicite.\n- Conclusion: Le corps ℝ n'est pas dénombrable.",
+    "tags": ["Théorème", "Dénombrabilité", "ℝ"]
+  }
+]
+```

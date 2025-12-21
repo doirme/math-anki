@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple : Résolution de l’équation Arccos $x$ = Arcsin $x$ sur $x$ ∈ [-1, 1].\n- L’équivalence délicate :\n  - $\\arccos x = \\arcsin x$ équivaut à $\\cos \\arccos x = \\cos \\arcsin x$ et $\\arcsin x$ ∈ [0, π].\n  - Justification :\n    - $\\cos \\arccos x = \\cos \\arcsin x$ sans problème.\n    - $\\arccos x = \\arcsin x$ implique $\\arcsin x = \\arccos x$ ∈ [0, π].\n- Résolution de l’équation :\n  - $\\arccos x = \\arcsin x$ équivaut à $x = \\sqrt{1-x^2}$ et $x$ ∈ [0, 1].\n  - $x^2 = 1 - x^2$ et $x$ ∈ [0, 1] équivaut à $x = \\frac{1}{\\sqrt{2}}$.",
+    "tags": ["theorem", "equation", "solution"]
+  }
+]

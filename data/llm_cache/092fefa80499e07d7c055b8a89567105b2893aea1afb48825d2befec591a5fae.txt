@@ -1,0 +1,5 @@
+{
+"relationships": [
+{"block\_id": "block\_97\_5af0b267", "relation": "proves", "confidence": 0.9, "reason": "Le bloc fournit une démonstration pour une limite qui n'est pas explicitement donnée dans le bloc candidat, mais qui peut être déduite de l'exemple fourni."}
+]
+}

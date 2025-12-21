@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition**\n- Point d'inflexion : Un point d'inflexion d'une fonction est un point où la fonction passe de convexe à concave ou l'inverse.",
+    "tags": ["definition"]
+  }
+]

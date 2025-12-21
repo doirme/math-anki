@@ -1,0 +1,5 @@
+{
+  "relationships": []
+}
+
+Il n'y a pas de relations détectées entre le bloc donné et le bloc candidat. Le bloc donné est une démonstration de propriétés de la fonction racine carrée, tandis que le bloc candidat est un exemple d'une limite d'une fonction composée. Il n'y a pas de preuve, théorème, définition ou utilisation partagée entre les deux blocs.

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_89_5ffacca1",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_88_f8e6b813 mentionne qu'il existe des solutions explicites pour l'équation ch x = 2, ce qui est démontré dans le bloc block_89_5ffacca1."
+    }
+  ]
+}
+```

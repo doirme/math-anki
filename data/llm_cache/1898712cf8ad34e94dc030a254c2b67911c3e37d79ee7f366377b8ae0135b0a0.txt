@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "### Démonstration (Fonction arcsinus) - **Continuité/imparité** :\n- La fonction $\\sin[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $[-1, 1]$ et continue/impaire.\n- D'après le théorème de continuité/imparité d'une réciproque, sa réciproque Arcsin $= (\\sin[-\\frac{\\pi}{2}, \\frac{\\pi}{2}])^{-1}$ est continue/impaire sur $[-1, 1]$.\n\n- **Relation** $\\cos \\text{Arcsin } x$ :\n  - Pour tout $x \\in [-1, 1]$ : $\\text{Arcsin } x \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$, donc $\\cos \\text{Arcsin } x \\ge 0$.\n  - Donc : $\\cos \\text{Arcsin } x = |\\cos \\text{Arcsin } x| = \\sqrt{1 - \\sin^2 \\text{Arcsin } x} = \\sqrt{1 - x^2}$.\n\n- **Dérivabilité et dérivée** :\n  - La fonction $\\sin[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $[-1, 1]$, de classe $C^\\infty$, et sa dérivée $\\sin' = \\cos$ ne s'annule pas sur $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.\n  - D'après le théorème de dérivabilité d'une réciproque, Arcsin est de classe $C^\\infty$ sur $[-1, 1]$ et pour tout $x \\in [-1, 1]$ :\n    - $\\text{Arcsin}'(x) = \\frac{1}{\\sin' \\circ \\text{Arcsin}(x)} = \\frac{1}{\\cos \\text{Arcsin } x} = \\frac{1}{\\sqrt{1-x^2}}$.\n  - Le théorème de dérivabilité ne nous dit rien de la dérivabilité d'Arcsin en $\\pm 1$ car $\\cos'(0) = \\cos'(\\pi) = 0$, mais on peut montrer qu'Arcsin n'est pas dérivable en ces points.",
+  "tags": ["Théorème de continuité/imparité d'une réciproque", "Théorème de dérivabilité d'une réciproque", "Relation $\\cos \\text{Arcsin } x$", "Dérivabilité de l'arcsinus"]
+}
+```

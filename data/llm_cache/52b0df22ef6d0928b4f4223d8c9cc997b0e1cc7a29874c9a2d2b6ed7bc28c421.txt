@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_7_d6637b40",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Le théorème sur l'injectivité et la stricte monotonicité est un cas particulier du théorème sur les opérations sur les fonctions monotones, qui traite de manière plus générale les propriétés des fonctions monotones."
+    }
+  ]
+}
+```

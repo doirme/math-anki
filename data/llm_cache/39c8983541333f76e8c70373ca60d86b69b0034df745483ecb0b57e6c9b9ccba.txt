@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_85_774a8e9c",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Les deux blocs utilisent des approximations pour des valeurs de x très grandes, ce qui suggère que le bloc candidat pourrait utiliser des définitions ou des concepts similaires à ceux présentés dans le bloc à analyser."
+    }
+  ]
+}
+```

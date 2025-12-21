@@ -1,0 +1,12 @@
+ <s> [/INST] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_91_c552c859",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat utilise la notion de classe d'équivalence modulo π, qui est définie dans le bloc à analyser."
+    }
+  ]
+}
+```

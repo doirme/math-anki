@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Transformations affines du graphe d'une fonction)\nSoient \( f: E \to \mathbb{R} \) une fonction, \( a, b \in \mathbb{R} \) et \( \lambda > 0 \). On munit le plan d'un repère orthonormal direct \( (O, \vec{i}, \vec{j}) \).\n\n**Symétries :**\n- Le graphe de \( x \mapsto -f(x) \) s'obtient par symétrie par rapport à \( (Ox) \).\n- Le graphe de \( x \mapsto f(-x) \) s'obtient par symétrie par rapport à \( (Oy) \).\n\n**Translations :**\n- Le graphe de \( x \mapsto f(x) + a \) s'obtient par translation de vecteur \( a \vec{i} \).\n- Le graphe de \( x \mapsto f(x + a) \) s'obtient par translation de vecteur \( -a \vec{i} \).\n\n**Contractions/dilatations :**\n- Le graphe de \( x \mapsto \lambda f(x) \) s'obtient par dilatation verticale de rapport \( \lambda \) si \( \lambda \ge 1 \) ou contraction verticale de rapport \( \frac{1}{\lambda} \) si \( \lambda < 1 \).\n- Le graphe de \( x \mapsto f(\lambda x) \) s'obtient par contraction horizontale de rapport \( \lambda \) si \( \lambda \ge 1 \) ou dilatation horizontale de rapport \( \frac{1}{\lambda} \) si \( \lambda < 1 \).\n\n**Attention :**\n- Pour \( x \mapsto f(x + a) \), le vecteur de translation est \( -a \vec{i} \). La fonction \( x \mapsto f(x + a) \) est en avance de \( a \) sur \( x \mapsto f(x) \).",
+  "tags": ["Théorème des transformations affines du graphe d'une fonction", "Symétrie", "Translation", "Dilatation", "Contraction"]
+}
+```

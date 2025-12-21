@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_65_5cc4c05d",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc 65_5cc4c05d traite des fonctions affines, polynomiales et rationnelles, qui sont définies à l'aide du théorème présenté dans le bloc 66_7bf88c10. Par conséquent, il est probable que le bloc 65_5cc4c05d utilise le théorème du bloc 66_7bf88c10."
+    }
+  ]
+}

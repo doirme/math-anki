@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition (Maximum/minimum d'une fonction)\nSoient \( f: E \to \mathbb{R} \) une fonction et \( a \in E \).\n- Maximum : \( f \) possède un maximum en \( a \) si \( \forall x \in E, f(x) \le f(a) \). Le réel \( f(a) \) est alors appelé le maximum de \( f \) et noté \( \max_{x \in E} f \) ou \( \max f(x) \).\n- Minimum : \( f \) possède un minimum en \( a \) si \( \forall x \in E, f(x) \ge f(a) \). Le réel \( f(a) \) est alors appelé le minimum de \( f \) et noté \( \min_{x \in E} f \) ou \( \min f(x) \).\nRemarque : Une fonction peut ne pas avoir de maximum ou de minimum, même en étant bornée, et quand elle en a un, il peut être atteint plusieurs fois.",
+  "tags": ["Définition (Maximum/minimum d'une fonction)"]
+}
+```

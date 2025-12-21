@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Fonction tangente) - \n\n**Définition et régularité** : \n- Fonction tangente : tan = sin/cos définie sur ]-π/2, π/2[ + πℤ. \n- Propriétés : impaire, π-périodique, de classe C^∞. \n- Dérivée : tan' = 1 + tan² = 1/cos². \n\n**Résolution d'équations** : \n- Pour x, y ∈ ]-π/2, π/2[ + πℤ, tan x = tan y ⇔ x ≡ y (mod π).",
+  "tags": ["Fonction tangente", "Définition", "Dérivée", "Résolution d'équations"]
+}
+```

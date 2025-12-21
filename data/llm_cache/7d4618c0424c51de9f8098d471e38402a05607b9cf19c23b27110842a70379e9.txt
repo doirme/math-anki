@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Définition (Fonction périodique)**\n- $T > 0$\n- $E$ est $T$-périodique : $\forall x \in E, x+T \in E$ et $x-T \in E$\n- $f: E \to \mathbb{R}$ est $T$-périodique si $\forall x \in E, f(x+T) = f(x)$\n- $T$ est une période de $f$\n- Une fonction périodique peut avoir plusieurs périodes, par exemple $2T, 3T, 4T, ...$\n- On ne parle jamais de « la » période, mais toujours d'une période\n- Certaines fonctions possèdent une plus petite période :\n  - Toute fonction continue non constante périodique possède une plus petite période\n  - Les fonctions sinus et cosinus admettent $2\pi$ pour plus petite période\n  - Certaines fonctions admettent tout réel strictement positif pour période et n'en ont donc pas de plus petite, comme les fonctions constantes et la fonction $1_Q$",
+  "tags": ["Fonction périodique", "Période", "Plus petite période"]
+}

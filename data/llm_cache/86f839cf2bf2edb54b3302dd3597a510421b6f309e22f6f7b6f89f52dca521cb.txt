@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_68_f09770d3",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le premier sous-bloc de block_68_f09770d3 utilise le théorème de limite d'une expression polynomiale divisée par une autre polynomiale lorsque le degré du dénominateur est strictement supérieur à celui du numérateur."
+    }
+  ]
+}

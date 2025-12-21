@@ -1,0 +1,11 @@
+ <s> ```json
+{
+  "term": null,
+  "normalized_term": null,
+  "statement": "N/A",
+  "domain_tags": ["analyse réelle"],
+  "characteristics": [],
+  "is_multiple": false,
+  "definitions": []
+}
+```

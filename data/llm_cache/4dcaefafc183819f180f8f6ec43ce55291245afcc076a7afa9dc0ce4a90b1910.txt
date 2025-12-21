@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition (Fonction périodique)\nSoit \( T > 0 \). On suppose que \( E \) est \( T \)-périodique, c'est-à-dire que :\n- \( \forall x \in E, x + T \in E \)\n- \( \forall x \in E, x - T \in E \)\nSoit \( f: E \to \mathbb{R} \) une fonction. On dit que \( f \) est \( T \)-périodique ou *périodique de période \( T \)* si :\n- \( \forall x \in E, f(x + T) = f(x) \)\nLe réel \( T \) est alors appelé *une période de \( f \)*.\n\nPropriétés :\n- Une fonction périodique ne possède jamais qu'une seule période. Tout multiple entier d'une période \( T \) est encore une période : \( 2T, 3T, 4T, \dots \).\n- Certaines fonctions possèdent une *plus petite période*, mais pas toutes.\n- Toute fonction continue non constante périodique possède une plus petite période.\n- Les fonctions sinus et cosinus admettent \( 2\pi \) pour plus petite période.\n- Certaines fonctions admettent tout réel strictement positif pour période et n'en ont donc pas de plus petite (ex. : fonctions constantes et fonction \( 1_Q \)).\n\nRemarque :\n- Il suffit d'étudier une fonction \( T \)-périodique sur une période, par exemple \( E \cap [0, T] \).",
+  "tags": ["Définition (Fonction périodique)", "Propriétés des fonctions périodiques"]
+}
+```

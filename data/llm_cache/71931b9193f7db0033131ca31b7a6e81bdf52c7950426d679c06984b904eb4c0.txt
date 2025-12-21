@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : On veut résoudre l'équation $\\text{Arccos } x = \\text{Arcsin } x$ d'inconnue $x \\in [-1, 1]$.\n- On a bien envie de passer au cosinus (ou au sinus) des deux côtés de l'équation, mais on perd l'équivalence en faisant cela car en toute généralité : $\\cos x = \\cos y \\not\\Rightarrow x = y$, autrement dit la fonction cosinus n'est pas injective sur $\\mathbb{R}$.\n- Elle l'est sur de plus petits domaines sur lesquels elle est strictement monotone, par exemple $[-\\pi, 0]$, $[0, \\pi]$ ou $[\\pi, 2\\pi]$.\n- Pour tout $x \\in [-1, 1]$ : $\\arccos x = \\arcsin x \\quad \\Leftrightarrow \\quad \\cos \\arccos x = \\cos \\arcsin x \\quad \\text{et} \\quad \\arcsin x \\in [0, \\pi]$\n- Cette équivalence $\\star$ est LE passage délicat, justifié plus loin.\n- $\\Leftrightarrow x = \\sqrt{1-x^2} \\quad \\text{et} \\quad x \\in [0, 1] \\quad \\text{après contemplation du graphe d'arcsinus}$\n- $\\Leftrightarrow x^2 = 1 - x^2 \\quad \\text{et} \\quad x \\in [0, 1] \\quad \\Leftrightarrow \\quad x = \\frac{1}{\\sqrt{2}}.$\n- Justification de l'équivalence $\\star$ :\n  - L'implication : $\\arccos x = \\arcsin x \\Rightarrow \\cos \\arccos x = \\cos \\arcsin x$ ne pose aucun problème.\n  - Le retour n'est possible que si $\\arccos x$ et $\\arcsin x$ appartiennent à un même domaine d'injectivité du cosinus.\n  - Ici, $\\arccos x$ appartient à $[0, \\pi]$, mais $\\arcsin x$ appartient a priori à $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ et non pas à $[0, \\pi]$.\n  - En tout cas, l'implication suivante est correcte : $\\cos \\arccos x = \\cos \\arcsin x$ et $\\arcsin x \\in [0, \\pi] \\Rightarrow \\arccos x = \\arcsin x$.\n  - Mais l'implication corrigée : $\\arccos x = \\arcsin x \\Rightarrow \\cos \\arccos x = \\cos \\arcsin x$ et $\\arcsin x \\in [0, \\pi]$ l'est-elle ?\n  - C'est ce qu'il nous reste à comprendre.\n  - Et tout simplement, si $\\arccos x = \\arcsin x$, alors oui, $\\arcsin x = \\arccos x \\in [0, \\pi]$ car un arcosinus est toujours dans $[0, \\pi]$.",
+    "tags": ["exemple", "équation", "arccos", "arcsin", "résolution", "justification"]
+  }
+]
+```

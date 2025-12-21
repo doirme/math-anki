@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["Théorème sur les transformations affines du graphe d'une fonction"],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": ["FOLLOWING CONTEXT"],
+  "normalized_text": "Dans le théorème qui suit, les fonctions sont représentées graphiquement dans un repère orthonormal (O, i→, j→).",
+  "tags": []
+}
+```

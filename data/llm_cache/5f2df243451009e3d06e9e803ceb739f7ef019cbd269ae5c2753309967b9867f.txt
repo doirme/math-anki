@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Théorème (Fonction tangente)**\n- Définition : La fonction tangente est définie comme le quotient de la fonction sinus sur la fonction cosinus : tan = sin/cos.\n- Domaine de définition : ]-π/2, π/2[ + πZ.\n- Parité : Fonction impaire.\n- Périodicité : π-périodique.\n- Régularité : Fonction de classe C^∞ sur son ensemble de définition.\n- Dérivée : tan' = 1 + tan² = 1/cos².",
+    "tags": ["theorem"]
+  }
+]

@@ -1,0 +1,10 @@
+{
+"relationships": [
+{
+"block\_id": "block\_64\_d6e3dfd3",
+"relation": "uses\_definition",
+"confidence": 0.9,
+"reason": "The block uses the definition of inflection point and the concept of derivative and second derivative, which are defined in other blocks."
+}
+]
+}

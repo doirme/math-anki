@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Exemple : Pas besoin de dériver pour expliquer que les fonctions \(x \mapsto e^x + x\) et \(x \mapsto e^{e^x}\) sont croissantes sur \(\mathbb{R}\) !\n\n## 1.2 MAJORANTS/MINORANTS, MAXIMUM/MINIMUM",
+  "tags": []
+}
+```

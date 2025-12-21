@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_93_36262ea3 - manual_review]\n## 4 DEUX OU TROIS GRANDS PRINCIPES DE CALCUL DES LIMITES Un calcul de limite se mène toujours en deux temps : - Dans un premier temps, on analyse l'expression étudiée en comparant de tête la taille des termes qui la composent. Qui est grand? Qui est petit? Qui disparaît au profit de qui? Cette étape de défrichement doit être effectuée rapidement sans trop de rigueur formelle, par exemple au moyen du symbole $\\approx$ , mais ATTENTION, ce symbole flou ne prouve jamais rien, il prépare juste le t\n\nCandidate blocks:\n[Block block_94_cf78f601 - example]: **Exemple** $\\frac{x^2}{x + \\sqrt{x}} \\xrightarrow{x \\to +\\infty} +\\infty$ .\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

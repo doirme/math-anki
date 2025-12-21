@@ -1,0 +1,21 @@
+ <s>```json
+{
+  "name": "Lien entre les coordonnées cartésiennes et les coordonnées polaires",
+  "normalized_name": "Lien entre les coordonnées cartésiennes et les coordonnées polaires",
+  "hypotheses": [
+    "Soit M un point de coordonnées cartésiennes (x, y) et de coordonnées polaires (r, θ)."
+  ],
+  "hypothesis_text": "Soit M un point de coordonnées cartésiennes (x, y) et de coordonnées polaires (r, θ).",
+  "conclusion": "Conversion entre coordonnées cartésiennes et polaires",
+  "conclusion_text": "(i) \\begin{cases} x = r \\cos \\theta \\\\ y = r \\sin \\theta \\end{cases} \\quad \\text{et} \\quad r = \\sqrt{x^2 + y^2}. \\qquad (ii) \\quad \\theta \\equiv \\begin{cases} \\arctan \\frac{y}{x} [2\\pi] & \\text{si } x > 0 \\\\ \\pi + \\arctan \\frac{y}{x} [2\\pi] & \\text{si } x < 0. \\end{cases}",
+  "has_proof": false,
+  "domain_tags": [
+    "géométrie analytique",
+    "trigonométrie"
+  ],
+  "characteristics": [
+    "conversion",
+    "coordonnées"
+  ]
+}
+```

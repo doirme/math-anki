@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_56_d6e3dfd3 - example]\n**Exemple** Soient $a \\in \\mathbb{R}^*$ et $b, c, d \\in \\mathbb{R}$ . La fonction $x \\mapsto ax^3 + bx^2 + cx + d$ possède un et un seul point d'inflexion, à savoir en $-\\frac{b}{3a}$ , car sa dérivée seconde $x \\mapsto 6ax + 2b$ s'annule en changeant de signe en $-\\frac{b}{3a}$ et ne le fait nulle part ailleurs.\n\nCandidate blocks:\n[Block block_57_c50f8442 - unknown]: ## 3 LOGARITME, EXPONENTIELLE, PUISSANCES\n\n### 3.1 FONCTIONS AFFINES, POLYNOMIALES ET RATIONNELLES\n\n**Théorème (La seule formule à connaître sur les fonctions affines)** Le graphe d'une fonction affin\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

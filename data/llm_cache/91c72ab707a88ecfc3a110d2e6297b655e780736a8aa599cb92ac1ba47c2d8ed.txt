@@ -1,0 +1,11 @@
+ ```json
+{
+  "term": "Fonction périodique",
+  "normalized_term": "Fonction périodique",
+  "statement": "Soit \( T > 0 \). On suppose que \( E \) est \( T \)-périodique, i.e. que : \( \forall x \in E, x+T \in E \) et \( x-T \in E \). Soit \( f: E \to \mathbb{R} \) une fonction. On dit que \( f \) est \( T \)-périodique ou *périodique de période \( T \)* si : \( \forall x \in E, f(x+T) = f(x) \). Le réel \( T \) est alors appelé *UNE période de \( f \)*.",
+  "domain_tags": ["analyse réelle", "analyse"],
+  "characteristics": ["périodique", "période"],
+  "is_multiple": false,
+  "definitions": []
+}
+```

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Démonstration\n- La limite $\\frac{\\sin x}{x} \\xrightarrow{x \\to 0} 1$ est le nombre dérivé de la fonction $\\sin$ en 0.\n- La fonction $\\sin$ est concave sur $[0, \\pi]$ car sa dérivée $\\cos$ y est décroissante.\n- Pour tout $x \\in [0, \\pi]$ : $|\\sin x| = \\sin x \\le \\sin'(0)x + \\sin 0 = x = |x|$.\n- Pour tout $x \\in [-\\pi, 0]$ : $|\\sin x| = |\\sin(-x)| \\le |-x| = |x|$.\n- Pour $x > \\pi$ et $x < -\\pi$ : $|\\sin x| \\le 1 \\le \\pi \\le |x|$.",
+    "tags": ["démonstration", "limite", "concavité", "inégalité"]
+  }
+]
+```

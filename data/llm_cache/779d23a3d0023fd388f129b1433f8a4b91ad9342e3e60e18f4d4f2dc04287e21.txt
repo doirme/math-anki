@@ -1,0 +1,5 @@
+{
+"relationships": [
+{"block\_id": "block\_121\_e33429f4", "relation": "used\_definition", "confidence": 0.9, "reason": "Le bloc block\_121\_e33429f4 fournit les définitions des fonctions Arccosinus et Arcsinus, qui sont utilisées dans le bloc block\_122\_824ac57a pour expliquer l'exemple donné."}
+]
+}

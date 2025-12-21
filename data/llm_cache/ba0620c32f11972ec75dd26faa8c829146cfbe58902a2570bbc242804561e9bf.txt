@@ -1,0 +1,15 @@
+{
+  "steps": [
+    "step 1: La fonction est dérivable sur l'intervalle ouvert ]-1, 1[ et sa dérivée est la fonction nulle, donc f est constante.",
+    "step 2: Calcul de la valeur de f en 0 pour déterminer la valeur constante de f sur ]-1, 1[.",
+    "step 3: Démonstration par continuité de f sur l'intervalle fermé [-1, 1] que f(1) et f(-1) valent la même chose que f(0)."
+  ],
+  "uses_definitions": [
+    "définition de la fonction f(x) = Arccos x + Arcsin x"
+  ],
+  "uses_theorems": [
+    "théorème sur les fonctions constantes dérivables",
+    "théorème sur la continuité des fonctions composées",
+    "théorème sur la continuité de la fonction Arccos et Arcsin sur l'intervalle [-1, 1]"
+  ]
+}

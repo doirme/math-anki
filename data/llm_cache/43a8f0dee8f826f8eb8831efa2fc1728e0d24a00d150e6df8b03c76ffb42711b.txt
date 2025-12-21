@@ -1,0 +1,8 @@
+ {
+  "term": "fonctions cosinus, sinus et tangente",
+  "normalized_term": "cosine, sine and tangent functions",
+  "statement": "cos(α) = côté adjacent / hypoténuse, sin(α) = côté opposé / hypoténuse, tan(α) = sin(α) / cos(α)",
+  "domain_tags": ["analyse", "trigonométrie"],
+  "is_multiple": false,
+  "characteristics": []
+}

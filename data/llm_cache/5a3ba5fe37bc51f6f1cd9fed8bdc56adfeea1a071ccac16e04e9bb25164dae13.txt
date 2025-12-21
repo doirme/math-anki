@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Montrons seulement la deuxième limite. Le résultat est clair si $\\beta \\le 0$ , car sachant que $\\alpha > 0$ , $\\lim_{x \\to +\\infty} (\\ln x)^\\beta \\in \\{0, 1\\}$ et $x^\\alpha \\xrightarrow{x \\to +\\infty} +\\infty$ . Supposons désormais $\\beta > 0$ . Le calcul qui suit a l'air affreux, mais on essaie juste de se ramener à la limite $\\frac{\\ln u}{u} \\xrightarrow{u \\to +\\infty} 0$ . Pour tout $x > 0$ , si on pose $u = x^{\\frac{\\alpha}{\\beta}}$ et $v = \\frac{\\ln u}{u}$ :\n$$\n\\frac{(\\ln x)^\\beta}{x^\\alpha} = \\left( \\frac{\\ln x}{x^{\\frac{\\alpha}{\\beta}}} \\right)^\\beta = \\left( \\frac{\\frac{\\beta}{\\alpha} \\times \\ln x^{\\frac{\\alpha}{\\beta}}}{x^{\\frac{\\alpha}{\\beta}}} \\right)^\\beta = \\left( \\frac{\\beta}{\\alpha} \\right)^\\beta \\left( \\frac{\\ln u}{u} \\right)^\\beta = \\left( \\frac{\\beta}{\\alpha} \\right)^\\beta v^\\beta.$$\nOr ici $x^{\\frac{\\alpha}{\\beta}} \\xrightarrow{x \\to +\\infty} +\\infty$ car $\\frac{\\alpha}{\\beta} > 0$ . Égalemment, $\\frac{\\ln u}{u} \\xrightarrow{u \\to +\\infty} 0$ et $v^\\beta \\xrightarrow{v \\to 0} 0$ car $\\beta > 0$ , donc $\\frac{(\\ln x)^\\beta}{x^\\alpha} \\xrightarrow{x \\to +\\infty} 0$ par composition.",
+    "tags": ["proof"]
+  }
+]
+```

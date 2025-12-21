@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration\n- Montrer que la fonction \( x \xrightarrow{f} \text{Arccos } x + \text{Arcsin } x \) est constante sur \([-1, 1]\) de valeur \(\frac{\pi}{2}\).\n- La fonction est dérivable sur l'intervalle ouvert \(]-1, 1[\) et sa dérivée est la fonction nulle, donc \(f\) est constante.\n- Calculer la valeur en 0 par \(f(0) = \text{Arccos } 0 + \text{Arcsin } 0 = \frac{\pi}{2} + 0 = \frac{\pi}{2}\).",
+    "tags": ["proof"]
+  }
+]
+```

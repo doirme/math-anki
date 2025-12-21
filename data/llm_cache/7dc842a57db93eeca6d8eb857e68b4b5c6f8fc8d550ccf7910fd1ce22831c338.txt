@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_136\_b35fb6c1",
+      "relation": "uses\_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise la relation trigonométrique entre Arctan x et Arctan 1/x, qui est démontrée dans le bloc block\_137\_1cb0a1db."
+    }
+  ]
+}

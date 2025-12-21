@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_67_ea0056a9",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "L'exemple utilise la formule donnée dans le théorème pour déterminer l'expression d'une fonction affine connaissant sa valeur en deux points."
+    }
+  ]
+}
+```

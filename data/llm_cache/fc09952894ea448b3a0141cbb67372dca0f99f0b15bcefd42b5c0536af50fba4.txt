@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Définition des fonctions cosinus hyperbolique (ch) et sinus hyperbolique (sh)"],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Fonction tangente hyperbolique)\n- La fonction tangente hyperbolique th = sh/ch est définie sur ℝ.\n- Elle est impaire et de classe C^∞ sur ℝ.\n- th' = 1 - th^2 = 1/ch^2.\n- Elle est convexe sur ℝ_+ et concave sur ℝ_− avec un point d'inflexion en 0.\n- Elle possède une asymptote d'équation y = 1 au voisinage de +∞ (resp. y = −1 au voisinage de −∞).",
+    "tags": ["fonction", "tangente hyperbolique", "définition", "propriétés"]
+  }
+]
+```

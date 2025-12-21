@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Exemple : \n\n- **Approximation au brouillon** :\n  - Pour \( x \) proche de 0, \( \ln(1+x) \approx x \) et \( \sinh x \approx x \).\n  - Donc \( x + \sinh x \approx 2x \).\n  - Ainsi, \( \frac{\ln(1+x)}{x + \sinh x} \approx \frac{x}{2x} = \frac{1}{2} \).\n\n- **Démonstration rigoureuse** :\n  - \( \frac{\ln(1+x)}{x + \sinh x} = \frac{\frac{\ln(1+x)}{x}}{1 + \frac{\sinh x}{x}} \).\n  - En utilisant les limites connues, \( \frac{\ln(1+x)}{x} \xrightarrow{x \to 0} 1 \) et \( \frac{\sinh x}{x} \xrightarrow{x \to 0} 1 \).\n  - Donc \( \frac{\ln(1+x)}{x + \sinh x} \xrightarrow{x \to 0} \frac{1}{1 + 1} = \frac{1}{2} \).\n\n- **Remarque** :\n  - La limite \( \lim_{x \to 0} \frac{x^2}{x - \sinh x} \) est plus complexe car \( x \) et \( \sinh x \) ont des comportements similaires.\n  - \( 1^{+\infty} \) est une nouvelle forme indéterminée.",
+  "tags": ["Approximation", "Limite", "Forme indéterminée"]
+}
+```

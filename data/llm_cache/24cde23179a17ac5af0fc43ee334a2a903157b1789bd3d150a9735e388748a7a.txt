@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Fonction tangente) -\n\n- **Définition et régularité** :\n  - La fonction tangente est définie par $\\tan = \\frac{\\sin}{\\cos}$ sur $]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$.\n  - Elle est impaire et $\\pi$-périodique.\n  - Elle est de classe $\\mathcal{C}^\\infty$ sur son ensemble de définition.\n  - Sa dérivée est donnée par : $\\tan' = 1 + \\tan^2 = \\frac{1}{\\cos^2}$.\n  - **Résolution d'équations** :\n    - Pour tous $x, y \\in ]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ : $\\tan x = \\tan y \\iff x \\equiv y \\pmod{\\pi}$.\n",
+    "tags": ["théorème", "fonction tangente", "définition", "régularité", "dérivée", "résolution d'équations"]
+  }
+]
+```

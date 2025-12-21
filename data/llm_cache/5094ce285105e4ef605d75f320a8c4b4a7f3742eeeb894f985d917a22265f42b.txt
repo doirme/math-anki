@@ -1,0 +1,16 @@
+{
+  "steps": [
+    "Étape 1 : Démonstration que la fonction th est de classe C^∞ et de dérivée th' = 1 - th^2 = ch^2",
+    "Étape 2 : Démonstration que th est strictement croissante puis décroissante",
+    "Étape 3 : Démonstration que la dérivée 1/ch^2 est croissante sur R+ et décroissante sur R-",
+    "Étape 4 : Démonstration que th est convexe sur R+ et concave sur R-",
+    "Étape 5 : Calcul de la limite de th en +∞"
+  ],
+  "uses_definitions": [
+    "définition de la fonction tangente hyperbolique th = sh/ch"
+  ],
+  "uses_theorems": [
+    "théorème sur la dérivée d'un quotient",
+    "théorème sur la limite d'une fonction rationnelle en +∞"
+  ]
+}

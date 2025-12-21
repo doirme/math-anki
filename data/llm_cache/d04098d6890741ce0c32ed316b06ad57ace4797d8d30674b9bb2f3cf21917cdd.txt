@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "## 2.2 DÉRIVABILITÉ ET DÉRIVÉES SUCCESSIVES\n\n**Définition (Fonction dérivable, tangente)**\nSoit \( f: E \to \mathbb{R} \) une fonction.\n- **Dérivabilité** :\n  - Pour tout \( a \in E \), on dit que \( f \) est *dérivable en \( a \)* si la fonction \( x \mapsto \frac{f(x) - f(a)}{x - a} \) possède une limite finie en \( a \), notée \( f'(a) \) le cas échéant et appelée le *nombre dérivé de \( f \) en \( a \)*.\n  - On dit que \( f \) est *dérivable sur \( E \)* si \( f \) est dérivable en tout point de \( E \).\n  - La fonction \( x \mapsto f'(x) \) est appelée la *dérivée de \( f \)*.\n  - L'ensemble des fonctions dérivables sur \( E \) est noté \( \mathcal{D}(E, \mathbb{R}) \).\n- **Tangente** :\n  - Pour tout \( a \in E \) en lequel \( f \) est dérivable, la droite d'équation \( y = f(a) + f'(a)(x - a) \) est appelée la *tangente de \( f \) en \( a \)*.\n  - Si \( f \) est dérivable en \( a \) et si \( x \) est proche de \( a \), alors \( \frac{f(x) - f(a)}{x - a} \approx f'(a) \), donc \( f(x) \approx f(a) + f'(a)(x - a) \).\n  - La tangente de \( f \) en \( a \) est la droite la plus proche du graphe de \( f \) au voisinage de \( a \).\n  - Géométriquement, \( \frac{f(x) - f(a)}{x - a} \) est le coefficient directeur de la corde reliant les points de coordonnées \( (a, f(a)) \) et \( (x, f(x)) \).\n  - Après passage à la limite, le réel \( f'(a) = \lim_{x \to a} \frac{f(x) - f(a)}{x - a} \) est la « pente limite » des cordes en question.\n\n**Attention !**\n- La notation \( (f(x))' \) est **INTERDITE !**\n- La quantité \( f(x) \) dépend de \( x \), c'est une **EXPRESSION** et non pas une **FONCTION**.\n- Pour la dériver, on a besoin de préciser par rapport à quelle variable on dérive.\n- Notez désormais simplement \( \frac{d}{dx}(f(x)) \) ce que vous auriez aimé noter \( (f(x))' \).",
+    "tags": ["définition", "dérivabilité", "tangente", "notation"]
+  }
+]
+```

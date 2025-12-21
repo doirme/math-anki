@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_118_cdf4b270",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat mentionne une équation impliquant des fonctions trigonométriques inverses (Arccos et Arcsin), qui pourraient nécessiter des dérivées ou des propriétés dérivées des fonctions trigonométriques standard, comme celles listées dans le bloc à analyser."
+    }
+  ]
+}
+```

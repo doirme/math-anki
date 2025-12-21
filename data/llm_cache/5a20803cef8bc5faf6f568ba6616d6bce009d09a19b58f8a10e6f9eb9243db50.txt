@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_64_7431f681",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser mentionne la fonction ln et ses propriétés, qui sont définies dans le bloc candidat."
+    }
+  ]
+}
+```

@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Considérons l'ensemble $A = \left(\frac{\pi}{5} + \frac{\pi}{2}\mathbb{Z}\right) \cup \frac{\pi}{3}\mathbb{Z}$. L'ensemble $\frac{\pi}{5} + \frac{\pi}{2}\mathbb{Z}$ est $\frac{\pi}{2}$-périodique, donc $\frac{k\pi}{2}$-périodique pour tout $k \in \mathbb{N}^*$. De même, $\frac{\pi}{3}\mathbb{Z}$ est $\frac{l\pi}{3}$-périodique pour tout $l \in \mathbb{N}^*$. Ces deux ensembles ont une période commune si on peut trouver deux entiers $k, l \in \mathbb{N}^*$ tels que $\frac{k\pi}{2} = \frac{l\pi}{3}$, c'est-à-dire $3k = 2l$. Les entiers $k = 2$ et $l = 3$ conviennent et on ne peut pas les choisir plus petits. Conclusion : $A$ est $\pi$-périodique, car $\frac{\pi}{5} + \frac{\pi}{2}\mathbb{Z}$ et $\frac{\pi}{3}\mathbb{Z}$ admettent $\pi$ comme période commune. Par conséquent, pour décrire $A$, il suffit de le décrire sur une seule période, par exemple $[0, \pi]$, et de le translater indéfiniment de $\pi$ : $A = (A \cap [0, \pi]) + \pi\mathbb{Z}$.",
+  "tags": ["périodicité", "ensemble"]
+}

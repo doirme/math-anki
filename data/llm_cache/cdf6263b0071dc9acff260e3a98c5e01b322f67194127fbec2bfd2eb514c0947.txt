@@ -1,0 +1,11 @@
+ ```json
+{
+  "steps": [
+    "Approximation intuitive pour x très grand : x + √x ≈ x",
+    "Simplification de l'expression : x² / (x + √x) ≈ x² / x = x → +∞",
+    "Démonstration rigoureuse : x² / (x + √x) = x² / [x (1 + 1/√x)] = x / (1 + 1/√x) → +∞ quand x → +∞"
+  ],
+  "uses_definitions": [],
+  "uses_theorems": []
+}
+```

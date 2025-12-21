@@ -1,0 +1,16 @@
+ ```json
+{
+  "steps": [
+    "Montrer que la limite est claire si β ≤ 0, car ln(x)^β tend vers 0 ou 1 et x^α tend vers +∞.",
+    "Supposer β > 0 et se ramener à la limite connue (ln u)/u → 0 quand u → +∞.",
+    "Poser u = x^(α/β) et v = (ln u)/u.",
+    "Exprimer (ln x)^β / x^α en fonction de v.",
+    "Montrer que u → +∞ quand x → +∞ car α/β > 0.",
+    "Conclure que v → 0 et v^β → 0 quand v → 0, donc (ln x)^β / x^α → 0 par composition."
+  ],
+  "uses_definitions": [],
+  "uses_theorems": [
+    "Théorème (Croissances comparées des fonctions logarithme, exponentielle et puissances)"
+  ]
+}
+```

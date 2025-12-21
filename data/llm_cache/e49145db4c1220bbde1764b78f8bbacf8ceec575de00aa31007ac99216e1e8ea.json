@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n**Démonstration** La fonction  $x \\mapsto x+3$  est définie sur  $\\mathbb{R}$  et la fonction  $\\sqrt{\\cdot}$  l'est sur  $\\mathbb{R}_+$ , mais quand  $x$  décrit  $\\mathbb{R}$ ,  $x+3$  n'appartient pas forcément à  $\\mathbb{R}_+$ . Pour quels  $x \\in \\mathbb{R}$  est-il vrai que  $x+3 \\ge 0$ ? Réponse :  $x \\in [-3, +\\infty[$ .\n\nContext (may be empty):\n**Exemple** La fonction  $x \\mapsto \\sqrt{x+3}$  est définie sur  $[-3, +\\infty[$ .\n\n**Exemple** La fonction  $x \\mapsto \\ln(x^2 - 3x + 2)$  est définie sur  $]-\\infty, 1[ \\cup ]2, +\\infty[$ .\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

@@ -1,0 +1,10 @@
+{
+"relationships": [
+{
+"block\_id": "block\_101\_e7b1e092",
+"relation": "proves",
+"confidence": 0.7,
+"reason": "Le bloc utilise une preuve pour démontrer que la limite de la fonction donnée tend vers 1/2 lorsque x tend vers 0."
+}
+]
+}

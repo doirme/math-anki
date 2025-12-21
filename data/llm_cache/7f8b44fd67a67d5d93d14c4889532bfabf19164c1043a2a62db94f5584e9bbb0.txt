@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_116_c158fd55",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser fait référence aux formules d'addition et de duplication de la tangente, qui sont explicitement mentionnées dans le bloc candidat."
+    },
+    {
+      "block_id": "block_118_1f292664",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser pourrait utiliser la définition de la tangente et ses propriétés d'imparité, bien que cela ne soit pas explicitement mentionné."
+    }
+  ]
+}
+```

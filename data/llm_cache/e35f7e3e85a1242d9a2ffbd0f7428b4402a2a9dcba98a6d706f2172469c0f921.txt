@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "### Démonstration\n\n(i) Dérivée de la fonction puissance\n- Pour tout \( x > 0 \) : \(\frac{d}{dx}(x^\alpha) = \alpha x^{\alpha-1}\).\n- Dérivée seconde : \(\frac{d^2}{dx^2}(x^\alpha) = \alpha(\alpha-1)x^{\alpha-2}\).\n  - Négative sur \(\mathbb{R}_+^*\) si \(\alpha \in ]0, 1]\).\n  - Positive si \(\alpha \in ]-\infty, 0] \cup [1, +\infty[\).\n\n(ii) Inégalité des puissances\n- Pour \( x > 0 \) et \(\alpha, \beta \in \mathbb{R}\) avec \(\alpha \le \beta\) :\n  - Si \( x \in ]0, 1[ \), alors \( x^\beta \le x^\alpha \).\n  - Si \( x \in [1, +\infty[ \), alors \( x^\alpha \le x^\beta \).\n\n(iii) Continuité de la fonction puissance\n- Pour \(\alpha > 0\) : \( x^\alpha = e^{\alpha \ln x} \xrightarrow{x \to 0} 0 = 0^\alpha \).\n  - La fonction \( x \mapsto x^\alpha \) est continue en 0.",
+  "tags": ["Dérivée de la fonction puissance", "Inégalité des puissances", "Continuité de la fonction puissance"]
+}
+```

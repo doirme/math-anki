@@ -1,0 +1,18 @@
+ ```json
+{
+  "steps": [
+    "Soit \( y \in F \), on peut écrire \( y = f(x) \) pour un certain \( x \in E \).",
+    "Puisque \( E \) est symétrique par rapport à 0, \( -x \in E \).",
+    "Par l'impairité de \( f \), \( -y = -f(x) = f(-x) \in F \).",
+    "Conclusion : \( F \) est symétrique par rapport à 0.",
+    "Ensuite, \( f^{-1}(-y) = f^{-1}(-f(x)) = f^{-1}(f(-x)) = -x = -f^{-1}(y) \), donc \( f^{-1} \) est impaire."
+  ],
+  "uses_definitions": [
+    "Fonction impaire",
+    "Ensemble symétrique par rapport à 0"
+  ],
+  "uses_theorems": [
+    "Théorème (Réciproque d'une fonction bijective impaire)"
+  ]
+}
+```

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple: Quelle fonction affine $f$ envoie 1 sur 3 et 2 sur 5 ?\n- De pente $\\frac{f(2)-f(1)}{2-1} = 2$,\n- $f$ a pour expression $x \\mapsto 2(x-1) + 3 = 2x + 1$.\n\nGraphiques des fonctions puissances $x \\mapsto x^n$ avec $n \\in \\mathbb{Z}$:\n- Pour $n > 0$ pair: ![](_page_11_Figure_2.jpeg)\n- Pour $n \\ge 3$ impair: ![](_page_11_Figure_3.jpeg)\n- Pour $n < 0$ pair: ![](_page_11_Figure_4.jpeg)\n- Pour $n < 0$ impair: ![](_page_11_Figure_5.jpeg)\n\nDéfinition: Fonction rationnelle\n- Tout quotient d'une fonction polynomiale par une fonction polynomiale non nulle, par exemple $x \\mapsto \\frac{x+1}{x^2+2}$.\n- Les fonctions polynomiales sont rationnelles.\n\nMéthode pour calculer la limite en $+\\infty$ ou $-\\infty$ d'une fonction polynomiale ou rationnelle:\n- Factoriser par le terme de plus haut degré au numérateur et au dénominateur,\n- Simplifier.",
+    "tags": ["exemple", "fonction affine", "graphique", "fonction puissance", "fonction rationnelle", "limite"]
+  }
+]
+```

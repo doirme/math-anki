@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_59\_e697dd55",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc fournit une preuve de la convexité de la fonction puissance avec exposant pair, qui peut être utilisée pour démontrer l'inégalité de l'exemple en utilisant la définition de la convexité."
+    }
+  ]
+}

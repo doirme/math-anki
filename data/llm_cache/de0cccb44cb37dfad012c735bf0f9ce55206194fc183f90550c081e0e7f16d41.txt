@@ -1,0 +1,17 @@
+{
+  "steps": [
+    "Placer $\\frac{20\\pi}{3}$ sur le cercle trigonométrique",
+    "Vérifier si $\\frac{20\\pi}{3}$ appartient au domaine privilégié du cosinus",
+    "Si non, se ramener au domaine privilégié du sinus en utilisant la relation $\\sin(\\pi - x) = \\sin x$",
+    "Déterminer la valeur de $\\text{Arccos } \\frac{20\\pi}{3}$ et $\\text{Arcsin } \\sin \\frac{20\\pi}{3}$"
+  ],
+  "uses_definitions": [
+    "Définition du cercle trigonométrique",
+    "Définition du domaine privilégié du cosinus",
+    "Définition du domaine privilégié du sinus"
+  ],
+  "uses_theorems": [
+    "Théorème de $2\\pi$-périodicité du sinus",
+    "Théorème de la relation $\\sin(\\pi - x) = \\sin x$"
+  ]
+}

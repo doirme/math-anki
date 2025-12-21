@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Définition (Dérivées successives)**\n- Définition récursive de dérivées successives : $f^{(0)} = f$ et, pour tout $k ∈ ℕ^*$, si $f^{(k-1)}$ est définie et dérivable sur $E$, on pose $f^{(k)} = (f^{(k-1)})'$.\n- Notations préférées : $f$, $f'$, $f''$ et $f'''$ plutôt que $f^{(0)}$, $f^{(1)}$, $f^{(2)}$ et $f^{(3)}$.\n- Interdiction : $(f(x))''$ est interdit. Utiliser $\\frac{d^k}{dx^k}(f(x))$ à la place.",
+  "tags": ["dérivées successives", "définition récursive", "notation dérivée"]
+}

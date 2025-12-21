@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_62_0eb76390",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème sur le point d'inflexion utilise la définition d'un point d'inflexion, qui est probablement fournie dans le bloc de définition."
+    }
+  ]
+}
+```

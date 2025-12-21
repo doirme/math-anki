@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "[1.1] Définition (Monotonie)\n- On dit qu'une fonction $f : E → ℝ$ est croissante si : $∀x, y ∈ E, x < y ⇒ f(x) ≤ f(y)$.\n- On dit qu'une fonction $f : E → ℝ$ est strictement croissante si : $∀x, y ∈ E, x < y ⇒ f(x) < f(y)$.\n- On dit qu'une fonction $f : E → ℝ$ est décroissante si : $∀x, y ∈ E, x < y ⇒ f(x) ≥ f(y)$.\n- On dit qu'une fonction $f : E → ℝ$ est (resp. strictement) monotone si $f$ est (resp. strictement) croissante ou décroissante.",
+    "tags": ["definition", "monotone function"]
+  }
+]

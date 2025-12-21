@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_99_64e43cec",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat définit la fonction tangente, qui est une combinaison des fonctions sinus et cosinus. Le bloc à analyser utilise les formules d'addition et de produit du sinus et du cosinus, ce qui pourrait être utile pour dériver des propriétés de la fonction tangente."
+    }
+  ]
+}
+```

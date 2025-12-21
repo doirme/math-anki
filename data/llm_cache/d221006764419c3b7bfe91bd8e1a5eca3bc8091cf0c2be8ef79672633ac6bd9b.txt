@@ -1,0 +1,11 @@
+{
+  "name": "Image d'un intervalle par une fonction continue - Version image d'un intervalle du TVI",
+  "normalized_name": "Image of an interval by a continuous function - Image version of the IVT",
+  "hypotheses": ["f est continue sur I inclus dans E", "f est croissante ou décroissante sur I"],
+  "hypothesis_text": "Pour toute fonction $f$ continue sur l'intervalle $I$ inclus dans $E$, et pour toute fonction $f$ croissante ou décroissante sur $I$",
+  "conclusion": "l'image $f(I)$ est un intervalle",
+  "conclusion_text": "l'image $f(I)$ est un intervalle",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["continue", "monotone"]
+}

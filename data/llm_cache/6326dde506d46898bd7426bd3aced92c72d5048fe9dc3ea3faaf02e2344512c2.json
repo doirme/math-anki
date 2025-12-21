@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_106_0666c275 - example]\n**Exemple** On veut résoudre l'équation $\\cos x = \\frac{1}{3}$ d'inconnue $x \\in \\mathbb{R}$ . Pour tout $x \\in \\mathbb{R}$ : $$\\cos x = \\frac{1}{3} \\iff \\cos x = \\cos \\text{Arccos } \\frac{1}{3} \\iff x \\equiv \\pm \\text{Arccos } \\frac{1}{3} [2\\pi].$$ L'ensemble des solutions cherché est donc la réunion $\\left(\\text{Arccos } \\frac{1}{3} + 2\\pi\\mathbb{Z}\\right) \\cup \\left(-\\text{Arccos } \\frac{1}{3} + 2\\pi\\mathbb{Z}\\right)$ .\n\nCandidate blocks:\n[Block block_107_398f3690 - example]: **Exemple** $\\text{Arccos } \\frac{20\\pi}{3} = \\frac{2\\pi}{3}$ et $\\text{Arcsin } \\sin \\frac{20\\pi}{3} = \\frac{\\pi}{3}$ .\n\n**Démonstration** Dans les deux cas, on commence par placer $\\frac{20\\pi}{3}$ \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

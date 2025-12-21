@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration de la périodicité de la somme et de la composition de fonctions périodiques :\n\n(i) Pour \( f + g \), pour tout \( x \in E \) :\n\( (f + g)(x + T) = f(x + T) + g(x + T) = f(x) + g(x) = (f + g)(x) \).\n\n(ii) Soit \( g \) la fonction \( x \mapsto f(\omega x) \) définie sur \( \frac{1}{\omega} E \). Pour tout \( x \in \frac{1}{\omega} E \) :\n\( g\left(x + \frac{T}{\omega}\right) = f(\omega x + T) = f(\omega x) = g(x) \).",
+  "tags": ["Périodicité", "Fonction périodique"]
+}
+```

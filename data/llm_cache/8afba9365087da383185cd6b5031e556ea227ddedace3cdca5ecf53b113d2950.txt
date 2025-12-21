@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Définition de la fonction exponentielle", "Énoncé du théorème"],
+    "needs_preceding": true,
+    "needs_following": true,
+    "suggested_merge_with": [],
+    "normalized_text": "### Définition-\n\nthéorème(Fonction exponentielle) -",
+    "tags": ["incomplet", "manque_définition", "manque_énoncé"]
+  }
+]
+```

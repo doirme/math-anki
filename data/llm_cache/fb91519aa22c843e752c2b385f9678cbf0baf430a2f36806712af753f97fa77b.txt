@@ -1,0 +1,17 @@
+ <s>```json
+{
+  "name": "Dérivable implique continue",
+  "normalized_name": "Dérivable implique continue",
+  "hypotheses": [
+    "f: E → ℝ une fonction",
+    "a ∈ E",
+    "f est dérivable en a"
+  ],
+  "hypothesis_text": "Soient f: E → ℝ une fonction et a ∈ E. Si f est dérivable en a,",
+  "conclusion": "f est continue en a",
+  "conclusion_text": "alors f est continue en a.",
+  "has_proof": true,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["continu", "dérivable"]
+}
+```

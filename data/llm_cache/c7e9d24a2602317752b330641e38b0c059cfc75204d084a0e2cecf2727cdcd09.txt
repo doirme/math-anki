@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_89\_5ffacca1",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc contient une démonstration pour les équations données, ce qui peut être utilisé pour prouver d'autres affirmations."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_7_7f4e8b42",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser semble être une section de vocabulaire usuel, tandis que le bloc candidat définit explicitement le concept de fonction monotone, ce qui est un terme technique relevant du vocabulaire usuel en mathématiques."
+    }
+  ]
+}
+```

@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_50_5161ebc9",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "La démonstration dans le bloc block_51_722a29f5 prouve l'implication (ii) ⇒ (iii) du théorème caractérisant les fonctions convexes dérivables, qui est énoncé dans le bloc block_50_5161ebc9."
+    },
+    {
+      "block_id": "block_52_e697dd55",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Bien que le bloc block_52_e697dd55 soit un exemple, il pourrait utiliser implicitement le théorème du bloc block_50_5161ebc9 pour justifier la convexité de la fonction puissance, mais cela n'est pas explicitement mentionné dans le texte fourni."
+    }
+  ]
+}
+```

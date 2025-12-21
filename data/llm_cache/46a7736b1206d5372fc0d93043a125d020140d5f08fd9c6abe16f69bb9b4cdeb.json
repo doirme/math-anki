@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_92_dac4e914 - example]\n**Exemple** On s'intéresse à la réunion $A = \\left(\\frac{\\pi}{5} + \\frac{\\pi}{2}\\right) \\cup \\frac{\\pi}{3}\\mathbb{Z}$ . L'ensemble $\\frac{\\pi}{5} + \\frac{\\pi}{2}\\mathbb{Z}$ est $\\frac{\\pi}{2}$ -périodique, donc $\\frac{k\\pi}{2}$ -périodique pour tout $k \\in \\mathbb{N}^*$ . De même, $\\frac{\\pi}{3}\\mathbb{Z}$ est $\\frac{l\\pi}{3}$ -périodique pour tout $l \\in \\mathbb{N}^*$ . Ces deux ensembles ont donc une période commune si on arrive à trouver deux entiers $k, l \\in \\mathbb{N}^*$ pour lesquels $\\fr\n\nCandidate blocks:\n[Block block_93_7b8b5ac9 - definition]: ## 5.1 FONCTIONS COSINUS, SINUS ET TANGENTE\n\n### Définition-\n\nthéorème(Lien du cosinus et du sinus avec le cercle trigonométrique) - **Lien avec le cercle trigonométrique :** Pour tout $\\theta \\in \\ma\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

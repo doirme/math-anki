@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_34_98aedbc4",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "La démonstration dans le bloc block_35_57a4f6e5 prouve le théorème énoncé dans le bloc block_34_98aedbc4, à savoir que si une fonction est dérivable en un point, alors elle est continue en ce point."
+    },
+    {
+      "block_id": "block_36_180930e6",
+      "relation": "uses_definition",
+      "confidence": 0.2,
+      "reason": "Bien que le bloc block_35_57a4f6e5 utilise la notion de dérivée, il ne fait pas explicitement référence à la définition des dérivées successives du bloc block_36_180930e6. La relation est donc faible."
+    }
+  ]
+}
+```

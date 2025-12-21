@@ -1,0 +1,7 @@
+{
+  "term": "ensemble où $f$ est définie",
+  "normalized_term": "ensemble où f est définie",
+  "statement": "$]0, 1[$",
+  "domain_tags": ["analyse réelle"],
+  "is_multiple": false
+}

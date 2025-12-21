@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_130_2c368cd5",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_130_2c368cd5 contient une démonstration qui semble être liée au théorème du bloc block_129_4c866564, en particulier pour la partie concernant l'arcsinus."
+    },
+    {
+      "block_id": "block_128_77de4abe",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc block_128_77de4abe fait référence à des notations et des hypothèses qui semblent être issues du théorème du bloc block_129_4c866564, bien que la relation ne soit pas explicitement claire."
+    }
+  ]
+}
+```

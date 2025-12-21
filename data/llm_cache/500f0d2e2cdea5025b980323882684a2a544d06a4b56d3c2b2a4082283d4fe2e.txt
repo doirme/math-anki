@@ -1,0 +1,24 @@
+ <s> ```json
+{
+  "term": "Opérations sur les fonctions continues",
+  "normalized_term": "Opérations sur les fonctions continues",
+  "statement": "Pour toutes fonctions \( f, g \in \mathcal{C}(E, \mathbb{R}) \) et \( \lambda, \mu \in \mathbb{R} \), les fonctions \( \lambda f + \mu g \) et \( \frac{f}{g} \) (si \( g \) ne s'annule pas) sont continues. Pour toutes fonctions \( f \in \mathcal{C}(E, \mathbb{R}) \) et \( g \in \mathcal{C}(F, \mathbb{R}) \), si \( f(E) \subset F \), alors \( g \circ f \) est continue sur \( E \). Soient \( I \) et \( J \) deux intervalles. Pour toute fonction \( f \in \mathcal{C}(I, \mathbb{R}) \) bijective de \( I \) sur \( J \), \( f^{-1} \) est continue sur \( J \).",
+  "domain_tags": ["analyse réelle", "fonctions continues"],
+  "characteristics": ["combinaison linéaire", "produit", "quotient", "composition", "réciproque"],
+  "is_multiple": true,
+  "definitions": [
+    {
+      "term": "Combinaison linéaire, produit, quotient",
+      "statement": "Pour toutes fonctions \( f, g \in \mathcal{C}(E, \mathbb{R}) \) et \( \lambda, \mu \in \mathbb{R} \), les fonctions \( \lambda f + \mu g \) et \( \frac{f}{g} \) (si \( g \) ne s'annule pas) sont continues."
+    },
+    {
+      "term": "Composition",
+      "statement": "Pour toutes fonctions \( f \in \mathcal{C}(E, \mathbb{R}) \) et \( g \in \mathcal{C}(F, \mathbb{R}) \), si \( f(E) \subset F \), alors \( g \circ f \) est continue sur \( E \)."
+    },
+    {
+      "term": "Réciproque",
+      "statement": "Soient \( I \) et \( J \) deux intervalles. Pour toute fonction \( f \in \mathcal{C}(I, \mathbb{R}) \) bijective de \( I \) sur \( J \), \( f^{-1} \) est continue sur \( J \)."
+    }
+  ]
+}
+```

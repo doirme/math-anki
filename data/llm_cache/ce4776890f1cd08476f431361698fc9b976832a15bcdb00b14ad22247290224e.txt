@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_66_7bf88c10",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser mentionne les fonctions affines, ce qui correspond au théorème cité dans le bloc candidat."
+    }
+  ]
+}
+```

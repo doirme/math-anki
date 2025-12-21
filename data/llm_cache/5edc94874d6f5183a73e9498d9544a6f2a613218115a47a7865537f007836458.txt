@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Exemple**\n- Équation: Arcsin $x$ = Arccos $4/5$\n- Inconnue: $x$ ∈ [-1, 1]\n- Solution unique: $3/5$",
+    "tags": ["example", "equation", "unique_solution"]
+  }
+]

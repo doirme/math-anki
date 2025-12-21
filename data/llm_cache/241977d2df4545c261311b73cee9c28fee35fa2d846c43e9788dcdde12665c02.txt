@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Injectivité et stricte monotonicité)\n- Hypothèses :\n  - f: E → ℝ est une fonction.\n  - f est strictement monotone.\n- Conclusion :\n  - f est injective.\n- Remarque : Les résultats qui suivent sont énoncés en termes de monotonicité au sens large, mais ils sont valables pour des fonctions monotones au sens strict.",
+    "tags": ["théorème", "monotonicité", "injectivité"]
+  }
+]
+```

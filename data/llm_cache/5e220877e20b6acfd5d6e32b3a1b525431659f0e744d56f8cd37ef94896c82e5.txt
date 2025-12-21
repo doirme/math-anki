@@ -1,0 +1,16 @@
+ <s>```json
+{
+  "name": "Théorème des valeurs intermédiaires ou TVI",
+  "normalized_name": "Théorème des valeurs intermédiaires",
+  "hypotheses": [
+    "Soient \( a \) et \( b \) deux réels pour lesquels \( a < b \).",
+    "\( f \in \mathcal{C}([a, b], \mathbb{R}) \)."
+  ],
+  "hypothesis_text": "Soient \( a \) et \( b \) deux réels pour lesquels \( a < b \) et \( f \in \mathcal{C}([a, b], \mathbb{R}) \).",
+  "conclusion": "Tout réel \( y \) compris entre \( f(a) \) et \( f(b) \) possède au moins un antécédent par \( f \) dans \([a, b]\), éventuellement plusieurs.",
+  "conclusion_text": "Tout réel \( y \) compris entre \( f(a) \) et \( f(b) \) possède au moins un antécédent par \( f \) dans \([a, b]\), éventuellement plusieurs.",
+  "has_proof": true,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["continu", "existence"]
+}
+```

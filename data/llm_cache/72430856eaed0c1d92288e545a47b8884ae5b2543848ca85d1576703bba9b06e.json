@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n**Démonstration** Si $f$ est dérivable en $a$ : $$f(x) = \\frac{f(x) - f(a)}{x - a} \\times (x - a) + f(a) \\xrightarrow{x \\to a} f'(a) \\times 0 + f(a) = f(a), \\quad \\text{donc } f \\text{ est continue en } a.$$\n\nContext (may be empty):\n**Théorème (Dérivable implique continue)** Soient $f: E \\to \\mathbb{R}$ une fonction et $a \\in E$ . Si $f$ est dérivable en $a$ , alors $f$ est continue en $a$ . **Attention !** La réciproque est fausse ! Les fonctions valeur absolue et racine carrée sont continues en 0, mais n'y sont pas dérivables. Le graphe de $|x|$ présente un pic en 0 et celui de $\\sqrt{x}$ une tangente verticale. ![Graphes de y = |x| et y = sqrt(x). Le graphe de y = |x| a un pic en (0, 0) et une tangente verticale. Le grap\n\n**Définition (Dérivées successives)** Soit $f: E \\to \\mathbb{R}$ une fonction. On pose $f^{(0)} = f$ . Ensuite, pour tout $k \\in \\mathbb{N}^*$ , si on a réussi à définir $f^{(k-1)}$ de proche en proche et si elle est dérivable sur $E$ , on dit que $f$ est $k$ fois dérivable sur $E$ et on pose $f^{(k)} = (f^{(k-1)})'$ . La fonction $f^{(k)}$ est alors appelée la *dérivée k<sup>ème</sup> de $f$* . On préfère généralement les notations $f$ , $f'$ , $f''$ et $f'''$ aux notations $f^{(0)}$ , $f^{(1\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

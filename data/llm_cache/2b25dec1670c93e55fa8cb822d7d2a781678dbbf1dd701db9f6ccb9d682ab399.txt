@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_133_1e30a4d6",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise la définition de l'arc sinus mentionnée dans le bloc candidat pour résoudre l'équation."
+    }
+  ]
+}
+```

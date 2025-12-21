@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_13_13c8d01e",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser utilise le concept de fonction croissante, qui est lié à la notion de majoration/minoration définie dans le bloc candidat."
+    }
+  ]
+}
+```

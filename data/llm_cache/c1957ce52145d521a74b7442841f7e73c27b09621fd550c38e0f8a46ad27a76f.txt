@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_131_d2ac7dbf",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc contient une démonstration de la dérivabilité de la fonction Arctan, qui est une réciproque de la fonction tangente."
+    }
+  ]
+}

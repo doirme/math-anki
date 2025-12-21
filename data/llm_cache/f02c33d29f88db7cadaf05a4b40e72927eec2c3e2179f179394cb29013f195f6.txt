@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block\_id": "block\_138\_cdf4b270", "relation": "uses\_theorem", "confidence": 0.9, "reason": "La block utilise le théorème selon lequel la fonction cosinus n'est pas injective sur R, mais le devient sur des intervalles plus petits tels que [−π, 0], [0, π] ou [π, 2π]."},
+{"block\_id": "block\_138\_cdf4b270", "relation": "has\_proof", "confidence": 0.8, "reason": "La block a une preuve dans un autre bloc qui établit que la fonction cosinus n'est pas injective sur R, mais le devient sur des intervalles plus petits tels que [−π, 0], [0, π] ou [π, 2π]."}
+]
+}

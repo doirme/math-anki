@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Démonstration**\n- Fixons $y ∈ ]-1, 1[$.\n- La fonction $x ↦ (x+y)/(1+xy)$ est dérivable sur $]-1, 1[ \setminus {-1/y}$ et pour tout $x ∈ ]-1, 1[ : f'(x) = (1-y^2)/(1+xy)^2 > 0$.\n- On conclut grâce au tableau :\n| $x$ | -1 | 1 |\n|---------|----|---|\n| $f'(x)$ | + | - |\n| $f(x)$ | -1 | 1 |",
+    "tags": ["proof"]
+  }
+]

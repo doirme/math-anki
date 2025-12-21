@@ -1,0 +1,12 @@
+ <s>```json
+{
+  "relationships": [
+    {
+      "block_id": "block_78_fb184d3e",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser mentionne la généralisation de la définition des puissances, ce qui correspond à la définition des puissances quelconques et racines n-èmes d'un réel strictement positif."
+    }
+  ]
+}
+```

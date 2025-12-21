@@ -1,0 +1,11 @@
+{
+  "name": "Théorème (Fonction logarithme)",
+  "normalized_name": "Logarithm function theorem",
+  "hypotheses": [],
+  "hypothesis_text": "",
+  "conclusion": "À définir",
+  "conclusion_text": "To be defined",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["définie", "de classe C^∞", "concave", "sur R+"]
+}

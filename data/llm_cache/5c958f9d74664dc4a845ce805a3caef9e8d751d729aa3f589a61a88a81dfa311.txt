@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration (Implication (ii) ⇒ (iii)):\n- Supposons \( f' \) croissante et fixons \( a \in I \).\n- Montrons que le graphe de \( f \) est situé au-dessus de sa tangente en \( a \), i.e. que \( f(x) \ge f'(a)(x-a) + f(a) \) pour tout \( x \in I \).\n- Notons \( \varphi \) la fonction \( x \mapsto f(x) - f'(a)(x-a) - f(a) \).\n- Cette fonction est dérivable sur \( I \) et pour tout \( x \in I \): \( \varphi'(x) = f'(x) - f'(a) \).\n- Par croissance de \( f' \), \( \varphi' \) est négative à gauche de \( a \) et positive à droite.\n- Ainsi, \( \varphi \) est décroissante à gauche de \( a \) et croissante à droite, donc positive sur \( I \) tout entier puisque \( \varphi(a) = 0 \).",
+    "tags": ["proof"]
+  }
+]
+```

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Nous avons déjà tiré du TVI strictement monotone la bijectivité de $\\ln$ de $\\mathbb{R}_+^*$ sur $\\mathbb{R}$ . Cela justifie à la fois la définition de l'exponentielle et sa régularité. En effet, $\\ln$ est de classe $C^\\infty$ sur $\\mathbb{R}_+^*$ et **SA DÉRIVÉE** $x \\mapsto \\frac{1}{x}$ NE S'Y ANNULE PAS, donc d'après le théorème de dérivabilité d'une réciproque, $\\ln^{-1} = \\exp$ est de classe $C^\\infty$ sur $\\mathbb{R}$ de dérivée $\\exp' = (\\ln^{-1})' = \\frac{1}{\\ln' \\circ \\ln^{-1}} = \\ln^{-1} = \\exp$ . En particulier, $\\exp'$ est croissante sur $\\mathbb{R}$ , donc $\\exp$ est convexe, donc $\\exp(x) \\ge \\exp'(0)x + \\exp(0) = x + 1$ pour tout $x \\in \\mathbb{R}$ , autrement dit le graphe est au-dessus de la tangente en 0. Nous laisserons de côté les autres vérifications par souci de légèreté.",
+    "tags": ["proof"]
+  }
+]
+```

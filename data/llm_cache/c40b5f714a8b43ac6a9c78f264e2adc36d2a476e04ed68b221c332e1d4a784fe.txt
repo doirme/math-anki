@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "### Démonstration\n\n(i) Pour tout \( x > 0 \) :\n- \(\frac{d}{dx}(x^\alpha) = \frac{d}{dx}(e^{\alpha \ln x}) = \frac{\alpha}{x} \times e^{\alpha \ln x} = \alpha x^{-1} x^\alpha = \alpha x^{\alpha-1}\).\n- A fortiori : \(\frac{d^2 f}{dx^2}(x^\alpha) = \alpha(\alpha-1)x^{\alpha-2}\), donc la dérivée seconde de \(x \mapsto x^\alpha\) est négative sur \(\mathbb{R}_+^*\) si \(\alpha \in ]0, 1]\) et positive si \(\alpha \in ]-\infty, 0] \cup [1, +\infty[\).\n\n(ii) Soient \(x > 0\) et \(\alpha, \beta \in \mathbb{R}\) avec \(\alpha \le \beta\) :\n- Si \(x \in ]0, 1[\), alors \(\ln x \le 0\), donc \(\beta \ln x \le \alpha \ln x\), donc \(x^\beta = e^{\beta \ln x} \le e^{\alpha \ln x} = x^\alpha\).\n- Si \(x \in [1, +\infty[\), alors \(\ln x \ge 0\), donc \(\alpha \ln x \le \beta \ln x\), donc \(x^\alpha = e^{\alpha \ln x} \le e^{\beta \ln x} = x^\beta\).\n\n(iii) Pour \(\alpha > 0\) : \(x^\alpha = e^{\alpha \ln x} \xrightarrow{x \to 0} 0 = 0^\alpha\), donc la fonction \(x \mapsto x^\alpha\) est continue en 0.",
+    "tags": ["démonstration", "dérivée", "fonction puissance", "continuité"]
+  }
+]
+```

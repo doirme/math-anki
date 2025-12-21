@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_78_fb184d3e - definition]\n**Définition (Puissances quelconques et racines $n$ èmes d'un réel strictement positif)** Soit $x > 0$ . - **Puissances quelconques :** Pour tout $y \\in \\mathbb{R}$ , on appelle $x$ puissance $y$ le réel $x^y = \\exp(y \\ln x)$ . - **Racines $n$ èmes :** Pour tout $n \\in \\mathbb{N}^*$ , le réel $x^{\\frac{1}{n}}$ est appelé la racine $n$ ème de $x$ et noté $\\sqrt[n]{x}$ . Pour $x = e$ , cette définition signifie que $e^y = \\exp(y \\ln e) = \\exp(y)$ pour tout $y \\in \\mathbb{R}$ . Ouf, nous pouvons no\n\nCandidate blocks:\n[Block block_79_3009fef0 - example]: **Exemple** Pour tout $x > 1$ : $x^{\\frac{\\ln x}{\\ln x}} = e^{\\frac{\\ln x}{\\ln x} \\cdot \\ln x} = e^{\\ln x} = \\ln x$ .\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

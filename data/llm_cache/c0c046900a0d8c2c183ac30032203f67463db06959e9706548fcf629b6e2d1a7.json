@@ -1,0 +1,9 @@
+{
+  "backend": "ollama",
+  "model": "llama3:8b",
+  "system": null,
+  "prompt": "Peux-tu extraire le théorème ?",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

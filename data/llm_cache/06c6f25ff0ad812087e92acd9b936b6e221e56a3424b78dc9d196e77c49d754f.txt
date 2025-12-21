@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_117\_8dec6db2",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "La démonstration dans le bloc traite des formules d'addition et de duplication pour la tangente, qui sont dérivées des définitions et propriétés de la fonction tangente."
+    },
+    {
+      "block\_id": "block\_117\_8dec6db2",
+      "relation": "uses_theorem",
+      "confidence": 0.8,
+      "reason": "La démonstration dans le bloc utilise probablement les formules d'addition et de duplication comme théorèmes préalablement établis."
+    },
+    {
+      "block\_id": "block\_117\_8dec6db2",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "La démonstration dans le bloc dépend de la définition de la fonction tangente et de son domaine de définition."
+    }
+  ]
+}

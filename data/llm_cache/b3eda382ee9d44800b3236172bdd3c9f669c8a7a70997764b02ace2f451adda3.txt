@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_119_a8baa53d",
+      "relation": "uses_definition",
+      "confidence": 0.3,
+      "reason": "Le bloc candidat mentionne des dérivées usuelles, ce qui pourrait être utile pour comprendre les propriétés des fonctions trigonométriques comme le cosinus et le sinus, mais il n'y a pas de lien direct avec la résolution de l'équation donnée."
+    }
+  ]
+}
+```

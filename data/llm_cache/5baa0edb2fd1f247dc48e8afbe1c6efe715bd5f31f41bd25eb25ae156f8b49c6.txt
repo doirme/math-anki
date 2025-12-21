@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "## 5.1 FONCTIONS COSINUS, SINUS ET TANGENTE\n\n### Définition-\n\n**Théorème (Lien du cosinus et du sinus avec le cercle trigonométrique)**\n- **Lien avec le cercle trigonométrique** :\n  - Pour tout θ ∈ ℝ : cos²θ + sin²θ = 1.\n  - Réciproquement, pour tout couple (x, y) ∈ ℝ² tel que x² + y² = 1, il existe un réel θ, unique modulo 2π, tel que (x, y) = (cosθ, sinθ).\n  - Tout point du cercle trigonométrique a des coordonnées (cosθ, sinθ).\n\n- **Résolution d'équations** :\n  - Pour tous x, y ∈ ℝ :\n    - cosx = cosy ⇔ x ≡ y [2π] ou x ≡ -y [2π].\n    - sinx = siny ⇔ x ≡ y [2π] ou x ≡ π - y [2π].\n\n- **Transformations affines** :\n  - Pour tout x ∈ ℝ :\n    - cos(x + π) = -cosx\n    - cos(π - x) = -cosx\n    - cos(π/2 - x) = sinx\n    - cos(x + π/2) = -sinx\n    - sin(x + π) = -sinx\n    - sin(π - x) = sinx\n    - sin(π/2 - x) = cosx\n    - sin(x + π/2) = cosx\n  - Pour tout k ∈ ℤ :\n    - cos(x + kπ) = (-1)^k cosx\n    - sin(x + kπ) = (-1)^k sinx\n  - Ajouter π dans un cosinus ou un sinus revient à le multiplier par -1.\n  - (π/2 - x) est LA transformation à utiliser pour remplacer un cosinus par un sinus et vice versa.\n\n- **Attention** :\n  - cosx = cosy ⇏ x = y.\n  - cosx = cosy ⇏ x ≡ y [2π].",
+  "tags": ["Théorème (Lien du cosinus et du sinus avec le cercle trigonométrique)", "Lien avec le cercle trigonométrique", "Résolution d'équations", "Transformations affines"]
+}
+```

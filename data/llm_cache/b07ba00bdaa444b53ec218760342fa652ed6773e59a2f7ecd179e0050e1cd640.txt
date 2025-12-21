@@ -1,0 +1,20 @@
+ ```json
+{
+  "steps": [
+    "La fonction \( g(x) = \text{Arctan } x + \text{Arctan } \frac{1}{x} \) est dérivable sur \( \mathbb{R}^* \).",
+    "Calcul de la dérivée \( g'(x) \) pour tout \( x \in \mathbb{R}^* \).",
+    "Simplification de l'expression de \( g'(x) \) pour obtenir \( g'(x) = 0 \).",
+    "Conclusion que \( g \) est constante sur \( \mathbb{R}_+^* \) et \( \mathbb{R}_-^* \) indépendamment.",
+    "Calcul de \( g(1) \) pour déterminer la valeur de \( g \) sur \( \mathbb{R}_+^* \).",
+    "Remarque que \( g \) est impaire pour déterminer la valeur de \( g \) sur \( \mathbb{R}_-^* \)."
+  ],
+  "uses_definitions": [
+    "Fonction dérivable",
+    "Fonction impaire"
+  ],
+  "uses_theorems": [
+    "Théorème de dérivation des fonctions composées",
+    "Théorème de la dérivée nulle impliquant une fonction constante"
+  ]
+}
+```

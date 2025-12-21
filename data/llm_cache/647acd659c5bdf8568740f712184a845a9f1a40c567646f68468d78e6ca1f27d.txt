@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple\n- Arccos(20π/3) = 2π/3\n- Arcsin(sin(20π/3)) = π/3\n\nDémonstration\n- Pour Arccosinus :\n  - 20π/3 ∈ [0, π] + 2πℤ (domaine privilégié du cosinus)\n  - On réduit 20π/3 modulo 2π pour obtenir 2π/3\n- Pour Arcsinus :\n  - 20π/3 ∉ [-π/2, π/2] + 2πℤ (domaine privilégié du sinus)\n  - On utilise la relation sin(π - x) = sin(x) pour obtenir sin(20π/3) = sin(π/3)\n  - π/3 ∈ [-π/2, π/2] (domaine privilégié du sinus)\n\nRemarque : Les graphes illustrent les domaines privilégiés de cosinus et sinus.",
+    "tags": ["exemple", "démonstration", "arccosinus", "arcsinus", "domaine privilégié", "périodicité"]
+  }
+]
+```

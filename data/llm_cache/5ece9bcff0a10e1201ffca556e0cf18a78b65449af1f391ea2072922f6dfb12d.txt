@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration de la régularité et convexité de l'exponentielle:\n- La fonction ln est bijective de classe C^∞ sur ℝ_+^* avec dérivée x ↦ 1/x.\n- D'après le théorème de dérivabilité d'une réciproque, exp = ln^{-1} est de classe C^∞ sur ℝ avec dérivée exp' = exp.\n- exp' est croissante sur ℝ, donc exp est convexe.\n- Par convexité, exp(x) ≥ exp'(0)x + exp(0) = x + 1 pour tout x ∈ ℝ.",
+  "tags": ["Théorème de dérivabilité d'une réciproque", "Convexité", "Fonction exponentielle"]
+}
+```

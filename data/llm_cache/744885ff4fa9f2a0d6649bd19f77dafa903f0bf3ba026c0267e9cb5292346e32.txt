@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Exemple de fonction affine :\n- Détermination de la fonction affine \( f \) qui envoie 1 sur 3 et 2 sur 5.\n  - Pente : \( \frac{f(2) - f(1)}{2 - 1} = 2 \).\n  - Expression : \( f(x) = 2(x - 1) + 3 = 2x + 1 \).\n\nGraphiques des fonctions puissances \( x \mapsto x^n \) avec \( n \in \mathbb{Z} \) :\n- Pour \( n > 0 \) pair : ![](_page_11_Figure_2.jpeg)\n- Pour \( n \ge 3 \) impair : ![](_page_11_Figure_3.jpeg)\n- Pour \( n < 0 \) pair : ![](_page_11_Figure_4.jpeg)\n- Pour \( n < 0 \) impair : ![](_page_11_Figure_5.jpeg)\n\nDéfinition des fonctions rationnelles :\n- Une fonction rationnelle est un quotient d'une fonction polynomiale par une fonction polynomiale non nulle.\n  - Exemple : \( x \mapsto \frac{x + 1}{x^2 + 2} \).\n  - Les fonctions polynomiales sont des cas particuliers de fonctions rationnelles.\n\nCalcul des limites en \( +\infty \) ou \( -\infty \) pour les fonctions polynomiales ou rationnelles :\n- Factoriser par le terme de plus haut degré au numérateur et au dénominateur.\n- Simplifier l'expression.",
+  "tags": ["Fonction affine", "Fonction puissance", "Fonction rationnelle", "Limite de fonction polynomiale/rationnelle"]
+}
+```

@@ -1,0 +1,8 @@
+ {
+  "term": "dérivées successives",
+  "normalized_term": "derivatives",
+  "statement": "Définition récursive de dérivées successives : $f^{(0)} = f$ et, pour tout $k ∈ ℕ^*$, si $f^{(k-1)}$ est définie et dérivable sur $E$, on pose $f^{(k)} = (f^{(k-1)})'.$",
+  "domain_tags": ["analyse réelle"],
+  "characteristics": [],
+  "is_multiple": false
+}

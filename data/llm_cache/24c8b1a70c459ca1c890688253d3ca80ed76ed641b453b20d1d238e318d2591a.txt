@@ -1,0 +1,18 @@
+ ```json
+{
+  "steps": [
+    "Étudier la fonction \( f(x) = (x+1) \ln x - 2(x-1) \) sur \( \mathbb{R}_+^* \) pour éviter les calculs complexes liés à la dérivée d'un quotient.",
+    "Diviser par \( x-1 \) à la fin pour obtenir le signe de \( \frac{x+1}{x-1} \ln x - 2 \).",
+    "Calculer la dérivée première \( f'(x) = \ln x + \frac{1}{x} - 1 \) et la dérivée seconde \( f''(x) = \frac{x-1}{x^2} \).",
+    "Conclure grâce à l'analyse du tableau de variations ou des propriétés des dérivées."
+  ],
+  "uses_definitions": [
+    "Fonction dérivable",
+    "Dérivée première et seconde"
+  ],
+  "uses_theorems": [
+    "Théorème des accroissements finis (si utilisé implicitement)",
+    "Propriétés des fonctions convexes/concaves (si le tableau implique une analyse de convexité)"
+  ]
+}
+```

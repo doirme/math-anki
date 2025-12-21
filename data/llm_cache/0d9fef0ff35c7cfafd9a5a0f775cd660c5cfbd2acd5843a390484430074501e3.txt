@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_39_98aedbc4",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise la définition de fonction dérivable donnée dans le bloc block_38_9eeb0389."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+ ```json
+{
+  "steps": [
+    "La fonction th est de classe C^∞ par quotient",
+    "Calcul de la dérivée th' en utilisant les dérivées de sh et ch",
+    "Simplification de l'expression de th'",
+    "Démonstration de la stricte croissance de th",
+    "Analyse de la convexité et de la concavité de th",
+    "Calcul de la limite de th en +∞"
+  ],
+  "uses_definitions": [
+    "Fonction hyperbolique th (tangente hyperbolique)",
+    "Fonctions hyperboliques sh (sinh) et ch (cosh)",
+    "Dérivée d'une fonction",
+    "Classe C^∞ (fonction infiniment dérivable)"
+  ],
+  "uses_theorems": [
+    "Théorème de dérivation des fonctions composées",
+    "Théorème de croissance des fonctions dérivables",
+    "Théorème de convexité et concavité des fonctions dérivables"
+  ]
+}
+```

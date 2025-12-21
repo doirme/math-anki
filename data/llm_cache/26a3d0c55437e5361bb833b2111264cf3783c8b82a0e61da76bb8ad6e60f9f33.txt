@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_33\_e869f37f",
+      "relation": "specializes",
+      "confidence": 0.9,
+      "reason": "Le bloc 33\_e869f37f est un exemple spécifique des cas présentés dans le théorème, où la fonction est strictement croissante ou décroissante."
+    }
+  ]
+}

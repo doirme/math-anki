@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_83_ab1de7e9 - proof]\n**Démonstration** Montrons seulement la deuxième limite. Le résultat est clair si $\\beta \\le 0$ , car sachant que $\\alpha > 0$ , $\\lim_{x \\to +\\infty} (\\ln x)^\\beta \\in \\{0, 1\\}$ et $\\text{etx}^\\alpha \\xrightarrow{x \\to +\\infty} +\\infty$ . Supposons désormais $\\beta > 0$ . Le calcul qui suit a l'air affreux, mais on essaie juste de se ramener à la limite $\\frac{\\ln u}{u} \\xrightarrow{u \\to +\\infty} 0$ . Pour tout $x > 0$ , si on pose $u = x^{\\frac{\\alpha}{\\beta}}$ et $v = \\frac{\\ln u}{u}$ : $$\\f\n\nCandidate blocks:\n[Block block_82_362c1eef - theorem]: **Théorème (Croissances comparées des fonctions logarithme, exponentielle et puissances)** Le principe général, c'est que l'exponentielle est plus puissante que les puissances, qui sont elles-mêmes pl\n\n[Block block_84_3eef850d - unknown]: ## 3.4 FONCTIONS HYPERBOLIQUES ch, sh et th\n\n**Définition-\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

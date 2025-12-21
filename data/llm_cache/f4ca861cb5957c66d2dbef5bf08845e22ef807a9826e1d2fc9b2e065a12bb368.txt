@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_91_ae70fb7c",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème fait référence à la fonction tangente hyperbolique, dont la définition est donnée dans le bloc block_90_fe106ade."
+    }
+  ]
+}

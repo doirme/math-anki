@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "La fonction $x ↦ e^{-x} - x$ possède un et un seul point fixe sur $\\mathbb{R}$.",
+  "tags": []
+}

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Fonctions cosinus hyperbolique et sinus hyperbolique)\n\nPour tout \( x \in \mathbb{R} \) :\n- Cosinus hyperbolique : \( \text{ch } x = \frac{e^x + e^{-x}}{2} \)\n- Sinus hyperbolique : \( \text{sh } x = \frac{e^x - e^{-x}}{2} \)\n\nPropriétés :\n- \( \text{ch}^2 x - \text{sh}^2 x = 1 \)\n- \( \text{ch} \) est paire, \( \text{sh} \) est impaire\n- \( \text{ch} \) et \( \text{sh} \) sont de classe \( C^\infty \) sur \( \mathbb{R} \)\n- \( \text{ch}' = \text{sh} \) et \( \text{sh}' = \text{ch} \)\n- \( \text{ch} \) est convexe\n- \( \text{sh} \) est convexe sur \( \mathbb{R}_+ \) et \( \mathbb{R}_- \) avec un point d'inflexion en 0",
+  "tags": ["cosinus hyperbolique", "sinus hyperbolique", "identité hyperbolique", "fonctions hyperboliques"]
+}
+```

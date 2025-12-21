@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_5\_0344a69a",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "The block refers to the set of real numbers, which is defined in the mathematical vocabulary."
+    }
+  ]
+}

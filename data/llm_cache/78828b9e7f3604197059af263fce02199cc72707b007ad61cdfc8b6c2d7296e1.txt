@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_107_45a433ba",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc '5.1 FONCTIONS COSINUS, SINUS ET TANGENTE' utilise très probablement la définition du cercle trigonométrique présentée dans le bloc 'block_108_f61729be'."
+    }
+  ]
+}

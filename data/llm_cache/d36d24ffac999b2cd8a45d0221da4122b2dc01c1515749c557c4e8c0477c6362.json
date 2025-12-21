@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_88_2be59fe7 - example]\n**Exemple** $\\frac{\\ln(1+x)}{x+\\sinh x} \\xrightarrow{x \\to 0} \\frac{1}{2}$ .\n\n**Démonstration** Au brouillon, pour $x$ proche de 0 : $\\ln(1+x) \\approx x$ et $\\sinh x \\approx x$ , donc $x+\\sinh x \\approx 2x$ , $$\\text{donc } \\frac{\\ln(1+x)}{x+\\sinh x} \\approx \\frac{x}{2x} = \\frac{1}{2}. \\text{ Sur une copie : } \\frac{\\ln(1+x)}{x+\\sinh x} = \\frac{\\frac{\\ln(1+x)}{x}}{1+\\frac{\\sinh x}{x}} \\xrightarrow{x \\to 0} \\frac{1}{1+1} = \\frac{1}{2}.$$ Et si on avait voulu calculer $\\lim_{x \\to 0} \\frac{x^2}{x-\n\nCandidate blocks:\n[Block block_89_1eb6c3d9 - example]: **Exemple** $(1+x)^{\\frac{1}{x}} \\xrightarrow{x \\to 0} e$ .\n\n**Démonstration** Il est tentant d'analyser la situation ainsi : $1^{+\\infty} = 1$ , mais c'est très faux ! Pour faire communiquer correcte\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

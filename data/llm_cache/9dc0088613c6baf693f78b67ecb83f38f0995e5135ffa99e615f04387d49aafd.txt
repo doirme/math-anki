@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_113\_c3d2aa42",
+      "relation": "uses\_theorem",
+      "confidence": 0.9,
+      "reason": "Les formules d'addition et de produit du cosinus et du sinus sont des applications directes des identités trigonométriques. Ce bloc théorème utilise ces identités pour démontrer d'autres résultats trigonométriiques."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+ ```json
+{
+  "steps": [
+    "On suppose que \( f \) est dérivable en \( a \).",
+    "On écrit \( f(x) \) sous la forme \( f(x) = \frac{f(x) - f(a)}{x - a} \times (x - a) + f(a) \).",
+    "On fait tendre \( x \) vers \( a \) et on utilise la définition de la dérivabilité pour obtenir \( f(x) \to f(a) \).",
+    "On conclut que \( f \) est continue en \( a \) car \( \lim_{x \to a} f(x) = f(a) \)."
+  ],
+  "uses_definitions": [
+    "Dérivabilité d'une fonction en un point"
+  ],
+  "uses_theorems": [
+    "Dérivable implique continue"
+  ]
+}
+```

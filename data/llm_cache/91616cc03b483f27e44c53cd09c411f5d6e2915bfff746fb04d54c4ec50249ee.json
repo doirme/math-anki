@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_73_fcaa9bc4 - manual_review]\n###\n\nThéorème(Étude des fonctions puissances) Soient $\\alpha, \\beta \\in \\mathbb{R}$ . (i) **Régularité** : La fonction $x \\mapsto x^\\alpha$ est définie et de classe $C^\\infty$ sur $\\mathbb{R}_+^*$ de dérivée $x \\mapsto \\alpha x^{\\alpha-1}$ . Elle est concave si $\\alpha \\in [0, 1]$ et convexe sinon. (ii) **Positions relatives** : $\\left\\{ \\begin{array}{l} \\text{Pour tout } x \\in ]0, 1[ : \\quad \\alpha \\le \\beta \\implies x^\\beta \\le x^\\alpha. \\\\ \\text{Pour tout } x \\in [1, +\\infty[ : \\quad \\alpha \\\n\nCandidate blocks:\n[Block block_74_4583aa8d - proof]: ### Démonstration $$\\text{(i) Pour tout } x > 0 : \\quad \\frac{d}{dx}(x^\\alpha) = \\frac{d}{dx}(e^{\\alpha \\ln x}) = \\frac{\\alpha}{x} \\times e^{\\alpha \\ln x} = \\alpha x^{-1} x^\\alpha = \\alpha x^{\\alpha-1\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : Soient \( a \in \mathbb{R}^* \) et \( b, c, d \in \mathbb{R} \). La fonction \( x \mapsto ax^3 + bx^2 + cx + d \) possède un et un seul point d'inflexion, à savoir en \( -\frac{b}{3a} \), car sa dérivée seconde \( x \mapsto 6ax + 2b \) s'annule en changeant de signe en \( -\frac{b}{3a} \) et ne le fait nulle part ailleurs.",
+    "tags": ["exemple", "fonction polynomiale", "point d'inflexion", "dérivée seconde"]
+  }
+]
+```

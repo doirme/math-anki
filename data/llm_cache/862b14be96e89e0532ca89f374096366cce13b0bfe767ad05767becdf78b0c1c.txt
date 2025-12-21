@@ -1,0 +1,15 @@
+ <s> [OUT] ```json
+{
+  "name": "Transformations affines du graphe d'une fonction",
+  "normalized_name": "Transformations affines du graphe d'une fonction",
+  "hypotheses": [
+    "Soient \( f: E \to \mathbb{R} \) une fonction, \( a, b \in \mathbb{R} \) et \( \lambda > 0 \). On munit le plan d'un repère orthonormal direct \( (O, \vec{i}, \vec{j}) \)."
+  ],
+  "hypothesis_text": "Soient \( f: E \to \mathbb{R} \) une fonction, \( a, b \in \mathbb{R} \) et \( \lambda > 0 \). On munit le plan d'un repère orthonormal direct \( (O, \vec{i}, \vec{j}) \).",
+  "conclusion": "Les transformations du graphe de \( f \) sont décrites comme suit:",
+  "conclusion_text": "Le graphe de \( x \mapsto -f(x) \) s'obtient par symétrie par rapport à \( (Ox) \). Le graphe de \( x \mapsto f(-x) \) s'obtient par symétrie par rapport à \( (Oy) \). Le graphe de \( x \mapsto f(x) + a \) s'obtient par translation de vecteur \( a \vec{i} \). Le graphe de \( x \mapsto f(x + a) \) s'obtient par translation de vecteur \( -a \vec{i} \). Le graphe de \( x \mapsto \lambda f(x) \) s'obtient par dilatation verticale de rapport \( \lambda \) si \( \lambda \ge 1 \) ou contraction verticale de rapport \( \frac{1}{\lambda} \) si \( \lambda < 1 \). Le graphe de \( x \mapsto f(\lambda x) \) s'obtient par contraction horizontale de rapport \( \lambda \) si \( \lambda \ge 1 \) ou dilatation horizontale de rapport \( \frac{1}{\lambda} \) si \( \lambda < 1 \).",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "géométrie analytique"],
+  "characteristics": ["symétrie", "translation", "dilatation", "contraction"]
+}
+```

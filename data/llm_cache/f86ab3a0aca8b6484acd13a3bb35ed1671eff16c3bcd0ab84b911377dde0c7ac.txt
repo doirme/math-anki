@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_47_732d632c",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc 'example' présente une fonction définie et continue sur [0, 1] et dérivable sur [0, 1[, et le bloc 'proof' semble fournir une démonstration ou une preuve liée à cette propriété."
+    }
+  ]
+}
+```

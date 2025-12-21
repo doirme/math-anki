@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n**Démonstration** Les équations $\\text{ch } x = y$ et $\\text{sh } x = y$ d'inconnue $x$ à $y$ fixé se ramènent aisément à des équations du second degré. Pour tout $x \\in \\mathbb{R}$ : $$\\begin{aligned} \\text{ch } x &= 2 & \\Leftrightarrow & e^x - 4 + e^{-x} = 0 & \\Leftrightarrow & (e^x)^2 - 4e^x + 1 = 0 \\\\ & & \\Leftrightarrow & e^x = 2 + \\sqrt{3} \\text{ ou } e^x = 2 - \\sqrt{3} \\\\ & & \\Leftrightarrow & x = \\ln(2 + \\sqrt{3}) \\text{ ou } x = \\ln(2 - \\sqrt{3}). \\end{aligned}$$ | $x$ | $-\\infty$ | 0 | $+\\infty$ | |----------------|-----------|---|-----------| | $\\text{ch } x$ | | + | | | $\\text{sh } x$ | | 0 | | | $\\text{sh } x$ | - | 0 | + | | $\\text{ch } x$ | | 1 | |\n\nContext (may be empty):\n**Exemple** L'équation $\\text{ch } x = 2$ d'inconnue $x \\in \\mathbb{R}$ possède deux solutions qu'on sait calculer explicitement.\n\n**Définition-\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

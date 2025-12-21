@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "• Démonstration : (1+x)^(1/x) sous forme exponentielle tend vers e lorsque x tend vers 0.\n  1. Placer 1+x et 1/x au même niveau : (1+x)^(1/x) = e^(ln(1+x)/x)\n  2. Limite de e^(ln(1+x)/x) lorsque x tend vers 0 : e^(lim(x->0) ln(1+x)/x) = e^1 = e",
+    "tags": ["theorem", "proof"]
+  }
+]

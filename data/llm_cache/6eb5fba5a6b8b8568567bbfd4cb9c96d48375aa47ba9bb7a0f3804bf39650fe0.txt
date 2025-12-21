@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_114_5ae8348d",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le théorème sur les formules d'addition et de produit du cosinus et du sinus est utilisé pour dériver des propriétés de la fonction tangente, comme les formules d'addition de la tangente."
+    }
+  ]
+}
+```

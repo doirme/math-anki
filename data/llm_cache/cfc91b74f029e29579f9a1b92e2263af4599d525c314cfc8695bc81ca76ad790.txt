@@ -1,0 +1,11 @@
+{
+  "name": null,
+  "normalized_name": "Bounded function",
+  "hypotheses": ["Il existe $K ≥ 0$, tel que pour tout $x ∈ E$, $|f(x)| ≤ K$"],
+  "hypothesis_text": "Il existe un réel $K$ supérieur ou égal à $0$ tel que, pour tout $x$ appartenant à $E$, la valeur absolue de $f(x)$ est inférieure ou égale à $K$",
+  "conclusion": "La fonction $f$ est minorée par $-K$ et majorée par $K$",
+  "conclusion_text": "Pour tout $x$ appartenant à $E$, $-K ≤ f(x) ≤ K$",
+  "has_proof": true,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["bornée"]
+}

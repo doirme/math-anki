@@ -1,0 +1,15 @@
+ {
+  "name": "Point d'inflexion",
+  "normalized_name": "Inflexion point",
+  "hypotheses": [
+    "I est un intervalle",
+    "$f: I → R$ est une fonction",
+    "$a ∈ I$ n'est pas une borne de $I$"
+  ],
+  "hypothesis_text": "I is an interval, $f: I → R$ is a function, and $a ∈ I$ is not an endpoint of $I$",
+  "conclusion": "La dérivée seconde de $f$ s'annule en $a$ et change de signe",
+  "conclusion_text": "$f''$ cancels and changes sign at $a$",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["deux fois dérivable"]
+}

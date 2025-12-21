@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_34\_f39c15b5",
+      "relation": "uses\_theorem",
+      "confidence": 0.9,
+      "reason": "La première et la deuxième affirmations du bloc à analyser utilisent le théorème de bijection pour les fonctions continues strictement monotones, qui est similaire au théorème de la valeur intermédiaire de base."
+    }
+  ]
+}

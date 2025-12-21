@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_18_9230f336 - manual_review]\n**Théorème (Transformations affines du graphe d'une fonction)** Soient  $f: E \\to \\mathbb{R}$  une fonction,  $a, b \\in \\mathbb{R}$  et  $\\lambda > 0$ . On munit le plan d'un repère orthonormal direct  $(O, \\vec{i}, \\vec{j})$ .\n**Symétries :**\nLe graphe de la fonction  $x \\mapsto -f(x)$  s'obtient à partir de celui de  $f$  par une symétrie par rapport à  $(Ox)$ .\nLe graphe de la fonction  $x \\mapsto f(-x)$  s'obtient à partir de celui de  $f$  par une symétrie par rapport à  $(Oy)$ .\n**Translat\n\nCandidate blocks:\n[Block block_19_4979b783 - example]: Exemple\nGraphiques illustrant la symétrie par rapport à l'axe des ordonnées pour les fonctions trigonométriques.\n1.  $y = \\sin x$ \n2.  $y = \\sin(x+1)$ \n3.  $y = \\sin(2x+1)$ \n4.  $y = \\frac{\\sin(2x+1)}\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

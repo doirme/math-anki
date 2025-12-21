@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Opérations sur les fonctions monotones)\n\n(i) Addition :\n- Si f et g sont croissantes, alors f + g est croissante.\n- Si f et g sont décroissantes, alors f + g est décroissante.\n\n(ii) Produit :\n- Si f et g sont croissantes et positives, alors f · g est croissante.\n- Si f et g sont décroissantes et positives, alors f · g est décroissante.\n\n(iii) Composition :\n- Si f et g sont monotones de même sens, alors g ∘ f est croissante.\n- Si f et g sont monotones de sens opposés, alors g ∘ f est décroissante.\n\n(iv) Réciproque :\n- Si f est bijective et monotone, alors f est strictement monotone et f⁻¹ est strictement monotone de même sens.\n\nRemarque :\n- La fonction identité x ↦ x est croissante sur ℝ, mais x ↦ x² n'est pas croissante sur ℝ.",
+  "tags": ["Théorème (Opérations sur les fonctions monotones)"]
+}
+```

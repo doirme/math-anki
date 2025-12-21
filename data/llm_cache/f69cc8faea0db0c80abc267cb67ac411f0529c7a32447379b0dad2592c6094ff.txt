@@ -1,0 +1,7 @@
+{
+  "term": "fonction exponentielle",
+  "normalized_term": "function exponentielle",
+  "statement": "sa réciproque, bijective de $\\mathbb{R}$ sur $\\mathbb{R}_+^*$",
+  "domain_tags": ["analyse réelle"],
+  "is_multiple": false
+}

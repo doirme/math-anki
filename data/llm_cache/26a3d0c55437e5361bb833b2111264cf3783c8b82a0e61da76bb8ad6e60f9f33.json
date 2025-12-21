@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_32_00a4f763 - theorem]\n#### Théorème (Image d'un intervalle par une fonction continue) - **Version image d'un intervalle du TVI** : Pour toute fonction $f \\in \\mathcal{C}(E, \\mathbb{R})$ et tout intervalle $I$ inclus dans $E$ , $f(I)$ est aussi un intervalle. - Si $f$ est continue et croissante sur $[a, b]$ , alors $f([a, b]) = [f(a), f(b)]$ . - Si $f$ est continue et décroissante sur $[a, b]$ , alors $f([a, b]) = [f(b), f(a)]$ . **Attention !** En général : $f([a, b]) \\neq [f(a), f(b)]$ , $f([a, b]) \\neq [f(a), f(b)]\n\nCandidate blocks:\n[Block block_33_e869f37f - example]: exemple : - si $f$ est continue et strictement croissante sur $[a, b]$ , alors $f([a, b]) = [f(a), \\lim_{b \\to b^+} f]$ , - si $f$ est continue et strictement décroissante sur $[a, b]$ , alors $f([a, \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

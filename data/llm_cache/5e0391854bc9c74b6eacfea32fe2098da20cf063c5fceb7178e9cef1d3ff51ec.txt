@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["énoncé du théorème"],
+    "needs_preceding": false,
+    "needs_following": true,
+    "suggest_merge_with": [1],
+    "normalized_text": "",
+    "tags": ["théorème", "incomplet"]
+  }
+]
+```

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_112_77668eb1",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat mentionne la continuité et l'imparité de la fonction arcsinus, ce qui est une propriété utilisée dans le théorème principal pour démontrer les relations entre les fonctions arc cosinus, arc sinus et arc tangente."
+    }
+  ]
+}
+```

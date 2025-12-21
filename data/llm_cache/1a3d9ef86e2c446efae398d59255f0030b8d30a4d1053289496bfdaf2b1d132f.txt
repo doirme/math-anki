@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_31_00a4f763",
+      "relation": "generalizes",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat généralise le théorème des valeurs intermédiaires (TVI) en l'étendant à tout intervalle inclus dans l'ensemble de définition de la fonction continue, alors que le bloc à analyser se limite à un intervalle [a, b]."
+    }
+  ]
+}
+```

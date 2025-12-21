@@ -1,0 +1,22 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_22_9ec7c621",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème fait référence à la parité d'une fonction, qui est définie dans le bloc block_21_99e02868."
+    },
+    {
+      "block_id": "block_22_9ec7c621",
+      "relation": "proves",
+      "confidence": 0.8,
+      "reason": "Le théorème établit une relation entre les propriétés d'une fonction et celles de sa réciproque, ce qui peut être considéré comme une preuve d'un énoncé."
+    },
+    {
+      "block_id": "block_23_22293492",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_23_22293492 fournit une démonstration du théorème énoncé dans le bloc block_22_9ec7c621."
+    }
+  ]
+}

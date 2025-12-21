@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple: Pour tout \( x \in \mathbb{R}_+^* \setminus \{1\} \), \(\frac{x+1}{x-1} \ln x \ge 2\).\n\nDémonstration: On pourrait étudier la fonction \( x \mapsto \frac{x+1}{x-1} \ln x \) et la comparer à 2, mais la dérivée d'un quotient occasionne souvent d'affreux calculs, donc étudions plutôt le signe de \( x \mapsto (x+1) \ln x - 2(x-1) \) sur \( \mathbb{R}_+^* \). Nous diviserons par \( x-1 \) à la fin pour obtenir le signe de \( x \mapsto \frac{x+1}{x-1} \ln x - 2 \). Pour tout \( x > 0 \): \( f'(x) = \ln x + \frac{1}{x} - 1 \) et \( f''(x) = \frac{x-1}{x^2} \). On conclut grâce au tableau ci-contre.",
+    "tags": ["exemple", "démonstration", "analyse de fonction", "inégalité"]
+  }
+]
+```

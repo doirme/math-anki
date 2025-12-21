@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration de la périodicité de la somme et de la composition de fonctions périodiques.\n\n(i) Pour la somme de deux fonctions périodiques \( f \) et \( g \) de période \( T \):\n- Pour tout \( x \in E \), \((f + g)(x + T) = f(x + T) + g(x + T) = f(x) + g(x) = (f + g)(x)\).\n\n(ii) Pour la composition d'une fonction périodique \( f \) de période \( T \) avec une multiplication par \( \omega \):\n- Soit \( g \) définie par \( g(x) = f(\omega x) \) sur \( \frac{1}{\omega} E \).\n- Pour tout \( x \in \frac{1}{\omega} E \), \( g\left(x + \frac{T}{\omega}\right) = f(\omega x + T) = f(\omega x) = g(x) \).",
+  "tags": ["Périodicité de la somme de fonctions", "Périodicité de la composition de fonctions"]
+}
+```

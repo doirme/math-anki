@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Dérivable implique continue)\nSoient \( f: E \to \mathbb{R} \) une fonction et \( a \in E \).\nSi \( f \) est dérivable en \( a \), alors \( f \) est continue en \( a \).\n\nAttention ! La réciproque est fausse !\nLes fonctions valeur absolue et racine carrée sont continues en 0, mais n'y sont pas dérivables.\nLe graphe de \( |x| \) présente un pic en 0 et celui de \( \sqrt{x} \) une tangente verticale.",
+  "tags": ["Théorème (Dérivable implique continue)"]
+}
+```

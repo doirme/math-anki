@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Exemple 1** : La fonction puissance $x  unmaps$ est convexe sur $ℝ$ car sa dérivée seconde $x  2n(2n−1)x2(n−1)$ est positive sur $ℝ$.\n\n**Exemple 2** : Pour tout $x > 0$ : $\\sqrt{x} ≤ \\frac{x+1}{2}$.",
+  "tags": ["convex function", "square function"]
+}

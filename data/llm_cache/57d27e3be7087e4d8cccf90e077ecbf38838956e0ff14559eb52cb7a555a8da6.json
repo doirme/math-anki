@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_88_f8e6b813 - example]\n**Exemple** L'équation $\\text{ch } x = 2$ d'inconnue $x \\in \\mathbb{R}$ possède deux solutions qu'on sait calculer explicitement.\n\nCandidate blocks:\n[Block block_89_5ffacca1 - proof]: **Démonstration** Les équations $\\text{ch } x = y$ et $\\text{sh } x = y$ d'inconnue $x$ à $y$ fixé se ramènent aisément à des équations du second degré. Pour tout $x \\in \\mathbb{R}$ : $$\\begin{aligned\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

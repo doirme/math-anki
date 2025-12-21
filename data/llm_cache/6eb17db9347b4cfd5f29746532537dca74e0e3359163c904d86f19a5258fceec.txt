@@ -1,0 +1,10 @@
+{
+  "steps": [
+    "Établir l'équivalence entre $y = \text{Arcsin } x$ et $x = \sin y$ avec la définition de l'arc sinus",
+    "Déterminer que $\text{Arccos } \frac{4}{5} \in [0, \frac{\pi}{2}]$ car $\frac{4}{5} \in [0, 1]$",
+    "Affirmer que pour tout $x \in [-1, 1]$ : $\text{Arccos } x = \text{Arccos } \frac{4}{5} \iff x = \sin \text{Arccos } \frac{4}{5}$",
+    "Calculer la valeur de $\sqrt{1 - \left(\frac{4}{5}\right)^2}$ et conclure que $x = \frac{3}{5}$"
+  ],
+  "uses_definitions": [ "définition de l'arc sinus" ],
+  "uses_theorems": []
+}

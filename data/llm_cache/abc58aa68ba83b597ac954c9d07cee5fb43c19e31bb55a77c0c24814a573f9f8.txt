@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Théorème ou proposition à laquelle la démonstration se réfère"],
+    "needs_preceding": true,
+    "needs_following": true,
+    "suggested_merge_with": [],
+    "normalized_text": "Démonstration\n- La proposition «  $f$  est majorée et minorée » s'écrit :  $\\exists m, M \\in \\mathbb{R}$ ,  $\\forall x \\in E$ ,  $m \\le f(x) \\le M$  et nous voulons montrer qu'elle est équivalente à la",
+    "tags": ["démonstration", "incomplète"]
+  }
+]
+```

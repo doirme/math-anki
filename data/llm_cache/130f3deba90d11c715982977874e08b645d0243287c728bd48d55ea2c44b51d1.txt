@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_13_f3a7e220",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "La définition de la fonction majorée/minorée/bornée est utilisée pour comprendre les concepts de maximum et minimum d'une fonction."
+    }
+  ]
+}
+```

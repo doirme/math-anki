@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_31_00a4f763",
+      "relation": "generalizes",
+      "confidence": 0.9,
+      "reason": "Le théorème de l'image d'un intervalle par une fonction continue généralise le théorème des valeurs intermédiaires en considérant un intervalle arbitraire au lieu d'un intervalle spécifique."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Fonction exponentielle) - \n\n**Définition :**\n- La fonction logarithme est bijective de ℝ₊* sur ℝ. \n- La fonction exponentielle, notée exp, est la réciproque de la fonction logarithme, bijective de ℝ sur ℝ₊*. \n- exp(1) = e. \n- Les graphes des fonctions exp et ln sont symétriques par rapport à la droite d'équation y = x. \n- Pour tout x ∈ ℝ : ln(exp(x)) = x. \n- Pour tout x > 0 : exp(ln x) = x. \n\n**Régularité :**\n- La fonction exponentielle exp est de classe C∞ et convexe sur ℝ. \n- exp' = exp. \n\n**Transformation des sommes en produits :**\n- Pour tous x, y ∈ ℝ : exp(x + y) = exp(x) exp(y). \n- exp(-x) = 1 / exp(x). \n\n**Croissances comparées en +∞ :**\n- x / exp(x) → 0 lorsque x → +∞. \n\n**Comportement au voisinage de 0 :**\n- Le graphe de l'exponentielle est situé au-dessus de sa tangente en 0 : ∀x ∈ ℝ, exp(x) ≥ 1 + x. \n- (exp(x) - 1) / x → 1 lorsque x → 0, i.e. exp(x) - 1 ≈ x pour x proche de 0. \n- exp(0,1) ≈ 1,10517 et exp(0,01) ≈ 1,01005.",
+  "tags": ["Fonction exponentielle", "Bijectivité", "Régularité", "Transformation des sommes en produits", "Croissances comparées", "Comportement au voisinage de 0"]
+}
+```

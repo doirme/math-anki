@@ -1,0 +1,17 @@
+ ```json
+{
+  "steps": [
+    "Utilisation du théorème de dérivabilité/imparité d'une réciproque",
+    "Vérification que la dérivée de la fonction tangente n'est jamais nulle",
+    "Conclusion que la fonction Arctan est dérivable sur tout ℝ",
+    "Calcul de la dérivée de Arctan(x) pour tout x ∈ ℝ"
+  ],
+  "uses_definitions": [
+    "Fonction tangente (tan)",
+    "Fonction Arctan (réciproque de la tangente)"
+  ],
+  "uses_theorems": [
+    "Théorème de dérivabilité/imparité d'une réciproque"
+  ]
+}
+```

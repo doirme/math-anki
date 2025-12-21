@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "[théorème (Propriétés des fonctions cosinus et sinus)]\n- Fonction cosinus :\n  - parité : paire\n  - périodicité : $2\\pi$-périodique\n  - classe : $\\mathcal{C}^{\\infty}$ sur $\\mathbb{R}$\n  - dérivée : $\\cos' = -\\sin$\n- Fonction sinus :\n  - parité : impaire\n  - périodicité : $2\\pi$-périodique\n  - classe : $\\mathcal{C}^{\\infty}$ sur $\\mathbb{R}$\n  - dérivée : $\\sin' = \\cos$\n- Inégalité : pour tout $x \\in \\mathbb{R}$ : $|\\sin x| \\le |x|$\n- Limite : $\\frac{\\sin x}{x} \\xrightarrow{x \\to 0} 1$",
+    "tags": ["theorem"]
+  }
+]

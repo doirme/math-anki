@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition: Ensemble des \( x \in \mathbb{R} \) tels que \( x(1-x) \ge 0 \) et \( x + \sqrt{x(1-x)} > 0 \).\n\n- **Ensemble de continuité** : Les fonctions usuelles utilisées pour construire \( f \) sont toutes continues en tout point en lequel elles sont définies, donc \( f \) est continue sur \( [0, 1] \).\n- **Ensemble de dérivabilité** : La fonction racine carrée est dérivable seulement sur \( \mathbb{R}_+ \). La fonction \( f \) est donc dérivable sur \( ]0, 1[ \).\n- **Remarque** : Nous n'avons pas prouvé la non-dérivabilité de \( f \) en 1. Pour étudier la dérivabilité de \( f \) en 1, il faudrait revenir à la définition en termes de taux d'accroissement.",
+  "tags": ["définition", "continuité", "dérivabilité"]
+}
+```

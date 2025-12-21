@@ -1,0 +1,19 @@
+{
+  "steps": [
+    "étape 1: Définition de la fonction f(x) comme la somme des fonctions x ↦ e^-x et x ↦ -x",
+    "étape 2: Affirmation que la fonction f(x) est continue et strictement décroissante sur R",
+    "étape 3: Limite de f(x) lorsque x tend vers -∞ et +∞",
+    "étape 4: Application du TVI strictement monotone pour conclure que f(x) s'annule une et une seule fois sur R"
+  ],
+  "uses_definitions": [
+    "définition de la fonction continue",
+    "définition de la fonction strictement décroissante",
+    "définition de la limite d'une fonction"
+  ],
+  "uses_theorems": [
+    "théorème sur la continuité de la somme de deux fonctions",
+    "théorème sur la décroissance de la somme de deux fonctions",
+    "théorème sur les limites de la somme de deux fonctions",
+    "théorème du valeur intermédiaire strictement monotone (TVI)"
+  ]
+}

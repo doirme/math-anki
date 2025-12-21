@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_105_d3b47e69 - example]\nexemple: $\\text{Arccos } \\cos(2\\pi) = \\text{Arccos } 1 = 0 \\neq 2\\pi$ . VRAI : $\\forall x \\in [-1, 1]$ , $\\cos \\text{Arccos } x = x$ . FAUX : $\\forall x \\in \\mathbb{R}$ , $\\text{Arccos } \\cos x = x$ . VRAI : $\\forall x \\in [0, \\pi]$ , $\\text{Arccos } \\cos x = x$ .\n\nCandidate blocks:\n[Block block_106_0666c275 - example]: **Exemple** On veut résoudre l'équation $\\cos x = \\frac{1}{3}$ d'inconnue $x \\in \\mathbb{R}$ . Pour tout $x \\in \\mathbb{R}$ : $$\\cos x = \\frac{1}{3} \\iff \\cos x = \\cos \\text{Arccos } \\frac{1}{3} \\iff \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

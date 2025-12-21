@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_84_e6ca908a",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le contenu de ce bloc fait référence aux fonctions hyperboliques ch, sh et th, qui sont définies dans le bloc candidat."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_92_dac4e914",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Les deux blocs traitent de la périodicité d'ensembles, mais le bloc candidat généralise le concept en considérant une réunion d'ensembles périodiques."
+    }
+  ]
+}
+```

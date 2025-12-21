@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["content missing"],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": [],
+  "normalized_text": "1.1 MONOTONIE",
+  "tags": []
+}
+```

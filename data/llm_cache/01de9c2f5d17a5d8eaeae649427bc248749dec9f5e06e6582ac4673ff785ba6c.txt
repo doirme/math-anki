@@ -1,0 +1,19 @@
+ {
+  "name": "Opérations sur les fonctions monotones",
+  "normalized_name": "Monotone functions operations",
+  "hypotheses": [
+    "f et g sont croissantes",
+    "f et g sont décroissantes",
+    "f et g sont croissantes POSITIVES",
+    "f et g sont décroissantes POSITIVES",
+    "f et g sont monotones de même sens de variation",
+    "f et g sont monotones de sens de variation opposés",
+    "f est bijective de E sur F et monotone"
+  ],
+  "hypothesis_text": "f et g sont deux fonctions, f et g sont monotones (croissantes ou décroissantes), f et g sont deux fonctions monotones positives, f et g sont deux fonctions monotones de sens de variation opposés, f est une fonction bijective de E sur F et monotone",
+  "conclusion": "f+g est croissante ou décroissante, f.g est croissante ou décroissante, g o f est croissante ou décroissante, f^-1 est strictement monotone de même sens de variation que f",
+  "conclusion_text": "La somme, le produit ou la composition de deux fonctions monotones est également monotone, et la réciproque d'une fonction monotone bijective est strictement monotone de même sens de variation.",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "théorie des fonctions"],
+  "characteristics": ["monotone"]
+}

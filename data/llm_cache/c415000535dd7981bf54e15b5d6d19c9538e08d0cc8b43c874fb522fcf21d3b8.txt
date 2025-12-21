@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["definition of hyperbolic functions (ch, sh, th)", "content missing"],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": ["FOLLOWING CONTEXT"],
+  "normalized_text": "Définition des fonctions hyperboliques ch, sh et th.",
+  "tags": ["Définition des fonctions hyperboliques"]
+}
+```

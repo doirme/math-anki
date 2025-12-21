@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_16_4979b783",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "L'exemple utilise le théorème sur les transformations affines du graphe d'une fonction pour illustrer la symétrie par rapport à l'axe des ordonnées."
+    }
+  ]
+}
+```

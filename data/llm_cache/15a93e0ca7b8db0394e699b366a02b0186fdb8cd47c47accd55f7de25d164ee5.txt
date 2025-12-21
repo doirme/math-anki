@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Opérations sur les fonctions continues) - Combinaison linéaire, produit, quotient : Pour toutes fonctions \( f, g \in \mathcal{C}(E, \mathbb{R}) \) et \( \lambda, \mu \in \mathbb{R} \), les fonctions \( \lambda f + \mu g \) et \( \frac{f}{g} \) (si \( g \) ne s'annule pas) sont continues. - Composition : Pour toutes fonctions \( f \in \mathcal{C}(E, \mathbb{R}) \) et \( g \in \mathcal{C}(F, \mathbb{R}) \), si \( f(E) \subset F \), alors \( g \circ f \) est continue sur \( E \). - Réciproque : Soient \( I \) et \( J \) deux intervalles. Pour toute fonction \( f \in \mathcal{C}(I, \mathbb{R}) \) bijective de \( I \) sur \( J \), \( f^{-1} \) est continue sur \( J \).",
+    "tags": ["théorème", "continuité", "fonctions continues", "combinaison linéaire", "produit", "quotient", "composition", "réciproque"]
+  }
+]
+```

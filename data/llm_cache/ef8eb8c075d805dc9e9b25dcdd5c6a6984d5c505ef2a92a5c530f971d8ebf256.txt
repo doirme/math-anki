@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_65_5cc4c05d",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser utilise des concepts de fonctions polynomiales, qui sont mentionnées dans le bloc candidat sous la section 3.1."
+    }
+  ]
+}
+```

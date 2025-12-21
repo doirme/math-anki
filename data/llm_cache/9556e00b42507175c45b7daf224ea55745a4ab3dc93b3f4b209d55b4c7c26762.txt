@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Soient \( a \in \mathbb{R}^* \) et \( b, c, d \in \mathbb{R} \). La fonction \( x \mapsto ax^3 + bx^2 + cx + d \) possède un et un seul point d'inflexion, situé en \( -\frac{b}{3a} \).\n\n**Raisonnement** :\n- La dérivée seconde de la fonction est \( x \mapsto 6ax + 2b \).\n- Cette dérivée s'annule en \( x = -\frac{b}{3a} \).\n- La dérivée seconde change de signe en ce point, confirmant la présence d'un point d'inflexion.",
+  "tags": ["Point d'inflexion", "Dérivée seconde"]
+}
+```

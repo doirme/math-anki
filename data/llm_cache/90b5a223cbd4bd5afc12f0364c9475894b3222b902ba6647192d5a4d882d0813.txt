@@ -1,0 +1,11 @@
+{
+  "name": "Injectivité",
+  "normalized_name": "Injectivity",
+  "hypotheses": ["$f : E \\to \\mathbb{R}$ is a strictly monotone function"],
+  "hypothesis_text": "Soit $f : E \\to \\mathbb{R}$ une fonction strictement monotone.",
+  "conclusion": "$f$ is injective",
+  "conclusion_text": "$f$ est injective.",
+  "has_proof": null,
+  "domain_tags": ["real numbers", "monotonic functions"],
+  "characteristics": ["strictly monotone"]
+}

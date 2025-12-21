@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Formules d'addition et de duplication** :\n- Tan(x + y) = (Tan x + Tan y) / (1 - Tan x Tan y)\n- Tan(x - y) = (Tan x - Tan y) / (1 + Tan x Tan y)\n- Tan(2x) = (2 Tan x) / (1 - Tan^2 x)\n\n**Expressions de Cos x, Sin x et Tan x en fonction de Tan(x/2)** :\n- Pour tout x ∈ ]-π, π[ + 2πℤ, en posant t = Tan(x/2) :\n- Cos x = (1 - t^2) / (1 + t^2)\n- Sin x = 2t / (1 + t^2)\n- Tan x = 2t / (1 - t^2)",
+  "tags": ["Formules d'addition", "Formules de duplication", "Expressions en fonction de Tan(x/2)"]
+}

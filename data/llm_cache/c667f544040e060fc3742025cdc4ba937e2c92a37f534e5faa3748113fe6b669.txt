@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Pour tout \( x \in \mathbb{R}_+^* \setminus \{1\} \) : \( \frac{x+1}{x-1} \ln x \ge 2 \).\n\n**Démonstration**\nOn étudie le signe de \( x \mapsto (x+1) \ln x - 2(x-1) \) sur \( \mathbb{R}_+^* \).\n- \( f'(x) = \ln x + \frac{1}{x} - 1 \)\n- \( f''(x) = \frac{x-1}{x^2} \)\nOn conclut grâce au tableau de variations.",
+  "tags": ["Inégalité", "Dérivée", "Tableau de variations"]
+}
+```

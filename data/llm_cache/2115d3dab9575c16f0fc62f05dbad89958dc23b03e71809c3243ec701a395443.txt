@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration\n- La fonction inverse possède des primitives sur ℝ₊, mais plus précisément une et une seule primitive qui envoie 1 sur 0 et c'est elle que nous noterons ln.\n- Variations et signe :\n  - La fonction ln est de classe C∞ sur ℝ₊ car sa dérivée x ↦ 1/x l'est.\n  - Cette dérivée est aussi strictement positive, donc ln est strictement croissante sur ℝ₊.\n  - Comme ln(1) = 0, ln est strictement négative sur [0, 1[ et strictement positive sur [1, +∞[.\n- Concavité et position par rapport à la tangente en 1 :\n  - Sa dérivée x ↦ 1/x y étant décroissante, ln est concave sur ℝ₊.\n  - Sa tangente en 1 a pour équation y = ln'(1)(x-1) + ln(1) = x - 1, donc ln x ≤ x - 1 pour tout x > 0.\n- Transformation des produits en sommes :\n  - Fixons y > 0 et notons φ la fonction x ↦ ln(xy) - ln x - ln y dérivable sur ℝ₊.\n  - Pour tout x > 0 : φ'(x) = y/(xy) - 1/x = 0, donc φ est constante de valeur φ(1) = 0, donc ln(xy) = ln x + ln y pour tout x > 0.\n  - En particulier : ln x + ln(1/x) = ln(1) = 0, donc ln(1/x) = -ln x.\n- Croissances comparées :\n  - Pour tout x ≥ 1 : ln x = ln(√x)² = 2ln√x ≤ 2(√x-1) ≤ 2√x, donc : 0 ≤ ln x / x ≤ 2/√x, et ainsi ln x / x → 0 par encadrement.\n  - Ensuite, si on pose t = 1/x : x ln x = -x ln(1/x) = -ln t / t, or 1/x → +∞ et ln t / t → 0, donc x ln x → 0 par composition.\n- Limites en 0 et +∞ :\n  - La fonction ln possède une limite ℓ en +∞.\n  - Supposons par l'absurde que ℓ est un réel. Dans la relation ln(xy) = ln x + ln y, fixons x > 0 et faisons tendre y vers +∞. Cela donne ℓ = ln x + ℓ, donc ln x = 0 pour tout x > 0, mais cette égalité contredit la stricte croissance de ln, donc ℓ = +∞.\n  - Il en découle par composition que : ln x = -ln(1/x) → -∞.",
+    "tags": ["proof", "self-contained"]
+  }
+]
+```

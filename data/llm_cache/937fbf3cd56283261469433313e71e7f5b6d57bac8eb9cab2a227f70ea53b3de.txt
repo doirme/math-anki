@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_63\_b071d239",
+      "relation": "uses\_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise le théorème selon lequel une fonction possède un point d'inflexion lorsque sa dérivée seconde s'annule en changeant de signe en ce point."
+    }
+  ]
+}

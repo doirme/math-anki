@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "exemple : $\\text{Arccos } \\cos(2\\pi) = \\text{Arccos } 1 = 0 \\neq 2\\pi$ . VRAI : $\\forall x \\in [-1, 1]$ , $\\cos \\text{Arccos } x = x$ . FAUX : $\\forall x \\in \\mathbb{R}$ , $\\text{Arccos } \\cos x = x$ . VRAI : $\\forall x \\in [0, \\pi]$ , $\\text{Arccos } \\cos x = x$ .",
+    "tags": ["exemple", "arccos", "cosinus"]
+  }
+]
+```

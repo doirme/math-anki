@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "La fonction \( x \mapsto \frac{1 + e^{\sqrt{x}}}{x\sqrt{2-x}} \) est définie sur \( ]0, 2[ \).",
+  "tags": ["Définition de domaine de définition"]
+}
+```

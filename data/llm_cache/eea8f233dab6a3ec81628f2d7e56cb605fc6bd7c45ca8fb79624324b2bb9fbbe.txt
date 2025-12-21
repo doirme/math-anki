@@ -1,0 +1,21 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": [
+      "Théorème (Caractérisation des fonctions convexes dérivables)"
+    ],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Démonstration\n- La fonction \( x \mapsto \sqrt{x} \) est concave sur \( \mathbb{R}_+^* \) car sa dérivée \( x \mapsto \frac{1}{2\sqrt{x}} \) est décroissante.\n- Son graphe est situé sous sa tangente en 1, d'équation \( y = \frac{1}{2} \).\n- ![Graphique de la fonction \( y = \sqrt{x} \) et de sa tangente en \( x=1, y=1/2 \), montrant que la tangente est située au-dessus de la fonction.]()",
+    "tags": [
+      "démonstration",
+      "fonction concave",
+      "dérivée décroissante",
+      "tangente"
+    ]
+  }
+]
+```

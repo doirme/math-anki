@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_23_22293492 - proof]\n**Démonstration** Soit $y \\in F$ , disons $y = f(x)$ pour un certain $x \\in E$ . Aussitôt, $-x \\in E$ car $E$ est symétrique par rapport à $0$ , donc $-y = -f(x) = f(-x) \\in F$ par impairité de $f$ . Conclusion : $F$ est symétrique par rapport à $0$ . Ensuite : $f^{-1}(-y) = f^{-1}(-f(x)) = f^{-1}(f(-x)) = -x = -f^{-1}(y)$ , donc $f^{-1}$ est impaire.\n\nCandidate blocks:\n[Block block_22_9ec7c621 - theorem]: **Théorème (Réciproque d'une fonction bijective impaire)** Soit $f: E \\to F$ une fonction bijective de $E$ sur $F$ . Si $E$ est symétrique par rapport à $0$ et si $f$ est impaire, $F$ est symétrique p\n\n[Block block_24_a5085955 - definition]: **Définition (Fonction périodique)** Soit $T > 0$ . On suppose que $E$ est $T$ -périodique, i.e. que : $\\forall x \\in E, x+T \\in E$ et $x-T \\in E$ . Soit $f: E \\to \\mathbb{R}$ une fonction. On dit que\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

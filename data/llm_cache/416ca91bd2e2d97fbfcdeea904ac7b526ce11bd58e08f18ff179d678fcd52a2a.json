@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_17_224abfe7 - example]\n**Exemple** Pour tous  $a, x \\in \\mathbb{R}$ , les réels  $x$  et  $a-x$  sont symétriques l'un de l'autre par rapport à  $\\frac{a}{2}$  car  $\\frac{a}{2}$  est le milieu du segment d'extrémités  $x$  et  $a-x$  :\n$$\\frac{x + (a-x)}{2} = \\frac{a}{2}$$ Diagramme montrant la symétrie par rapport à $\\frac{a}{2}$ sur l'axe $x$ . ![](_page_3_Figure_5.jpeg) Donnons-nous à présent une fonction $f: E \\to \\mathbb{R}$ et $a, b \\in \\mathbb{R}$ . Comment peut-on représenter les fonctions $x \\mapsto a-f(x)$ \n\nCandidate blocks:\n[Block block_18_99e02868 - definition]: **Définition (Fonction paire/impaire)** On suppose $E$ symétrique par rapport à $0$ , i.e. que : $\\forall x \\in E, -x \\in E$ . Soit $f: E \\to \\mathbb{R}$ une fonction. - **Parité** : On dit que $f$ es\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

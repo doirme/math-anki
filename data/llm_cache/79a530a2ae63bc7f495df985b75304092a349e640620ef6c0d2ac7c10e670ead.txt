@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_69_eae06377",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "The theorem in block_69_eae06377 refers to the natural logarithm function, which is defined and its regularity is described in block_70_f8a6f30c."
+    }
+  ]
+}

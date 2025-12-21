@@ -1,0 +1,13 @@
+{
+"relationships": [
+{
+"block\_id": "block\_8\_05d1bfd7",
+"relation": "used\_by",
+"sub\_relation": "uses\_definition",
+"confidence": 0.9,
+"reason": "The mathematical block 'block\_9\_99a09d7f' uses the concept of monotonicity, which is defined in 'block\_8\_05d1bfd7'."
+}
+]
+}
+
+The given block with the ID 'block\_8\_05d1bfd7' defines the concept of a monotone function. The candidate block with the ID 'block\_9\_99a09d7f' uses this concept in the context of a theorem about injective functions and strict monotonicity. Therefore, the relationship between the two blocks is that the candidate block 'block\_9\_99a09d7f' uses the definition provided in 'block\_8\_05d1bfd7'. The confidence level for this relationship is set to 0.9, indicating a high likelihood of this relationship being accurate.

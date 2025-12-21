@@ -1,0 +1,14 @@
+ <s>```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Théorème des valeurs intermédiaires (TVI)"],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "exemple: - si $f$ est continue et strictement croissante sur $[a, b]$ , alors $f([a, b]) = [f(a), \lim_{b \to b^+} f]$ , - si $f$ est continue et strictement décroissante sur $[a, b]$ , alors $f([a, b]) = [\lim_{b \to a^+} f, \lim_{b \to b^-} f]$ . - **TVI strictement monotone** : Par",
+    "tags": ["exemple", "TVI", "monotonie"]
+  }
+]
+```

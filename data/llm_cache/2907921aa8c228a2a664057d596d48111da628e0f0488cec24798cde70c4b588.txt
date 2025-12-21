@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_71_bd457b63",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise la définition de la fonction népérienne pour justifier l'existence et l'unicité de la primitive de la fonction inverse sur $\mathbb{R}_+$."
+    }
+  ]
+}

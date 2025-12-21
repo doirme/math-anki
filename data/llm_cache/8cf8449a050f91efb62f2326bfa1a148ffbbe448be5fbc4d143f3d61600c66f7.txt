@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration\n- Pour tout $x \\in \\mathbb{R}$ :\n  - $\\text{ch } x = 2 \\Leftrightarrow e^x - 4 + e^{-x} = 0 \\Leftrightarrow (e^x)^2 - 4e^x + 1 = 0$\n  - $\\Leftrightarrow e^x = 2 + \\sqrt{3} \\text{ ou } e^x = 2 - \\sqrt{3}$\n  - $\\Leftrightarrow x = \\ln(2 + \\sqrt{3}) \\text{ ou } x = \\ln(2 - \\sqrt{3})$\n- Tableau de valeurs :\n  - $x$ : $-\\infty$, 0, $+\\infty$\n  - $\\text{ch } x$ : , +, \n  - $\\text{sh } x$ : -, 0, +\n  - $\\text{ch } x$ : , 1, \n  - $\\text{sh } x$ : , 0, ",
+    "tags": ["proof"]
+  }
+]
+```

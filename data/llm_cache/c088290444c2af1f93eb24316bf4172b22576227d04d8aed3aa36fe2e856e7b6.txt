@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "proposition :  Il existe $K ≥ 0$, tel que pour tout $x ∈ E$, $|f(x)| ≤ K$.\n- Si pour un certain $K ≥ 0$, il est vrai que $|f(x)| ≤ K$ pour tout $x ∈ E$, alors $-K ≤ f(x) ≤ K$ pour tout $x ∈ E$, donc $f$ est minorée par $-K$ et majorée par $K$.\n- Pour la réciproque, supposons $f$ minorée par $m$ et majorée par $M$, et posons $K = max{|m|, |M|}$. Pour tout $x ∈ E$: $-K ≤ -|m| ≤ m ≤ f(x) ≤ M ≤ |M| ≤ K$, donc $|f(x)| ≤ K$.",
+    "tags": []
+  }
+]

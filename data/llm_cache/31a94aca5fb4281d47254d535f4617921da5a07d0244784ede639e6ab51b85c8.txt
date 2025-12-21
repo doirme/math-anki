@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "1. **Démonstration** :\n   - Cas où $x > 0$ : $\\theta = \\arctan \\frac{y}{x} [2\\pi]$\n   - Cas où $x < 0$ : $\\theta = \\pi + \\arctan \\frac{y}{x} [2\\pi]$",
+  "tags": ["Arctangente", "Polaires"]
+}

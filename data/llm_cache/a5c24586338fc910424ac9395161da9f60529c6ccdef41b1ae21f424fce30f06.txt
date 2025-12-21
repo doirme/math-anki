@@ -1,0 +1,16 @@
+ <s>```json
+{
+  "name": "Propriétés des fonctions cosinus et sinus",
+  "normalized_name": "Propriétés des fonctions cosinus et sinus",
+  "hypotheses": [
+    "La fonction cos est paire, $2\\pi$-périodique, de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$",
+    "La fonction sin est impaire, $2\\pi$-périodique, de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$"
+  ],
+  "hypothesis_text": "La fonction cos est paire, $2\\pi$-périodique, de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$ et : $\\cos' = -\\sin$. La fonction sin est impaire, $2\\pi$-périodique, de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$ et : $\\sin' = \\cos$.",
+  "conclusion": "Pour tout $x \\in \\mathbb{R}$ : $|\\sin x| \\le |x|$ et $\\frac{\\sin x}{x} \\xrightarrow{x \\to 0} 1$",
+  "conclusion_text": "Pour tout $x \\in \\mathbb{R}$ : $|\\sin x| \\le |x|$. En outre, $\\frac{\\sin x}{x} \\xrightarrow{x \\to 0} 1$, autrement dit $\\sin x \\approx x$ pour $x$ proche de 0.",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "trigonométrie"],
+  "characteristics": ["périodique", "continue", "dérivable"]
+}
+```

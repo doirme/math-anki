@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_17_0a9570e4",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat mentionne des transformations affines du graphe d'une fonction, ce qui implique l'utilisation de concepts de base comme les maxima et minima, définis dans le bloc à analyser."
+    }
+  ]
+}
+```

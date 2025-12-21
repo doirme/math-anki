@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Proposition: Il existe un réel K ≥ 0 tel que pour tout x ∈ E, |f(x)| ≤ K.\n\nPreuve:\n- Si |f(x)| ≤ K pour tout x ∈ E, alors -K ≤ f(x) ≤ K pour tout x ∈ E. Donc f est minorée par -K et majorée par K.\n- Réciproquement, si f est minorée par m et majorée par M, alors K = max(|m|, |M|) satisfait |f(x)| ≤ K pour tout x ∈ E.",
+  "tags": ["Proposition sur les fonctions bornées"]
+}
+```

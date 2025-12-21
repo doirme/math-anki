@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_31_00a4f763",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le contenu du bloc_31_00a4f763 correspond à la version image d'un intervalle du théorème du TVI, qui est une version spécifique du théorème de continuité (block_32_00a4f763)"
+    }
+  ]
+}

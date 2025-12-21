@@ -1,0 +1,8 @@
+ {
+  "term": "tangente",
+  "normalized_term": "tangente",
+  "statement": "définie sur $]-\\frac{{\\pi}}{2}, \\frac{{\\pi}}{2}[ + π\\mathbb{Z}$ où cosinus ne s'annule pas, imparité : pour tout $x$ dans l'intervalle, $\\tan(-x) = -\\tan x$, périodicité : pour tout $x$ dans l'intervalle, $\\tan(x + π) = \\tan x$, dérivée : $\\tan' = 1 + \\tan^2$, variations et limites : strictement croissante sur $[0, \\frac{{\\pi}}{2}]$, $\\tan x → +∞$ lorsque $x → \\frac{{\\pi}}{2}^-$, équation : $\\tan x = \\tan y$ si et seulement si $x ≡ y [π]$",
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["strictement croissante", "périodique"],
+  "is_multiple": false
+}

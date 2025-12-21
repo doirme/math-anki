@@ -1,0 +1,14 @@
+ {
+  "steps": [
+    "Étape 1 : Définition de la fonction à démontrer",
+    "Étape 2 : Remplacement de l'expression pour x grand",
+    "Étape 3 : Simplification de l'expression pour x grand",
+    "Étape 4 : Comparaison avec la limite tendant vers 0",
+    "Étape 5 : Réécriture de la fonction avec une expression équivalente",
+    "Étape 6 : Factorisation de l'expression",
+    "Étape 7 : Simplification de l'expression",
+    "Étape 8 : Conclusion en montrant la limite tendant vers 0"
+  ],
+  "uses_definitions": [],
+  "uses_theorems": ["Théorème de comparaison"]
+}

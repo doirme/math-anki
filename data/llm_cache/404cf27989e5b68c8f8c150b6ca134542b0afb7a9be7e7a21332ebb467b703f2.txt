@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème : Les transformations affines du graphe d'une fonction $f : E \\to \\mathbb{R}$ sont obtenues en utilisant des coefficients $a, b \\in \\mathbb{R}$ et $\\lambda > 0$ dans un repère orthonormal direct $(O, vec{i}, vec{j})$.",
+    "tags": ["theorem"]
+  }
+]

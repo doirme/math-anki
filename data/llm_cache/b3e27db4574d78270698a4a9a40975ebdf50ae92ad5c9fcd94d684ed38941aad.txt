@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Définition (Puissances quelconques et racines n-èmes d'un réel strictement positif) Soit \( x > 0 \).\n- Puissances quelconques : Pour tout \( y \in \mathbb{R} \), on appelle \( x \) puissance \( y \) le réel \( x^y = \exp(y \ln x) \).\n- Racines n-èmes : Pour tout \( n \in \mathbb{N}^* \), le réel \( x^{\frac{1}{n}} \) est appelé la racine n-ème de \( x \) et noté \( \sqrt[n]{x} \).\nPour \( x = e \), cette définition signifie que \( e^y = \exp(y \ln e) = \exp(y) \) pour tout \( y \in \mathbb{R} \).\nAttention ! La définition \( x^y = e^{y \ln x} \) n'est valable que pour \( x \) strictement positif à cause du logarithme.",
+    "tags": ["définition", "puissances", "racines", "fonction exponentielle", "fonction logarithme"]
+  }
+]
+```

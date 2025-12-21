@@ -1,0 +1,20 @@
+ ```json
+{
+  "steps": [
+    "Approximation pour x très grand : ln(e^x + 1) ≈ ln(e^x) = x",
+    "Approximation pour x très grand : e^{x+ln x} + 1 ≈ x e^x",
+    "Calcul de la limite approximative : (ln(e^x + 1))/(e^{x+ln x} + 1) ≈ x/(x e^x) = e^{-x} → 0",
+    "Expression exacte de la fraction : (ln(e^x + 1))/(e^{x+ln x} + 1) = (ln e^x + ln(1 + e^{-x}))/(x e^x (1 + 1/(x e^x)))",
+    "Simplification de l'expression exacte : (1 + (ln(1 + e^{-x}))/x)/(e^x (1 + 1/(x e^x)))",
+    "Calcul de la limite exacte : (1 + 0)/(e^x (1 + 0)) = 0"
+  ],
+  "uses_definitions": [
+    "Approximation logarithmique pour x grand",
+    "Approximation exponentielle pour x grand"
+  ],
+  "uses_theorems": [
+    "Théorème des gendarmes (pour la limite exacte)",
+    "Théorème de la limite d'une fraction (pour la limite exacte)"
+  ]
+}
+```

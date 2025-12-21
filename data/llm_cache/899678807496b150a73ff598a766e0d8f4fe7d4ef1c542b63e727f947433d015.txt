@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Proposition : Il existe un réel $K \ge 0$ tel que pour tout $x \in E$, $|f(x)| \le K$. \n\nPreuve :\n- Si pour un certain $K \ge 0$, il est vrai que $|f(x)| \le K$ pour tout $x \in E$, alors $-K \le f(x) \le K$ pour tout $x \in E$, donc $f$ est minorée par $-K$ et majorée par $K$. \n- Pour la réciproque, supposons $f$ minorée par $m$ et majorée par $M$ et posons $K = \max\{|m|, |M|\}$. Pour tout $x \in E$ : $-K \le -|m| \le m \le f(x) \le M \le |M| \le K$, donc $|f(x)| \le K$.",
+    "tags": ["proposition", "preuve"]
+  }
+]
+```

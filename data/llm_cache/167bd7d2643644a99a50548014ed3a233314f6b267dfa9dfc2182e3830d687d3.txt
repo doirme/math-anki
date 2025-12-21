@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "La fonction $\\text{th}$ est de classe $C^\\infty$ par quotient et :\n- $\\text{th}' = \\frac{\\text{sh}' \\text{ch} - \\text{ch}' \\text{sh}}{\\text{ch}^2} = \\frac{\\text{ch}^2 - \\text{sh}^2}{\\text{ch}^2}$\n- Cette quantité vaut à la fois $\\frac{1}{\\text{ch}^2}$ et $1 - \\frac{\\text{sh}^2}{\\text{ch}^2} = 1 - \\text{th}^2$.\n- La stricte croissance en décroît.\n- La dérivée $\\frac{1}{\\text{ch}^2}$ est croissante sur $\\mathbb{R}_+$ et décroissante sur $\\mathbb{R}_-$.\n- $\\text{th}$ est convexe sur $\\mathbb{R}_+$ et concave sur $\\mathbb{R}_-$.\n- Pour la limite en $+\\infty$ : $\\text{th}x = \\frac{\\text{sh}x}{\\text{ch}x} = \\frac{e^x - e^{-x}}{e^x + e^{-x}} = \\frac{1 - e^{-2x}}{1 + e^{-2x}} \\xrightarrow{x \\to +\\infty} 1$.",
+    "tags": ["proof"]
+  }
+]
+```

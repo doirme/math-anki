@@ -1,0 +1,13 @@
+ <s> [OUT] ```json
+{
+  "name": null,
+  "normalized_name": null,
+  "hypotheses": [],
+  "hypothesis_text": "Soit \( f: E \to \mathbb{R} \) une fonction. Pour tout \( a \in E \), on dit que \( f \) est continue en \( a \) si \( f(x) \xrightarrow{x \to a} f(a) \).",
+  "conclusion": "On dit que \( f \) est continue sur \( E \) si \( f \) est continue en tout point de \( E \).",
+  "conclusion_text": "On dit que \( f \) est continue sur \( E \) si \( f \) est continue en tout point de \( E \). L'ensemble des fonctions continues sur \( E \) est noté \( \mathcal{C}(E, \mathbb{R}) \).",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["continue"]
+}
+```

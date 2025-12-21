@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_125_f2233218",
+      "relation": "has_proof",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat block_125_f2233218 contient une démonstration qui pourrait être liée au théorème du bloc block_126_7ec012cd, bien que le contexte ne soit pas explicitement clair."
+    },
+    {
+      "block_id": "block_127_2acc1b54",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat block_127_2acc1b54 contient une démonstration qui semble directement liée au théorème du bloc block_126_7ec012cd, en utilisant les coordonnées cartésiennes et polaires."
+    }
+  ]
+}
+```

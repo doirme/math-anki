@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Lien entre les coordonnées cartésiennes et les coordonnées polaires)\n- Soit $M$ un point de coordonnées cartésiennes $(x, y)$ et de coordonnées polaires $(r, θ)$ .\n  - $(i)$ $x = r \\cos θ$ et $y = r \\sin θ$\n  - $(ii)$ $r = √(x^2 + y^2)$\n  - $(ii)$ $θ ≡ \\begin{cases} \\arctan \\frac{y}{x} [2π] & si $ x > 0 $ \\pi + \\arctan \\frac{y}{x} [2π] & si $ x < 0 $ \\end{cases}$",
+    "tags": ["theorem"]
+  }
+]

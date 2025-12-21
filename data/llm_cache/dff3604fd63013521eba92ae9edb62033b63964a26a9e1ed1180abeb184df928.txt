@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Dans ce chapitre, \(E\) et \(F\) sont des parties quelconques de \(\mathbb{R}\), pas forcément des intervalles.\n\nLe vocabulaire des applications a été présenté en toute généralité au chapitre « Relations binaires et applications », mais les fonctions de \(\mathbb{R}\) dans \(\mathbb{R}\) vont de pair avec un vocabulaire propre aux réels — monotonicité, caractère majoré/minoré, continuité, dérivabilité. — qui est l'objet du chapitre.\n\n**Composées de fonctions**\nSoient \(f: E \to \mathbb{R}\) et \(g: F \to \mathbb{R}\) deux fonctions. La composée \(g \circ f\) n'est définie que si \(f\) est à valeurs dans \(F\), i.e. si \(f(E) \subset F\).\n\n**Exemple**\nLa fonction \(x \mapsto \sqrt{x+3}\) est définie sur \([-3, +\infty[\).\n\n**Démonstration**\nLa fonction \(x \mapsto x+3\) est définie sur \(\mathbb{R}\) et la fonction \(\sqrt{\cdot}\) l'est sur \(\mathbb{R}_+\), mais quand \(x\) décrit \(\mathbb{R}\), \(x+3\) n'appartient pas forcément à \(\mathbb{R}_+\). Pour quels \(x \in \mathbb{R}\) est-il vrai que \(x+3 \ge 0\) ? Réponse : \(x \in [-3, +\infty[\).",
+  "tags": ["composée de fonctions", "domaine de définition"]
+}
+```

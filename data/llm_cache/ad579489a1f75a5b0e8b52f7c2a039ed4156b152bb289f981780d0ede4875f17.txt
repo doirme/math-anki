@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "La fonction \( x \mapsto e^{-x} \) possède un et un seul point fixe sur \( \mathbb{R} \).\n\n**Démonstration**\n- La fonction \( f(x) = e^{-x} - x \) est continue et strictement décroissante sur \( \mathbb{R} \).\n- \( f(x) \xrightarrow{x \to +\infty} -\infty \) et \( f(x) \xrightarrow{x \to -\infty} +\infty \).\n- Par le TVI strictement monotone, \( f \) s'annule une et une seule fois sur \( \mathbb{R} \).",
+  "tags": ["TVI strictement monotone"]
+}
+```

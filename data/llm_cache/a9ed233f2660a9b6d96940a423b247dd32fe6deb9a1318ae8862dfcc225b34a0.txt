@@ -1,0 +1,12 @@
+ <s> [/INST] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_113_d2ac7dbf",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise le théorème de continuité/imparité d'une réciproque, similaire à celui mentionné dans le bloc candidat pour la fonction arc tangente."
+    }
+  ]
+}
+```

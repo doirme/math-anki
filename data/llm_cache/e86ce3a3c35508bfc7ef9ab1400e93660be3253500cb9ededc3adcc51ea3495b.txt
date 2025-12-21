@@ -1,0 +1,16 @@
+ ```json
+{
+  "steps": [
+    "Fixation d'une variable (y) pour étudier la fonction en fonction de l'autre variable (x).",
+    "Étude de la dérivabilité de la fonction f(x) = (x + y) / (1 + xy) sur l'intervalle ]-1, 1[.",
+    "Calcul de la dérivée f'(x) et démonstration de sa positivité sur l'intervalle considéré.",
+    "Conclusion sur le comportement de la fonction f(x) grâce à l'étude de sa dérivée et au tableau fourni."
+  ],
+  "uses_definitions": [
+    "Fonction convexe/concave"
+  ],
+  "uses_theorems": [
+    "Théorème des valeurs intermédiaires (implicite dans l'étude de la dérivée et du tableau)"
+  ]
+}
+```

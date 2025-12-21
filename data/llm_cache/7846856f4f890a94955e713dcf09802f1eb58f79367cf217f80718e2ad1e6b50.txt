@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_94_cf78f601",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "The candidate block appears to provide a proof for the limit expression in the initial block."
+    },
+    {
+      "block_id": "block_95_3eace8ca",
+      "relation": "uses_theorem",
+      "confidence": 0.8,
+      "reason": "The candidate block seems to use the theorem of equivalence between two expressions when x approaches infinity."
+    }
+  ]
+}

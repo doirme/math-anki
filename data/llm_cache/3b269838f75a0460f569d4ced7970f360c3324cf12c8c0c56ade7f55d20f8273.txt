@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": [],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (TVI strictement monotone) - Si une fonction $f$ est continue et strictement monotone sur un intervalle $[a, b]$, alors $f$ préserve la forme des intervalles. Plus précisément :\n- si $f$ est strictement croissante, $f$ est bijective de $[a, b]$ sur $[f(a), f(b)]$;\n- si $f$ est strictement décroissante, $f$ est bijective de $[a, b]$ sur $[f(b), f(a)]$",
+    "tags": ["theorem"]
+  }
+]

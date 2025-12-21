@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n**Démonstration (Fonction arc tangente)** Il s'agit là aussi essentiellement d'utiliser le théorème de dérivabilité/imparité d'une réciproque. La situation est cependant plus simple car $\\tan'(x) = 1 + \\tan^2 x \\ne 0$ pour tout $x \\in \\mathbb{R}$ . Pas de tangente horizontale sur le graphe de la fonction tangente, donc pas de problème de dérivabilité pour Arctan. Pour tout $x \\in \\mathbb{R}$ : $\\text{Arctan}'(x) = \\frac{1}{\\tan' \\circ \\text{Arctan}(x)} = \\frac{1}{1 + \\tan^2 \\text{Arctan } x} = \\frac{1}{1 + x^2}$ . ■\n\nContext (may be empty):\n### Démonstration (Fonction arcsinus) - **Continuité/imparité** : La fonction $\\sin[\\frac{-\\pi}{2}, \\frac{\\pi}{2}]$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $[-1, 1]$ et continue/impaire, donc d'après le théorème de continuité/imparité d'une réciproque, sa réciproque Arcsin $= (\\sin[\\frac{-\\pi}{2}, \\frac{\\pi}{2}])^{-1}$ est continue/impaire sur $[-1, 1]$ . - **Relation** $\\cos \\text{Arcsin } x$ : Pour tout $x \\in [-1, 1]$ : $\\text{Arcsin } x \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ , d\n\n**Exemple** $\\frac{3}{5}$ est l'unique solution de l'équation $\\text{Arcsin } x = \\text{Arccos } \\frac{4}{5}$ d'inconnue $x \\in [-1, 1]$ .\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

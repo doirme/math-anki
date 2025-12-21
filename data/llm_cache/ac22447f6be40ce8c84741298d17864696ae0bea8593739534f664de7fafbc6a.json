@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_110_0b9da681 - proof]\n**Démonstration** Cette équivalence se lit bien sur le cercle trigonométrique, mais on peut aussi la démontrer par le calcul. Pour tout $x \\in \\mathbb{R}$ : $\\cos x = \\sin x \\iff \\sin\\left(\\frac{\\pi}{2} - x\\right) = \\sin x$ $\\iff \\frac{\\pi}{2} - x \\equiv x [2\\pi] \\text{ ou } \\frac{\\pi}{2} - x \\equiv \\pi - x [2\\pi] \\iff 2x \\equiv \\frac{\\pi}{2} [2\\pi] \\text{ ou } \\frac{\\pi}{2} \\equiv \\pi [2\\pi] \\iff x \\equiv \\frac{\\pi}{4} [\\pi]$ . Les valeurs remarquables du cosinus, du sinus et de la tangente doi\n\nCandidate blocks:\n[Block block_109_b7d1e64c - example]: **Exemple** Pour tout $x \\in \\mathbb{R}$ : $\\cos x = \\sin x \\iff x \\equiv \\frac{\\pi}{4} [\\pi]$ .\n\n[Block block_111_7c382e46 - theorem]: théorème (Propriétés des fonctions cosinus et sinus) - **Fonction cosinus** : La fonction cos est paire, $2\\pi$ -périodique, de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$ , et : $\\cos' = -\\sin$ . - \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

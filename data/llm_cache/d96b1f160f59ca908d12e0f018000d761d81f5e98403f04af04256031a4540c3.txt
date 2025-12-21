@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Propriétés des fonctions cosinus et sinus) :\n- **Fonction cosinus** :\n  - La fonction cos est paire, $2\\pi$-périodique, de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$.\n  - $\\cos' = -\\sin$.\n- **Fonction sinus** :\n  - La fonction sin est impaire, $2\\pi$-périodique, de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$.\n  - $\\sin' = \\cos$.\n  - Pour tout $x \\in \\mathbb{R}$ : $|\\sin x| \\le |x|$.\n  - $\\frac{\\sin x}{x} \\xrightarrow{x \\to 0} 1$, autrement dit $\\sin x \\approx x$ pour $x$ proche de 0.",
+    "tags": ["théorème", "fonctions trigonométriques", "propriétés"]
+  }
+]
+```

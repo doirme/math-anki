@@ -1,0 +1,23 @@
+ {
+  "name": "Croissances comparées des fonctions logarithme, exponentielle et puissances",
+  "normalized_name": "Comparative growth of logarithm, exponential and power functions",
+  "hypotheses": [
+    "α > 0 et β ∈ ℝ",
+    "α > 0 et β ∈ ℝ",
+    "α > 0"
+  ],
+  "hypothesis_text": "",
+  "conclusion": [
+    "x^β/e^x → 0 lorsque x → +∞",
+    "(ln x)^β/x^α → 0 lorsque x → +∞",
+    "x^α |ln x| → 0 lorsque x → 0"
+  ],
+  "conclusion_text": "",
+  "has_proof": null,
+  "domain_tags": [
+    "analyse réelle"
+  ],
+  "characteristics": [
+    "limite"
+  ]
+}

@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "## 5.2 FONCTIONS ARCCOSINUS, ARCSINUS ET ARCTANGENTE\n\nLes fonctions cosinus, sinus et tangente sont périodiques et non injectives sur leurs ensembles de définition. Impossible de leur trouver une réciproque !\n\n- La restriction $\\cos|_{[0, \\pi]}$ est bijective de $[0, \\pi]$ sur $[-1, 1]$\n- La restriction $\\sin|_{[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]}$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $[-1, 1]$\n- La restriction $\\tan|_{[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]}$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $\\mathbb{R}$\n\nL'équation $\\cos x = \\frac{1}{2}$ d'inconnue $x \\in [0, \\pi]$ ne possède qu'une seule solution, à savoir $\\frac{\\pi}{3}$\n\n| | cos | sin | tan |\n|--------------------|------------|-----------------------------------|-----------------------------------|\n| Domaine privilégié | $[0, \\pi]$ | $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ | $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$",
+    "tags": ["definition", "bijective_restrictions", "domain_restrictions"]
+  }
+]
+```

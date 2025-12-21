@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Propriétés algébriques des puissances)\n(i) La nouvelle définition des puissances généralise bien l'ancienne.\n(ii) Pour tous x, x' > 0 et y, y' ∈ ℝ :\n• ln(x^y) = y ln x,\n• x^(y+y') = x^y x^(y'),\n• x^(y y') = (x^y)^(y'),\n• (x x')^y = x^y x^(y'),\n• x^(-y) = 1/x^y = (1/x)^y.\nDémonstration (i)\nPour tous x > 0 et n ∈ ℕ : e^(n ln x) = e^(ln x + ... + ln x) = e^(ln x × ... × e^(ln x)) = x × ... × x , donc la notation traditionnelle x^n et notre nouvelle notation x^n coïncident. Même chose dans le cas d'un entier négatif.",
+    "tags": ["theorem", "proof"]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "steps": [
+    "Étape 1 : Comparaison des deux quantités et remarque sur leur ressemblance",
+    "Étape 2 : Recherche de la limite de la première quantité pour x très grand",
+    "Étape 3 : Explication de la destruction mutuelle des quantités lors de la soustraction",
+    "Étape 4 : Introduction de la technique de la quantité conjuguée pour mesurer le reste après soustraction",
+    "Étape 5 : Calcul de la limite de la différence des quantités en utilisant la quantité conjuguée"
+  ],
+  "uses_definitions": [],
+  "uses_theorems": ["Théorème de la limite d'une expression", "Théorème de la limite d'une fonction composée"]
+}

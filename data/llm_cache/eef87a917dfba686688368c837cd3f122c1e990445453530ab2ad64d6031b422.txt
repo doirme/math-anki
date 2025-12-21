@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple: Soit \( n \in \mathbb{N} \). La fonction \( x \xrightarrow{f} x^n \) est indéfiniment dérivable sur \( \mathbb{R} \) et pour tous \( k \in \mathbb{N} \) et \( x \in \mathbb{R} \):\n- Si \( k \le n \), alors \( f^{(k)}(x) = n(n-1)\dots(n-k+1)x^{n-k} = \frac{n!}{(n-k)!}x^{n-k} \).\n- Si \( k > n \), alors \( f^{(k)}(x) = 0 \).",
+    "tags": ["exemple", "dérivabilité", "fonction puissance"]
+  }
+]
+``` 

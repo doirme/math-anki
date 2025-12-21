@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_9_99a09d7f - theorem]\n**Théorème (Injectivité et stricte monotonicité)** Soit  $f: E \\to \\mathbb{R}$  une fonction.\nSi  $f$  est strictement monotone,  $f$  est injective.\nLes résultats qui suivent sont énoncés en termes de monotonicité au sens large, mais ils sont valables pour des fonctions monotones au sens strict.\n\nCandidate blocks:\n[Block block_10_121782a9 - theorem]: ### Théorème (Opérations sur les fonctions monotones)\n\n(i) **Addition** : Soient  $f : E \\to \\mathbb{R}$  et  $g : E \\to \\mathbb{R}$  deux fonctions.\nSi  $f$  et  $g$  sont croissantes,  $f+g$  l'est \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Définition des puissances pour les entiers", "Définition de la fonction exponentielle"],
+    "needs_preceding": true,
+    "needs_following": true,
+    "suggested_merge_with": [1, 2],
+    "normalized_text": "## 3.3 FONCTIONS PUISSANCES\nNous n'avons défini jusqu'ici que les puissances \(x^n\) pour \(n\) ENTIER. La notation classique \(e^x\) n'est-elle cependant pas celle d'une puissance, me direz-vous ? Oui et non, car le réel \(e^x\) n'est pas « et multiplié \(x\) fois par lui-même ». Que signifierait « et multiplié \(\sqrt{2}\) fois par lui-même » ?! Voilà pourquoi, au paragraphe précédent, je me suis momentanément interdit la notation \(e^x\), mais nous pouvons maintenant généraliser proprement notre définition des puissances.",
+    "tags": ["introduction", "puissances", "fonction exponentielle"]
+  }
+]
+```

@@ -1,0 +1,12 @@
+ <s> [/INST] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_90_6ac38f4d",
+      "relation": "none",
+      "confidence": 0.0,
+      "reason": "Aucune relation détectée entre les deux blocs. Le bloc candidat traite des fonctions trigonométriques et des relations d'équivalence, tandis que le bloc à analyser porte sur une limite exponentielle."
+    }
+  ]
+}
+```

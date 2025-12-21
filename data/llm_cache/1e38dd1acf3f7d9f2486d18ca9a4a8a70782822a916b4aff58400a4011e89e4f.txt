@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Définition :\n- Ensemble : $\{x \\in \\mathbb{R} \\mid x(1-x) \\ge 0 \\text{ et } x + \\sqrt{x(1-x)} > 0\} = ]0, 1[$\n\nPropriétés de la fonction $f$ :\n- **Ensemble de continuité** :\n  - Les fonctions usuelles utilisées pour construire $f$ sont toutes continues en tout point en lequel elles sont définies.\n  - $f$ est continue sur $[0, 1]$.\n- **Ensemble de dérivabilité** :\n  - La fonction racine carrée est dérivable seulement sur $\\mathbb{R}_+$.\n  - $f$ est dérivable sur $]0, 1[$.",
+    "tags": ["définition", "continuité", "dérivabilité"]
+  }
+]
+```

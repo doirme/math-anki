@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (La seule formule à connaître sur les fonctions affines)\n- Le graphe d'une fonction affine \( f \) est une droite, donc coïncide avec sa tangente en tout point.\n- Pour tous \( a, x \in \mathbb{R} \) : \( f(x) = f'(a)(x - a) + f(a) \).\n- Remarque : Si vous connaissez la pente \( m \) de \( f \) et sa valeur en un point \( a \), \( f \) a pour expression \( x \mapsto m(x - a) + f(a) \).",
+  "tags": ["Théorème des fonctions affines", "Formule de la tangente"]
+}
+```

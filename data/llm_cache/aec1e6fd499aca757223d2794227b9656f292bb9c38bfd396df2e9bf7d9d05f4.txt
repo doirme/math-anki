@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Exemple**\n- Fonction: $f: \mathbb{R} \to \mathbb{R}$, $x \xrightarrow{f} x^n$ avec $n \in \mathbb{N}$\n- Propriété: $f$ est indéfiniment dérivable sur $\mathbb{R}$\n- Formule de dérivation: Pour tous $k \in \mathbb{N}$ et $x \in \mathbb{R}$ : $$f^{(k)}(x) = \begin{cases} \frac{n!}{(n-k)!}x^{n-k} & \text{si } k \le n \\ 0 & \text{si } k > n. \end{cases}$$",
+    "tags": ["example", "function", "derivative"]
+  }
+]

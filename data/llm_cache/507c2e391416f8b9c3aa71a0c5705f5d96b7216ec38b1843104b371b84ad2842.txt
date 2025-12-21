@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_120_7dc08834",
+      "relation": "uses_definition",
+      "confidence": 0.6,
+      "reason": "Le bloc candidat mentionne les fonctions trigonométriques inverses (arccosinus, arcsinus, arctangente), ce qui pourrait être lié à la définition ou à l'utilisation des fonctions trigonométriques directes comme la tangente, qui est abordée dans le bloc à analyser."
+    }
+  ]
+}
+```

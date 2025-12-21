@@ -1,0 +1,8 @@
+{
+  "term": "Point d'inflexion",
+  "normalized_term": "Point d'inflexion",
+  "statement": "Un point d'inflexion d'une fonction est un point où la fonction passe de convexe à concave ou l'inverse.",
+  "domain_tags": ["analyse réelle"],
+  "characteristics": [],
+  "is_multiple": false
+}

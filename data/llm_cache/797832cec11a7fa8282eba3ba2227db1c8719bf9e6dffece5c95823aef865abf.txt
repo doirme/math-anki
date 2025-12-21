@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Réciproque d'une fonction bijective impaire)\n- Hypothèses :\n  - f: E → F est une fonction bijective de E sur F.\n  - E est symétrique par rapport à 0.\n  - f est impaire.\n- Conclusion :\n  - F est symétrique par rapport à 0.\n  - f⁻¹ est impaire.",
+    "tags": ["théorème"]
+  }
+]
+```

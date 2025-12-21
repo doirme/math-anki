@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_109_b7d1e64c",
+      "relation": "generalizes",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser démontre une équivalence mathématique qui est ensuite résumée dans le bloc candidat sous forme d'exemple. L'exemple est une spécialisation du résultat général démontré."
+    },
+    {
+      "block_id": "block_111_7c382e46",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser utilise les propriétés de la fonction cosinus mentionnées dans le théorème, notamment la périodicité et la dérivée, pour établir la démonstration."
+    }
+  ]
+}
+```

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Étude des fonctions puissances) Soient α, β ∈ ℝ.\n\n(i) Régularité :\n- La fonction x ↦ x^α est définie et de classe C^∞ sur ℝ_+^* de dérivée x ↦ αx^{α-1}.\n- Elle est concave si α ∈ [0, 1] et convexe sinon.\n\n(ii) Positions relatives :\n- Pour tout x ∈ ]0, 1[ : α ≤ β ⇒ x^β ≤ x^α.\n- Pour tout x ∈ [1, +∞[ : α ≤ β ⇒ x^α ≤ x^β.\n\n(iii) Prolongement par continuité en 0 :\n- Pour α > 0, on pose 0^α = 0.\n- La fonction x ↦ x^α ainsi prolongée est continue sur ℝ_+ tout entier, y compris en 0.\n\nRemarque :\n- Pour α ∈ ]0, 1[, la fonction x ↦ x^α est continue en 0 après prolongement, mais elle possède en 0 une tangente verticale, signe qu'elle n'est pas dérivable en 0.",
+  "tags": ["Théorème (Étude des fonctions puissances)", "Régularité", "Positions relatives", "Prolongement par continuité"]
+}
+```

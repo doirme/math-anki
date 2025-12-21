@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["contenu"],
+    "needs_preceding": false,
+    "needs_following": true,
+    "suggest_merge_with": [1],
+    "normalized_text": "",
+    "tags": ["section"]
+  }
+]
+```

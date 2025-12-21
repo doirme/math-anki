@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_102_06b2e111 - formula]\n**Formule** $\\tan(x+y)$ : $$\\tan(x+y) = \\frac{\\sin(x+y)}{\\cos(x+y)} = \\frac{\\sin x \\cos y + \\cos x \\sin y}{\\cos x \\cos y - \\sin x \\sin y} = \\frac{\\cos x \\cos y \\left(\\frac{\\sin x}{\\cos x} + \\frac{\\sin y}{\\cos y}\\right)}{\\cos x \\cos y \\left(1 - \\frac{\\sin x}{\\cos x} \\times \\frac{\\sin y}{\\cos y}\\right)} = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}$$ - **Expressions en fonction de** $t = \\tan \\frac{x}{2}$ : $\\tan x = \\tan \\left(2 \\times \\frac{x}{2}\\right) = \\frac{t+t}{1-t^2} = \\frac{2t}{1-t^2}$ , pu\n\nCandidate blocks:\n[Block block_103_7dc08834 - definition]: ## 5.2 FONCTIONS ARCCOSINUS, ARCSINUS ET ARCTANGENTE Périodiques, les fonctions cosinus, sinus et tangente ne sont pas injectives sur leurs ensembles de définition. Impossible de leur trouver une réci\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

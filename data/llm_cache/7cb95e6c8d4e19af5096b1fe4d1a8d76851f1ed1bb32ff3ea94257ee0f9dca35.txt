@@ -1,0 +1,12 @@
+ <s> [OUT] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_4_e91edb6d",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser utilise le concept de fonction définie sur un ensemble, ce qui est lié à la définition de fonction monotone mentionnée dans le bloc candidat."
+    }
+  ]
+}
+``` 

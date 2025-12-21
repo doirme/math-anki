@@ -1,0 +1,14 @@
+ ```json
+{
+  "steps": [
+    "La fonction \( x \mapsto \sqrt{x} \) est concave sur \( \mathbb{R}_+^* \) car sa dérivée \( x \mapsto \frac{1}{2\sqrt{x}} \) est décroissante.",
+    "Son graphe est situé sous sa tangente en 1, d'équation \( y = \frac{1}{2} \)."
+  ],
+  "uses_definitions": [
+    "Définition d'une fonction concave"
+  ],
+  "uses_theorems": [
+    "Théorème de la tangente pour les fonctions concaves"
+  ]
+}
+```

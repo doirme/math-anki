@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Opérations sur les fonctions dérivables/k fois dérivables/de classe $\\mathcal{C}^k$)\n- Combinaison linéaire, produit, quotient :\n  - Pour toutes fonctions $f, g \\in \\mathcal{D}(E, \\mathbb{R})$ et $\\lambda, \\mu \\in \\mathbb{R}$,\n    - $\\lambda f + \\mu g$ et $f g$ sont dérivables sur $E$,\n    - $\\frac{f}{g}$ est dérivable sur $E$ si $g$ ne s'annule pas.\n  - Formules de dérivation :\n    - $(\\lambda f + \\mu g)' = \\lambda f' + \\mu g'$,\n    - $(fg)' = f'g + fg'$,\n    - $\\left(\\frac{f}{g}\\right)' = \\frac{f'g - fg'}{g^2}$.\n- Composition :\n  - Pour toutes fonctions $f \\in \\mathcal{D}(E, \\mathbb{R})$ et $g \\in \\mathcal{D}(F, \\mathbb{R})$,\n    - Si $f(E) \\subset F$, alors $g \\circ f$ est dérivable sur $E$,\n    - $(g \\circ f)' = f' \\times g' \\circ f$.\n- Réciproque :\n  - Soient $I$ et $J$ deux intervalles.\n  - Pour toute fonction $f \\in \\mathcal{D}(I, \\mathbb{R})$ bijective de $I$ sur $J$,\n    - Si $f'$ ne s'annule pas sur $I$, alors $f^{-1}$ est dérivable sur $J$,\n    - $(f^{-1})' = \\frac{1}{f' \\circ f^{-1}}$.\n- Remarque :\n  - On peut remplacer partout « dérivable » par « $k$ fois dérivable » pour tout $k \\in \\mathbb{N}$ ou par « de classe $\\mathcal{C}^k$ » pour tout $k \\in \\mathbb{N} \\cup \\{\\infty\\}$,\n  - Les formules énoncées ne sont valables que pour les dérivées premières.",
+    "tags": ["théorème", "dérivabilité", "combinaison linéaire", "produit", "quotient", "composition", "réciproque", "dérivées successives"]
+  }
+]
+```

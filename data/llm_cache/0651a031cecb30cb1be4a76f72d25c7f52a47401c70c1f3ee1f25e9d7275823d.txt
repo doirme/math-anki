@@ -1,0 +1,23 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": [
+      "Définition de la fonction exponentielle",
+      "Définition de la fonction logarithme naturel",
+      "Définition de la puissance d'un réel strictement positif"
+    ],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Démonstration\n(i) Pour tous \( x > 0 \) et \( n \in \mathbb{N} \) : \( e^{n \ln x} = e^{\\underbrace{\\ln x + \\dots + \\ln x}_{n \\text{ termes}}} = e^{\\ln x \\times \\dots \\times e^{\\ln x}} = x \\dots x \), donc la notation traditionnelle \( x^n \) et notre nouvelle notation \( x^n \) coïncident. Même chose dans le cas d'un entier négatif.\n(ii) \( \\ln(x^y) = \\ln(e^{y \\ln x}) = y \\ln x \), \( x^{y+y'} = e^{(y+y') \\ln x} = e^{y \\ln x + y' \\ln x} = e^{y \\ln x} e^{y' \\ln x} = x^y x^{y'} \), \( x^{y y'} = e^{y y' \\ln x} = (e^{y \\ln x})^{y'} = (x^y)^{y'} \), \( (x x')^y = e^{y \\ln (x x')} = e^{y \\ln x + y \\ln x'} = e^{y \\ln x} e^{y \\ln x'} = x^y x^{y'} \), \( x^{-y} = e^{-y \\ln x} = \\frac{1}{e^{y \\ln x}} = \\frac{1}{x^y} \) et \( x^{-y} = e^{-y \\ln x} = e^{y \\ln(\\frac{1}{x})} = \\left(\\frac{1}{x}\\right)^y \).",
+    "tags": [
+      "Preuve",
+      "Propriétés des puissances",
+      "Logarithme naturel",
+      "Exponentielle"
+    ]
+  }
+]
+```

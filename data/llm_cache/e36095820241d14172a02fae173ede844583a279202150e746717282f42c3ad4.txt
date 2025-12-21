@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_49\_ce397f91",
+      "relation": "uses\_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc utilise le théorème sur les dérivées successives d'une fonction puissance, qui peut être trouvé dans un manuel de calcul différentiel."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_71_bd457b63",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc de preuve mentionne le théorème fondamental du calcul intégral, qui est un résultat avancé lié aux propriétés des fonctions continues, y compris la fonction logarithme."
+    }
+  ]
+}
+```

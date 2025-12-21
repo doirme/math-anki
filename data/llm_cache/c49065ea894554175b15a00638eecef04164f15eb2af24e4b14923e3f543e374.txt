@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block\_id": "block\_93\_36262ea3", "relation": "generalizes", "confidence": 0.7, "reason": "Le bloc d'analyse propose une méthode générale de calcul des limites, tandis que le bloc candidat fournit un exemple spécifique de ce calcul."},
+{"block\_id": "block\_94\_cf78f601", "relation": "uses_theorem", "confidence": 0.9, "reason": "Le bloc candidat utilise le théorème de comparaison des limites pour conclure que la limite tend vers +∞."}
+]
+}

@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_19\_4979b783",
+      "relation": "uses\_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc 19\_4979b783 utilise le théorème de symétrie des fonctions trigonométriques par rapport à l'axe des ordonnées, qui est démontré dans le bloc 20\_224abfe7."
+    }
+  ]
+}

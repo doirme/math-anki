@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_61_c4861e96",
+      "relation": "uses_definition",
+      "confidence": 0.2,
+      "reason": "Le bloc à analyser ne fait pas explicitement référence à la définition de la fonction logarithme ou exponentielle, mais il utilise des concepts mathématiques similaires (limites, fonctions polynomiales) qui pourraient être liés indirectement."
+    }
+  ]
+}
+```

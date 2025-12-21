@@ -1,0 +1,20 @@
+ ```json
+{
+  "steps": [
+    "Montrer que la fonction \( f(x) = \text{Arccos } x + \text{Arcsin } x \) est constante sur \([-1, 1]\)",
+    "La fonction est dérivable sur l'intervalle ouvert \(]-1, 1[\)",
+    "La dérivée de la fonction est nulle sur cet intervalle, donc \( f \) est constante",
+    "Calculer la valeur constante en évaluant \( f(0) \)",
+    "Vérifier la continuité de \( f \) sur l'intervalle fermé \([-1, 1]\) pour confirmer que \( f(1) \) et \( f(-1) \) valent la même chose"
+  ],
+  "uses_definitions": [
+    "Fonction dérivable",
+    "Fonction constante",
+    "Continuité d'une fonction"
+  ],
+  "uses_theorems": [
+    "Si la dérivée d'une fonction est nulle sur un intervalle, alors la fonction est constante sur cet intervalle",
+    "Théorème des valeurs intermédiaires (pour la continuité)"
+  ]
+}
+```

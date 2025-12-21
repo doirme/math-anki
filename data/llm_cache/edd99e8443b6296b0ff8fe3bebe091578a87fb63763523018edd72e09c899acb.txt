@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_3_0344a69a",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Les deux blocs traitent de la définition d'une fonction, mais le bloc candidat généralise le concept en incluant des conditions supplémentaires sur le domaine de définition."
+    }
+  ]
+}
+```

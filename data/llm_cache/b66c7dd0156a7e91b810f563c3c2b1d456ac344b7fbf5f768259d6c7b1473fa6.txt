@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition :**\n- La fonction logarithme est bijective de $\\mathbb{R}_+^*$ sur $\\mathbb{R}$ .\n- On appelle *fonction exponentielle* et on note $\\exp$ sa réciproque, bijective de $\\mathbb{R}$ sur $\\mathbb{R}_+^*$ .\n- En particulier : $\\exp(1) = e$ et les graphes des fonctions $\\exp$ et $\\ln$ sont symétriques l'un de l'autre par rapport à la droite d'équation $y = x$ .\n- Pour tout $x \\in \\mathbb{R}$ : $\\ln(\\exp(x)) = x$ et pour tout $x > 0$ : $\\exp(\\ln x) = x$ .",
+    "tags": ["definition"]
+  }
+]

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple : $\\frac{3}{5}$ est l'unique solution de l'équation $\\text{Arcsin } x = \\text{Arccos } \\frac{4}{5}$ d'inconnue $x \\in [-1, 1]$.",
+    "tags": ["exemple"]
+  }
+]
+```

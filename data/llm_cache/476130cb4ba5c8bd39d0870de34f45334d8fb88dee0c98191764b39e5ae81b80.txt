@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_124_398f3690",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "L'exemple utilise les résultats des fonctions trigonométriques Arccos et Arcsin, qui sont des théorèmes bien établis en mathématiques."
+    },
+    {
+      "block_id": "block_124_398f3690",
+      "relation": "has_proof",
+      "confidence": 0.8,
+      "reason": "Il existe potentiellement une preuve pour cet exemple dans le bloc de démonstration fourni."
+    }
+  ]
+}

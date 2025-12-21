@@ -1,0 +1,11 @@
+ ```json
+{
+  "term": "Maximum/minimum d'une fonction",
+  "normalized_term": "Maximum/minimum d'une fonction",
+  "statement": "Soient \( f: E \to \mathbb{R} \) une fonction et \( a \in E \). On dit que \( f \) possède un maximum en \( a \) si : \( \forall x \in E, f(x) \le f(a) \). Le réel \( f(a) \) est alors appelé le maximum de \( f \) et noté \( \max_{x \in E} f \) ou \( \max f(x) \). On dit que \( f \) possède un minimum en \( a \) si : \( \forall x \in E, f(x) \ge f(a) \). Le réel \( f(a) \) est alors appelé le minimum de \( f \) et noté \( \min_{x \in E} f \) ou \( \min f(x) \).",
+  "domain_tags": ["analyse réelle", "algèbre"],
+  "characteristics": ["majorant", "minorant", "bornée"],
+  "is_multiple": false,
+  "definitions": []
+}
+```

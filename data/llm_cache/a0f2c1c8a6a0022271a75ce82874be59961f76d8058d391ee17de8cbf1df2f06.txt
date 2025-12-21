@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Exemple: L'équation ch x = 2 d'inconnue x ∈ ℝ possède deux solutions qu'on sait calculer explicitement.\n\nDémonstration: Les équations ch x = y et sh x = y d'inconnue x à y fixé se ramènent à des équations du second degré. Pour tout x ∈ ℝ :\n\nch x = 2 ⇔ e^x - 4 + e^{-x} = 0 ⇔ (e^x)^2 - 4e^x + 1 = 0 ⇔ e^x = 2 + √3 ou e^x = 2 - √3 ⇔ x = ln(2 + √3) ou x = ln(2 - √3).\n\n| x | -∞ | 0 | +∞ |\n|----------------|-----------|---|-----------|\n| ch x | | + | |\n| sh x | - | 0 | + |\n| ch x | | 1 | |",
+  "tags": ["Fonctions hyperboliques", "ch x = 2", "Équations du second degré"]
+}
+```

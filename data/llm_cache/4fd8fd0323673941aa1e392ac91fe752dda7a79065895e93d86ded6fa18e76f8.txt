@@ -1,0 +1,18 @@
+ ```json
+{
+  "steps": [
+    "Continuité et imparité de la fonction arcsinus",
+    "Relation entre cosinus et arcsinus",
+    "Dérivabilité et dérivée de la fonction arcsinus"
+  ],
+  "uses_definitions": [
+    "Fonction sinus bijective sur l'intervalle [-π/2, π/2]",
+    "Fonction continue et impaire",
+    "Réciproque d'une fonction bijective"
+  ],
+  "uses_theorems": [
+    "Théorème de continuité et imparité d'une réciproque",
+    "Théorème de dérivabilité d'une réciproque"
+  ]
+}
+```

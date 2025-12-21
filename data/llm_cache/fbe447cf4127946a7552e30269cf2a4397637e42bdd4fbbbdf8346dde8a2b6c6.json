@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n# Théorème de Cantor\n\nLe corps $\\mathbb{R}$ n'est pas dénombrable.\n\n## Preuve\n\nOn suppose par l'absurde que $\\mathbb{R}$ est dénombrable. On peut alors énumérer ses éléments : $x_1, x_2, \\dots$.\nOn construit un intervalle fermé $I_1$ ne contenant pas $x_1$. Puis $I_2 \\subset I_1$ ne contenant pas $x_2$, etc.\nL'intersection des $I_n$ est non vide (théorème des segments emboîtés), soit $x \\in \\cap I_n$.\nAlors $x$ n'est aucun des $x_i$, contradiction.\n\nContext (may be empty):\n# Théorème de Cantor\n\nLe corps $\\mathbb{R}$ n'est pas dénombrable.\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

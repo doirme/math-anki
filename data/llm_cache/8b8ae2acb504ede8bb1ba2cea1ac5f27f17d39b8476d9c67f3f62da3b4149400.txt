@@ -1,0 +1,17 @@
+ ```json
+{
+  "name": "Fonction tangente",
+  "normalized_name": "Fonction tangente",
+  "hypotheses": [
+    "Fonction tangente : tan = sin/cos définie sur ]-π/2, π/2[ + πℤ.",
+    "Propriétés : impaire, π-périodique, de classe C^∞.",
+    "Dérivée : tan' = 1 + tan² = 1/cos²."
+  ],
+  "hypothesis_text": "Fonction tangente : tan = sin/cos définie sur ]-π/2, π/2[ + πℤ. Propriétés : impaire, π-périodique, de classe C^∞. Dérivée : tan' = 1 + tan² = 1/cos².",
+  "conclusion": "Pour x, y ∈ ]-π/2, π/2[ + πℤ, tan x = tan y ⇔ x ≡ y (mod π).",
+  "conclusion_text": "Pour x, y ∈ ]-π/2, π/2[ + πℤ, tan x = tan y ⇔ x ≡ y (mod π).",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "trigonométrie"],
+  "characteristics": ["périodique", "impair", "dérivable"]
+}
+```

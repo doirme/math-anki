@@ -1,0 +1,15 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": [],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration :\n- Montrer que l'ensemble de définition de $f$ est $]0, 1[$.",
+    "tags": ["proof"]
+  }
+]
+
+Explanation:
+The target block is a proof block, and it is not self-contained because the theorem being proved is not included in the block. The theorem needs to be in the preceding context. The normalized text suggests what needs to be proven in the block.

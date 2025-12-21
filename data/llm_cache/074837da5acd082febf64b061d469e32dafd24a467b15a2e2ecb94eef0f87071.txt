@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["conclusion of the theorem", "proof or reasoning steps"],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (TVI strictement monotone) - En cas de continuité et monotonicité stricte, la forme des intervalles est correctement préservée.",
+  "tags": ["Théorème (TVI strictement monotone)"]
+}
+```

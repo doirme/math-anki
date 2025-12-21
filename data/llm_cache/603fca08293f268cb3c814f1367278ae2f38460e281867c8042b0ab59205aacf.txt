@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_14\_f9f7fd44",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc 'block\_13\_13c8d01e' définit les concepts de fonction majorée et minorée, qui sont utilisés dans le bloc 'block\_14\_f9f7fd44' pour démontrer l'équivalence de deux propositions."
+    }
+  ]
+}

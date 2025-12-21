@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple : On veut résoudre l'équation $\\text{Arccos } x = \\text{Arcsin } x$ d'inconnue $x \\in [-1, 1]$.\n- Pour tout $x \\in [-1, 1]$ :\n  - $\\arccos x = \\arcsin x \\quad \\Leftrightarrow \\quad \\cos \\arccos x = \\cos \\arcsin x \\quad \\text{et} \\quad \\arcsin x \\in [0, \\pi]$\n  - $\\Leftrightarrow x = \\sqrt{1-x^2} \\quad \\text{et} \\quad x \\in [0, 1] \\quad \\text{après contemplation du graphe d'arcsinus}$\n  - $\\Leftrightarrow x^2 = 1 - x^2 \\quad \\text{et} \\quad x \\in [0, 1] \\quad \\Leftrightarrow \\quad x = \\frac{1}{\\sqrt{2}}.$\n- Justification de l'équivalence $\\star$ :\n  - L'implication : $\\arccos x = \\arcsin x \\Rightarrow \\cos \\arccos x = \\cos \\arcsin x$ ne pose aucun problème.\n  - Le retour n'est possible que si $\\arccos x$ et $\\arcsin x$ appartiennent à un même domaine d'injectivité du cosinus.\n  - L'implication corrigée : $\\arccos x = \\arcsin x \\Rightarrow \\cos \\arccos x = \\cos \\arcsin x$ et $\\arcsin x \\in [0, \\pi]$ l'est-elle ?\n  - Si $\\arccos x = \\arcsin x$, alors $\\arcsin x = \\arccos x \\in [0, \\pi]$ car un arcosinus est toujours dans $[0, \\pi]$.",
+    "tags": ["exemple", "résolution d'équation", "fonctions trigonométriques inverses"]
+  }
+]
+```

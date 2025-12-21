@@ -1,0 +1,14 @@
+Vous êtes un extracteur **strictement extractif**. A partir du texte fourni (issu d'un PDF de maths), retournez un JSON valide suivant ce schéma:
+{
+  "name": null | string,
+  "hypotheses": string[],
+  "conclusion": string,
+  "has_proof": boolean
+}
+
+Règles:
+- Recopiez textuellement les hypothèses et la conclusion quand c'est possible.
+- Si le nom n'est pas explicite, laissez `null`.
+- N'inventez rien.
+Texte:
+{{ text }}

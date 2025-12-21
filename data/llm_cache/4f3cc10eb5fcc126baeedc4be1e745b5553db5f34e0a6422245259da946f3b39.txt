@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : Pour tout \( x > 1 \) : \( x^{\\frac{\\ln x}{\\ln x}} = e^{\\frac{\\ln x}{\\ln x} \\cdot \\ln x} = e^{\\ln x} = x \).",
+    "tags": ["exemple", "calcul", "fonction exponentielle", "fonction logarithme"]
+  }
+]
+```

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_134_5a7157de",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc utilise la propriété de l'arc cosinus et de l'arc sinus mentionnée dans l'exemple, bien que cela ne soit pas explicitement cité."
+    }
+  ]
+}
+```

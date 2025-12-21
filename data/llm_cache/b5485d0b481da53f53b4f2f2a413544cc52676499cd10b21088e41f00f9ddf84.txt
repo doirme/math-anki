@@ -1,0 +1,11 @@
+ {
+  "name": "Formules d'addition et de produit du cosinus et du sinus",
+  "normalized_name": "Addition and product formulas of sine and cosine",
+  "hypotheses": [],
+  "hypothesis_text": "",
+  "conclusion": "sin(x + y) = sin(x)cos(y) + cos(x)sin(y), sin(x - y) = sin(x)cos(y) - cos(x)sin(y), cos(x + y) = cos(x)cos(y) - sin(x)sin(y), cos(x - y) = cos(x)cos(y) + sin(x)sin(y), sin(x)sin(y) = (1/2)(cos(x - y) - cos(x + y)), sin(x)cos(y) = (1/2)(sin(x + y) + sin(x - y)), cos(x)cos(y) = (1/2)(cos(x + y) + cos(x - y))",
+  "conclusion_text": "sin(x + y) = sin(x)cos(y) + cos(x)sin(y), sin(x - y) = sin(x)cos(y) - cos(x)sin(y), cos(x + y) = cos(x)cos(y) - sin(x)sin(y), cos(x - y) = cos(x)cos(y) + sin(x)sin(y), sin(x)sin(y) = (1/2)(cos(x - y) - cos(x + y)), sin(x)cos(y) = (1/2)(sin(x + y) + sin(x - y)), cos(x)cos(y) = (1/2)(cos(x + y) + cos(x - y))",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "trigonométrie"],
+  "characteristics": []
+}

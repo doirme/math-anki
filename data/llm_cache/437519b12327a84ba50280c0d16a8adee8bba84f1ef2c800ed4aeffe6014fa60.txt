@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Définition (Fonction monotone)**\n- Fonction croissante : $\\forall x, y \\in E, x < y \\implies f(x) \\le f(y)$\n- Fonction strictement croissante : $\\forall x, y \\in E, x < y \\implies f(x) < f(y)$\n- Fonction décroissante : $\\forall x, y \\in E, x < y \\implies f(x) \\ge f(y)$\n- Fonction monotone : $f$ est croissante ou décroissante",
+  "tags": ["Fonction monotone", "Définition"]
+}

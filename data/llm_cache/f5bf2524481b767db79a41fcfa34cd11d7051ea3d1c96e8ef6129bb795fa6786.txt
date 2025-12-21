@@ -1,0 +1,8 @@
+{
+  "steps": [
+    "Etude de fonction pour démontrer une inégalité entre deux variables",
+    "Définition d'une fonction convexe/concave et de ses cordes"
+  ],
+  "uses_definitions": ["Définition (Fonction convexe/concave)"],
+  "uses_theorems": []
+}

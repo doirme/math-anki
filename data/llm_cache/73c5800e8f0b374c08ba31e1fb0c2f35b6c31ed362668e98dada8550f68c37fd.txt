@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_103_7dc08834",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser utilise la définition de la fonction tangente, qui est mentionnée dans le bloc candidat."
+    }
+  ]
+}
+```

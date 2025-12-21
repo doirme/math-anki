@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_27_a1cf1bd8",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc 27 utilise la définition de fonction continue donnée dans le bloc 28."
+    }
+  ]
+}

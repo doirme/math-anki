@@ -1,0 +1,18 @@
+ <s> [/INST] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_33_3b8cc4f9",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème utilise la définition de dérivabilité qui est donnée dans le bloc block_33_3b8cc4f9."
+    },
+    {
+      "block_id": "block_35_57a4f6e5",
+      "relation": "has_proof",
+      "confidence": 0.95,
+      "reason": "Le bloc block_35_57a4f6e5 contient la démonstration du théorème énoncé dans le bloc block_34_98aedbc4."
+    }
+  ]
+}
+```

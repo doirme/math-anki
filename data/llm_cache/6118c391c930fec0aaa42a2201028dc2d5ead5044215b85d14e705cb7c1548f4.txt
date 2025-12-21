@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "## 4 DEUX OU TROIS GRANDS PRINCIPES DE CALCUL DES LIMITES\n\nUn calcul de limite se mène toujours en deux temps :\n- Dans un premier temps, on analyse l'expression étudiée en comparant de tête la taille des termes qui la composent. Qui est grand? Qui est petit? Qui disparaît au profit de qui? Cette étape de défrichement doit être effectuée rapidement sans trop de rigueur formelle, par exemple au moyen du symbole $\\approx$ , mais ATTENTION, ce symbole flou ne prouve jamais rien, il prépare juste le terrain du calcul rigoureux.\n- Dans un deuxième temps, on traduit l'analyse précédente en calcul rigoureux. Les techniques de bases consistent à factoriser par le terme dominant et à exploiter les croissances comparées usuelles en $\\pm\\infty$ et certaines approximations de fonctions usuelles tirées de nombres dérivés. À ce sujet, le point important, c'est que si $f$ est dérivable en $a$ avec $f'(a) \\neq 0$ , alors $f(x) - f(a) \\approx f'(a)(x - a)$ car $\\frac{f(x) - f(a)}{x - a} \\xrightarrow{x \\to a} f'(a)$ .",
+    "tags": ["méthodologie", "calcul de limites", "approximations"]
+  }
+]
+```

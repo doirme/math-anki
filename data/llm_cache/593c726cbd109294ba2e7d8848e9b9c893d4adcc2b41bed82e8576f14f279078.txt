@@ -1,0 +1,8 @@
+{
+  "term": "fonction paire/impaire",
+  "normalized_term": "function pair/impaire",
+  "statement": "Une fonction $f : E \\to \\mathbb{R}$ est paire si : $\\forall x \\in E, f(-x) = f(x)$. Une fonction $f : E \\to \\mathbb{R}$ est impaire si : $\\forall x \\in E, f(-x) = -f(x)$.",
+  "domain_tags": ["analyse réelle"],
+  "characteristics": [],
+  "is_multiple": false
+}

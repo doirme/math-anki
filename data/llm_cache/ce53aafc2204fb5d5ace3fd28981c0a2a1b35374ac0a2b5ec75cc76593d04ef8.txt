@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_96_181b828d",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "The candidate block block_97_5af0b267 provides a detailed proof for the statement made in block_96_181b828d."
+    },
+    {
+      "block_id": "block_97_5af0b267",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Block_97_5af0b267 contains a proof for the statement made in block_96_181b28d."
+    },
+    {
+      "block_id": "block_96_181b828d",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "The statement made in block_96_181b828d could be considered as a specific case of a more general theorem."
+    }
+  ]
+}

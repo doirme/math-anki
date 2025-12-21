@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_30_2cb912d2",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le théorème des valeurs intermédiaires (TVI) est souvent utilisé dans les preuves ou les applications des propriétés des fonctions continues, comme celles mentionnées dans le bloc analysé."
+    }
+  ]
+}
+```

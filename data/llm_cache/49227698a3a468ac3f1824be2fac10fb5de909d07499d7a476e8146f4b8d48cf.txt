@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Théorème (Point d'inflexion d'une fonction cubique)**\n- Soit $a ∈ ℝ^*$ et $b, c, d ∈ ℝ$.\n- La fonction $x ↦ ax^3 + bx^2 + cx + d$ admet un unique point d'inflexion en $x = -\\frac{b}{3a}$.",
+    "tags": []
+  }
+]

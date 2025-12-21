@@ -1,0 +1,20 @@
+ <s> [OUT] ```json
+{
+  "term": "Fonction paire/impaire",
+  "normalized_term": "Fonction paire/impaire",
+  "statement": "On suppose $E$ symétrique par rapport à $0$, i.e. que : $\\forall x \\in E, -x \\in E$. Soit $f: E \\to \\mathbb{R}$ une fonction. - **Parité** : On dit que $f$ est *paire* si : $\\forall x \\in E, f(-x) = f(x)$. Le graphe de $f$ est alors symétrique par rapport à l'axe des ordonnées. - **Imparité** : On dit que $f$ est *impaire* si : $\\forall x \\in E, f(-x) = -f(x)$. Le graphe de $f$ est alors symétrique par rapport à l'origine. Le graphe d'une fonction impaire définie en $0$ passe toujours par l'origine. Pas besoin d'étudier une fonction $f: E \\to \\mathbb{R}$ paire ou impaire sur $E$ tout entier, une étude sur $E \\cap \\mathbb{R}_+$ suffit.",
+  "domain_tags": ["analyse réelle", "algèbre"],
+  "characteristics": ["symétrique", "paire", "impaire"],
+  "is_multiple": true,
+  "definitions": [
+    {
+      "term": "Fonction paire",
+      "statement": "On dit que $f$ est *paire* si : $\\forall x \\in E, f(-x) = f(x)$. Le graphe de $f$ est alors symétrique par rapport à l'axe des ordonnées."
+    },
+    {
+      "term": "Fonction impaire",
+      "statement": "On dit que $f$ est *impaire* si : $\\forall x \\in E, f(-x) = -f(x)$. Le graphe de $f$ est alors symétrique par rapport à l'origine. Le graphe d'une fonction impaire définie en $0$ passe toujours par l'origine. Pas besoin d'étudier une fonction $f: E \\to \\mathbb{R}$ paire ou impaire sur $E$ tout entier, une étude sur $E \\cap \\mathbb{R}_+$ suffit."
+    }
+  ]
+}
+```

@@ -1,0 +1,17 @@
+ ```json
+{
+  "steps": [
+    "On utilise la bijectivité de la fonction logarithme pour définir l'exponentielle comme sa réciproque.",
+    "On montre que l'exponentielle est de classe C^∞ en utilisant le théorème de dérivabilité d'une réciproque.",
+    "On calcule la dérivée de l'exponentielle et on montre qu'elle est croissante.",
+    "On déduit que l'exponentielle est convexe et que son graphe est au-dessus de la tangente en 0."
+  ],
+  "uses_definitions": [
+    "Fonction logarithme",
+    "Fonction exponentielle"
+  ],
+  "uses_theorems": [
+    "Théorème de dérivabilité d'une réciproque"
+  ]
+}
+```

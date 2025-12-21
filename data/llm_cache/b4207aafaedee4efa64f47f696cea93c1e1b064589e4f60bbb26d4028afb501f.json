@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_91_c552c859 - example]\n**Exemple** L'ensemble $\\frac{\\pi}{4} + \\pi\\mathbb{Z}$ est $\\pi$ -périodique, donc rencontre l'intervalle $[0, 3\\pi]$ de longueur $3\\pi$ en exactement trois points : $\\left(\\frac{\\pi}{4} + \\pi\\mathbb{Z}\\right) \\cap [0, 3\\pi] = \\left\\{\\frac{\\pi}{4}, \\frac{5\\pi}{4}, \\frac{9\\pi}{4}\\right\\}$ .\n\nCandidate blocks:\n[Block block_92_dac4e914 - example]: **Exemple** On s'intéresse à la réunion $A = \\left(\\frac{\\pi}{5} + \\frac{\\pi}{2}\\right) \\cup \\frac{\\pi}{3}\\mathbb{Z}$ . L'ensemble $\\frac{\\pi}{5} + \\frac{\\pi}{2}\\mathbb{Z}$ est $\\frac{\\pi}{2}$ -périod\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

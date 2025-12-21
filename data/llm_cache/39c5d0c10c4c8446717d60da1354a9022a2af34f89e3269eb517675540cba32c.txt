@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple: La fonction valeur absolue est convexe sur $\\mathbb{R}$ car pour tous $x, y \\in \\mathbb{R}$ et $\\lambda \\in [0, 1]$ , d'après l'inégalité triangulaire : $$|(1-\\lambda)x + \\lambda y| \\le |1-\\lambda| \\cdot |x| + |\\lambda| \\cdot |y| = (1-\\lambda)|x| + \\lambda|y|.$$",
+    "tags": ["exemple", "convexité", "valeur absolue"]
+  }
+]
+```

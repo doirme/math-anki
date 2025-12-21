@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["définition des fonctions cosinus hyperbolique (ch) et sinus hyperbolique (sh)", "démonstration des propriétés de ch et sh"],
+  "needs_preceding": true,
+  "needs_following": false,
+  "suggested_merge_with": ["théorème(Fonctions cosinus hyperbolique et sinus hyperbolique)"],
+  "normalized_text": "Exemple: L'équation ch x = 2 d'inconnue x ∈ ℝ possède deux solutions qu'on sait calculer explicitement.\n\nDémonstration: Les équations ch x = y et sh x = y d'inconnue x à y fixé se ramènent aisément à des équations du second degré. Pour tout x ∈ ℝ :\nch x = 2 ⇔ e^x - 4 + e^{-x} = 0 ⇔ (e^x)^2 - 4e^x + 1 = 0 ⇔ e^x = 2 + √3 ou e^x = 2 - √3 ⇔ x = ln(2 + √3) ou x = ln(2 - √3).\n\nDéfinition-théorème(Fonction tangente hyperbolique): La fonction tangente hyperbolique th = sh/ch est définie sur ℝ. Elle est impaire et de classe C^∞ sur ℝ et : th' = 1 - th^2 = 1/ch^2. Elle est convexe sur ℝ_+ et concave sur ℝ_- avec un point d'inflexion en 0. Elle possède enfin une asymptote d'équation y = 1 au voisinage de +∞ (resp. y = -1 au voisinage de -∞).",
+  "tags": ["Exemple", "Démonstration", "Définition-théorème(Fonction tangente hyperbolique)"]
+}
+```

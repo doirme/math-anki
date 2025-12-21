@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Démonstration**\n- Soit $y ∈ F$, on peut écrire $y = f(x)$ avec $x ∈ E$.\n- $-x ∈ E$ car $E$ est symétrique par rapport à $0$.\n- $-y = -f(x) = f(-x) ∈ F$ par impairité de $f$.\nConclusion : $F$ est symétrique par rapport à $0$.\n- $f^{-1}(-y) = f^{-1}(-f(x)) = f^{-1}(f(-x)) = -x = -f^{-1}(y)$.\nDonc $f^{-1}$ est impaire.",
+    "tags": ["proof"]
+  }
+]

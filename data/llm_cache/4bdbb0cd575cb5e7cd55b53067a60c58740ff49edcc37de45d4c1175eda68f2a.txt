@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_68_f09770d3",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat mentionne des fonctions puissances \(x \mapsto x^n\) avec \(n \in \mathbb{Z}\), ce qui est en lien avec la partie du bloc analysé qui rappelle l'allure des graphes des fonctions puissances."
+    }
+  ]
+}
+```

@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_109_b7d1e64c - example]\n**Exemple** Pour tout $x \\in \\mathbb{R}$ : $\\cos x = \\sin x \\iff x \\equiv \\frac{\\pi}{4} [\\pi]$ .\n\nCandidate blocks:\n[Block block_110_0b9da681 - proof]: **Démonstration** Cette équivalence se lit bien sur le cercle trigonométrique, mais on peut aussi la démontrer par le calcul. Pour tout $x \\in \\mathbb{R}$ : $\\cos x = \\sin x \\iff \\sin\\left(\\frac{\\pi}{\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

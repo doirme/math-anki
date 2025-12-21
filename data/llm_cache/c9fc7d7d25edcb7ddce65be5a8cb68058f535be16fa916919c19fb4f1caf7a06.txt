@@ -1,0 +1,19 @@
+ ```json
+{
+  "steps": [
+    "La limite $\\frac{\\sin x}{x} \\xrightarrow{x \\to 0} 1$ est le nombre dérivé de la fonction sin en 0.",
+    "La fonction sin est concave sur $[0, \\pi]$ car sa dérivée cos y est décroissante.",
+    "Pour tout $x \\in [0, \\pi]$ : $|\sin x| = \\sin x \\le \\sin'(0)x + \\sin 0 = x = |x|$.",
+    "Pour tout $x \\in [-\\pi, 0]$ : $|\sin x| = |\\sin(-x)| \\le |-x| = |x|$.",
+    "L'inégalité est triviale pour $x > \\pi$ et $x < -\\pi$ : $|\sin x| \\le 1 \\le \\pi \\le |x|$."
+  ],
+  "uses_definitions": [
+    "Fonction sinus : impaire, $2\\pi$-périodique, de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$ et $\\sin' = \\cos$.",
+    "Concavité de la fonction sinus sur $[0, \\pi]$."
+  ],
+  "uses_theorems": [
+    "Propriétés des fonctions cosinus et sinus : $\\frac{\\sin x}{x} \\xrightarrow{x \\to 0} 1$.",
+    "Formules d'addition et de produit du cosinus et du sinus (mentionnées pour contexte)."
+  ]
+}
+```

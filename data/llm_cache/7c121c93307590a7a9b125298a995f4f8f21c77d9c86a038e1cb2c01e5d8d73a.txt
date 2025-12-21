@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration de la relation entre les coordonnées cartésiennes et polaires d'un point M dans un repère orthonormal direct (O, i, j).\n\n1. Coordonnées cartésiennes et polaires :\n   - OM = x i + y j = r(cosθ i + sinθ j)\n   - x = r cosθ, y = r sinθ, r = √(x² + y²)\n\n2. Cas où x > 0 :\n   - θ - 2kπ ∈ ]-π/2, π/2[ pour un certain k ∈ ℤ\n   - tan(θ - 2kπ) = tanθ = y/x\n   - θ ≡ arctan(y/x) [2π]\n\n3. Cas où x < 0 :\n   - θ - 2kπ ∈ ]π/2, 3π/2[ pour un certain k ∈ ℤ\n   - tan(θ - π - 2kπ) = tanθ = y/x avec θ - 2kπ - π ∈ ]-π/2, π/2[\n   - θ ≡ π + arctan(y/x) [2π]\n\nRemarque : On peut aussi exprimer θ comme un arc cosinus ou un arc sinus en adaptant la stratégie.",
+  "tags": ["coordonnées cartésiennes", "coordonnées polaires", "arctangente", "repère orthonormal direct"]
+}
+```

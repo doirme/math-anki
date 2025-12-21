@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Croissances comparées des fonctions logarithme, exponentielle et puissances)\n\n- Pour tous α > 0 et β ∈ ℝ :\n  - lim (x→+∞) (x^β / e^x) = 0\n  - lim (x→+∞) ((ln x)^β / x^α) = 0\n  - lim (x→0) (x^α |ln x|^β) = 0",
+  "tags": ["Théorème des croissances comparées"]
+}
+```

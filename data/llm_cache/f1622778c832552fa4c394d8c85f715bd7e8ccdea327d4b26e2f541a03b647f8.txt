@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_112_cad90132",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise et démontre des propriétés des fonctions cosinus et sinus mentionnées dans le théorème block_111_7c382e46."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Caractérisation des fonctions convexes dérivables)\n- Soient $I$ un intervalle et $f \\in \\mathcal{C}(I, \\mathbb{R})$.\n- Les assertions suivantes sont équivalentes :\n  1. $f$ est convexe sur $I$.\n  2. $f'$ est croissante sur $I$ — ou bien $f'' \\ge 0$ si $f$ est deux fois dérivable sur $I$.\n  3. Le graphe de $f$ est situé au-dessus de toutes ses tangentes.\n- On dispose bien sûr d'une caractérisation analogue de la concavité.",
+    "tags": ["théorème", "fonction convexe", "dérivabilité"]
+  }
+]
+```

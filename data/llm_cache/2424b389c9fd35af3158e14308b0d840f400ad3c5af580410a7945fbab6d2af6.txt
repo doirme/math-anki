@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**(i)** $\\frac{d}{dx}(x^\\alpha) = \\alpha x^{\\alpha-1}$\n**(ii)** Pour $x > 0$ et $\\alpha, \\beta \\in \\mathbb{R}$ avec $\\alpha \\le \\beta$ :\n- Si $x \\in ]0, 1[$, alors $x^\\beta \\le x^\\alpha$.\n- Si $x \\in [1, +\\infty[$, alors $x^\\alpha \\le x^\\beta$.\n**(iii)** Pour $\\alpha > 0$, $x^\\alpha \\xrightarrow{x \\to 0} 0$.",
+  "tags": ["dérivation", "inégalité", "limite", "puissances"]
+}

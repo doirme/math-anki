@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration de la dérivabilité de \( f^{-1} \) :\n- Dérivation de la relation \( f \circ f^{-1} = \text{Id}_J \) :\n  - \((f^{-1})' \times f' \circ f^{-1} = 1\)\n- Hypothèse cruciale : \( f' \) ne s'annule pas.\n- Exemple illustré :\n  - Si \( f' \) s'annule en \( a \), alors \( f^{-1} \) a une tangente verticale en \( f(a) \) et n'est pas dérivable en \( f(a) \).\n- Remarque sur la dérivabilité :\n  - La fonction \( x \mapsto x^2 e^x \) est de classe \( C^\infty \) sur \( \mathbb{R} \) car \( x \mapsto x^2 \) et \( x \mapsto e^x \) le sont.",
+  "tags": ["Dérivabilité de l'inverse", "Formule de dérivation", "Tangente verticale", "Classe \( C^\infty \)"]
+}
+```

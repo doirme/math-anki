@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : $\\frac{x^2}{x + \\sqrt{x}} \\xrightarrow{x \\to +\\infty} +\\infty$.\n\nDémonstration :\n- Au brouillon, pour $x$ très grand : $x + \\sqrt{x} \\approx x$, donc $\\frac{x^2}{x + \\sqrt{x}} \\approx \\frac{x^2}{x} = x \\to +\\infty$. Rapide et convaincant, mais pas du tout rigoureux.\n- Sur une copie : $\\frac{x^2}{x + \\sqrt{x}} = \\frac{x^2}{x \\left(1 + \\frac{1}{\\sqrt{x}}\\right)} = \\frac{x}{1 + \\frac{1}{\\sqrt{x}}} \\xrightarrow{x \\to +\\infty} +\\infty$ et rien de plus.",
+    "tags": ["exemple", "démonstration", "limite", "analyse"]
+  }
+]
+```

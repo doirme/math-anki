@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_115\_782bacd2",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème fait référence à la fonction tangente, qui est définie dans le bloc de définition."
+    }
+  ]
+}

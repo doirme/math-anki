@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Image d'un intervalle par une fonction continue) - **Version image d'un intervalle du TVI** :\n- Pour toute fonction $f$ continue sur un intervalle $I$ de $E$, $f(I)$ est aussi un intervalle.\n- Si $f$ est continue et croissante sur $[a, b]$ de $E$, $f([a, b]) = [f(a), f(b)]$.\n- Si $f$ est continue et décroissante sur $[a, b]$ de $E$, $f([a, b]) = [f(b), f(a)]$.",
+    "tags": ["theorem"]
+  }
+]

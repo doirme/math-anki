@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_74_fc1520ec",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème de la fonction exponentielle fait référence à la fonction logarithme, qui est définie comme bijective dans le bloc à analyser. Cela indique que le théorème utilise la définition du bloc analysé."
+    }
+  ]
+}
+```

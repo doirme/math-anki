@@ -1,0 +1,18 @@
+ <s> ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_58_722a29f5",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_58_722a29f5 contient une démonstration qui prouve une partie du théorème énoncé dans le bloc block_57_5161ebc9."
+    },
+    {
+      "block_id": "block_56_cd17df10",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "L'exemple dans le bloc block_56_cd17df10 utilise probablement le théorème pour montrer que la fonction valeur absolue est convexe, bien que cela ne soit pas explicitement mentionné."
+    }
+  ]
+}
+```

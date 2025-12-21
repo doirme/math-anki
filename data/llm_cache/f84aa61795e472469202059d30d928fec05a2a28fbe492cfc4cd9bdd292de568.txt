@@ -1,0 +1,15 @@
+{
+  "steps": [
+    "Équations ch x = y et sh x = y ramenées à des équations du second degré",
+    "Résolution de l'équation (e^x)^2 - 4e^x + 1 = 0",
+    "Recherche des solutions e^x = 2 + √3 et e^x = 2 - √3",
+    "Détermination des solutions x = ln(2 + √3) et x = ln(2 - √3)"
+  ],
+  "uses_definitions": [
+    "définition de ch x et sh x"
+  ],
+  "uses_theorems": [
+    "théorème sur les équations du second degré",
+    "théorème sur les fonctions exponentielles et logarithmes"
+  ]
+}

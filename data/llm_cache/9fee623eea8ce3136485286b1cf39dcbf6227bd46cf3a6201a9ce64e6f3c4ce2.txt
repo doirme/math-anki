@@ -1,0 +1,14 @@
+ ```json
+{
+  "steps": [
+    "Montrer que si |f(x)| ≤ K pour tout x ∈ E, alors f est majorée et minorée.",
+    "Montrer que si f est minorée par m et majorée par M, alors |f(x)| ≤ K pour tout x ∈ E."
+  ],
+  "uses_definitions": [
+    "Fonction majorée",
+    "Fonction minorée",
+    "Fonction bornée"
+  ],
+  "uses_theorems": []
+}
+```

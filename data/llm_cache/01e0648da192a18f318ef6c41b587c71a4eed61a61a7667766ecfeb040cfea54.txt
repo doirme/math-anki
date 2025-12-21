@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration (Fonction arc tangente)\n- La situation est plus simple car la dérivée de la fonction tangente est non nulle pour tout réel.\n- Pour tout \( x \in \mathbb{R} \) : \( \text{Arctan}'(x) = \frac{1}{1 + x^2} \).",
+    "tags": ["proof"]
+  }
+]
+```

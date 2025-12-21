@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition :**\n- Ensemble où $f$ est définie : $]0, 1[$\n- Ensemble de continuité : $f$ est continue sur $[0, 1]$\n- Ensemble de dérivabilité : $f$ est dérivable sur $]0, 1[$\n",
+    "tags": ["definition"]
+  }
+]

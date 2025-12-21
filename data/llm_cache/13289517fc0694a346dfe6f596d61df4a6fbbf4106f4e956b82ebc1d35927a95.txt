@@ -1,0 +1,12 @@
+ <s> [/INST] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_96_6d6ddc28",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise les propriétés des fonctions cosinus et sinus mentionnées dans le théorème, notamment la périodicité et la dérivée."
+    }
+  ]
+}
+```

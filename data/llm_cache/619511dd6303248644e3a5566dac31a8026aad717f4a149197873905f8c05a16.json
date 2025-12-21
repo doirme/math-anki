@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_34_f39c15b5 - example]\nexemple : - si $f$ est continue et strictement croissante sur $[a, b]$ , $f$ est bijective de $[a, b]$ sur $[f(a), f(b)]$ , - si $f$ est continue et strictement décroissante sur $[a, b]$ , $f$ est bijective de $[a, b]$ sur $[\\lim_{b \\to b^-} f, \\lim_{b \\to a^+} f]$ , - si $f$ est continue et strictement croissante sur $[a, b]$ , $f$ est bijective de $[a, b]$ sur $[\\lim_{b \\to b^-} f, \\lim_{b \\to a^+} f]$ . Par rapport au TVI de base, la stricte monotonicité apporte l'injectivité, donc l'unicité \n\nCandidate blocks:\n[Block block_35_39d2378c - example]: **Exemple** La fonction $x \\mapsto e^{-x}$ possède un et un seul point fixe sur $\\mathbb{R}$ .\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

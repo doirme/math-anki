@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_22_fb33071d",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser contient la preuve du théorème énoncé dans le bloc candidat block_22_fb33071d, qui est la même déclaration de théorème mais incomplète."
+    },
+    {
+      "block_id": "block_24_657700c5",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat block_24_657700c5 mentionne des théorèmes d'analyse qui pourraient inclure ou utiliser le théorème sur les fonctions périodiques, bien que cela ne soit pas explicitement clair."
+    }
+  ]
+}
+```

@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Démonstration**\n- Pour tout $x ∈ [-1, 1]$ :\n  - $\\text{Arccos } x = \\text{Arccos } \\frac{4}{5} iff x = sin(Arccos \\frac{4}{5}) iff x = sqrt{1 - (\\frac{4}{5})^2} = \\frac{3}{5}$",
+    "tags": []
+  }
+]

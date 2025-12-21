@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_118_1f292664 - definition]\n**Définition** : La tangente est définie là où le cosinus ne s'annule pas, i.e. sur $]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ . - **Imparité** : Pour tout $x \\in ]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ : $\\tan(-x) = \\frac{\\sin(-x)}{\\cos(-x)} = \\frac{-\\sin x}{\\cos x} = -\\tan x$ . - **Périodicité** : Pour tout $x \\in ]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ : $\\tan(x + \\pi) = \\frac{\\sin(x + \\pi)}{\\cos(x + \\pi)} = \\frac{-\\sin x}{-\\cos x} = \\frac{\\sin x}{\\cos x} = \\tan x$ . \n\nCandidate blocks:\n[Block block_119_06b2e111 - formula]: **Formule** $\\tan(x+y)$ : $$\\tan(x+y) = \\frac{\\sin(x+y)}{\\cos(x+y)} = \\frac{\\sin x \\cos y + \\cos x \\sin y}{\\cos x \\cos y - \\sin x \\sin y} = \\frac{\\cos x \\cos y \\left(\\frac{\\sin x}{\\cos x} + \\frac{\\sin\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

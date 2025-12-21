@@ -1,0 +1,24 @@
+ ```json
+{
+  "steps": [
+    "Définition de la tangente et son domaine de définition",
+    "Preuve de l'imparité de la tangente",
+    "Preuve de la périodicité de la tangente",
+    "Calcul de la dérivée de la tangente",
+    "Étude des variations et des limites de la tangente",
+    "Résolution de l'équation tan x = tan y",
+    "Formules d'addition et de duplication pour la tangente",
+    "Expression de cos x, sin x et tan x en fonction de tan(x/2)"
+  ],
+  "uses_definitions": [
+    "Définition de la tangente",
+    "Définition de l'imparité",
+    "Définition de la périodicité"
+  ],
+  "uses_theorems": [
+    "Théorème de la dérivée du quotient",
+    "Théorème de la périodicité des fonctions trigonométriques",
+    "Théorème de la résolution des équations trigonométriques"
+  ]
+}
+```

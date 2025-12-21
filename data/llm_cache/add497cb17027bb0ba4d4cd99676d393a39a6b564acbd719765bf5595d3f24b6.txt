@@ -1,0 +1,17 @@
+ ```json
+{
+  "steps": [
+    "Étudier les variations de ch et sh à partir d'un tableau.",
+    "Utiliser l'identité fondamentale des fonctions hyperboliques : ch²x - sh²x = 1.",
+    "Décomposer l'expression ch²x - sh²x en (ch x + sh x)(ch x - sh x).",
+    "Simplifier l'expression en utilisant les définitions de ch x et sh x.",
+    "Conclure que ch²x - sh²x = 1 pour tout x ∈ ℝ."
+  ],
+  "uses_definitions": [
+    "Définition des fonctions cosinus hyperbolique (ch) et sinus hyperbolique (sh)."
+  ],
+  "uses_theorems": [
+    "Théorème de l'identité fondamentale des fonctions hyperboliques : ch²x - sh²x = 1."
+  ]
+}
+```

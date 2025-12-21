@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Opérations sur les fonctions continues) - Combinaison linéaire, produit, quotient :\n- Pour toutes fonctions \( f, g \in \mathcal{C}(E, \mathbb{R}) \) et \( \lambda, \mu \in \mathbb{R} \), les fonctions \( \lambda f + \mu g \) et \( \frac{f}{g} \) (si \( g \) ne s'annule pas) sont continues.\n- Composition : Pour toutes fonctions \( f \in \mathcal{C}(E, \mathbb{R}) \) et \( g \in \mathcal{C}(F, \mathbb{R}) \), si \( f(E) \subset F \), alors \( g \circ f \) est continue sur \( E \).\n- Réciproque : Soient \( I \) et \( J \) deux intervalles. Pour toute fonction \( f \in \mathcal{C}(I, \mathbb{R}) \) bijective de \( I \) sur \( J \), \( f^{-1} \) est continue sur \( J \).\nAttention ! La composition est plus délicate à manier que l'addition et le produit car elle jongle avec plusieurs ensembles de définition. Ainsi, on ne peut pas dire que « la fonction \( x \mapsto \sqrt{x^2 + 1} \) est continue sur \( \mathbb{R} \) comme composée de fonctions qui le sont » car \( \sqrt{\cdot} \) n'est pas continue sur \( \mathbb{R} \) tout entier. Que dire alors ? Par exemple ceci : « La fonction \( x \mapsto x^2 + 1 \) est continue sur \( \mathbb{R} \) à valeurs dans \( \mathbb{R}_+ \) et \( \sqrt{\cdot} \) est continue sur \( \mathbb{R}_+ \), donc la fonction \( x \mapsto \sqrt{x^2 + 1} \) est continue sur \( \mathbb{R} \).",
+    "tags": ["théorème", "fonctions continues", "combinaison linéaire", "produit", "quotient", "composition", "réciproque"]
+  }
+]
+```

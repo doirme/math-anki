@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n### Démonstration -\n\nContext (may be empty):\n**Formules d'addition et de duplication** : Dès que chaque terme est bien défini : $$\\tan(x + y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}, \\quad \\tan(x - y) = \\frac{\\tan x - \\tan y}{1 + \\tan x \\tan y} \\quad \\text{et} \\quad \\tan(2x) = \\frac{2 \\tan x}{1 - \\tan^2 x}.$$ - **Expression de $\\cos x$ , $\\sin x$ et $\\tan x$ en fonction de $\\tan \\frac{x}{2}$** : Pour tout $x \\in ]-\\pi, \\pi[ + 2\\pi\\mathbb{Z}$ , si on pose $t = \\tan \\frac{x}{2}$ : $$\\cos x = \\frac{1 - t^2}{1 + t^2}, \\quad \\sin x = \\frac{\n\n**Définition** : La tangente est définie là où le cosinus ne s'annule pas, i.e. sur $]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ . - **Imparité** : Pour tout $x \\in ]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ : $\\tan(-x) = \\frac{\\sin(-x)}{\\cos(-x)} = \\frac{-\\sin x}{\\cos x} = -\\tan x$ . - **Périodicité** : Pour tout $x \\in ]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ : $\\tan(x + \\pi) = \\frac{\\sin(x + \\pi)}{\\cos(x + \\pi)} = \\frac{-\\sin x}{-\\cos x} = \\frac{\\sin x}{\\cos x} = \\tan x$ \n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

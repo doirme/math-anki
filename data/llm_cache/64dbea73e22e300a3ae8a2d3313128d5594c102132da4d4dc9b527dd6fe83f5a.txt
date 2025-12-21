@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Propriétés algébriques des puissances)\n\n- (i) La nouvelle définition des puissances généralise bien l'ancienne.\n- (ii) Pour tous \( x, x' > 0 \) et \( y, y' \in \mathbb{R} \) :\n  - \( \ln(x^y) = y \ln x \)\n  - \( x^{y+y'} = x^y x^{y'} \)\n  - \( x^{y y'} = (x^y)^{y'} \)\n  - \( (x x')^y = x^y x^{y'} \)\n  - \( x^{-y} = \frac{1}{x^y} = \left(\frac{1}{x}\right)^y \)",
+    "tags": ["théorème", "propriétés algébriques", "puissances"]
+  }
+]
+```

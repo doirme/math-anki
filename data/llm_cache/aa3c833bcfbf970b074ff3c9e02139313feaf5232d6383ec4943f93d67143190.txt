@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_29_ca307591",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le théorème sur les opérations sur les fonctions continues utilise le théorème des valeurs intermédiaires pour démontrer que la combinaison linéaire et le quotient de deux fonctions continues sont également continues."
+    }
+  ]
+}

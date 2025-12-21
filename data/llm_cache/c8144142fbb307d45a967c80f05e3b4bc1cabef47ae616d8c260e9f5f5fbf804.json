@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n**Démonstration** Au brouillon, pour $x$ proche de 0 : $\\ln(1+x) \\approx x$ et $\\sinh x \\approx x$ , donc $x+\\sinh x \\approx 2x$ , $$\\text{donc } \\frac{\\ln(1+x)}{x+\\sinh x} \\approx \\frac{x}{2x} = \\frac{1}{2}. \\text{ Sur une copie : } \\frac{\\ln(1+x)}{x+\\sinh x} = \\frac{\\frac{\\ln(1+x)}{x}}{1+\\frac{\\sinh x}{x}} \\xrightarrow{x \\to 0} \\frac{1}{1+1} = \\frac{1}{2}.$$ Et si on avait voulu calculer $\\lim_{x \\to 0} \\frac{x^2}{x-\\sinh x}$ ? C'est plus compliqué car au dénominateur, $x$ et $\\sinh x$ ont à peu près la même taille. Que reste-t-il après soustraction? Nous ne le savons pas à ce stade de l'année et nous ne pouvons donc pas encore calculer cette limite. **× Attention !** $1^{+\\infty}$ est une nouvelle forme indéterminée !\n\nContext (may be empty):\n**Exemple** $\\frac{\\ln(1+x)}{x+\\sinh x} \\xrightarrow{x \\to 0} \\frac{1}{2}$ .\n\n**Exemple** $(1+x)^{\\frac{1}{x}} \\xrightarrow{x \\to 0} e$ .\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

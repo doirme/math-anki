@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_116_c158fd55",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat présente les formules d'addition et de duplication de la fonction tangente, qui sont des propriétés dérivées de la définition de la fonction tangente donnée dans le bloc à analyser."
+    }
+  ]
+}
+```

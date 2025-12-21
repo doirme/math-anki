@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["content missing"],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Le texte du bloc cible ne contient pas de contenu significatif, seulement une référence à des théorèmes qui seront démontrés plus tard.",
+  "tags": []
+}
+```

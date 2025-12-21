@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_0_a5247247",
+      "relation": "proves",
+      "confidence": 0.95,
+      "reason": "Le bloc de preuve démontre le théorème de Cantor selon lequel le corps ℝ n'est pas dénombrable."
+    }
+  ]
+}
+```

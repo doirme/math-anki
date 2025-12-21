@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_122_824ac57a",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat utilise les définitions d'arccosinus et d'arcsinus fournies dans le bloc à analyser pour illustrer des exemples concrets."
+    }
+  ]
+}
+```

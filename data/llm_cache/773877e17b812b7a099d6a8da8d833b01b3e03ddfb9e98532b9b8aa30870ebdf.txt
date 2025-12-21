@@ -1,0 +1,10 @@
+ <s> ```json
+{
+  "term": "constante de Néper",
+  "normalized_term": "constante de Néper",
+  "statement": "La fonction $\ln$ est continue et strictement croissante sur $\mathbb{R}_+^*$ de limites $-\infty$ et $+\infty$ aux bornes, donc bijective de $\mathbb{R}_+^*$ sur $\mathbb{R}$ d'après le TVI strictement monotone. En particulier, $1$ possède donc un et un seul antécédent par $\ln$, noté $e$.",
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["continue", "strictement croissante", "bijective", "antécédent unique"],
+  "is_multiple": false
+}
+```

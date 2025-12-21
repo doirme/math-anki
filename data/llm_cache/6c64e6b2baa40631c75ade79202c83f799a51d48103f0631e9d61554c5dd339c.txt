@@ -1,0 +1,22 @@
+{
+  "steps": [
+    {
+      "description": "Dérivation de la fonction $x \\mapsto x^\\alpha$ using the chain rule",
+      "justification": "Using the chain rule: $\\frac{d}{dx}(e^{f(x)}) = e^{f(x)} f'(x)$"
+    },
+    {
+      "description": "Conclusion on the sign of the second derivative of $x \\mapsto x^\\alpha$",
+      "justification": "Based on the sign of $\\alpha(\\alpha-1)$"
+    },
+    {
+      "description": "Comparison of $x^\\alpha$ and $x^\\beta$ for $x \\in ]0, 1[$ and $x \\in [1, +\\infty[$",
+      "justification": "Using the fact that $\\ln x \\le 0$ for $x \\in ]0, 1[$ and $\\ln x \\ge 0$ for $x \\in [1, +\\infty[$"
+    },
+    {
+      "description": "Continuity of $x \\mapsto x^\\alpha$ at 0 for $\\alpha > 0$",
+      "justification": "Using the definition of continuity and the limit $x^\\alpha \\xrightarrow{x \\to 0} 0 = 0^\\alpha$"
+    }
+  ],
+  "uses_definitions": ["Définition des puissances"],
+  "uses_theorems": ["Théorème des croissances comparées", "Chain rule for differentiation"]
+}

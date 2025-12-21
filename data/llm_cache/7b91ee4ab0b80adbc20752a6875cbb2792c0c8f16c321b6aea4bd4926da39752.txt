@@ -1,0 +1,14 @@
+ {
+  "steps": [
+    "Définition de l'ensemble de définition de la fonction $f$",
+    "Étude du signe de $x(1-x)$ et de $x + \sqrt{x(1-x)}$",
+    "Détermination de l'ensemble de définition de $f$",
+    "Affirmation de la continuité et de la dérivabilité de $f$ sur son ensemble de définition"
+  ],
+  "uses_definitions": [
+    "Définition de la fonction $f$"
+  ],
+  "uses_theorems": [
+    "Théorème de continuité d'une fonction sur un intervalle"
+  ]
+}

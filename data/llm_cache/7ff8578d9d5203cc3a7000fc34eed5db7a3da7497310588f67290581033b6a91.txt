@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_104_6ac38f4d",
+      "relation": "uses_definition",
+      "confidence": 0.3,
+      "reason": "Le bloc candidat mentionne une relation d'équivalence, mais il n'est pas clair si elle est directement utilisée dans la démonstration du bloc à analyser."
+    }
+  ]
+}
+```

@@ -1,0 +1,11 @@
+ {
+  "name": null,
+  "normalized_name": "Seule formule to know on affine functions",
+  "hypotheses": [],
+  "hypothesis_text": "",
+  "conclusion": "For all $a, x \\in \\mathbb{R}$ : $f(x) = f'(a)(x-a) + f(a)$",
+  "conclusion_text": "f(x) = f'(a)(x-a) + f(a)",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": []
+}

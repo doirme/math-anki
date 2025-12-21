@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration:\n- La limite $\\frac{{\\sin x}}{x} \\xrightarrow{x \\to 0} 1$ est le nombre dérivé de la fonction sin en 0.\n- Pour tout $x \\in [0, π]$ : $|{\\sin x}| = {\\sin x} \\le x = |x|$.\n- Pour tout $x \\in [−π, 0]$ : $|{\\sin x}| = |{\\sin(-x)}| \\le |-x| = |x|$.\n- Pour $x > π$ et $x < -π$ : $|{\\sin x}| \\le 1 \\le |x|$.",
+  "tags": ["limite", "dérivée", "inégalité trigonométrique"]
+}

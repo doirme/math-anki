@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_60_27229464",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_60_27229464 fournit une démonstration pour l'exemple donné dans le bloc block_59_e697dd55, en expliquant la concavité de la fonction racine carrée et sa relation avec sa tangente en 1."
+    }
+  ]
+}
+```

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Proposition : Une fonction est bornée si et seulement si elle est à la fois majorée et minorée.\n\nPreuve :\n- Si |f(x)| ≤ K pour tout x ∈ E, alors -K ≤ f(x) ≤ K pour tout x ∈ E, donc f est minorée par -K et majorée par K.\n- Réciproquement, si f est minorée par m et majorée par M, alors K = max(|m|, |M|) vérifie |f(x)| ≤ K pour tout x ∈ E.",
+  "tags": ["Proposition", "Fonction bornée", "Majorée", "Minorée"]
+}
+```

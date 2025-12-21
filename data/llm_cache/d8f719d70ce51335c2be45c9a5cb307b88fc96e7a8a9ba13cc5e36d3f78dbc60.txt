@@ -1,0 +1,9 @@
+ {
+  "steps": [
+    "Étape 1 : Remplacer $x + \sqrt{x}$ par $x$ dans la fraction pour $x$ grand",
+    "Étape 2 : Simplifier la fraction en factorisant $x$",
+    "Étape 3 : Prendre la limite de la fraction lorsque $x$ tend vers $+ \infty$"
+  ],
+  "uses_definitions": [],
+  "uses_theorems": ["Théorème de convergence d'une fraction lorsque le dénominateur tend vers $+ \infty$"]
+}

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_3_647f0427",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat montre un exemple de fonction définie sur un domaine spécifique, tandis que le bloc à analyser discute de la définition d'une fonction sur un domaine plus général (R)."
+    }
+  ]
+}
+```

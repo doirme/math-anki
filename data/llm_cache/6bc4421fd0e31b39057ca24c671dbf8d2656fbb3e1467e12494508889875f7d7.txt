@@ -1,0 +1,14 @@
+{
+  "steps": [
+    "Étude de la fonction f(x) = (x+1)ln(x) - 2(x-1) sur R*_+",
+    "Calcul de la dérivée f'(x) et de la dérivée seconde f''(x)",
+    "Analyse du signe de f''(x) pour déterminer le sens de variation de f'(x)",
+    "Conclusion sur le signe de f'(x) et donc sur celui de la fonction initiale"
+  ],
+  "uses_definitions": [
+    "Définition de la dérivée d'une fonction"
+  ],
+  "uses_theorems": [
+    "Théorème sur le signe d'une dérivée seconde pour déterminer le sens de variation d'une fonction"
+  ]
+}

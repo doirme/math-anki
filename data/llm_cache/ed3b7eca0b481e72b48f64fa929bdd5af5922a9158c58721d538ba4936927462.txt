@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Propriétés des fonctions arc cosinus, arc sinus et arc tangente) :\n- Une relation mixte : Pour tout $x \\in [-1, 1]$ : $\\cos \\arcsin x = \\sin \\arccos x = \\sqrt{1-x^2}$.\n- Arccosinus : Arccos est continue sur $[-1, 1]$ et de classe $\\mathcal{C}^\\infty$ sur $]-1, 1[$, mais pas dérivable en $-1$ et $1$. Pour tout $x \\in ]-1, 1[$ : $\\arccos'(x) = -\\frac{1}{\\sqrt{1-x^2}}$.\n- Arcsinus : Arcsin est impair et continue sur $[-1, 1]$ et de classe $\\mathcal{C}^\\infty$ sur $]-1, 1[$, mais pas dérivable en $-1$ et $1$. Pour tout $x \\in ]-1, 1[$ : $\\arccos'(x) = \\frac{1}{\\sqrt{1-x^2}}$.\n- Arctangente : Arctan est impair et de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$. Pour tout $x \\in \\mathbb{R}$ : $\\arctan'(x) = \\frac{1}{1+x^2}$. La non-dérivabilité d'Arccos et Arcsin en $\\pm 1$ s'explique bien géométriquement, les tangentes horizontales de sin et cos deviennent verticales quand on les symétrise par rapport à la droite d'équation $y = x$.",
+    "tags": ["théorème", "propriétés", "fonctions", "arc cosinus", "arc sinus", "arc tangente"]
+  }
+]
+```

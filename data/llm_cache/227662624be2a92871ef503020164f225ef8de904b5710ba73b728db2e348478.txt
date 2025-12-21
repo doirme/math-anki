@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["definition of 'théorème(Fonction exponentielle)'"],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": ["FOLLOWING CONTEXT"],
+  "normalized_text": "Le théorème de la fonction exponentielle n'est pas défini dans le bloc cible.",
+  "tags": []
+}
+```

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_48_7db977f2",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser fait référence à un ensemble défini dans le bloc candidat, ce qui suggère qu'il utilise la définition de cet ensemble."
+    }
+  ]
+}
+```

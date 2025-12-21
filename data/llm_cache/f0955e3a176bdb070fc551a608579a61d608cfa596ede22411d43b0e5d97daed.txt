@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": true,
+    "suggest_merge_with": [],
+    "normalized_text": "théorème : La fonction exponentielle est la réciproque de la fonction logarithme népérien, qui est bijective de R+* sur R.",
+    "tags": ["theorem"]
+  }
+]

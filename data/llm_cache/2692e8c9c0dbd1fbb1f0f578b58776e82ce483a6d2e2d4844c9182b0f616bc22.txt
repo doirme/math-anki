@@ -1,0 +1,11 @@
+{
+  "name": "Fonctions cosinus hyperbolique et sinus hyperbolique",
+  "normalized_name": "Hyperbolic cosine and sine functions",
+  "hypotheses": [],
+  "hypothesis_text": "",
+  "conclusion": "Pour tout $x$ appartenant à $\\mathbb{R}$ : $(\\text{ch}^2 x - \\text{sh}^2 x) = 1$",
+  "conclusion_text": "The square of the hyperbolic cosine of $x$ minus the square of the hyperbolic sine of $x$ equals 1 for any real number $x$",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle", "fonctions", "exponentielles"],
+  "characteristics": ["$C^{\\infty}$", "paire", "impaire", "convexe"]
+}

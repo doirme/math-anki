@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_103\_47549ff1",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Ce bloc prouve que la limite de (1+x)^(1/x) lorsque x tend vers 0 est égale à e en utilisant la définition de la fonction exponentielle."
+    },
+    {
+      "block\_id": "block\_103\_47549ff1",
+      "relation": "uses\_theorem",
+      "confidence": 0.7,
+      "reason": "Ce bloc utilise implicitement le théorème selon lequel la limite d'une fonction composée est égale au produit de la limite de la fonction externe et de la limite de la fonction interne lorsque celles-ci existent."
+    }
+  ]
+}

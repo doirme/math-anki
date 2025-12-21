@@ -1,0 +1,19 @@
+ <s>```json
+{
+  "name": "Fonction tangente hyperbolique",
+  "normalized_name": "Fonction tangente hyperbolique",
+  "hypotheses": [
+    "La fonction tangente hyperbolique $\\text{th} = \\frac{\\text{sh}}{\\text{ch}}$ est définie sur $\\mathbb{R}$.",
+    "Elle est impaire et de classe $C^\\infty$ sur $\\mathbb{R}$.",
+    "$\\text{th}' = 1 - \\text{th}^2 = \\frac{1}{\\text{ch}^2}$.",
+    "Elle est convexe sur $\\mathbb{R}_+$ et concave sur $\\mathbb{R}_-$ avec un point d'inflexion en 0.",
+    "Elle possède une asymptote d'équation $y = 1$ au voisinage de $+\\infty$ (resp. $y = -1$ au voisinage de $-\\infty$)."
+  ],
+  "hypothesis_text": "La fonction tangente hyperbolique $\\text{th} = \\frac{\\text{sh}}{\\text{ch}}$ est définie sur $\\mathbb{R}$ . Elle est impaire et de classe $C^\\infty$ sur $\\mathbb{R}$ et : $\\text{th}' = 1 - \\text{th}^2 = \\frac{1}{\\text{ch}^2}$ . Elle est convexe sur $\\mathbb{R}_+$ et concave sur $\\mathbb{R}_-$ avec un point d'inflexion en 0. Elle possède enfin une asymptote d'équation $y = 1$ au voisinage de $+\\infty$ (resp. $y = -1$ au voisinage de $-\\infty$ ).",
+  "conclusion": null,
+  "conclusion_text": null,
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "fonctions spéciales"],
+  "characteristics": ["impair", "convexe", "concave", "asymptote"]
+}
+```

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Formules d'addition et de duplication :\n- Addition :\n  - $\\tan(x + y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}$\n  - $\\tan(x - y) = \\frac{\\tan x - \\tan y}{1 + \\tan x \\tan y}$\n- Duplication :\n  - $\\tan(2x) = \\frac{2 \\tan x}{1 - \\tan^2 x}$\n\nExpression de $\\cos x$, $\\sin x$ et $\\tan x$ en fonction de $\\tan \\frac{x}{2}$ :\n- Pour tout $x \\in ]-\\pi, \\pi[ + 2\\pi\\mathbb{Z}$, si $t = \\tan \\frac{x}{2}$ :\n  - $\\cos x = \\frac{1 - t^2}{1 + t^2}$\n  - $\\sin x = \\frac{2t}{1 + t^2}$\n  - $\\tan x = \\frac{2t}{1 - t^2}$\n- Remarque : La relation $\\tan' = 1 + \\tan^2 = \\frac{1}{\\cos^2}$ permet de transformer cos en tan et vice versa.",
+    "tags": ["trigonométrie", "formules d'addition", "formules de duplication", "tangente"]
+  }
+]
+```

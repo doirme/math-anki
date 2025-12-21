@@ -1,0 +1,21 @@
+ ```json
+{
+  "steps": [
+    "Analyse de l'expression pour x très grand",
+    "Approximation de x + √x par x",
+    "Simplification de l'expression en utilisant l'approximation",
+    "Conclusion sur la limite de l'expression simplifiée",
+    "Démonstration rigoureuse en factorisant x dans le dénominateur",
+    "Simplification de l'expression factorisée",
+    "Conclusion rigoureuse sur la limite"
+  ],
+  "uses_definitions": [
+    "Approximation pour x très grand",
+    "Notion de limite en +∞"
+  ],
+  "uses_theorems": [
+    "Théorème de la limite d'une fonction rationnelle",
+    "Théorème de la limite d'une fonction composée"
+  ]
+}
+```

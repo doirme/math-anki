@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_17\_0a9570e4",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le contenu du bloc block\_17\_0a9570e4 correspond au théorème décrit dans block\_18\_9230f336, bien qu'il manque des détails spécifiques tels que les fonctions et les variables utilisées dans le théorème."
+    }
+  ]
+}

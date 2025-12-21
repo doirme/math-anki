@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Réciproque d'une fonction bijective impaire)\n- Hypothèses :\n  - f: E → F est une fonction bijective.\n  - E est symétrique par rapport à 0.\n  - f est impaire.\n- Conclusion :\n  - F est symétrique par rapport à 0.\n  - f⁻¹ est impaire.\n\nDémonstration :\n- Soit y ∈ F, alors y = f(x) pour un certain x ∈ E.\n- Puisque E est symétrique par rapport à 0, -x ∈ E.\n- Par impairité de f, -y = -f(x) = f(-x) ∈ F.\n- Conclusion : F est symétrique par rapport à 0.\n- Ensuite, f⁻¹(-y) = f⁻¹(-f(x)) = f⁻¹(f(-x)) = -x = -f⁻¹(y).\n- Conclusion : f⁻¹ est impaire.",
+  "tags": ["Théorème (Réciproque d'une fonction bijective impaire)"]
+}
+```

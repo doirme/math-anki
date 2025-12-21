@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_46_e4a145c8",
+      "relation": "generalizes",
+      "confidence": 0.6,
+      "reason": "Les deux blocs présentent des exemples mathématiques avec des démonstrations, mais le bloc candidat généralise le concept en considérant un ensemble plus large (R_+^* \ {1}) et une inégalité différente (ln x ≥ 2)."
+    }
+  ]
+}
+```

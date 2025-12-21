@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Définition des fonctions hyperboliques ch et sh"],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple\nL'équation $\\text{ch } x = 2$ d'inconnue $x \\in \\mathbb{R}$ possède deux solutions qu'on sait calculer explicitement.\n\nDémonstration\nLes équations $\\text{ch } x = y$ et $\\text{sh } x = y$ d'inconnue $x$ à $y$ fixé se ramènent aisément à des équations du second degré. Pour tout $x \\in \\mathbb{R}$ :\n$$\n\\begin{aligned}\n\\text{ch } x &= 2 & \\Leftrightarrow & e^x - 4 + e^{-x} = 0 & \\Leftrightarrow & (e^x)^2 - 4e^x + 1 = 0 \\\\ & & \\Leftrightarrow & e^x = 2 + \\sqrt{3} \\text{ ou } e^x = 2 - \\sqrt{3} \\\\ & & \\Leftrightarrow & x = \\ln(2 + \\sqrt{3}) \\text{ ou } x = \\ln(2 - \\sqrt{3}).\n\\end{aligned}$$\n",
+    "tags": ["Exemple", "Démonstration", "Fonctions hyperboliques"]
+  }
+]
+```

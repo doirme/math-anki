@@ -1,0 +1,8 @@
+{
+  "steps": [
+    "Étape 1 : Définition des fonctions cosinus hyperbolique et sinus hyperbolique",
+    "Étape 2 : Démonstration que la différence des carrés de ch et sh est égale à 1"
+  ],
+  "uses_definitions": ["définition des fonctions cosinus hyperbolique et sinus hyperbolique"],
+  "uses_theorems": ["théorème sur la différence des carrés de ch et sh"]
+}

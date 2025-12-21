@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_98_969d85d4",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "The candidate block (block_99_5340d0ec) contains a proof-like text, which explains the first limit in the main block."
+    }
+  ]
+}

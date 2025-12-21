@@ -1,0 +1,10 @@
+ <s> ```json
+{
+  "term": "Ensemble",
+  "normalized_term": "Ensemble",
+  "statement": "$\\{x \\in \\mathbb{R} \\mid x(1-x) \\ge 0 \\text{ et } x + \\sqrt{x(1-x)} > 0\\} = \\]0, 1[.$",
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["intervalle", "inégalité"],
+  "is_multiple": false
+}
+```

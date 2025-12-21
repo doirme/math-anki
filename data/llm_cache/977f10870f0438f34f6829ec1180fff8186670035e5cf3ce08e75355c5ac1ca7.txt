@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_64_d6e3dfd3",
+      "relation": "generalizes",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat généralise le bloc analysé en considérant une fonction polynomiale de degré 3 avec des coefficients arbitraires, alors que le bloc analysé traite un cas particulier où la fonction est une puissance impaire."
+    }
+  ]
+}
+```

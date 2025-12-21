@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition :**\n- La fonction logarithme est bijective de $\mathbb{R}_+^*$ sur $\mathbb{R}$, sa réciproque est notée $\exp$.\n- $\exp$ est de classe $C^\infty$, convexe sur $\mathbb{R}$, et $\exp' = \exp$.\n- Pour tous $x, y \in \mathbb{R}$ : $\exp(x + y) = \exp(x) \exp(y)$ et $\exp(-x) = \frac{1}{\exp(x)}$.\n- $\frac{x}{\exp(x)} \xrightarrow{x \to +\infty} 0$.\n- $\exp$ est situé au-dessus sa tangente en 0 : $\forall x \in \mathbb{R}$, $\exp(x) \ge 1 + x$.\n- $\frac{\exp(x) - 1}{x} \xrightarrow{x \to 0} 1$ (i.e. intuitivement $\exp(x) - 1 \approx x$ pour $x$ proche de 0).",
+    "tags": ["definition", "exponential function"]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "steps": [
+    "Démonstration justifie la bijectivité et la régularité de la fonction exponentielle grâce à la stricte monotonie du TVI",
+    "Déduction de la dérivée de la fonction exponentielle en utilisant le théorème de dérivabilité d'une réciproque",
+    "Déduction de la convexité de la fonction exponentielle à partir de l'augmentation de sa dérivée"
+  ],
+  "uses_definitions": ["Définition de la fonction logarithme et de la fonction exponentielle"],
+  "uses_theorems": ["Théorème des valeurs intermédiaires strictement monotone (TVI)", "Théorème de dérivabilité d'une réciproque"]
+}

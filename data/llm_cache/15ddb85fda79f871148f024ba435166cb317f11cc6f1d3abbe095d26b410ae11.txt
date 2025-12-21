@@ -1,0 +1,8 @@
+{
+  "steps": [
+    "Démonstration de la dérivabilité de la fonction Arctan en utilisant le théorème de dérivabilité/imparité d'une réciproque.",
+    "Calcul de la dérivée de Arctan en utilisant la dérivée de la tangente."
+  ],
+  "uses_definitions": [],
+  "uses_theorems": ["Théorème de dérivabilité/imparité d'une réciproque"]
+}

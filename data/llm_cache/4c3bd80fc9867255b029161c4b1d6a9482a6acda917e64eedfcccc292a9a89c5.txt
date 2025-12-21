@@ -1,0 +1,19 @@
+ <s> ```json
+{
+  "steps": [
+    "On travaille dans un repère orthonormal direct (O, i→, j→).",
+    "On exprime les coordonnées cartésiennes (x, y) en fonction des coordonnées polaires (r, θ) par identification des coordonnées.",
+    "On considère le cas où x > 0 et on déduit que θ ≡ arctan(y/x) [2π].",
+    "On considère le cas où x < 0 et on déduit que θ ≡ π + arctan(y/x) [2π].",
+    "On mentionne que θ pourrait aussi être exprimé comme un arc cosinus ou un arc sinus en adaptant la stratégie."
+  ],
+  "uses_definitions": [
+    "Repère orthonormal direct",
+    "Coordonnées cartésiennes",
+    "Coordonnées polaires"
+  ],
+  "uses_theorems": [
+    "Théorème (Lien entre les coordonnées cartésiennes et les coordonnées polaires)"
+  ]
+}
+``` 

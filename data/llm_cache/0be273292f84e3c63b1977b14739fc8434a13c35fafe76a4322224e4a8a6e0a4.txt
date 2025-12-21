@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Fonction logarithme**\n- Définition et propriétés : définie, de classe $C^∞$, concave sur $\\mathbb{R}_+$, $\\ln'(x) = 1/x$, $\\ln(1) = 0$\n- Transformation des produits en sommes : $\\ln(xy) = \\ln x + \\ln y$, $\\ln(1/x) = -\\ln x$\n- Constante de Néper : $\\exists ! e > 0, \\ln(e) = 1$\n- Variations et signe : $C^∞$ sur $\\mathbb{R}_+$, strictement croissante, $\\ln(1) = 0$, $\\ln(x) < 0$ pour $x \\in ]0, 1[$, $\\ln(x) > 0$ pour $x > 1$\n- Croissances comparées : $\\frac{\\ln x}{x} \\to 0$ quand $x \\to +\\infty$ et $x \\ln x \\to 0$ quand $x \\to 0^+$\n- Limites en $0$ et $+\\infty$ : $\\ln x \\to -\\infty$ quand $x \\to 0^+$ et $\\ln x \\to +\\infty$ quand $x \\to +\\infty$",
+  "tags": ["fonction logarithme", "définition", "propriétés", "variations", "croissance comparée", "limites"]
+}

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple\n- La fonction \( x \mapsto \frac{1 + e^{\sqrt{x}}}{x\sqrt{2-x}} \) est définie sur \( \{x \in \mathbb{R} | x\sqrt{2-x} \neq 0 \text{ et } 2-x \ge 0 \text{ et } x \ge 0\} \).\n- \( = \{x \in \mathbb{R} | x \neq 0 \text{ et } x \neq 2 \text{ et } 0 \le x \le 2\} = ]0, 2[ \).",
+    "tags": ["exemple", "fonction", "domaine de définition"]
+  }
+]
+```

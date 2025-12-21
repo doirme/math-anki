@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_11_13c8d01e",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat contient la même définition que le bloc à analyser, ce qui indique qu'il utilise cette définition."
+    }
+  ]
+}
+```

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition : La fonction logarithme est bijective de ℝ₊* sur ℝ. On appelle fonction exponentielle et on note exp sa réciproque, bijective de ℝ sur ℝ₊*.\n\nPropriétés :\n- exp(1) = e\n- Symétrie des graphes de exp et ln par rapport à y = x\n- Pour tout x ∈ ℝ : ln(exp(x)) = x\n- Pour tout x > 0 : exp(ln x) = x\n- exp est de classe C∞ et convexe sur ℝ\n- exp' = exp\n- Transformation des sommes en produits :\n  - exp(x + y) = exp(x) exp(y)\n  - exp(-x) = 1/exp(x)\n- Croissances comparées en +∞ : x/exp(x) → 0 quand x → +∞\n- Comportement au voisinage de 0 :\n  - exp(x) ≥ 1 + x pour tout x ∈ ℝ\n  - (exp(x) - 1)/x → 1 quand x → 0\n  - exp(x) - 1 ≈ x pour x proche de 0\n  - exp(0,1) ≈ 1,10517\n  - exp(0,01) ≈ 1,01005",
+  "tags": ["Définition de la fonction exponentielle", "Propriétés de la fonction exponentielle", "Transformation des sommes en produits", "Croissances comparées", "Comportement au voisinage de 0"]
+}
+```

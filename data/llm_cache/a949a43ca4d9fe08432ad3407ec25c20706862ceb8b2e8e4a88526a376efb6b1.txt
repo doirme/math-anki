@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_132_57039035",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat utilise des fonctions trigonométriques inverses (Arcsin et Arccos) qui sont liées à la fonction Arctan mentionnée dans le bloc à analyser. La démonstration du bloc à analyser pourrait être pertinente pour comprendre ou prouver des propriétés des fonctions trigonométriques inverses."
+    }
+  ]
+}
+```

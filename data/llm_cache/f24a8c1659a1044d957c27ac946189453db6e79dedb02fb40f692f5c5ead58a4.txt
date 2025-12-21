@@ -1,0 +1,15 @@
+{
+  "steps": [
+    {
+      "description": "Définition et propriétés de la fonction Arcsin"
+    },
+    {
+      "description": "Relation entre cos(Arcsin(x)) et sqrt(1-x^2)"
+    },
+    {
+      "description": "Dérivabilité et dérivée de la fonction Arcsin"
+    }
+  ],
+  "uses_definitions": ["définition de la fonction Arcsin"],
+  "uses_theorems": ["théorème de continuité/imparité d'une réciproque", "théorème de dérivabilité d'une réciproque"]
+}

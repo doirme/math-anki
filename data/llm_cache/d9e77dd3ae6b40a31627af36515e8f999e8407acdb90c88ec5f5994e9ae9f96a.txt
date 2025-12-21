@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration\n- Les variations de ch et sh sont étudiées dans le tableau ci-dessous.\n- Pour tout x ∈ ℝ : ch²x − sh²x = (ch x + sh x)(ch x − sh x) = eˣ e⁻ˣ = 1.",
+    "tags": ["proof"]
+  }
+]
+```

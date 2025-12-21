@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Formule $\\tan(x+y)$ : \\\\n- Expression : $\\tan(x+y) = \\frac{\\sin(x+y)}{\\cos(x+y)} = \\frac{\\sin x \\cos y + \\cos x \\sin y}{\\cos x \\cos y - \\sin x \\sin y} = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}$\\\\n- Expressions en fonction de $t = \\tan \\frac{x}{2}$ : \\\\n  - $\\tan x = \\frac{2t}{1-t^2}$\\\\n  - $\\sin x = \\frac{2t}{1+t^2}$\\\\n  - $\\cos x = \\frac{1-t^2}{1+t^2}$",
+    "tags": ["formule", "trigonométrie", "tangente", "addition", "duplication"]
+  }
+]
+```

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "### Définition des fonctions hyperboliques\n\n**Fonctions cosinus hyperbolique et sinus hyperbolique**\nPour tout \( x \in \mathbb{R} \) :\n- \( \text{ch } x = \frac{e^x + e^{-x}}{2} \) (cosinus hyperbolique)\n- \( \text{sh } x = \frac{e^x - e^{-x}}{2} \) (sinus hyperbolique)\n\n**Propriétés**\n- \( \text{ch}^2 x - \text{sh}^2 x = 1 \) pour tout \( x \in \mathbb{R} \)\n- \( \text{ch} \) est paire, \( \text{sh} \) est impaire\n- \( \text{ch} \) et \( \text{sh} \) sont de classe \( C^\infty \) sur \( \mathbb{R} \)\n- \( \text{ch}' = \text{sh} \) et \( \text{sh}' = \text{ch} \)\n- \( \text{ch} \) est convexe\n- \( \text{sh} \) est convexe sur \( \mathbb{R}_+ \) et \( \mathbb{R}_- \) avec un point d'inflexion en 0\n",
+  "tags": ["Fonctions cosinus hyperbolique et sinus hyperbolique", "Propriétés des fonctions hyperboliques"]
+}
+```

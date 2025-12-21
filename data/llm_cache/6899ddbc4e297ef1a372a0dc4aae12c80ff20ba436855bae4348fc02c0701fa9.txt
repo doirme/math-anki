@@ -1,0 +1,16 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_80\_e802487a",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc 'block\_80\_e802487a' démontre des propriétés algébriques des puissances, qui sont des énoncés généraux sur les opérations avec des exposants."
+    },
+    {
+      "block\_id": "block\_81\_4583aa8d",
+      "relation": "has\_proof",
+      "confidence": 0.95,
+      "reason": "Le bloc 'block\_81\_4583aa8d' fournit une démonstration pour une formule impliquant des puissances, qui est directement liée aux propriétés algébriques des puissances."
+    }
+  ]
+}

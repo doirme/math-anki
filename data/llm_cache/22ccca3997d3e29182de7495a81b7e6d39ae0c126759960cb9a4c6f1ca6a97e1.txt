@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_35_39d2378c",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc discute d'une fonction et affirme l'existence d'un unique point fixe, ce qui est prouvé dans le bloc candidate."
+    },
+    {
+      "block_id": "block_36_3a638100",
+      "relation": "has_proof",
+      "confidence": 0.95,
+      "reason": "Le bloc contient une démonstration pour une fonction particulière, qui peut être utilisée pour prouver l'affirmation du bloc d'origine."
+    }
+  ]
+}

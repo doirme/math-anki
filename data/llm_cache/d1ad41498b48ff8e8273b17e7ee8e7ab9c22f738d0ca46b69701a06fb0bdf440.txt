@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_6_5a84bf7a",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "The 'VOCABULAIRE USUEL' block likely uses definitions from other blocks, and the 'MONOTONIE' block (block_7_ad608e35) could be one of them."
+    }
+  ]
+}

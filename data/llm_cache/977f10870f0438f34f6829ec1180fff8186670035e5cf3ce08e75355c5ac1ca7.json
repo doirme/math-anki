@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_63_b071d239 - example]\n**Exemple** Soit $n \\in \\mathbb{N}$ . La fonction puissance $x \\mapsto x^{2n+1}$ possède un et un seul point d'inflexion, à savoir en 0, car sa dérivée seconde $x \\mapsto 2n(2n+1)x^{2n-1}$ , s'annule en changeant de signe en 0 et ne le fait nulle part ailleurs.\n\nCandidate blocks:\n[Block block_64_d6e3dfd3 - example]: **Exemple** Soient $a \\in \\mathbb{R}^*$ et $b, c, d \\in \\mathbb{R}$ . La fonction $x \\mapsto ax^3 + bx^2 + cx + d$ possède un et un seul point d'inflexion, à savoir en $-\\frac{b}{3a}$ , car sa dérivée\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration de la dérivabilité de l'inverse d'une fonction\n- Dérivation de la relation \( f \circ f^{-1} = \text{Id}_J \) :\n  - \((f^{-1})' \times f' \circ f^{-1} = 1\)\n- Attention :\n  - L'hypothèse de non-annulation de \( f' \) est cruciale pour la dérivabilité de \( f^{-1} \).\n  - Exemple illustré : Si \( f' \) s'annule en \( a \), alors \( f^{-1} \) a une tangente verticale en \( f(a) \) et n'est pas dérivable en ce point.\n\nExemple de fonction dérivable\n- Fonction : \( x \xrightarrow{f} \ln(x + \sqrt{x(1-x)}) \)\n- Ensemble de définition : \( ]0, 1[ \)\n- Continuité : \( f \) est continue sur \( [0, 1] \).\n- Dérivabilité : \( f \) est dérivable sur \( ]0, 1[ \).\n  - La fonction racine carrée impose \( x(1-x) > 0 \) et \( x + \sqrt{x(1-x)} > 0 \).\n  - La dérivabilité en 1 n'est pas prouvée dans ce contexte.",
+  "tags": ["Dérivabilité de l'inverse d'une fonction", "Formule de dérivation de l'inverse", "Exemple de fonction dérivable"]
+}
+```

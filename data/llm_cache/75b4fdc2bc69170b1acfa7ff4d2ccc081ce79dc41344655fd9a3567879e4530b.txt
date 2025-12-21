@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_123_0666c275",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser contient des informations sur la fonction Arccos et sa relation avec la fonction cosinus, qui sont utilisées dans le candidat block pour résoudre l'équation."
+    }
+  ]
+}

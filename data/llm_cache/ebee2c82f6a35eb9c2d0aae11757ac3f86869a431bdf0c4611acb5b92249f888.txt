@@ -1,0 +1,12 @@
+ <s> [OUT] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_48_a8015bbc",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat mentionne la convexité/concavité, ce qui pourrait être utilisé dans la démonstration du bloc analysé, bien que cela ne soit pas explicitement mentionné."
+    }
+  ]
+}
+``` 

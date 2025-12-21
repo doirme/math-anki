@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_42\_4c6bc40c",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc 'block\_42\_4c6bc40c' utilise la définition d'une fonction de classe C^k donnée dans le bloc 'block\_43\_9a91e05b' pour démontrer que la fonction x ↦ x^n est indéfiniment dérivable."
+    }
+  ]
+}

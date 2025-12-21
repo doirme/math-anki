@@ -1,0 +1,10 @@
+{
+"relationships": [
+{
+"block\_id": "block\_18\_9230f336",
+"relation": "proves",
+"confidence": 0.9,
+"reason": "Le bloc à analyser décrit des transformations affines du graphe d'une fonction, dont les symétries par rapport aux axes. Le bloc candidat fournit des exemples de symétrie par rapport à l'axe des ordonnées pour des fonctions trigonométriques, ce qui est un cas particulier des symétries décrites dans le bloc à analyser."
+}
+]
+}

@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_79_3009fef0",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise la propriété algébrique des puissances et du logarithme naturel spécifiée dans le théorème (i) du bloc block_80_e802487a."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+"relationships": [
+{"block_id": "block_76_56115b2d", "relation": "has_proof", "confidence": 0.9, "reason": "This block contains a proof for the properties of the exponential function, which is a reciprocal function of the logarithm as defined in block_74_fc1520ec."},
+{"block_id": "block_76_56115b2d", "relation": "uses_theorem", "confidence": 0.8, "reason": "This block relies on the theorem of derivability of a reciprocal function, which is not explicitly stated in the provided text but is a well-known theorem in calculus."},
+{"block_id": "block_76_56115b2d", "relation": "uses_definition", "confidence": 0.7, "reason": "This block uses the definition of the logarithm function provided in block_74_fc1520ec."}
+]
+}

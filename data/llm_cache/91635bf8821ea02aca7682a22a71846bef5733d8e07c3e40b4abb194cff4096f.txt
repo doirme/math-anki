@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple : \n- Expression : $\\frac{\\ln(1+x)}{x+\\sinh x}$\n- Limite : $\\xrightarrow{x \\to 0} \\frac{1}{2}$",
+    "tags": ["exemple", "limite"]
+  }
+]
+```

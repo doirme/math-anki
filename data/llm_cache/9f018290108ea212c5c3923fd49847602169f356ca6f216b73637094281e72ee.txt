@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_132\_57039035",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "L'expression 'Arcsin x' utilisée dans le bloc est définie dans le bloc block\_133\_1e30a4d6."
+    }
+  ]
+}

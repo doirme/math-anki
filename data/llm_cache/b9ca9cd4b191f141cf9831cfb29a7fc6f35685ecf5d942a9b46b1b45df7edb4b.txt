@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_62_0eb76390",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc définit les points d'inflexion, qui sont utilisés dans le théorème pour définir les conditions d'existence d'un tel point."
+    }
+  ]
+}

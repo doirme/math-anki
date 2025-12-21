@@ -1,0 +1,16 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_3\_647f0427",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise la définition de la fonction logarithme népérien, qui est décrite dans le bloc de candidat."
+    },
+    {
+      "block\_id": "block\_4\_dbd9a4e8",
+      "relation": "has\_proof",
+      "confidence": 0.8,
+      "reason": "Le bloc de candidat fournit une preuve de la définition de la fonction utilisée dans le bloc à analyser."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Théorème (Propriétés des fonctions arc cosinus, arc sinus et arc tangente)**\n- Arccosinus :\n  - Continue sur $[-1, 1]$ et de classe $\\mathcal{C}^{\\infty}$ sur $]-1, 1[$\n  - Pas dérivable en $-1$ et $1$\n  - Pour $x \\in ]-1, 1[$, $\\arccos'(x) = -\\frac{1}{\\sqrt{1-x^2}}$\n- Arcsinus :\n  - Impair et continue sur $[-1, 1]$ et de classe $\\mathcal{C}^{\\infty}$ sur $]-1, 1[$\n  - Pas dérivable en $-1$ et $1$\n  - Pour $x \\in ]-1, 1[$, $\\arcsin'(x) = \\frac{1}{\\sqrt{1-x^2}}$\n- Arctangente :\n  - Impair et de classe $\\mathcal{C}^{\\infty}$ sur $\\mathbb{R}$\n  - Pour $x \\in \\mathbb{R}$, $\\arctan'(x) = \\frac{1}{1+x^2}$\n- Une relation mixte : Pour tout $x \\in [-1, 1]$, $\\cos \\arcsin x = \\sin \\arccos x = \\sqrt{1-x^2}$.",
+  "tags": ["Propriétés des fonctions arc cosinus, arc sinus et arc tangente", "Arccosinus", "Arcsinus", "Arctangente"]
+}

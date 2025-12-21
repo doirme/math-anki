@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration :\n- La fonction $f : x \mapsto \ln(x + \sqrt{x(1-x)})$ est définie et continue sur $[0, 1]$, dérivable sur $]0, 1[$.",
+  "tags": ["définition", "continuité", "dérivabilité"]
+}

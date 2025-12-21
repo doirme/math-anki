@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_21_a5085955",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème utilise la définition d'une fonction périodique, qui est donnée dans le bloc de définition."
+    },
+    {
+      "block_id": "block_23_fb33071d",
+      "relation": "has_proof",
+      "confidence": 0.95,
+      "reason": "Le bloc contient l'énoncé du théorème, et le bloc de preuve contient la démonstration correspondante."
+    }
+  ]
+}
+```

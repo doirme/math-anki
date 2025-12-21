@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Théorème (Caractérisation des fonctions dérivables constantes/monotonnes)**\n- **Constance :** Soit $f$ une fonction dérivable sur un intervalle $I$. $f$ est constante sur $I$ si et seulement si $f'$ est nulle sur $I$.\n- **Monotonie :** $f$ est croissante sur $I$ si et seulement si $f'$ est positive (ou nulle) sur $I$.\n- **Monotonie stricte :** $f$ est strictement croissante sur $I$ si et seulement si $f'$ est positive (ou nulle) sur $I$ et n'est identiquement nulle sur aucun intervalle $[a, b]$ inclus dans $I$ avec $a < b$.",
+    "tags": ["theorem", "derivative", "interval", "constant", "monotonicity"]
+  }
+]

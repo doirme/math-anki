@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_116\_c158fd55",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "La fonction tangente utilisée dans les formules est définie dans le bloc block\_115\_782bacd2."
+    }
+  ]
+}

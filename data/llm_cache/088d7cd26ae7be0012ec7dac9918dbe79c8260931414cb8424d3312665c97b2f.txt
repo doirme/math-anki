@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Définition complète"],
+    "needs_preceding": false,
+    "needs_following": true,
+    "suggested_merge_with": [],
+    "normalized_text": "## 5.1 FONCTIONS COSINUS, SINUS ET TANGENTE\n\n### Définition\n- (Aucune définition fournie dans le bloc)",
+    "tags": ["incomplet", "manque_definition"]
+  }
+]
+```

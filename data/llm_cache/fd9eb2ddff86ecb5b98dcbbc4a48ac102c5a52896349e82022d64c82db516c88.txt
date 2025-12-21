@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_76_56115b2d",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_76_56115b2d contient une démonstration qui justifie la définition de l'exponentielle mentionnée dans le bloc block_74_fc1520ec."
+    }
+  ]
+}
+```

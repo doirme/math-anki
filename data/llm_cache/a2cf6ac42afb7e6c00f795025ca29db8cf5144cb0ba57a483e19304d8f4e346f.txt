@@ -1,0 +1,5 @@
+{
+"relationships": [
+{"block\_id": "block\_105\_c552c859", "relation": "generalizes", "confidence": 0.9, "reason": "Les deux blocs traitent des ensembles équivalents modulo une constante, avec une application possible de l'exemple à la fonction dans le bloc 104."}
+]
+}

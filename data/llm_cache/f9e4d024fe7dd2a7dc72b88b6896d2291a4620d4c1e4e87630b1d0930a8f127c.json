@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_135_bdc889f1 - proof]\n**Démonstration** Il s'agit de montrer que la fonction $x \\xrightarrow{f} \\text{Arccos } x + \\text{Arcsin } x$ est constante sur $[-1, 1]$ de valeur $\\frac{\\pi}{2}$ . Or cette fonction est dérivable sur l'INTERVALLE ouvert $]-1, 1[$ et sa dérivée est la fonction nulle, donc $f$ est constante. Quelle valeur ? Nous pouvons la calculer en 0 par\n\nCandidate blocks:\n[Block block_136_b35fb6c1 - example]: exemple : $f(0) = \\text{Arccos } 0 + \\text{Arcsin } 0 = \\frac{\\pi}{2} + 0 = \\frac{\\pi}{2}$ , et $f(1)$ et $f(-1)$ valent la même chose par continuité de $f$ sur l'intervalle fermé $[-1, 1]$ .\n\n**Exemp\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

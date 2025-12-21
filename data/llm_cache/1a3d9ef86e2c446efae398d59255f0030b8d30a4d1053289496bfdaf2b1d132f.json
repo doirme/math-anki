@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_30_2cb912d2 - theorem]\n**Théorème (Théorème des valeurs intermédiaires ou TVI)** Soient $a$ et $b$ deux réels pour lesquels $a < b$ et $f \\in \\mathcal{C}([a, b], \\mathbb{R})$ . Tout réel $y$ compris entre $f(a)$ et $f(b)$ possède au moins un antécédent par $f$ dans $[a, b]$ , éventuellement plusieurs. Graphique illustrant le Théorème des Valeurs Intermédiaires (TVI). La fonction $f$ est représentée par une courbe continue sur l'intervalle $[a, b]$ . Les valeurs $f(a)$ et $f(b)$ sont marquées. Un point $y$ est indiqué \n\nCandidate blocks:\n[Block block_31_00a4f763 - manual_review]: #### Théorème (Image d'un intervalle par une fonction continue) - **Version image d'un intervalle du TVI** : Pour toute fonction $f \\in \\mathcal{C}(E, \\mathbb{R})$ et tout intervalle $I$ inclus dans $\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

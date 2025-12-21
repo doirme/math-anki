@@ -1,0 +1,11 @@
+ <s> ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Soit \( n \in \mathbb{N} \). La fonction \( x \mapsto x^{2n+1} \) possède un et un seul point d'inflexion en 0, car sa dérivée seconde \( x \mapsto 2n(2n+1)x^{2n-1} \) s'annule en changeant de signe en 0 et ne le fait nulle part ailleurs.",
+  "tags": ["Point d'inflexion"]
+}
+``` 

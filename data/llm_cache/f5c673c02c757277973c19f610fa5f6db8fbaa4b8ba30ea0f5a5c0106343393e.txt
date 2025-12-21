@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_63_b071d239",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "L'exemple utilise le théorème du point d'inflexion pour démontrer que la fonction puissance possède un point d'inflexion en 0."
+    }
+  ]
+}
+```

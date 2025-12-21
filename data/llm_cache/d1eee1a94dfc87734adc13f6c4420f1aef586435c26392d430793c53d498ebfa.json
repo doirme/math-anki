@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_26_1153fd8c - proof]\n**Démonstration** (i) Concernant $f + g$ , pour tout $x \\in E$ : $(f + g)(x + T) = f(x + T) + g(x + T) = f(x) + g(x) = (f + g)(x)$ . (ii) Notons $g$ la fonction $x \\mapsto f(\\omega x)$ définie sur $\\{x \\in \\mathbb{R} \\mid \\omega x \\in E\\} = \\frac{1}{\\omega} E$ . Pour tout $x \\in \\frac{1}{\\omega} E$ : $$g\\left(x + \\frac{T}{\\omega}\\right) = f\\left(\\omega\\left(x + \\frac{T}{\\omega}\\right)\\right) = f(\\omega x + T) = f(\\omega x) = g(x).$$ ## 2 CONTINUITÉ, DÉRIVABILITÉ, CONVEXITÉ/CONCAVITÉ Les grands t\n\nCandidate blocks:\n[Block block_25_fb33071d - theorem]: **Théorème (Opérations sur les fonctions périodiques)** Soit $T > 0$ . On suppose que $E$ est $T$ -périodique. Soient $f: E \\to \\mathbb{R}$ et $g: E \\to \\mathbb{R}$ deux fonctions $T$ -périodiques. (i\n\n[Block block_27_a1cf1bd8 - unknown]: ### 2.1 CONTINUITÉ\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

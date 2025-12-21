@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Fonction arcsinus) - **Continuité/imparité** : La fonction sin[−π/2, π/2] est bijective de [−π/2, π/2] sur [−1, 1] et continue/impaire, donc d'après le théorème de continuité/imparité d'une réciproque, sa réciproque Arcsin = (sin[−π/2, π/2])−1 est continue/impaire sur [−1, 1].\n- **Relation** cos Arcsin x : Pour tout x ∈ [−1, 1] : Arcsin x ∈ [−π/2, π/2], donc cos Arcsin x ≥ 0, donc : cos Arcsin x = |cos Arcsin x| = √1 - sin2 Arcsin x = √1 - x2.\n- **Dérivabilité et dérivée** : La fonction sin[−π/2, π/2] est bijective de [−π/2, π/2] sur [−1, 1], de classe C^∞, et sa dérivée sin' = cos ne s'annule pas sur [−π/2, π/2], donc d'après le théorème de dérivabilité d'une réciproque, Arcsin est de classe C^∞ sur [−1, 1] et pour tout x ∈ [−1, 1] : Arcsin'(x) = 1/(sin' ∘ Arcsin(x)) = 1/cos Arcsin x = 1/√1-x2.",
+    "tags": ["theorem", "continuity", "oddness", "arcsine", "reciprocal", "derivative"]
+  }
+]

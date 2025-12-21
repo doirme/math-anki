@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Théorème des valeurs intermédiaires ou TVI): Soit $f$ une fonction continue sur l'intervalle $[a, b]$ avec $a < b$. Pour tout réel $y$ compris entre $f(a)$ et $f(b)$, il existe au moins un réel $x$ dans $[a, b]$ tel que $f(x) = y$.",
+    "tags": ["theorem"]
+  }
+]

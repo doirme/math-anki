@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_102_ec503869",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "The candidate block (block_103_47549ff1) appears to provide a proof for the statement made in the given block."
+    }
+  ]
+}

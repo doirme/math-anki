@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Si \( f \) est dérivable en \( a \), alors \( f \) est continue en \( a \).\n\nPreuve :\n- Par définition de la dérivabilité, \( f(x) = \frac{f(x) - f(a)}{x - a} \times (x - a) + f(a) \).\n- En faisant tendre \( x \) vers \( a \), on obtient \( f(x) \xrightarrow{x \to a} f'(a) \times 0 + f(a) = f(a) \).\n- Donc \( f \) est continue en \( a \).",
+  "tags": ["Dérivabilité", "Continuité"]
+}
+```

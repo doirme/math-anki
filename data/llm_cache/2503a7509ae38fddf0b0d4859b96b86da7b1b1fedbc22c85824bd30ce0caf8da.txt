@@ -1,0 +1,13 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_87_6f65a29c",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise les définitions des fonctions cosinus hyperbolique et sinus hyperbolique données dans le bloc block_86_0d1f98c9."
+    }
+  ]
+}
+
+Explication :
+Le bloc block_87_6f65a29c démontre une identité impliquant les fonctions cosinus hyperbolique et sinus hyperbolique. Cette démonstration repose directement sur la définition de ces fonctions, qui est donnée dans le bloc block_86_0d1f98c9. Par conséquent, il est probable que le bloc block_87_6f65a29c "utilise la définition" du bloc block_86_0d1f98c9, avec une confiance de 0.9.

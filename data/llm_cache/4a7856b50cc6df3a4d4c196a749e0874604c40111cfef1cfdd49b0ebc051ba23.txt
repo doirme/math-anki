@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "La fonction \( x \mapsto x^2 - 3x + 2 \) est définie sur \( \mathbb{R} \) et \( x \mapsto \ln x \) l'est sur \( \mathbb{R}_+ \), mais quand \( x \) décrit \( \mathbb{R} \), \( x^2 - 3x + 2 \) n'appartient pas forcément à \( \mathbb{R}_+ \). Pour quels \( x \in \mathbb{R} \) est-il vrai que \( x^2 - 3x + 2 > 0 \) ? Réponse : \( x \in ]-\infty, 1[ \cup ]2, +\infty[ \) car les racines du polynôme sont 1 et 2 et son coefficient dominant est strictement positif.",
+    "tags": ["proof"]
+  }
+]
+```

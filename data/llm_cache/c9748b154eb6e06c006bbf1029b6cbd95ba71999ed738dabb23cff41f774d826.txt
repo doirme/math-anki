@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_2_647f0427",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat utilise le concept de fonction définie sur un ensemble, ce qui est introduit dans le bloc à analyser."
+    }
+  ]
+}
+```

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Réciproque d'une fonction bijective impaire)\n- Hypothèses :\n  - \( f: E \to F \) est une fonction bijective de \( E \) sur \( F \).\n  - \( E \) est symétrique par rapport à \( 0 \).\n  - \( f \) est impaire.\n- Conclusion :\n  - \( F \) est symétrique par rapport à \( 0 \).\n  - \( f^{-1} \) est impaire.",
+  "tags": ["Théorème (Réciproque d'une fonction bijective impaire)"]
+}
+```

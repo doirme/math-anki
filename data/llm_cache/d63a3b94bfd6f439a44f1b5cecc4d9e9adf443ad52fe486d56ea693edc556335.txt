@@ -1,0 +1,21 @@
+ <s> [OUT] ```json
+{
+  "name": null,
+  "normalized_name": null,
+  "hypotheses": [
+    "Avec les notations du théorème, faisons l'hypothèse que $x > 0$ et $y < 0$. On peut donc choisir $\\theta$ dans $]-\\frac{\\pi}{2}, 0[$"
+  ],
+  "hypothesis_text": "Avec les notations du théorème, faisons l'hypothèse que $x > 0$ et $y < 0$. On peut donc choisir $\\theta$ dans $]-\\frac{\\pi}{2}, 0[$",
+  "conclusion": "Comment exprimer $\\theta$ comme un arc cosinus ou un arc sinus ?",
+  "conclusion_text": "Comment exprimer $\\theta$ comme un arc cosinus ou un arc sinus ?",
+  "has_proof": true,
+  "domain_tags": [
+    "trigonométrie",
+    "analyse"
+  ],
+  "characteristics": [
+    "continu",
+    "dérivable"
+  ]
+}
+```

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_5_0344a69a",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Les deux blocs traitent de la définition de domaine de fonctions, bien que le bloc candidat soit un exemple spécifique."
+    }
+  ]
+}
+```

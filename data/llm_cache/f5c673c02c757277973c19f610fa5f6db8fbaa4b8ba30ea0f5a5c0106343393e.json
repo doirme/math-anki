@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_62_0eb76390 - theorem]\nthéorème (Point d'inflexion)** Soient $I$ un intervalle, $f: I \\to \\mathbb{R}$ une fonction et $a \\in I$ un point qui n'est pas une borne de $I$ . On dit que $f$ possède un point d'inflexion en $a$ si $f$ est convexe au voisinage de $a$ à gauche et concave au voisinage de $a$ à droite — ou l'inverse. Si $f$ est deux fois dérivable sur $I$ , $f$ possède un point d'inflexion en $a$ si et seulement si $f''$ s'annule en $a$ et est positive au voisinage de $a$ à gauche et négative au voisinage de $a$\n\nCandidate blocks:\n[Block block_63_b071d239 - example]: **Exemple** Soit $n \\in \\mathbb{N}$ . La fonction puissance $x \\mapsto x^{2n+1}$ possède un et un seul point d'inflexion, à savoir en 0, car sa dérivée seconde $x \\mapsto 2n(2n+1)x^{2n-1}$ , s'annule \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

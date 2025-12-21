@@ -1,0 +1,14 @@
+ {
+  "steps": [
+    "step 1: Identification of the function and its domain",
+    "step 2: Determination of the condition for the image of the function to belong to the domain of the square root function",
+    "step 3: Conclusion on the values of x for which the composition of functions is defined"
+  ],
+  "uses_definitions": [
+    "definition of the function  $x ↦ x+3$",
+    "definition of the set of real numbers  $\\mathbb{R}$",
+    "definition of the square root function  $\\sqrt{\\cdot}$",
+    "definition of the set of non-negative real numbers  $\\mathbb{R}_+$"
+  ],
+  "uses_theorems": []
+}

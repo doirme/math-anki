@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème: Formules d'addition et de produit du cosinus et du sinus\n- sin(x + y) = sin(x)cos(y) + cos(x)sin(y)\n- sin(x - y) = sin(x)cos(y) - cos(x)sin(y)\n- cos(x + y) = cos(x)cos(y) - sin(x)sin(y)\n- cos(x - y) = cos(x)cos(y) + sin(x)sin(y)\n- sin(x)sin(y) = (1/2)(cos(x - y) - cos(x + y))\n- sin(x)cos(y) = (1/2)(sin(x + y) + sin(x - y))\n- cos(x)cos(y) = (1/2)(cos(x + y) + cos(x - y))",
+    "tags": []
+  }
+]

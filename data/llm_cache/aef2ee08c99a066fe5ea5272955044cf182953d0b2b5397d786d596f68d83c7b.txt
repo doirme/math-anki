@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Démonstration**\n- La dérivabilité de $(f^{-1})'$ demande l’hypothèse de non-annulation de $f'$\n- Relation : $(f^{-1})' \times f' \circ f^{-1} = 1$",
+    "tags": ["proof"]
+  }
+]

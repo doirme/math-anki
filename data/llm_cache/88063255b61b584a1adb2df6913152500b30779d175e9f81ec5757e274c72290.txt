@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Injectivité et stricte monotonicité)\nSoit \( f: E \to \mathbb{R} \) une fonction.\nSi \( f \) est strictement monotone, \( f \) est injective.\nLes résultats qui suivent sont énoncés en termes de monotonicité au sens large, mais ils sont valables pour des fonctions monotones au sens strict.",
+  "tags": ["Théorème (Injectivité et stricte monotonicité)"]
+}
+```

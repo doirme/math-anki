@@ -1,0 +1,18 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_57_5161ebc9",
+      "relation": "proves",
+      "candidate_block_id": "block_56_cd17df10",
+      "confidence": 0.9,
+      "reason": "The theorem proves that if a function is convex, its tangent lines lie below the graph of the function, which is demonstrated using the absolute value function in the example."
+    },
+    {
+      "block_id": "block_57_5161ebc9",
+      "relation": "has_proof",
+      "candidate_block_id": "block_58_722a29f5",
+      "confidence": 0.95,
+      "reason": "The proof block directly supports the theorem by demonstrating the implication (ii) => (iii), which is a key part of the theorem."
+    }
+  ]
+}

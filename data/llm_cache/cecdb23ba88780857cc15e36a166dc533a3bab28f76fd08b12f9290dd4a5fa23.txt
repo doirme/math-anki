@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration : La proposition « $f$ est majorée et minorée » s'écrit :  $\\exists m, M \\in \\mathbb{R}$ ,  $\\forall x \\in E$ ,  $m \\le f(x) \\le M$ . Cette proposition est équivalente à l'existence d'un réel $K$ tel que $|f(x)| \\le K$ pour tout $x \\in E$ .",
+    "tags": []
+  }
+]

@@ -1,0 +1,21 @@
+ <s> ```json
+{
+  "steps": [
+    "Supposons que la dérivée f' est croissante sur l'intervalle I.",
+    "Fixons un point a dans I.",
+    "Définissons la fonction φ(x) = f(x) - f'(a)(x - a) - f(a).",
+    "Montrons que φ est dérivable sur I et calculons sa dérivée φ'(x) = f'(x) - f'(a).",
+    "Utilisons la croissance de f' pour montrer que φ' est négative à gauche de a et positive à droite de a.",
+    "En déduire que φ est décroissante à gauche de a et croissante à droite de a.",
+    "Conclure que φ est positive sur tout I car φ(a) = 0, ce qui implique que f(x) ≥ f'(a)(x - a) + f(a) pour tout x ∈ I."
+  ],
+  "uses_definitions": [
+    "Fonction convexe",
+    "Dérivée croissante",
+    "Tangente à une fonction"
+  ],
+  "uses_theorems": [
+    "Théorème de caractérisation des fonctions convexes dérivables"
+  ]
+}
+```

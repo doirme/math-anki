@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n**Démonstration** Au brouillon, pour $x$ très grand : $x + \\sqrt{x} \\approx x$ , donc $\\frac{x^2}{x + \\sqrt{x}} \\approx \\frac{x^2}{x} = x \\to +\\infty$ . Rapide et convaincant, mais pas du tout rigoureux. Sur une copie : $$\\frac{x^2}{x + \\sqrt{x}} = \\frac{x^2}{x \\left(1 + \\frac{1}{\\sqrt{x}}\\right)} = \\frac{x}{1 + \\frac{1}{\\sqrt{x}}} \\xrightarrow{x \\to +\\infty} +\\infty \\quad \\text{et rien de plus.}$$\n\nContext (may be empty):\n**Exemple** $\\frac{x^2}{x + \\sqrt{x}} \\xrightarrow{x \\to +\\infty} +\\infty$ .\n\n**Exemple** $\\frac{\\ln(e^x + 1)}{e^{x+\\ln x} + 1} \\xrightarrow{x \\to +\\infty} 0$ .\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

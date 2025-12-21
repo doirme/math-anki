@@ -1,0 +1,11 @@
+ ```json
+{
+  "term": "fonction exponentielle",
+  "normalized_term": "fonction exponentielle",
+  "statement": "La fonction logarithme est bijective de ℝ₊* sur ℝ. On appelle *fonction exponentielle* et on note exp sa réciproque, bijective de ℝ sur ℝ₊*.",
+  "domain_tags": ["analyse réelle", "fonctions"],
+  "characteristics": ["bijective", "réciproque", "exp"],
+  "is_multiple": false,
+  "definitions": []
+}
+```

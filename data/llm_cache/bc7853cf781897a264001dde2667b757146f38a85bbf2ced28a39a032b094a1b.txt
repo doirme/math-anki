@@ -1,0 +1,18 @@
+ <s> [OUT] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_18_99e02868",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème utilise la définition de fonction impaire, qui est donnée dans le bloc de définition."
+    },
+    {
+      "block_id": "block_20_9ec7c621",
+      "relation": "has_proof",
+      "confidence": 0.95,
+      "reason": "Le bloc contient l'énoncé du théorème, et le bloc de preuve contient la démonstration correspondante."
+    }
+  ]
+}
+``` 

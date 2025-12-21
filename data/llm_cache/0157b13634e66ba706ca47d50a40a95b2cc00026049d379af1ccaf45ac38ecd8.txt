@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Formule $\\tan(x+y)$ : \\\\\\tan(x+y) = \\\\\\frac{\\sin(x+y)}{\\cos(x+y)} = \\\\\\frac{\\sin x \\cos y + \\cos x \\sin y}{\\cos x \\cos y - \\sin x \\sin y} = \\\\\\frac{\\cos x \\cos y \\left(\\frac{\\sin x}{\\cos x} + \\frac{\\sin y}{\\cos y}\\right)}{\\cos x \\cos y \\left(1 - \\frac{\\sin x}{\\cos x} \\times \\frac{\\sin y}{\\cos y}\\right)} = \\\\\\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}$\\n- **Expressions en fonction de** $t = \\tan \\frac{x}{2}$ : \\\\\\tan x = \\\\\\tan \\left(2 \\times \\frac{x}{2}\\right) = \\\\\\frac{t+t}{1-t^2} = \\\\\\frac{2t}{1-t^2}$ , puis : \\\\\\sin x = \\\\\\sin \\left(2 \\times \\frac{x}{2}\\right) = 2 \\sin \\frac{x}{2} \\cos \\frac{x}{2} = 2 \\tan \\frac{x}{2} \\cos^2 \\frac{x}{2} = \\\\\\frac{2 \\tan \\frac{x}{2}}{1 + \\tan^2 \\frac{x}{2}} = \\\\\\frac{2t}{1+t^2}$ et enfin : \\\\\\cos x = \\\\\\frac{\\sin x}{\\tan x} = \\\\\\frac{\\frac{2t}{1+t^2}}{\\frac{2t}{1+t^2}} = \\\\\\frac{1-t^2}{1+t^2}$ .",
+    "tags": ["formule", "tangente", "trigonométrie", "identités"]
+  }
+]
+``` 

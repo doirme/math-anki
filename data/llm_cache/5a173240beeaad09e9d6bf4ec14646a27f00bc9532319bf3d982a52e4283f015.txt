@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block\_id": "block\_25\_fb33071d", "relation": "proves", "confidence": 0.9, "reason": "Le théorème décrit des opérations sur les fonctions périodiques, qui sont définies en utilisant la définition de fonction périodique donnée dans le bloc à analyser."},
+{"block\_id": "block\_24\_a5085955", "relation": "used\_in", "confidence": 0.9, "reason": "La définition de fonction périodique est utilisée dans le théorème pour définir les fonctions sur lesquelles les opérations sont effectuées."}
+]
+}

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration :\n- Pour tout \( x \in \mathbb{R} \), on a \( \text{ch}^2 x - \text{sh}^2 x = 1 \).\n- Preuve : \( \text{ch}^2 x - \text{sh}^2 x = (\text{ch } x + \text{sh } x)(\text{ch } x - \text{sh } x) = e^x e^{-x} = 1 \).",
+  "tags": ["Identité hyperbolique fondamentale"]
+}
+```

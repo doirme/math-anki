@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_0_a5247247",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc block_1_67de6bc4 contient une preuve détaillée du théorème de Cantor, qui est énoncé dans le bloc block_0_a5247247."
+    }
+  ]
+}
+```

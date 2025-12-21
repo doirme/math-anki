@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Formules d'addition et de produit du cosinus et du sinus)\n- \\sin(x + y) = \\sin x \\cos y + \\cos x \\sin y\n- \\sin(x - y) = \\sin x \\cos y - \\cos x \\sin y\n- \\cos(x + y) = \\cos x \\cos y - \\sin x \\sin y\n- \\cos(x - y) = \\cos x \\cos y + \\sin x \\sin y\n- \\sin x \\sin y = \\frac{1}{2} (\\cos(x - y) - \\cos(x + y))\n- \\sin x \\cos y = \\frac{1}{2} (\\sin(x + y) + \\sin(x - y))\n- \\cos x \\cos y = \\frac{1}{2} (\\cos(x + y) + \\cos(x - y))\n- Pour x = y, on parle de formules de duplication : \\sin^2 x = \\frac{1 - \\cos(2x)}{2}, \\cos^2 x = \\frac{1 + \\cos(2x)}{2}, \\sin(2x) = 2 \\sin x \\cos x, \\cos(2x) = 2 \\cos^2 x - 1 = 1 - 2 \\sin^2 x.",
+    "tags": ["théorème", "formules trigonométriques"]
+  }
+]
+``` 

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Opérations sur les fonctions périodiques)\nSoit \( T > 0 \). On suppose que \( E \) est \( T \)-périodique. Soient \( f: E \to \mathbb{R} \) et \( g: E \to \mathbb{R} \) deux fonctions \( T \)-périodiques.\n\n(i) Les fonctions \( f + g \) et \( f \times g \) sont aussi \( T \)-périodiques, ainsi que \( \frac{f}{g} \) si \( g \) ne s'annule pas.\n(ii) Pour tout \( \omega > 0 \), la fonction \( x \mapsto f(\omega x) \) est \( \frac{T}{\omega} \)-périodique sur l'ensemble dilaté/contracté \( \frac{1}{\omega} E \).\n\nPar exemple, pour \( \omega = 2 \), le graphe de la fonction \( x \mapsto f(2x) \) s'obtient à partir de celui de \( f \) par une contraction horizontale de facteur 2. Si \( f \) est \( T \)-périodique, rien d'étonnant du coup à ce que \( x \mapsto f(2x) \) soit \( \frac{T}{2} \)-périodique.",
+  "tags": ["Théorème (Opérations sur les fonctions périodiques)"]
+}
+```

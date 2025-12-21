@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Théorème (Opérations sur les fonctions continues)**\n- **Combinaison linéaire** : Pour toutes fonctions $f, g ∈ C(E, ℝ)$ et $λ, μ ∈ ℝ$ , la fonction $λf + μg$ est continue sur $E$.\n- **Produit** : Pour toutes fonctions $f, g ∈ C(E, ℝ)$ , le produit $fg$ est continue sur $E$.\n- **Quotient** : Pour toutes fonctions $f, g ∈ C(E, ℝ)$ avec $g$ ne s'annulant pas, la fonction $\frac{f}{g}$ est continue sur $E$.\n- **Composition** : Pour toutes fonctions $f ∈ C(E, ℝ)$ et $g ∈ C(F, ℝ)$ , si $f(E) ⊂ F$ , alors $g ∘ f$ est continue sur $E$.\n- **Réciproque** : Soient $I$ et $J$ deux intervalles. Pour toute fonction $f ∈ C(I, ℝ)$ bijective de $I$ sur $J$ , $f^{-1}$ est continue sur $J$ .",
+    "tags": ["theorem"]
+  }
+]

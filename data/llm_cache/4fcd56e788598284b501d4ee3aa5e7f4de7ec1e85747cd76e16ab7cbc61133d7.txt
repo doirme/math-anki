@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "## 6 TABLEAUX RÉCAPITULATIFS DES DÉRIVÉES USUELLES\n\n### Dérivées des fonctions exponentielles et logarithmiques\n- Fonction: $e^x$\n  Dérivée: $e^x$\n- Fonction: $\ln x$\n  Dérivée: $\\frac{1}{x}$\n- Fonction: $x^\\alpha = e^{\\alpha \\ln x}$\n  Dérivée: $\\alpha x^{\\alpha-1}$\n- Fonction: $\\mathrm{ch} x = \\frac{e^x - e^{-x}}{2}$\n  Dérivée: $\\mathrm{sh} x$\n- Fonction: $\\mathrm{sh} x = \\frac{e^x + e^{-x}}{2}$\n  Dérivée: $\\mathrm{ch} x$\n- Fonction: $\\mathrm{th} x = \\frac{\\mathrm{sh} x}{\\mathrm{ch} x}$\n  Dérivée: $1 - \\mathrm{th}^2 x = \\frac{1}{\\mathrm{ch}^2 x}$\n\n### Dérivées des fonctions trigonométriques et inverses\n- Fonction: $\\sin x$\n  Dérivée: $\\cos x$\n- Fonction: $\\cos x$\n  Dérivée: $-\\sin x$\n- Fonction: $\\tan x = \\frac{\\sin x}{\\cos x}$\n  Dérivée: $1 + \\tan^2 x = \\frac{1}{\\cos^2 x}$\n- Fonction: $\\arcsin x$\n  Dérivée: $\\frac{1}{\\sqrt{1-x^2}}$\n- Fonction: $\\arccos x$\n  Dérivée: $-\\frac{1}{\\sqrt{1-x^2}}$\n- Fonction: $\\arctan x$\n  Dérivée: $\\frac{1}{1+x^2}$",
+    "tags": ["tableau", "dérivées", "fonctions", "exponentielles", "logarithmiques", "trigonométriques", "inverses"]
+  }
+]
+```

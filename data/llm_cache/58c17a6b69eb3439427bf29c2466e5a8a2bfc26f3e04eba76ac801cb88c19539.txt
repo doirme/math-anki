@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_91_ae70fb7c",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème sur la fonction tangente hyperbolique utilise la définition de la fonction tangente hyperbolique, qui est probablement définie dans le bloc à analyser."
+    }
+  ]
+}
+```

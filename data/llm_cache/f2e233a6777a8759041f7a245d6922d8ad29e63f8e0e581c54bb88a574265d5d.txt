@@ -1,0 +1,22 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Transformations affines du graphe d'une fonction)\n- Hypothèses :\n  - f: E → ℝ une fonction\n  - a, b ∈ ℝ\n  - λ > 0\n  - Plan muni d'un repère orthonormal direct (O, i→, j→)\n- Symétries :\n  - Le graphe de x ↦ -f(x) s'obtient par symétrie par rapport à (Ox)\n  - Le graphe de x ↦ f(-x) s'obtient par symétrie par rapport à (Oy)\n- Translations :\n  - Le graphe de x ↦ f(x) + a s'obtient par translation de vecteur a i→\n  - Le graphe de x ↦ f(x + a) s'obtient par translation de vecteur -a i→\n- Contractions/dilatations :\n  - Le graphe de x ↦ λf(x) s'obtient par dilatation verticale (λ ≥ 1) ou contraction verticale (λ < 1)\n  - Le graphe de x ↦ f(λx) s'obtient par contraction horizontale (λ ≥ 1) ou dilatation horizontale (λ < 1)\n- Diagrammes :\n  - Symétrie par rapport à (Ox) : y = f(x) et y = -f(x)\n  - Symétrie par rapport à (Oy) : y = f(x) et y = f(-x)\n  - Translation de vecteur a i→ : y = f(x) et y = f(x) + a\n  - Translation de vecteur -a i→ : y = f(x) et y = f(x + a)\n  - Dilatation verticale (λ ≥ 1) : y = f(x) et y = λf(x)\n  - Contraction verticale (λ < 1) : y = f(x) et y = λf(x)\n  - Contraction horizontale (λ ≥ 1) : y = f(x) et y = f(λx)\n  - Dilatation horizontale (λ < 1) : y = f(x) et y = f(λx)\n- Remarque :\n  - Pour x ↦ f(x + a), le graphe est en avance de a sur x ↦ f(x)",
+    "tags": [
+      "théorème",
+      "transformations affines",
+      "graphe de fonction",
+      "symétrie",
+      "translation",
+      "dilatation",
+      "contraction"
+    ]
+  }
+]
+```

@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_81_4583aa8d",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_81_4583aa8d contient une démonstration qui semble correspondre au théorème énoncé dans le bloc block_82_362c1eef."
+    },
+    {
+      "block_id": "block_83_ab1de7e9",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_83_ab1de7e9 contient une démonstration qui semble correspondre au théorème énoncé dans le bloc block_82_362c1eef, en particulier pour la deuxième limite mentionnée."
+    }
+  ]
+}
+```

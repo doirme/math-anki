@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "- La fonction cosinus restreinte à l’intervalle [0, π] est bijective de [0, π] sur [-1, 1].\n- La fonction sinus restreinte à l’intervalle [−π/2, π/2] est bijective de [−π/2, π/2] sur [-1, 1].\n- La fonction tangente restreinte à l’intervalle [−π/2, π/2] est bijective de [−π/2, π/2] sur ℝ.",
+    "tags": ["théorème"]
+  }
+]

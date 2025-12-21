@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_100_709db43c",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "The candidate block (block_101_e7b1e092) provides a proof for the limit expression in the given block."
+    },
+    {
+      "block_id": "block_101_e7b1e092",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "The given block (block_100_709db43c) states a limit that is proven by the candidate block."
+    },
+    {
+      "block_id": "block_100_709db43c",
+      "relation": "uses_theorem",
+      "confidence": 0.8,
+      "reason": "The limit expression in the given block can be seen as an application of l'Hopital's rule or other limit theorems, which are proven in other blocks."
+    }
+  ]
+}

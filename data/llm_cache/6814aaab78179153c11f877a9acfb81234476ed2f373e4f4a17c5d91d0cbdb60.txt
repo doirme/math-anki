@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_130\_2c368cd5",
+      "relation": "uses\_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise le théorème sur les relations entre les fonctions arc cosinus, arc sinus et arc tangente pour établir la relation entre cosinus et arc sinus."
+    }
+  ]
+}

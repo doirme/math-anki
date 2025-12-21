@@ -1,0 +1,24 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": [
+      "Théorème(Image d'un intervalle par une fonction continue) - Version image d'un intervalle du TVI"
+    ],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "exemple: - si $f$ est continue et strictement croissante sur $[a, b]$ , $f$ est bijective de $[a, b]$ sur $[f(a), f(b)]$ , - si $f$ est continue et strictement décroissante sur $[a, b]$ , $f$ est bijective de $[a, b]$ sur $[\lim_{b \to b^-} f, \lim_{b \to a^+} f]$ , - si $f$ est continue et strictement croissante sur $[a, b]$ , $f$ est bijective de $[a, b]$ sur $[\lim_{b \to b^-} f, \lim_{b \to a^+} f]$ . Par rapport au TVI de base, la stricte monotonicité apporte l'injectivité, donc l'unicité dès lors qu'on s'intéresse aux équations $y = f(x)$ d'inconnue $x$ avec $y$ fixé. À défaut de pouvoir démontrer le TVI et son corollaire strictement monotone maintenant, nous pouvons en comprendre dès maintenant les tenants et les aboutissants. Diagramme logique démontrant les implications de la continuité et de la strict croissance : - Si $f$ est continue sur $[a, b]$ , alors $f([a, b])$ n'a pas de trou, c'est un intervalle. - Si $f$ est strictement croissante sur $[a, b]$ , alors $f([a, b]) = [f(a), f(b)]$ . - Si $f$ est injective sur $[a, b]$ , alors $f$ est bijective de $[a, b]$ sur son image $f([a, b])$ . - Si $f$ est bijective de $[a, b]$ sur $f([a, b])$ , alors $f$ est injective sur $[a, b]$ . En pratique, le TVI et sa version strictement monotone sont très utiles quand on cherche des points fixes. Étudier les POINTS FIXES de $f$ , c'est étudier les ZÉROS de $x \mapsto f(x) - x$ , i.e. résoudre l'équation $f(x) - x = 0$ d'inconnue $x$ .",
+    "tags": [
+      "exemple",
+      "continuité",
+      "strictement croissante",
+      "strictement décroissante",
+      "bijective",
+      "TVI",
+      "points fixes"
+    ]
+  }
+]
+```

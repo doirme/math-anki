@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "## 2.3 CONVEXITÉ/CONCAVITÉ\n\nSoient $I$ un intervalle, $f: I \to \\mathbb{R}$ une fonction et $x, y \\in \\mathbb{R}$.\n\n- Quand $\\lambda$ décrit $[0, 1]$ , $\\lambda(y-x)$ décrit le segment d'extrémités $0$ et $y-x$ , donc $(1-\\lambda)x + \\lambda y = x + \\lambda(y-x)$ décrit le segment d'extrémités $x+0=x$ et $x+x-(y-x)=y$ .\n- Valeurs de $(1-\\lambda)x + \\lambda y \\to x$ $\\frac{3x+y}{4}$ $\\frac{x+y}{2}$ $\\frac{x+2y}{3}$ $y$\n- Valeurs de $\\lambda \\to 0$ $\\frac{1}{4}$ $\\frac{1}{2}$ $\\frac{2}{3}$ $1$\n\nDe la même manière, quand $\\lambda$ décrit $[0, 1]$ , $(1-\\lambda)f(x)+\\lambda f(y)$ décrit le segment d'extrémités $f(x)$ et $f(y)$ , et dans le plan, le point de coordonnées $(1-\\lambda)x + \\lambda y$ , $(1-\\lambda)f(x) + \\lambda f(y)$ décrit le segment d'extrémités $(x, f(x))$ et $(y, f(y))$ , appelé une corde de $f$ .\n\n**Définition (Fonction convexe/concave)**\nSoient $I$ un intervalle et $f: I \\to \\mathbb{R}$ une fonction.\n- **Fonction convexe** : On dit que $f$ est *convexe* si son graphe est situé en-dessous de toutes ses cordes, i.e. si : $\\forall x, y \\in I, \\forall \\lambda \\in [0, 1], f((1-\\lambda)x + \\lambda y) \\le (1-\\lambda)f(x) + \\lambda f(y)$ .\n- **Fonction concave** : On dit que $f$ est *concave* si son graphe est situé au-dessus de toutes ses cordes, i.e. si : $\\forall x, y \\in I, \\forall \\lambda \\in [0, 1], f((1-\\lambda)x + \\lambda y) \\ge (1-\\\lambda)f(x) + \\lambda f(y)$ .\n- Il est équivalent de dire que $-f$ est convexe.",
+    "tags": ["définition", "convexité", "concavité", "fonction"]
+  }
+]
+```

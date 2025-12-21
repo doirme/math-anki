@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": [],
+  "normalized_text": "La fonction $x ↦ e^{-x} - x$ est continue et strictement décroissante sur $\\mathbb{R}$. Elle tend vers $-\\infty$ en $+\\infty$ et vers $+\\infty$ en $-\\infty$. D'après le TVI strictement monotone, elle s'annule une et une seule fois sur $\\mathbb{R}$.",
+  "tags": ["Théorème de la valeur intermédiaire strictement monotone"]
+}

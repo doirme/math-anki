@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_37_3b8cc4f9",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise la définition de dérivabilité mentionnée dans le bloc candidat."
+    },
+    {
+      "block_id": "block_40_57a4f6e5",
+      "relation": "has_proof",
+      "confidence": 0.95,
+      "reason": "Le bloc candidat contient la démonstration du théorème présenté dans le bloc à analyser."
+    }
+  ]
+}
+```

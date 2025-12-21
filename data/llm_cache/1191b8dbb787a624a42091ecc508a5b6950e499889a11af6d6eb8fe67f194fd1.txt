@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_47_1f075da2",
+      "relation": "generalizes",
+      "confidence": 0.3,
+      "reason": "Les deux blocs traitent d'inégalités, mais celui-ci est plus spécifique (une seule variable) tandis que le candidat généralise à deux variables."
+    }
+  ]
+}
+```

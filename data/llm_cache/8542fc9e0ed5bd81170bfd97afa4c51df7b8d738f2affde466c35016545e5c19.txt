@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_51_42205b7a",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "The candidate block appears to provide a proof for the theorem presented in the initial block."
+    }
+  ]
+}

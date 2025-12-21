@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_108_7ec012cd",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc de démonstration utilise explicitement le théorème sur le lien entre les coordonnées cartésiennes et polaires, en citant les relations x = r cos θ et y = r sin θ."
+    },
+    {
+      "block_id": "block_110_77de4abe",
+      "relation": "has_proof",
+      "confidence": 0.7,
+      "reason": "Le bloc de démonstration semble être une partie de la preuve ou une illustration de l'exemple mentionné dans le bloc suivant, bien que la relation ne soit pas explicitement claire."
+    }
+  ]
+}
+```

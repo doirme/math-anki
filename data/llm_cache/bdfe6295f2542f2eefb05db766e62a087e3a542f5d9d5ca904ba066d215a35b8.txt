@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "### 2.1 CONTINUITÉ\n- Définition : Une fonction $f$ est continue sur $E$ si $f$ est continue en tout point de $E$. L'ensemble des fonctions continues sur $E$ est noté $\mathcal{C}(E, \mathbb{R})$.",
+  "tags": ["continuité", "fonction continue", "ensemble des fonctions continues"]
+}

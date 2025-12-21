@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_2_d964c7f9",
+      "relation": "has_proof",
+      "confidence": 0.95,
+      "reason": "Le bloc candidat contient une preuve par l'absurde de l'énoncé du théorème de Cantor, qui est le bloc à analyser."
+    }
+  ]
+}
+```

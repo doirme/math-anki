@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Définition (Fonction paire/impaire)\n- On suppose $E$ symétrique par rapport à $0$, i.e. que : $\\forall x \\in E, -x \\in E$.\n- Soit $f: E \\to \\mathbb{R}$ une fonction.\n- **Parité** : On dit que $f$ est *paire* si : $\\forall x \\in E, f(-x) = f(x)$.\n- **Imparité** : On dit que $f$ est *impaire* si : $\\forall x \\in E, f(-x) = -f(x)$.\n- Le graphe de $f$ est alors symétrique par rapport à l'axe des ordonnées (paire) ou à l'origine (impaire).\n- Le graphe d'une fonction impaire définie en $0$ passe toujours par l'origine.\n- Pas besoin d'étudier une fonction $f: E \\to \\mathbb{R}$ paire ou impaire sur $E$ tout entier, une étude sur $E \\cap \\mathbb{R}_+$ suffit.",
+    "tags": ["définition", "fonction", "parité", "imparité"]
+  }
+]
+```

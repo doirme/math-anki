@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : Vérifiez que vous comprenez bien les approximations suivantes :\n- Pour \( x \) très grand :\n  - \( e^x + x^2 \approx e^x \)\n  - \( 3x^2 - x + 1 \approx 3x^2 \)\n  - \( \frac{(x + \ln x)e^x}{e^{2x} + \sqrt{x}} \approx x e^{-x} \)\n  - \( \frac{|x|}{x^2 + 1} \approx \frac{1}{x} \)\n  - \( \operatorname{ch} x \approx \operatorname{sh} x \approx \frac{e^x}{2} \)\n- Pour \( x \) proche de 0 :\n  - \( \ln(1+x) \approx x \)\n  - \( e^x - 1 \approx x \)\n  - \( \operatorname{sh} x \approx x \)\n  - \( \frac{x + \ln(1+x)}{\ln(1+3x)} \approx \frac{2}{3} \)\n  - \( e^{3x} - e^x + x^2 \approx 2x \)\nAttention ! Il faut y réfléchir à deux fois quand on veut composer une relation \( f_1(x) \approx f_2(x) \) par une fonction \( g \), car en général : \( g \circ f_1(x) \approx g \circ f_2(x) \). Tâchons de le comprendre sur l'exemple des fonctions logarithme et exponentielle.\n- Pour \( x \) très grand :\n  - \( e^x + 1 \approx e^x \), mais comment le logarithme affecte-t-il les grandes quantités? Le logarithme tasse les infinis. Sur l'intervalle \([e^x, e^x + 1]\) de longueur 1, le logarithme est presque constant, donc \( \ln(e^x + 1) \approx \ln e^x = x \).\n- Pour \( x \) très grand :\n  - \( x + \ln x \approx x \), mais comment l'exponentielle affecte-t-elle les grandes quantités? L'exponentielle écarte les infinis. Par exemple, \( x + \ln 2 \approx x \) mais \( e^{x+\ln 2} = 2e^x \). L'intervalle \([x, x + \ln 2]\) a beau être de longueur \( \ln 2 \) seulement, l'exponentielle y est terriblement croissante. La situation est encore pire sur \([x, x + \ln x]\), dont la longueur \( \ln x \) tend vers \( +\infty \) avec \( x \) : \( e^{x+\ln x} = x e^x \).\nRappelons ici qu'en dépit de ces mises en garde, le symbole \( \approx \) ne tient jamais lieu de preuve, il défriche le terrain.",
+    "tags": ["exemple", "approximations", "fonctions", "logarithme", "exponentielle", "asymptotique"]
+  }
+]
+```

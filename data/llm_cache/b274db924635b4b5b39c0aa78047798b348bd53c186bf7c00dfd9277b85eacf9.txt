@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_37_cb2e6864",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc 37 utilise la définition de fonction dérivable et tangente donnée dans le bloc 38."
+    }
+  ]
+}

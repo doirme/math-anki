@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Exemple**\nPour tout $x ∈ [-1, 1]$ : Arccos $x$ + Arcsin $x$ = $\\frac{\\pi}{2}$.",
+  "tags": ["exemple", "trigonometry", "arccos", "arcsin"]
+}

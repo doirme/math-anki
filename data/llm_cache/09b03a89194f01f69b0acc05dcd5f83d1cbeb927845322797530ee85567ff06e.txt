@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_2_46091dc1",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "both blocks discuss conditions for the argument of a square root function to be non-negative, with block_2_46091dc1 providing a proof for a specific case"
+    }
+  ]
+}

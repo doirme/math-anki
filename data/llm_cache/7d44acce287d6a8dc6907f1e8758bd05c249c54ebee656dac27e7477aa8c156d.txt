@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_44_4925f1a6",
+      "relation": "uses_theorem",
+      "confidence": 0.6,
+      "reason": "Le bloc candidat mentionne un théorème sur les fonctions dérivables constantes/monotones, ce qui pourrait être pertinent pour l'analyse des dérivées successives dans le bloc à analyser."
+    }
+  ]
+}
+```

@@ -1,0 +1,11 @@
+ ```json
+{
+  "term": "Fonctions hyperboliques",
+  "normalized_term": "Fonctions hyperboliques",
+  "statement": "Pour tout \( x \in \mathbb{R} \) : \n- \( 	ext{ch } x = rac{e^x + e^{-x}}{2} \) (cosinus hyperbolique)\n- \( 	ext{sh } x = [TOOL_CALLS]rac{e^x - e^{-x}}{2} \) (sinus hyperbolique)",
+  "domain_tags": ["analyse réelle", "fonctions spéciales"],
+  "characteristics": ["paire", "impaire", "classe \( C^\infty \)", "convexe"],
+  "is_multiple": false,
+  "definitions": []
+}
+```

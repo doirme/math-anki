@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_25_fb33071d",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser fournit une démonstration pour le théorème des opérations sur les fonctions périodiques, en montrant que la somme de deux fonctions périodiques est périodique et en introduisant une transformation périodique via une fonction composée."
+    },
+    {
+      "block_id": "block_27_057bb4c2",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser utilise implicitement la notion de continuité, bien que cela ne soit pas explicitement mentionné, car il manipule des fonctions et leurs propriétés, ce qui est souvent lié à la continuité."
+    }
+  ]
+}
+```

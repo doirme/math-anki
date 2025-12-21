@@ -1,0 +1,7 @@
+{
+  "name": "Formules d'addition et de duplication pour la tangente",
+  "normalized_name": "Addition_and_duplication_formulas_for_tangent",
+  "statement": "Tan(x + y) = (Tan x + Tan y) / (1 - Tan x Tan y) \\n Tan(x - y) = (Tan x - Tan y) / (1 + Tan x Tan y) \\n Tan(2x) = (2 Tan x) / (1 - Tan^2 x)",
+  "domain_tags": ["analyse", "trigonométrie"],
+  "characteristics": ["formule", "addition", "duplication"]
+}

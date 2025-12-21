@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition (Dérivées successives):\n- Soit \( f: E \to \mathbb{R} \) une fonction.\n- On pose \( f^{(0)} = f \).\n- Pour tout \( k \in \mathbb{N}^* \), si \( f^{(k-1)} \) est dérivable sur \( E \), on dit que \( f \) est \( k \) fois dérivable sur \( E \) et on pose \( f^{(k)} = (f^{(k-1)})' \).\n- La fonction \( f^{(k)} \) est appelée la dérivée \( k \)-ème de \( f \).\n- Notations préférées: \( f \), \( f' \), \( f'' \), \( f''' \) au lieu de \( f^{(0)} \), \( f^{(1)} \), \( f^{(2)} \), \( f^{(3)} \).\n- Attention: La notation \( (f(x))'' \) est interdite. Utiliser \( \frac{d^k}{dx^k}(f(x)) \) à la place.",
+  "tags": ["Définition (Dérivées successives)"]
+}
+```

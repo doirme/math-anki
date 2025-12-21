@@ -1,0 +1,5 @@
+{
+"relationships": [
+{"block\_id": "block\_48\_7db977f2", "relation": "uses\_definition", "confidence": 0.9, "reason": "The mathematical block being analyzed uses the definition of the continuity of a function, which is defined in the candidate block."}
+]
+}

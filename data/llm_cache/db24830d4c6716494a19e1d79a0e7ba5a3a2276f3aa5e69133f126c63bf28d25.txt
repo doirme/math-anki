@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_110_0b9da681",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc contient une démonstration de l'équivalence donnée dans le théorème."
+    },
+    {
+      "block_id": "block_110_0b9da681",
+      "relation": "uses_theorem",
+      "confidence": 0.8,
+      "reason": "Le bloc utilise les propriétés des fonctions cosinus et sinus pour démontrer l'équivalence."
+    },
+    {
+      "block_id": "block_110_0b9da681",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Le bloc fournit une démonstration plus générale de l'équivalence donnée dans l'exemple."
+    }
+  ]
+}

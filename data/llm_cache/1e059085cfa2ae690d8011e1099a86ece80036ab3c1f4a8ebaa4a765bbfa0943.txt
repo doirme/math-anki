@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : Pour tous \(a, x \in \mathbb{R}\), les réels \(x\) et \(a-x\) sont symétriques l'un de l'autre par rapport à \(\frac{a}{2}\) car \(\frac{a}{2}\) est le milieu du segment d'extrémités \(x\) et \(a-x\) :\n\[ \\frac{x + (a-x)}{2} = \\frac{a}{2} \]\nDiagramme montrant la symétrie par rapport à \(\frac{a}{2}\) sur l'axe \(x\).\nDonnons-nous à présent une fonction \(f: E \to \mathbb{R}\) et \(a, b \in \mathbb{R}\). Comment peut-on représenter les fonctions \(x \mapsto a-f(x)\) et \(x \mapsto f(a-x)\) quand on connaît le graphe de \(f\) ?\n- Le graphe de la fonction \(x \mapsto a-f(x)\) s'obtient à partir de celui de \(f\) par une symétrie par rapport à la droite d'équation \(y = \frac{a}{2}\).\n- Le graphe de la fonction \(x \mapsto f(a-x)\) s'obtient quant à lui à partir de celui de \(f\) par une symétrie par rapport à la droite d'équation \(x = \frac{a}{2}\).\nGraphiques illustrant la symétrie par rapport à la droite d'équation \(y = \frac{a}{2}\) (ligne pointillée) et la symétrie par rapport à la droite d'équation \(x = \frac{a}{2}\) (ligne pointillée).",
+    "tags": ["exemple", "symétrie", "fonction", "graphe"]
+  }
+]
+``` 

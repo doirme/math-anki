@@ -1,0 +1,18 @@
+ <s>```json
+{
+  "name": "Fonctions cosinus hyperbolique et sinus hyperbolique",
+  "normalized_name": "Fonctions cosinus hyperbolique et sinus hyperbolique",
+  "hypotheses": [
+    "Pour tout \( x \in \mathbb{R} \), on appelle cosinus hyperbolique de \( x \) le réel \( \text{ch } x = \frac{e^x + e^{-x}}{2} \) et sinus hyperbolique de \( x \) le réel \( \text{sh } x = \frac{e^x - e^{-x}}{2} \).",
+    "Les fonctions \( \text{ch} \) et \( \text{sh} \), respectivement paire et impaire, sont définies et de classe \( C^\infty \) sur \( \mathbb{R} \) avec : \( \text{ch}' = \text{sh} \) et \( \text{sh}' = \text{ch} \).",
+    "La fonction \( \text{ch} \) est convexe.",
+    "La fonction \( \text{sh} \) est convexe sur \( \mathbb{R}_+ \) et convexe sur \( \mathbb{R}_- \) avec un point d'inflexion en 0."
+  ],
+  "hypothesis_text": "Pour tout \( x \in \mathbb{R} \), on appelle cosinus hyperbolique de \( x \) le réel \( \text{ch } x = \frac{e^x + e^{-x}}{2} \) et sinus hyperbolique de \( x \) le réel \( \text{sh } x = \frac{e^x - e^{-x}}{2} \). Les fonctions \( \text{ch} \) et \( \text{sh} \), respectivement paire et impaire, sont définies et de classe \( C^\infty \) sur \( \mathbb{R} \) avec : \( \text{ch}' = \text{sh} \) et \( \text{sh}' = \text{ch} \). La fonction \( \text{ch} \) est convexe. La fonction \( \text{sh} \) est convexe sur \( \mathbb{R}_+ \) et convexe sur \( \mathbb{R}_- \) avec un point d'inflexion en 0.",
+  "conclusion": "Pour tout \( x \in \mathbb{R} \): \( \text{ch}^2 x - \text{sh}^2 x = 1 \).",
+  "conclusion_text": "Pour tout \( x \in \mathbb{R} \): \( \text{ch}^2 x - \text{sh}^2 x = 1 \).",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "fonctions spéciales"],
+  "characteristics": ["convexe", "paire", "impaire", "classe \( C^\infty \)"]
+}
+```

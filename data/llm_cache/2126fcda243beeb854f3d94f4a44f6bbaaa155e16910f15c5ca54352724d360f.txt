@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : \n- Expression : \\(\\frac{\\ln(e^x + 1)}{e^{x+\\ln x} + 1} \xrightarrow{x \\to +\\infty} 0\\)\n\nDémonstration :\n- Approximation au brouillon :\n  - Pour \(x\) très grand : \\(\\ln(e^x + 1) \\approx \\ln e^x = x\\)\n  - \(e^{x+\\ln x} + 1 = x e^x + 1 \\approx x e^x\\)\n  - Donc \\(\\frac{\\ln(e^x + 1)}{e^{x+\\ln x} + 1} \\approx \\frac{x}{x e^x} = e^{-x} \\to 0\\)\n- Développement rigoureux :\n  - \\(\\frac{\\ln(e^x + 1)}{e^{x+\\ln x} + 1} = \\frac{\\ln e^x + \\ln(1 + e^{-x})}{x e^x \\left(1 + \\frac{1}{x e^x}\\right)} = \\frac{1 + \\frac{\\ln(1 + e^{-x})}{x}}{e^x \\left(1 + \\frac{1}{x e^x}\\right)} \\xrightarrow{x \\to +\\infty} 0\\)",
+    "tags": ["exemple", "démonstration", "limite", "analyse asymptotique"]
+  }
+]
+```

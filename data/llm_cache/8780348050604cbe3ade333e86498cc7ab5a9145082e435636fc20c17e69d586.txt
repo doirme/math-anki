@@ -1,0 +1,16 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_10_121782a9",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le théorème sur les opérations sur les fonctions monotones utilise les propriétés de fonctions monotones croissantes et décroissantes, qui sont définies dans d'autres théorèmes ou définitions."
+    },
+    {
+      "block_id": "block_9_99a09d7f",
+      "relation": "has_proof",
+      "confidence": 0.7,
+      "reason": "Bien que ce bloc ne soit pas explicitement une preuve, il pourrait être utilisé pour prouver d'autres théorèmes concernant les fonctions monotones, telles que les opérations sur celles-ci."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_103_47549ff1",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_103_47549ff1 commence par 'Démonstration', ce qui indique qu'il s'agit d'une preuve pour le bloc block_102_ec503869."
+    }
+  ]
+}
+```

@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_56\_cd17df10",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidate utilise la définition d'une fonction convexe pour démontrer que la valeur absolue est convexe."
+    }
+  ]
+}

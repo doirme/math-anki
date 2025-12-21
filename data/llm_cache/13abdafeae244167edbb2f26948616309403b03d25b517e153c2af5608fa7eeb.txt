@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_133_1e30a4d6",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise la définition de l'arc sinus pour démontrer l'égalité."
+    },
+    {
+      "block_id": "block_134_5a7157de",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Le bloc fournit un exemple particulier de l'égalité démontrée dans le bloc d'origine."
+    }
+  ]
+}

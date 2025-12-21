@@ -1,0 +1,13 @@
+ {
+  "steps": [
+    "Établissement de la relation entre les coordonnées cartésiennes et polaires d'un point M",
+    "Examen du cas où x > 0 et détermination de θ en fonction de x et y en utilisant l'arc tangente",
+    "Examen du cas où x < 0 et détermination de θ en fonction de x et y en utilisant l'arc tangente et la relation arctan(y/x) = π + arctan(y/x)"
+  ],
+  "uses_definitions": [
+    "Définition des coordonnées cartésiennes et polaires d'un point M"
+  ],
+  "uses_theorems": [
+    "Théorème de la relation entre les coordonnées cartésiennes et polaires"
+  ]
+}

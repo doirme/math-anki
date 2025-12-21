@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Injectivité) : Soit $f : E \\to \\mathbb{R}$ une fonction strictement monotone. Alors, $f$ est injective.",
+  "tags": ["Injectivité", "Théorème"]
+}

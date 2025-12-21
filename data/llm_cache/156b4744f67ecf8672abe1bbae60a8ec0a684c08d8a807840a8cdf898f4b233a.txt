@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Lien entre les coordonnées cartésiennes et les coordonnées polaires)\n\nSoit M un point de coordonnées cartésiennes (x, y) et de coordonnées polaires (r, θ).\n\n- (i) \n  - x = r cos θ\n  - y = r sin θ\n  - r = √(x² + y²)\n\n- (ii) θ ≡ \n  - arctan(y/x) [2π] si x > 0\n  - π + arctan(y/x) [2π] si x < 0",
+    "tags": ["théorème", "coordonnées cartésiennes", "coordonnées polaires", "conversion"]
+  }
+]
+```

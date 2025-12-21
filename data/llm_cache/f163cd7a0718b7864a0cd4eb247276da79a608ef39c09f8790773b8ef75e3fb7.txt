@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_71_9136eac9",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise la propriété algébrique des puissances mentionnée dans le bloc candidat, spécifiquement la relation ln(x^y) = y ln x, pour démontrer l'égalité x^(ln x / ln x) = e^(ln x) = x."
+    }
+  ]
+}
+```

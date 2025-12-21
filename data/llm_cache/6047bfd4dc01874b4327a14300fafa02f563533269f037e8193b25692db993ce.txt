@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_20_224abfe7",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser utilise le concept de symétrie par rapport à un axe, qui est défini dans le bloc candidat."
+    }
+  ]
+}
+```

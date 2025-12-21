@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Définition complète"],
+    "needs_preceding": false,
+    "needs_following": true,
+    "suggested_merge_with": [1],
+    "normalized_text": "## 3.4 FONCTIONS HYPERBOLIQUES ch, sh et th\n\n**Définition**\n",
+    "tags": ["incomplete"]
+  }
+]
+```

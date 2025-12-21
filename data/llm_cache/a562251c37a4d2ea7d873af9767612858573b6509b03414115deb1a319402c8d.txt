@@ -1,0 +1,18 @@
+ ```json
+{
+  "steps": [
+    "Dérivation de la fonction puissance \(x^\alpha\) en utilisant la dérivée de la fonction exponentielle et la fonction logarithme.",
+    "Calcul de la dérivée seconde pour déterminer la concavité ou la convexité de la fonction \(x^\alpha\).",
+    "Comparaison des fonctions puissances \(x^\alpha\) et \(x^\beta\) pour \(\alpha \le \beta\) en fonction de l'intervalle de \(x\).",
+    "Étude de la continuité de la fonction \(x^\alpha\) en 0 pour \(\alpha > 0\)."
+  ],
+  "uses_definitions": [
+    "Dérivée de la fonction exponentielle \(e^{\alpha \ln x}\).",
+    "Propriétés de la fonction logarithme \(\ln x\)."
+  ],
+  "uses_theorems": [
+    "Théorème de la dérivée d'une fonction composée.",
+    "Théorème de la continuité d'une fonction exponentielle."
+  ]
+}
+```

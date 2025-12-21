@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "## 5 FONCTIONS TRIGONOMÉTRIQUES\n\nSoit $\\alpha \\in \\mathbb{R}$ . La relation $\\equiv [\\alpha]$ de congruence modulo $\\alpha$ est une relation d'équivalence sur $\\mathbb{R}$ . Elle est définie pour tous $x, y \\in \\mathbb{R}$ par l'équivalence : $x \\equiv y [\\alpha] \\iff \\exists k \\in \\mathbb{Z}, x = y + k\\alpha$ .\n\nPour tout $\\beta \\in \\mathbb{R}$ , la classe d'équivalence de $\\beta$ pour $\\equiv [\\alpha]$ est l'ensemble $\{x \\in \\mathbb{R} \\mid x \\equiv \\beta [\\alpha]\} = \\{\\beta + k\\alpha \\mid k \\in \\mathbb{Z}\\}$ et on le note $\\beta + \\alpha\\mathbb{Z}$ .\n\nPlus généralement, pour toute partie $E$ de $\\mathbb{R}$ , on note $E + \\alpha\\mathbb{Z}$ l'ensemble :\n$$\\{x + k\\alpha \\mid k \\in \\mathbb{Z}\\} = \\bigcup_{x \\in E} (x + \\alpha\\mathbb{Z}) = \\bigcup_{k \\in \\mathbb{Z}} (E + k\\alpha).$$\nLe motif $E$ est répété indéfiniment tous les $\\alpha$ vers la gauche et vers la droite.\n\n**Exemple** On obtient $]-\\frac{\\\\\\\pi}{2}, \\frac{\\\\\\\pi}{2}[ + \\pi\\mathbb{Z}$ en répétant $]-\\frac{\\\\\\\pi}{2}, \\frac{\\\\\\\pi}{2}[$ tous les $\\pi$ . Le résultat final est presque $\\mathbb{R}$ tout entier, mais pas tout à fait : $]-\\frac{\\\\\\\pi}{2}, \\frac{\\\\\\\pi}{2}[ + \\pi\\mathbb{Z} = \\mathbb{R} \\setminus \\left(\\frac{\\\\\\\pi}{2} + \\pi\\mathbb{Z}\\right)$ .",
+    "tags": ["définition", "exemple", "relation d'équivalence", "congruence modulo", "périodicité"]
+  }
+]
+```

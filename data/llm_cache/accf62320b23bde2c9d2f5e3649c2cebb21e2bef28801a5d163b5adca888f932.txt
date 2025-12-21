@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "théorème (Lien du cosinus et du sinus avec le cercle trigonométrique) - **Lien avec le cercle trigonométrique :** Pour tout θ ∈ ℝ : cos²θ + sin²θ = 1. Réciproquement, pour tout couple (x, y) ∈ ℝ² pour lequel x² + y² = 1, il existe un réel θ, unique modulo 2π, pour lequel (x, y) = (cosθ, sinθ). En termes géométriques, tout point du cercle trigonométrique a des coordonnées de la forme (cosθ, sinθ). - **Résolution d'équations :** Pour tous x, y ∈ ℝ :\n- cosx = cosy ⇔ x ≡ y [2π] ou x ≡ −y [2π].\n- sinx = siny ⇔ x ≡ y [2π] ou x ≡ π − y [2π].\n- **Transformations affines :** Les relations suivantes se lisent toutes sur le cercle trigonométrique. Pour tout x ∈ ℝ :\n- cos(x + π) = −cosx\n- cos(π − x) = −cosx\n- cos(π/2 − x) = sinx\n- cos(x + π/2) = −sinx\n- sin(x + π) = −sinx\n- sin(π − x) = sinx\n- sin(π/2 − x) = cosx\n- sin(x + π/2) = cosx\nAjouter π dans un cosinus ou un sinus revient à le multiplier par −1. π/2 − x est LA transformation à utiliser quand on veut remplacer un cosinus par un sinus et vice versa. Ainsi, pour tout k ∈ ℤ : cos(x + kπ) = (−1)^k cosx et sin(x + kπ) = (−1)^k sinx. **Attention !** cosx = cosy ⇏ x = y. À peine mieux : cosx = cosy ⇏ x ≡ y [2π].",
+    "tags": ["théorème", "trigonométrie", "cercle trigonométrique", "cosinus", "sinus"]
+  }
+]
+```

@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_25\_fb33071d",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise la définition d'une fonction périodique donnée dans le bloc block_24_a5085955."
+    },
+    {
+      "block\_id": "block\_25\_fb33071d",
+      "relation": "proves",
+      "confidence": 0.8,
+      "reason": "Le bloc semble établir un théorème concernant les opérations sur les fonctions périodiques, ce qui est en accord avec le théorème donné dans le bloc."
+    }
+  ]
+}

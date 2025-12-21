@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : La fonction \( x \xrightarrow{f} \frac{1}{x-1} \) est de classe \( C^\infty \) sur \( \mathbb{R} \setminus \{1\} \). Pour calculer ses dérivées successives, il est préférable de l'écrire comme une puissance négative plutôt que comme un quotient. Pour tout \( k \in \mathbb{N} \) et \( x \in \mathbb{R} \setminus \{1\} \), on a :\n\n\[ f^{(k)}(x) = \frac{d^k}{dx^k} \left( (x-1)^{-1} \right) = (-1)(-2) \dots (-k)(x-1)^{-k-1} = \frac{(-1)^k k!}{(x-1)^{k+1}}. \]",
+    "tags": ["exemple", "fonction", "dérivées", "classe C^∞"]
+  }
+]
+```

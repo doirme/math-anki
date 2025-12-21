@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration\n\n- **Définition et régularité** :\n  - La fonction logarithme ln est définie, de classe C^∞ et concave sur ℝ_+.\n  - Pour tout x > 0 : ln'(x) = 1/x et ln(1) = 0.\n  - La fonction ln est strictement croissante sur ℝ_+.\n  - ln est strictement négative sur [0, 1[ et strictement positive sur [1, +∞[.\n  - ln x ≤ x - 1 pour tout x > 0.\n\n- **Transformation des produits en sommes** :\n  - Pour tous x, y > 0 : ln(xy) = ln x + ln y et ln(1/x) = -ln x.\n\n- **Croissances comparées** :\n  - Pour tout x ≥ 1 : 0 ≤ (ln x)/x ≤ 2/√x, donc (ln x)/x → 0 quand x → +∞.\n  - x ln x → 0 quand x → 0^+.\n\n- **Limites en 0 et +∞** :\n  - ln x → +∞ quand x → +∞.\n  - ln x → -∞ quand x → 0^+.\n",
+  "tags": ["Théorème fondamental du calcul intégral", "Fonction logarithme", "Concavité", "Transformation des produits en sommes", "Croissances comparées", "Limites"]
+}
+```

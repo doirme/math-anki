@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_38_9eeb0389 - manual_review]\n**Définition (Fonction dérivable, tangente)** Soit $f: E \\to \\mathbb{R}$ une fonction. - **Dérivabilité** : Pour tout $a \\in E$ , on dit que $f$ est *dérivable en $a$* si la fonction $x \\mapsto \\frac{f(x) - f(a)}{x - a}$ possède une limite finie en $a$ , notée $f'(a)$ le cas échéant et appelée le *nombre dérivé de $f$ en $a$* . On dit que $f$ est *dérivable sur $E$* si $f$ est dérivable en tout point de $E$ . Le cas échéant, la fonction $x \\mapsto f'(x)$ est appelée la *dérivée de $f$* . L'ensem\n\nCandidate blocks:\n[Block block_39_98aedbc4 - theorem]: **Théorème (Dérivable implique continue)** Soient $f: E \\to \\mathbb{R}$ une fonction et $a \\in E$ . Si $f$ est dérivable en $a$ , alors $f$ est continue en $a$ . **Attention !** La réciproque est faus\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Exemple** : Résolution de l'équation $\\cos x = \\frac{1}{3}$ avec $x \\in \\mathbb{R}$.\n- Pour tout $x \\in \\mathbb{R}$ : $$\\cos x = \\frac{1}{3} \\iff \\cos x = \\cos \\text{Arccos } \\frac{1}{3} \\iff x \\equiv \\pm \\text{Arccos } \\frac{1}{3} [2\\pi].$$\n- Ensemble des solutions : $(\\text{Arccos } \\frac{1}{3} + 2\\pi\\mathbb{Z}) \\cup (−\\text{Arccos } \\frac{1}{3} + 2\\pi\\mathbb{Z})$,\n",
+    "tags": ["example", "equation", "solution", "trigonometry"]
+  }
+]

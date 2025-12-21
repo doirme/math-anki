@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_79\_3009fef0",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat utilise la définition de la puissance d'un réel strictement positif donnée dans le bloc à analyser pour simplifier l'expression."
+    }
+  ]
+}

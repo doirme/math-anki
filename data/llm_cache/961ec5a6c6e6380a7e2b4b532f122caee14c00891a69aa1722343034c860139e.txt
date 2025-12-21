@@ -1,0 +1,21 @@
+ ```json
+{
+  "steps": [
+    "Cas où f et g sont croissantes: démonstration par somme",
+    "Cas où f et g sont décroissantes: démonstration par produit d'inégalités positives",
+    "Cas où f est croissante et g décroissante: démonstration par composition",
+    "Cas croissant strict: démonstration de l'injectivité et de la croissance stricte de f",
+    "Démonstration que l'inverse d'une fonction strictement croissante est strictement croissante"
+  ],
+  "uses_definitions": [
+    "fonction croissante",
+    "fonction décroissante",
+    "fonction injective"
+  ],
+  "uses_theorems": [
+    "Théorème sur l'addition de fonctions monotones",
+    "Théorème sur le produit de fonctions monotones positives",
+    "Théorème sur la composition de fonctions monotones"
+  ]
+}
+```

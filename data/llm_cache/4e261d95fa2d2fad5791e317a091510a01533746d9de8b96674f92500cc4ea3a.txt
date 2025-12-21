@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_86\_0d1f98c9",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "The theorem in block 86\_0d1f98c9 uses the definition of the hyperbolic cosine, which is given in block 85\_fe106ade."
+    }
+  ]
+}

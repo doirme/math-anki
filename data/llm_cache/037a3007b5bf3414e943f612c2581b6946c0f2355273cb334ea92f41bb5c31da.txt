@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["content missing"],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Le TARGET BLOCK ne contient que des titres sans contenu.",
+  "tags": []
+}
+```

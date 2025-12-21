@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_118_cdf4b270",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat utilise une fonction impliquant Arctan, qui est liée à la démonstration du bloc analysé, bien que le contexte soit différent."
+    }
+  ]
+}
+```

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_106_dac4e914",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat généralise le concept de périodicité en considérant une réunion d'ensembles périodiques, tandis que le bloc analysé se concentre sur un seul ensemble périodique."
+    }
+  ]
+}
+```

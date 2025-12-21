@@ -1,0 +1,9 @@
+ ```json
+{
+  "name": "Formules d'addition et de duplication de la tangente",
+  "normalized_name": "Formules d'addition et de duplication de la tangente",
+  "statement": "$$\\tan(x + y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}, \\quad \\tan(x - y) = \\frac{\\tan x - \\tan y}{1 + \\tan x \\tan y} \\quad \\text{et} \\quad \\tan(2x) = \\frac{2 \\tan x}{1 - \\tan^2 x}.$$",
+  "domain_tags": ["trigonométrie", "analyse"],
+  "characteristics": ["identité", "formule d'addition", "formule de duplication"]
+}
+```

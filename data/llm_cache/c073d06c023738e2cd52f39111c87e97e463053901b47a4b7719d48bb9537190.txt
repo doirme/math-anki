@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "La fonction logarithme $\\ln$ est continue et strictement croissante sur $\\mathbb{R}_+^*$ de limites $-\\infty$ et $+\\infty$ aux bornes, donc bijective de $\\mathbb{R}_+^*$ sur $\\mathbb{R}$ d'après le TVI strictement monotone. En particulier, $1$ possède donc un et un seul antécédent par $\\ln$, noté $e$.",
+    "tags": ["définition", "constante de Néper", "fonction logarithme"]
+  }
+]
+```

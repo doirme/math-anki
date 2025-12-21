@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_59_ea0056a9",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat utilise le théorème sur les fonctions affines mentionné dans le bloc à analyser."
+    }
+  ]
+}
+```

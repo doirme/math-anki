@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Démonstration**\n- La fonction $x mapsto x^2 - 3x + 2$ est définie sur $mathbb{R}$.\n- La fonction $x mapsto ln x$ est définie sur $mathbb{R}_+$.\n- Question : Pour quels $x inmathbb{R}$ est-il vrai que $x^2 - 3x + 2 > 0$ ?\n- Réponse : $x in ]-infty, 1[ cup ]2, +infty[$.",
+    "tags": []
+  }
+]

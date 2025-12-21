@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Image d'un intervalle par une fonction continue) - Version image d'un intervalle du TVI :\n- Pour toute fonction \( f \in \mathcal{C}(E, \mathbb{R}) \) et tout intervalle \( I \) inclus dans \( E \), \( f(I) \) est aussi un intervalle.\n- Si \( f \) est continue et croissante sur \([a, b]\), alors \( f([a, b]) = [f(a), f(b)] \).\n- Si \( f \) est continue et décroissante sur \([a, b]\), alors \( f([a, b]) = [f(b), f(a)] \).\n\nRemarques :\n- En général, \( f([a, b]) \neq [f(a), f(b)] \).\n- Si \( f \) est continue et croissante sur \([a, b]\) avec \( f(x) \xrightarrow{x \to a^+} \alpha \) et \( f(x) \xrightarrow{x \to b^-} \beta \), \( f([a, b]) \) peut être \( [\alpha, \beta] \), \( [\alpha, \beta] \), \( [\alpha, \beta] \) ou \( [\alpha, \beta] \).\n- Si \( f \) n'est pas continue, \( f([a, b]) \) n'a aucune raison d'être un intervalle.\n- Même quand \( f([a, b]) \) est un intervalle, il n'a aucune raison d'avoir \( f(a) \) et \( f(b) \) pour bornes si \( f \) n'est pas monotone.",
+    "tags": ["théorème", "continuité", "intervalle", "fonction"]
+  }
+]
+```

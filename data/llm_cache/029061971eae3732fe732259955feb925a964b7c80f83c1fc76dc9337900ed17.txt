@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block\_id": "block\_129\_4c866564", "relation": "proves", "confidence": 0.9, "reason": "The candidate block is an example using the theorem stated in the analyzed block"},
+{"block\_id": "block\_130\_2c368cd5", "relation": "uses\_theorem", "confidence": 0.8, "reason": "The candidate block provides a proof for the properties of the arcsine function, which is used in the analyzed theorem"}
+]
+}

@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Preuve**\n- (i) Si $f$ et $g$ sont croissantes :\n  - Soient $x, y ∈ E$ tels que $x < y$.\n  - Alors, $f(x) ≤ f(y)$ et $g(x) ≤ g(y)$ (par définition de fonction croissante).\n  - Donc, $f(x) + g(x) ≤ f(y) + g(y)$ (par somme d'inégalités).\n- (ii) Si $f$ et $g$ sont décroissantes :\n  - Soient $x, y ∈ E$ tels que $x < y$.\n  - Alors, $0 ≤ f(y) ≤ f(x)$ et $0 ≤ g(y) ≤ g(x)$ (par définition de fonction décroissante).\n  - Donc, $f(y)g(y) ≤ f(x)g(x)$ (par produit d'inégalités positives).\n- (iii) Si $f$ est croissante et $g$ est décroissante :\n  - Soient $x, y ∈ E$ tels que $x < y$.\n  - Alors, $f(x) ≤ f(y)$ (par croissance de $f$).\n  - Et $g(f(y)) ≤ g(f(x))$ (par décroissance de $g$).\n- (iv) Si $f$ est croissante :\n  - Alors, $f$ est strictement croissante (car injective).\n  - Montrons que $f^{-1}$ est strictement croissante :\n    - Soient $y, y' ∈ F$ tels que $y < y'$.\n    - Si jamais $f^{-1}(y) ≥ f^{-1}(y')$, alors $y = f(f^{-1}(y)) ≥ f(f^{-1}(y')) = y'$ par croissance de $f$ – contradiction.",
+    "tags": []
+  }
+]

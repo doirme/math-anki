@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition de la constante de Néper :\n- La fonction ln est continue et strictement croissante sur ℝ₊* de limites -∞ et +∞ aux bornes.\n- Elle est donc bijective de ℝ₊* sur ℝ d'après le TVI strictement monotone.\n- En particulier, 1 possède un et un seul antécédent par ln, noté e.",
+  "tags": ["Définition de la constante de Néper", "Théorème des valeurs intermédiaires (TVI) strictement monotone"]
+}
+```

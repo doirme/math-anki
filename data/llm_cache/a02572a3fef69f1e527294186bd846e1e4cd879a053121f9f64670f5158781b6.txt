@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_53_c348b737",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc contient une inégalité qui pourrait être prouvée dans le bloc block_54_0053740c."
+    },
+    {
+      "block_id": "block_54_0053740c",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc contient une démonstration qui pourrait être appliquée à l'inégalité du bloc block_53_c348b737."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_4_dbd9a4e8",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser prouve une condition d'existence d'une valeur positive pour l'expression $x^2 - 3x + 2$, ce qui peut être utile pour déterminer le domaine de définition d'une fonction."
+    },
+    {
+      "block_id": "block_5_0344a69a",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Bien que le bloc candidat ne soit pas directement lié au bloc à analyser, il est possible qu'il utilise le théorème sur les racines d'un polynôme pour simplifier l'expression de sa fonction."
+    }
+  ]
+}

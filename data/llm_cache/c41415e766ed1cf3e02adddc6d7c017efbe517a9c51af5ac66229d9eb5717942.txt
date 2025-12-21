@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration\n- Au brouillon, pour \(x\) proche de 0 : \(\ln(1+x) \approx x\) et \(\sinh x \approx x\), donc \(x + \sinh x \approx 2x\).\n- \(\frac{\ln(1+x)}{x + \sinh x} \approx \frac{x}{2x} = \frac{1}{2}\).\n- Sur une copie : \(\frac{\ln(1+x)}{x + \sinh x} = \frac{\frac{\ln(1+x)}{x}}{1 + \frac{\sinh x}{x}} \xrightarrow{x \to 0} \frac{1}{1 + 1} = \frac{1}{2}\).\n- Si on avait voulu calculer \(\lim_{x \to 0} \frac{x^2}{x - \sinh x}\), c'est plus compliqué car au dénominateur, \(x\) et \(\sinh x\) ont à peu près la même taille.\n- Que reste-t-il après soustraction? Nous ne le savons pas à ce stade de l'année et nous ne pouvons donc pas encore calculer cette limite.\n- \(1^{+\infty}\) est une nouvelle forme indéterminée !",
+    "tags": ["proof", "limit", "approximation", "indeterminate_form"]
+  }
+]
+```

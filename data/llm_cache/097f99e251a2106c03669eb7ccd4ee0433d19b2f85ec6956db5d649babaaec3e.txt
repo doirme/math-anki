@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "L'équation ch x = 2 d'inconnue x ∈ R possède deux solutions : x = ln(2 + √3) et x = ln(2 - √3).",
+    "tags": ["math", "example"]
+  }
+]

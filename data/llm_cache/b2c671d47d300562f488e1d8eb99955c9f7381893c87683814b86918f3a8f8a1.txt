@@ -1,0 +1,23 @@
+ <s>```json
+{
+  "name": "Opérations sur les fonctions continues",
+  "normalized_name": "Opérations sur les fonctions continues",
+  "hypotheses": [
+    "Combinaison linéaire, produit, quotient",
+    "Composition",
+    "Réciproque"
+  ],
+  "hypothesis_text": "Pour toutes fonctions \( f, g \in \mathcal{C}(E, \mathbb{R}) \) et \( \lambda, \mu \in \mathbb{R} \), les fonctions \( \lambda f + \mu g \) et \( \frac{f}{g} \) (si \( g \) ne s'annule pas) sont continues. Pour toutes fonctions \( f \in \mathcal{C}(E, \mathbb{R}) \) et \( g \in \mathcal{C}(F, \mathbb{R}) \), si \( f(E) \subset F \), alors \( g \circ f \) est continue sur \( E \). Soient \( I \) et \( J \) deux intervalles. Pour toute fonction \( f \in \mathcal{C}(I, \mathbb{R}) \) bijective de \( I \) sur \( J \), \( f^{-1} \) est continue sur \( J \).",
+  "conclusion": "Les fonctions \( \lambda f + \mu g \) et \( \frac{f}{g} \) (si \( g \) ne s'annule pas) sont continues. \( g \circ f \) est continue sur \( E \). \( f^{-1} \) est continue sur \( J \).",
+  "conclusion_text": "Les fonctions \( \lambda f + \mu g \) et \( \frac{f}{g} \) (si \( g \) ne s'annule pas) sont continues. \( g \circ f \) est continue sur \( E \). \( f^{-1} \) est continue sur \( J \).",
+  "has_proof": true,
+  "domain_tags": [
+    "analyse réelle",
+    "fonctions continues"
+  ],
+  "characteristics": [
+    "continue",
+    "bijective"
+  ]
+}
+```

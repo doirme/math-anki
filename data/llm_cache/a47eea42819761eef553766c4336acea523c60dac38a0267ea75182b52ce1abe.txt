@@ -1,0 +1,11 @@
+ ```json
+{
+  "term": "Composée de fonctions",
+  "normalized_term": "Composée de fonctions",
+  "statement": "Soient \(f: E \to \mathbb{R}\) et \(g: F \to \mathbb{R}\) deux fonctions. La composée \(g \circ f\) n'est définie que si \(f\) est à valeurs dans \(F\), i.e. si \(f(E) \subset F\).",
+  "domain_tags": ["analyse réelle", "fonctions"],
+  "characteristics": ["composée", "définition"],
+  "is_multiple": false,
+  "definitions": []
+}
+```

@@ -1,0 +1,18 @@
+ ```json
+{
+  "name": "Théorème des segments emboîtés",
+  "normalized_name": "Théorème des segments emboîtés",
+  "hypotheses": [
+    "On suppose par l'absurde que ℝ est dénombrable.",
+    "On peut alors énumérer ses éléments : x₁, x₂, ...",
+    "On construit un intervalle fermé I₁ ne contenant pas x₁.",
+    "Puis I₂ ⊂ I₁ ne contenant pas x₂, etc."
+  ],
+  "hypothesis_text": "On suppose par l'absurde que ℝ est dénombrable. On peut alors énumérer ses éléments : x₁, x₂, .... On construit un intervalle fermé I₁ ne contenant pas x₁. Puis I₂ ⊂ I₁ ne contenant pas x₂, etc.",
+  "conclusion": "L'intersection des Iₙ est non vide.",
+  "conclusion_text": "L'intersection des Iₙ est non vide (théorème des segments emboîtés), soit x ∈ ∩ Iₙ. Alors x n'est aucun des xᵢ, contradiction.",
+  "has_proof": true,
+  "domain_tags": ["analyse réelle", "théorie des ensembles"],
+  "characteristics": ["dénombrable", "intervalle fermé", "intersection non vide"]
+}
+```

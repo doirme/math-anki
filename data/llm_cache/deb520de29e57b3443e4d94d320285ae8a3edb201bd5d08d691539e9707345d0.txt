@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Fonctions cosinus hyperbolique et sinus hyperbolique)\n\nPour tout \( x \in \mathbb{R} \) :\n- Le cosinus hyperbolique de \( x \) est défini par \( \text{ch } x = \frac{e^x + e^{-x}}{2} \).\n- Le sinus hyperbolique de \( x \) est défini par \( \text{sh } x = \frac{e^x - e^{-x}}{2} \).\n\nPropriétés :\n- \( \text{ch}^2 x - \text{sh}^2 x = 1 \).\n- Les fonctions \( \text{ch} \) et \( \text{sh} \) sont respectivement paire et impaire.\n- Elles sont définies et de classe \( C^\infty \) sur \( \mathbb{R} \) avec :\n  - \( \text{ch}' = \text{sh} \).\n  - \( \text{sh}' = \text{ch} \).\n- La fonction \( \text{ch} \) est convexe.\n- La fonction \( \text{sh} \) est convexe sur \( \mathbb{R}_+ \) et convexe sur \( \mathbb{R}_- \) avec un point d'inflexion en 0.\n\n![Graphique des fonctions cosinus hyperbolique (ch) et sinus hyperbolique (sh). Le graphe de ch est une parabole ouverte vers le haut, et le graphe de sh est une parabole ouverte vers le bas, toutes deux symétriques par rapport à l'origine.]()",
+    "tags": ["définition", "propriétés", "fonctions hyperboliques", "convexité", "dérivées"]
+  }
+]
+```

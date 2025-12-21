@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n**Démonstration** On pourrait étudier la fonction $x \\mapsto \\frac{x+1}{x-1} \\ln x$ et la comparer à 2, mais la dérivée d'un quotient occasionne souvent d'affreux calculs, donc étudions plutôt le signe de $x \\mapsto (x+1) \\ln x - 2(x-1)$ sur $\\mathbb{R}_+^*$ . Nous diviserons par $x-1$ à la fin pour obtenir le signe de $x \\mapsto \\frac{x+1}{x-1} \\ln x - 2$ . Pour tout $x > 0$ : $f'(x) = \\ln x + \\frac{1}{x} - 1$ et $f''(x) = \\frac{x-1}{x^2}$ . On conclut grâce au tableau ci-contre.\n\nContext (may be empty):\n**Exemple** Pour tout $x \\in \\mathbb{R}_+^* \\setminus \\{1\\}$ : $\\frac{x+1}{x-1} \\ln x \\ge 2$ .\n\n**Exemple** Pour tous $x, y \\in ]-1, 1[ : \\frac{x+y}{1+xy} \\in ]-1, 1[$ .\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

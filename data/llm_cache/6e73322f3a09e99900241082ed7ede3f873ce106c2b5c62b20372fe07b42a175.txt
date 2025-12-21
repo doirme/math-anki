@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Pour tout \( x > 1 \) : \( x^{\frac{\ln x}{\ln x}} = e^{\frac{\ln x}{\ln x} \cdot \ln x} = e^{\ln x} = x \).",
+  "tags": ["Propriété des puissances"]
+}
+```

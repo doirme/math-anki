@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_74_4583aa8d",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_74_4583aa8d contient une démonstration qui correspond au théorème énoncé dans le bloc block_75_362c1eef. La démonstration utilise des dérivées et des propriétés des fonctions exponentielles et logarithmiques, ce qui est cohérent avec le contenu du théorème."
+    },
+    {
+      "block_id": "block_76_362c1eef",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Le bloc block_76_362c1eef semble être une version tronquée ou incomplète du théorème du bloc block_75_362c1eef. Il reprend le même énoncé mais est incomplet, ce qui suggère qu'il pourrait s'agir d'une généralisation ou d'une version antérieure du théorème."
+    }
+  ]
+}
+```

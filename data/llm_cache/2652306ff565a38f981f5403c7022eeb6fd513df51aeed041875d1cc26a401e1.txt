@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Théorème (Croissances comparées des fonctions logarithme, exponentielle et puissances)\n\n- Hypothèses :\n  - α > 0\n  - β ∈ ℝ\n- Conclusion :\n  - lim (x^β / e^x) = 0 quand x → +∞\n  - lim ((ln x)^β / x^α) = 0 quand x → +∞\n  - lim (x^α |ln x|^β) = 0 quand x → 0",
+    "tags": ["théorème", "limites", "croissances comparées"]
+  }
+]
+```

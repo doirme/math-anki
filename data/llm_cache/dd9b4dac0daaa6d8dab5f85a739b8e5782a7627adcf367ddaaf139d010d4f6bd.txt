@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_96_6d6ddc28",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise la propriété de la dérivée de la fonction cosinus (cos' = -sin) pour démontrer la concavité de la fonction sinus sur [0, π]."
+    },
+    {
+      "block_id": "block_98_5204f904",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Bien que le bloc ne mentionne pas explicitement les formules d'addition, il utilise des propriétés dérivées de ces formules pour établir des inégalités sur la fonction sinus."
+    }
+  ]
+}
+```

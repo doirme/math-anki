@@ -1,0 +1,11 @@
+ {
+  "name": "Propriétés des fonctions arc cosinus, arc sinus et arc tangente",
+  "normalized_name": "Properties of arccos, arcsin, and arctan functions",
+  "hypotheses": [],
+  "hypothesis_text": "",
+  "conclusion": "Une relation mixte : Pour tout x ∈ [-1, 1], cos(arcsin x) = sin(arccos x) = √(1-x²).",
+  "conclusion_text": "For any x in [-1, 1], cos(arcsin x) = sin(arccos x) = √(1-x²).",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle", "fonctions", "trigonométrie"],
+  "characteristics": ["continuité", "dérivabilité", "classe C^∞"]
+}

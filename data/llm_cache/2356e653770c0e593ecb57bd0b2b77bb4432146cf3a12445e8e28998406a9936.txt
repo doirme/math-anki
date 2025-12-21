@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_109_2acc1b54",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_109_2acc1b54 contient une démonstration qui semble être liée au théorème du bloc block_108_7ec012cd, car il mentionne les coordonnées cartésiennes et polaires ainsi que les vecteurs unitaires."
+    },
+    {
+      "block_id": "block_107_398f3690",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "L'exemple du bloc block_107_398f3690 utilise des fonctions trigonométriques inverses (arctan, arcsin, arccos) qui sont mentionnées dans le théorème du bloc block_108_7ec012cd, bien que l'exemple ne soit pas directement lié au théorème."
+    }
+  ]
+}
+```

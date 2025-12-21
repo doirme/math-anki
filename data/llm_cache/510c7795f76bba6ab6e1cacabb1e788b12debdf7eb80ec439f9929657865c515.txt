@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "### 1.1 MONOTONIE\n\n**Définition (Fonction monotone)** Soit \( f: E \to \mathbb{R} \) une fonction.\n- Croissante : \( \forall x, y \in E, x < y \implies f(x) \le f(y) \).\n- Strictement croissante : \( \forall x, y \in E, x < y \implies f(x) < f(y) \).\n- Décroissante : \( \forall x, y \in E, x < y \implies f(x) \ge f(y) \).\n- (Strictement) monotone : (strictement) croissante ou décroissante.\n\nUne fonction croissante (resp. décroissante) préserve (resp. renverse) les inégalités.\n\nLa définition est générale et ne requiert pas la dérivabilité.",
+  "tags": ["Définition (Fonction monotone)"]
+}
+```

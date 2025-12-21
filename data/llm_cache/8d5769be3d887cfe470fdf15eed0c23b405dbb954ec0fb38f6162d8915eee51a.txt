@@ -1,0 +1,20 @@
+ {
+  "steps": [
+    "Si f et g sont croissantes, alors f+g l'est aussi.",
+    "Si f et g sont décroissantes, alors f+g l'est aussi.",
+    "Si f et g sont croissantes positives, alors f*g est croissante.",
+    "Si f et g sont décroissantes positives, alors f*g est croissante.",
+    "Montrons que f^(-1) est strictement croissante si f est strictement croissante.",
+    "Contradiction si f^(-1)(y) >= f^(-1)(y') avec y < y'."
+  ],
+  "uses_definitions": [
+    "définition de fonction croissante",
+    "définition de fonction décroissante",
+    "définition de fonction strictement croissante",
+    "définition de fonction injective"
+  ],
+  "uses_theorems": [
+    "théorème d'addition de fonctions monotones",
+    "théorème de produit de fonctions monotones positives"
+  ]
+}

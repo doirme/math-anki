@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_59_e697dd55 - example]\n**Exemple** Soit $n \\in \\mathbb{N}$ . La fonction puissance $x \\mapsto x^{2n}$ est convexe sur $\\mathbb{R}$ car sa dérivée seconde $x \\mapsto 2n(2n-1)x^{2(n-1)}$ est positive sur $\\mathbb{R}$ .\n\n**Exemple** Pour tout $x > 0$ : $\\sqrt{x} \\le \\frac{x+1}{2}$ .\n\nCandidate blocks:\n[Block block_60_27229464 - proof]: **Démonstration** La fonction $x \\mapsto \\sqrt{x}$ est concave sur $\\mathbb{R}_+^*$ car sa dérivée $x \\mapsto \\frac{1}{2\\sqrt{x}}$ est décroissante. Son graphe est situé sous sa tangente en 1, d'équat\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

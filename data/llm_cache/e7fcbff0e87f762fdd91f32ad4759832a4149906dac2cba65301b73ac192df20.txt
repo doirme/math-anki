@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration de la limite de (1+x)^(1/x) quand x tend vers 0:\n- Transformation de l'expression : (1+x)^(1/x) = e^(ln(1+x)/x).\n- Limite de ln(1+x)/x quand x tend vers 0 : 1.\n- Conclusion : (1+x)^(1/x) tend vers e.\n\nAttention :\n- Dans un calcul de limite, on ne peut pas remplacer un morceau par sa limite sans toucher au reste.\n- Exemple : (1+x) tend vers 1, mais (1+x)^(1/x) tend vers e ≠ 1.",
+  "tags": ["limite indéterminée 1^∞", "limite exponentielle"]
+}
+```

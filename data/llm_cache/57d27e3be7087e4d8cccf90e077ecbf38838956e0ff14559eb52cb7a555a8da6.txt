@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_89\_5ffacca1",
+      "relation": "has\_proof",
+      "confidence": 0.9,
+      "reason": "Block 'block\_88\_f8e6b813' contains an equation, and block 'block\_89\_5ffacca1' is a proof block. The example equation in 'block\_88\_f8e6b813' can be proven using the general demonstration in 'block\_89\_5ffacca1'."
+    }
+  ]
+}

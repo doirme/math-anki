@@ -1,0 +1,19 @@
+{
+  "steps": [
+    "step 1: La limite de sin(x)/x lorsque x tend vers 0 est égale au nombre dérivé de la fonction sin en 0.",
+    "step 2: La fonction sin est concave sur [0, π] car sa dérivée cos est décroissante.",
+    "step 3: Pour tout x dans [0, π], |sin(x)| est inférieur ou égal à x.",
+    "step 4: Pour tout x dans [−π, 0], |sin(x)| est inférieur ou égal à |x|.",
+    "step 5: L'inégalité est évidente pour x > π et x < π: |sin(x)| est inférieur ou égal à 1 qui est inférieur ou égal à π qui est inférieur ou égal à |x|."
+  ],
+  "uses_definitions": [
+    "définition de la dérivée"
+  ],
+  "uses_theorems": [
+    "propriétés des fonctions cosinus et sinus",
+    "théorème sur la limite de sin(x)/x lorsque x tend vers 0",
+    "propriétés des fonctions paires et impaires",
+    "propriétés de la fonction périodique",
+    "théorème sur la dérivée de sin et cos"
+  ]
+}

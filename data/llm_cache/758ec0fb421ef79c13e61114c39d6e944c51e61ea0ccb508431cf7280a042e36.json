@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_134_5a7157de - example]\n**Exemple** Pour tout $x \\in [-1, 1]$ : $\\text{Arccos } x + \\text{Arcsin } x = \\frac{\\pi}{2}$ .\n\nCandidate blocks:\n[Block block_135_bdc889f1 - proof]: **Démonstration** Il s'agit de montrer que la fonction $x \\xrightarrow{f} \\text{Arccos } x + \\text{Arcsin } x$ est constante sur $[-1, 1]$ de valeur $\\frac{\\pi}{2}$ . Or cette fonction est dérivable s\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

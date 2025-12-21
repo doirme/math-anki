@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_80_e802487a - manual_review]\n### Théorème (Propriétés algébriques des puissances) (i) La nouvelle définition des puissances généralise bien l'ancienne. (ii) Pour tous $x, x' > 0$ et $y, y' \\in \\mathbb{R}$ : $$\\ln(x^y) = y \\ln x, \\quad x^{y+y'} = x^y x^{y'}, \\quad x^{y y'} = (x^y)^{y'}, \\quad (x x')^y = x^y x^{y'} \\quad \\text{et} \\quad x^{-y} = \\frac{1}{x^y} = \\left(\\frac{1}{x}\\right)^y.$$ ### Démonstration (i) Pour tous $x > 0$ et $n \\in \\mathbb{N}$ : $e^{n \\ln x} = e^{\\underbrace{\\ln x + \\dots + \\ln x}_{n \\text{ termes}}} \n\nCandidate blocks:\n[Block block_81_4583aa8d - proof]: ### Démonstration $$\\text{(i) Pour tout } x > 0 : \\quad \\frac{d}{dx}(x^\\alpha) = \\frac{d}{dx}(e^{\\alpha \\ln x}) = \\frac{\\alpha}{x} \\times e^{\\alpha \\ln x} = \\alpha x^{-1} x^\\alpha = \\alpha x^{\\alpha-1\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

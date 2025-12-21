@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block\_id": "block\_16\_f3a7e220",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "La définition du maximum et minimum d'une fonction est utilisée dans le bloc pour expliquer les transformations affines du graphe d'une fonction."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Croissances comparées des fonctions logarithme, exponentielle et puissances)\n\n- Pour tous α > 0 et β ∈ ℝ :\n  - lim (x^β / e^x) = 0 quand x → +∞\n  - lim ((ln x)^β / x^α) = 0 quand x → +∞\n  - lim (x^α |ln x|^β) = 0 quand x → 0\n\nDémonstration (seulement la deuxième limite)\n\n- Si β ≤ 0, le résultat est clair car lim (ln x)^β ∈ {0, 1} et lim x^α = +∞ quand x → +∞.\n- Si β > 0, on pose u = x^(α/β) et v = (ln u)/u.\n  - Alors (ln x)^β / x^α = (β/α)^β v^β.\n  - Puisque lim (ln u)/u = 0 quand u → +∞, on a lim v^β = 0 quand v → 0.\n  - Donc lim (ln x)^β / x^α = 0 quand x → +∞ par composition.",
+  "tags": ["Théorème des croissances comparées", "Limite", "Fonction exponentielle", "Fonction logarithme", "Fonction puissance"]
+}
+```

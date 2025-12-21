@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Propriétés de la continuité et de la monotonicité stricte:\n- Si $f$ est continue et strictement croissante sur $[a, b]$, alors $f$ est bijective de $[a, b]$ sur $[f(a), f(b)]$.\n- Si $f$ est continue et strictement décroissante sur $[a, b]$, alors $f$ est bijective de $[a, b]$ sur $[\lim_{x \to b^-} f, \lim_{x \to a^+} f]$.\n- Si $f$ est continue et strictement croissante sur $[a, b]$, alors $f$ est bijective de $[a, b]$ sur $[\lim_{x \to b^-} f, \lim_{x \to a^+} f]$.\n\nDiagramme logique des implications:\n- Si $f$ est continue sur $[a, b]$, alors $f([a, b])$ est un intervalle.\n- Si $f$ est strictement croissante sur $[a, b]$, alors $f([a, b]) = [f(a), f(b)]$.\n- Si $f$ est injective sur $[a, b]$, alors $f$ est bijective de $[a, b]$ sur son image $f([a, b])$.\n- Si $f$ est bijective de $[a, b]$ sur $f([a, b])$, alors $f$ est injective sur $[a, b]$.\n\nApplications pratiques:\n- Le TVI et sa version strictement monotone sont utiles pour trouver des points fixes.\n- Étudier les points fixes de $f$ revient à étudier les zéros de $x \mapsto f(x) - x$, c'est-à-dire résoudre l'équation $f(x) - x = 0$ d'inconnue $x$.",
+  "tags": ["Théorème de la valeur intermédiaire (TVI)", "Propriété de la continuité", "Propriété de la monotonicité stricte", "Bijectivité", "Points fixes"]
+}
+```

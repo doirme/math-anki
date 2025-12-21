@@ -1,0 +1,8 @@
+ {
+  "term": "fonction convexe/concave",
+  "normalized_term": "fonction convexe/concave",
+  "statement": "f est convexe si ∀x, y ∈ I, ∀λ ∈ [0, 1], f((1-λ)x + λy) ≤ (1-λ)f(x) + λf(y). f est concave si ∀x, y ∈ I, ∀λ ∈ [0, 1], f((1-λ)x + λy) ≥ (1-λ)f(x) + λf(y). Équivalent à -f convexe.",
+  "domain_tags": ["analyse réelle"],
+  "is_multiple": false,
+  "definitions": []
+}

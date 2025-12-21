@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_68_56115b2d - definition]\n**Démonstration** Nous avons déjà tiré du TVI strictement monotone la bijectivité de $\\ln$ de $\\mathbb{R}_+^*$ sur $\\mathbb{R}$ . Cela justifie à la fois la définition de l'exponentielle et sa régularité. En effet, $\\ln$ est de classe $C^\\infty$ sur $\\mathbb{R}_+^*$ et **SA DÉRIVÉE** $x \\mapsto \\frac{1}{x}$ NE S'Y ANNULE PAS, donc d'après le théorème de dérivabilité d'une réciproque, $\\ln^{-1} = \\exp$ est de classe $C^\\infty$ sur $\\mathbb{R}$ de dérivée $\\exp' = (\\ln^{-1})' = \\frac{1}{\\ln' \\circ\n\nCandidate blocks:\n[Block block_70_3009fef0 - example]: **Exemple** Pour tout $x > 1$ : $x^{\\frac{\\ln x}{\\ln x}} = e^{\\frac{\\ln x}{\\ln x} \\cdot \\ln x} = e^{\\ln x} = \\ln x$ .\n\n###\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

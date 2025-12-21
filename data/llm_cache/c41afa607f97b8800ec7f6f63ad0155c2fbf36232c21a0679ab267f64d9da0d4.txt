@@ -1,0 +1,11 @@
+ ```json
+{
+  "term": "Fonction tangente hyperbolique",
+  "normalized_term": "Fonction tangente hyperbolique",
+  "statement": "La fonction tangente hyperbolique th = sh/ch est définie sur ℝ. Elle est impaire et de classe C^∞ sur ℝ et : th' = 1 - th^2 = 1/ch^2. Elle est convexe sur ℝ_+ et concave sur ℝ_- avec un point d'inflexion en 0. Elle possède enfin une asymptote d'équation y = 1 au voisinage de +∞ (resp. y = -1 au voisinage de -∞).",
+  "domain_tags": ["analyse réelle", "fonctions spéciales"],
+  "characteristics": ["impaire", "classe C^∞", "convexe sur ℝ_+", "concave sur ℝ_-", "asymptote"],
+  "is_multiple": false,
+  "definitions": []
+}
+```

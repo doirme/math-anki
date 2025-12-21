@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_91\_ae70fb7c",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "La fonction tangente hyperbolique est définie dans le bloc à analyser et sa définition est donnée dans le bloc candidat."
+    },
+    {
+      "block\_id": "block\_91\_ae70fb7c",
+      "relation": "proves",
+      "confidence": 0,
+      "reason": "Bien que le bloc à analyser présente des propriétés de la fonction tangente hyperbolique, il ne prouve aucun théorème dans un autre bloc."
+    }
+  ]
+}

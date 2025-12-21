@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_55_b071d239",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "L'exemple utilise la définition du point d'inflexion pour montrer que la fonction puissance x^2n+1 a un point d'inflexion en 0."
+    }
+  ]
+}
+```

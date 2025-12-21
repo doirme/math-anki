@@ -1,0 +1,9 @@
+{
+  "steps": [
+    "step 1: Définir la fonction g(x) en utilisant la dérivée de f(x) en a",
+    "step 2: Montrer que g(x) tend vers f'(a) lorsque x tend vers a",
+    "step 3: Montrer que la différence entre f(x) et g(x) tend vers 0 lorsque x tend vers a"
+  ],
+  "uses_definitions": ["Définition (Dérivées successives)"],
+  "uses_theorems": ["Théorème (Dérivable implique continue)"]
+}

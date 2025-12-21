@@ -1,0 +1,17 @@
+{
+  "steps": [
+    "step 1: Démonstration that the function g is derivable on R* and calculation of its derivative",
+    "step 2: Observation that g is not necessarily constant on R* but only on R+* and R-*",
+    "step 3: Calculation of g(1) and statement that g is odd",
+    "step 4: Example of the value of the function for x > 0 and x < 0"
+  ],
+  "uses_definitions": [
+    "definition of the derivative of a function"
+  ],
+  "uses_theorems": [
+    "theorem of derivative of a sum",
+    "theorem of derivative of a product",
+    "theorem of derivative of a constant function",
+    "theorem of the null derivative and the constant function"
+  ]
+}

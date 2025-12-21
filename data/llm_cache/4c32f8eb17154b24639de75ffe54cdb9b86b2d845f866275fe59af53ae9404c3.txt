@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple: La fonction \( x \xrightarrow{f} \ln(x + \sqrt{x(1-x)}) \) est définie et continue sur \([0, 1]\) et dérivable sur \([0, 1[\).",
+    "tags": ["exemple", "fonction", "définie", "continue", "dérivable"]
+  }
+]
+```

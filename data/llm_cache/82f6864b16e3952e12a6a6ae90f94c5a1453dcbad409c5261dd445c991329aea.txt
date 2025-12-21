@@ -1,0 +1,13 @@
+ ```json
+{
+  "steps": [
+    "Définition de l'ensemble de définition de la fonction f",
+    "Analyse de la continuité de la fonction f sur [0, 1]",
+    "Analyse de la dérivabilité de la fonction f sur [0, 1["
+  ],
+  "uses_definitions": [
+    "Ensemble de définition de la fonction f"
+  ],
+  "uses_theorems": []
+}
+```

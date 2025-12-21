@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block\_id": "block\_11\_b345b048", "relation": "has\_proof", "confidence": 1.0, "reason": "The mathematical block's content seems to be providing a proof for the theorem presented in block\_10\_121782a9."},
+{"block\_id": "block\_10\_121782a9", "relation": "proves", "confidence": 1.0, "reason": "The theorem block presents a property about monotone functions, which is being proven in the mathematical block."}
+]
+}

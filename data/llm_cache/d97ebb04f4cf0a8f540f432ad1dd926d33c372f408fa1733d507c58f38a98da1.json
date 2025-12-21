@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze if each of the following 1 mathematical blocks is self-contained and provide a normalized version for each.\n\n### CONTEXTUAL INFORMATION\nA block is self-contained if:\n- All definitions used are present in the block\n- All theorems mentioned are stated in the block\n- If it's a proof, the theorem being proved is referenced or present\n- It contains actual content, NOT just a title.\n\n### NORMALIZATION RULES\n- **Strict Scope**: ONLY normalize the content found within the TARGET BLOCK.\n- **No Context Contamination**: Do NOT include information from PRECEDING/FOLLOWING context.\n- **Theorems**: Include Name, Hypotheses, and Conclusion. No proof steps.\n- **Synthetic & Structured**: Use bullet points.\n\n### INPUT DATA\n### TARGET BLOCK 0\n<<<< BLOCK START >>>>\n## Preuve\n\nOn suppose par l'absurde que $\\mathbb{R}$ est dénombrable. On peut alors énumérer ses éléments : $x_1, x_2, \\dots$.\nOn construit un intervalle fermé $I_1$ ne contenant pas $x_1$. Puis $I_2 \\subset I_1$ ne contenant pas $x_2$, etc.\nL'intersection des $I_n$ est non vide (théorème des segments emboîtés), soit $x \\in \\cap I_n$.\nAlors $x$ n'est aucun des $x_i$, contradiction.\n<<<< BLOCK END >>>>\n\nPRECEDING CONTEXT:\n# Théorème de Cantor\n\nLe corps $\\mathbb{R}$ n'est pas dénombrable.\n\nFOLLOWING CONTEXT:\nNone\n\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON as a LIST of objects:\n[\n  {\n    \"block_index\": 0,\n    \"is_self_contained\": true|false,\n    \"missing\": [...],\n    \"needs_preceding\": true|false,\n    \"needs_following\": true|false,\n    \"suggest_merge_with\": [],\n    \"normalized_text\": \"...\",\n    \"tags\": [...]\n  },\n  ...\n]",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

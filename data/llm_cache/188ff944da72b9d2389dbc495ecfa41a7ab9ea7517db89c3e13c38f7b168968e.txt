@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "théorème (Fonction tangente hyperbolique)\n- La fonction tangente hyperbolique $\\text{th} = \\frac{\\text{sh}}{\\text{ch}}$ est définie sur $\\mathbb{R}$.\n- Elle est impaire et de classe $C^\\infty$ sur $\\mathbb{R}$.\n- $\\text{th}' = 1 - \\text{th}^2 = \\frac{1}{\\text{ch}^2}$.\n- Elle est convexe sur $\\mathbb{R}_+$ et concave sur $\\mathbb{R}_-$ avec un point d'inflexion en 0.\n- Elle possède une asymptote d'équation $y = 1$ au voisinage de $+\\infty$ (resp. $y = -1$ au voisinage de $-\\infty$).",
+    "tags": ["théorème", "fonction", "tangente hyperbolique", "propriétés"]
+  }
+]
+```

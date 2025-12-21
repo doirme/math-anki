@@ -1,0 +1,16 @@
+ {
+  "name": "Caractérisation des fonctions convexes dérivables",
+  "normalized_name": "Characterization of convex differentiable functions",
+  "hypotheses": [
+    "I est un intervalle",
+    "f est continue sur I",
+    "f est dérivable sur I",
+    "f est deux fois dérivable sur I (si la seconde assertion est vérifiée)"
+  ],
+  "hypothesis_text": "I est un intervalle et f est une fonction continue et dérivable sur I (et deux fois dérivable sur I si la seconde assertion est vérifiée)",
+  "conclusion": "Les assertions suivantes sont équivalentes : f est convexe sur I, f' est croissante sur I ou f'' est positive ou nulle sur I",
+  "conclusion_text": "Le graphe de f est situé au-dessus de toutes ses tangentes, f' est croissante sur I ou f'' est positive ou nulle sur I si f est deux fois dérivable sur I",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["convexe", "dérivable", "continue"]
+}

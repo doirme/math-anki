@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_86_0d1f98c9",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser introduit les fonctions hyperboliques (ch, sh, th) et le bloc candidat donne la définition formelle du cosinus hyperbolique (ch x), ce qui est directement utilisé dans le bloc à analyser."
+    }
+  ]
+}
+```

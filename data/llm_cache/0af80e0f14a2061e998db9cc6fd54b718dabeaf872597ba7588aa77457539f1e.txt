@@ -1,0 +1,7 @@
+{
+  "name": "Formule de la tangente d'une somme",
+  "normalized_name": "tangente_somme",
+  "statement": "\\tan(x+y) = \\frac{{\\sin(x+y)}}{{\\cos(x+y)}} = \\frac{{\\sin x \\cos y + \\cos x \\sin y}}{{\\cos x \\cos y - \\sin x \\sin y}} = \\frac{{\\cos x \\cos y (\\frac{{\\sin x}}{{\\cos x}} + \\frac{{\\sin y}}{{\\cos y}})}}{{\\cos x \\cos y (1 - \\frac{{\\sin x}}{{\\cos x}} \\times \\frac{{\\sin y}}{{\\cos y}})}} = \\frac{{\\tan x + \\tan y}}{{1 - \\tan x \\tan y}}",
+  "domain_tags": ["analyse"],
+  "characteristics": ["formule"]
+}

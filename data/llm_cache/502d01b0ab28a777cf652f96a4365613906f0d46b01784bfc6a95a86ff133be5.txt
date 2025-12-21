@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Théorème (Équivalence cosinus-sinus)**: Pour tout $x \\in \\mathbb{R}$ : $\\cos x = \\sin x \\iff x \\equiv \\frac{\\pi}{4} [\\pi]$",
+  "tags": ["théorème", "cosinus", "sinus", "équivalence"]
+}

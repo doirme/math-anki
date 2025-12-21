@@ -1,0 +1,15 @@
+ ```json
+{
+  "steps": [
+    "Montrer que la nouvelle notation pour les puissances coïncide avec la notation traditionnelle pour les entiers naturels et négatifs.",
+    "Établir les propriétés algébriques des puissances pour des réels y et y' : ln(x^y) = y ln x, x^{y+y'} = x^y x^{y'}, x^{y y'} = (x^y)^{y'}, (x x')^y = x^y x^{y'}, et x^{-y} = 1/x^y = (1/x)^y."
+  ],
+  "uses_definitions": [
+    "Définition de la fonction exponentielle e^{n ln x}",
+    "Définition de la fonction logarithme naturel ln"
+  ],
+  "uses_theorems": [
+    "Propriétés algébriques des puissances (mentionné dans le contexte)"
+  ]
+}
+```

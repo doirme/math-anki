@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_9_99a09d7f",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème de la candidate utilise la définition de fonction strictement monotone donnée dans le bloc à analyser."
+    }
+  ]
+}
+```

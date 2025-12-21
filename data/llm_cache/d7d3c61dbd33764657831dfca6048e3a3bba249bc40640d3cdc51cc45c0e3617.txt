@@ -1,0 +1,5 @@
+{
+"relationships": [
+{"block\_id": "block\_22\_9ec7c621", "relation": "uses\_definition", "confidence": 0.9, "reason": "La définition de fonction paire/impaire est utilisée dans l'énoncé du théorème pour définir la symétrie de l'ensemble d'arrivée $F$."}
+]
+}

@@ -1,0 +1,15 @@
+ <s> [OUT] ```json
+{
+  "name": "Théorème de continuité/imparité d'une réciproque",
+  "normalized_name": "Continuité/imparité d'une réciproque",
+  "hypotheses": [
+    "La fonction $\\sin[\\frac{-\\pi}{2}, \\frac{\\pi}{2}]$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $[-1, 1]$ et continue/impaire."
+  ],
+  "hypothesis_text": "La fonction $\\sin[\\frac{-\\pi}{2}, \\frac{\\pi}{2}]$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $[-1, 1]$ et continue/impaire.",
+  "conclusion": "Sa réciproque Arcsin $= (\\sin[\\frac{-\\pi}{2}, \\frac{\\pi}{2}])^{-1}$ est continue/impaire sur $[-1, 1]$.",
+  "conclusion_text": "Sa réciproque Arcsin $= (\\sin[\\frac{-\\pi}{2}, \\frac{\\pi}{2}])^{-1}$ est continue/impaire sur $[-1, 1]$.",
+  "has_proof": true,
+  "domain_tags": ["analyse réelle", "fonctions inverses"],
+  "characteristics": ["continue", "impaire", "bijective"]
+}
+```

@@ -1,0 +1,12 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_123_0666c275",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser utilise probablement la définition de Arccos dans le bloc block_124_398f3690 pour déterminer la valeur de Arccos 1/3."
+    }
+  ]
+}
+
+Le bloc à analyser semble utiliser la valeur Arccos 1/3, qui est définie dans le bloc block_124_398f3690. Par conséquent, il existe probablement une relation "uses\_definition" entre ces deux blocs.

@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_52_ea35be2e",
+      "relation": "proves",
+      "confidence": 0.7,
+      "reason": "Le bloc à analyser et le bloc candidat ne semblent pas directement liés par une relation de preuve. Cependant, le bloc à analyser étudie le signe d'une fonction et conclut grâce à un tableau, ce qui est similaire à la méthode de démonstration par l'exemple du bloc candidat."
+    },
+    {
+      "block_id": "block_52_ea35be2e",
+      "relation": "uses_theorem",
+      "confidence": 0.5,
+      "reason": "Bien que les deux blocs ne soient pas directement liés par l'utilisation d'un théorème, le bloc à analyser pourrait théoriquement utiliser un théorème sur les variations de fonctions pour établir sa démonstration, ce qui serait similaire à la méthode de l'exemple donné dans le bloc candidat."
+    }
+  ]
+}

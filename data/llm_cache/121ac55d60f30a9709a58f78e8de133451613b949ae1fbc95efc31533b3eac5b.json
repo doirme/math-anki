@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_45_2e60c4a8 - proof]\n**Exemple** Pour tout $x \\in [0, 2]$ : $\\frac{x+1}{x^2+3} \\in [\\frac{1}{3}, \\frac{1}{2}]$ . Par ailleurs, pour tout $x \\in \\mathbb{R}$ : $\\frac{x+1}{x^2+3} \\in [-\\frac{1}{6}, \\frac{1}{2}]$ . Démonstration - **Tentative naïve** : Pour tout $x \\in [0, 2]$ , $0 \\le x^2 \\le 4$ donc $3 \\le x^2 + 3 \\le 7$ , et par ailleurs $1 \\le x + 1 \\le 3$ , donc par quotient : $\\frac{1}{7} \\le \\frac{x+1}{x^2+3} \\le \\frac{3}{7} = 1$ . Hélas, c'est moins fin que le résultat attendu. En encadrant séparément le numéra\n\nCandidate blocks:\n[Block block_46_e4a145c8 - example]: **Exemple** Pour tout $x \\in \\mathbb{R}_+^* \\setminus \\{1\\}$ : $\\frac{x+1}{x-1} \\ln x \\ge 2$ .\n\n**Démonstration** On pourrait étudier la fonction $x \\mapsto \\frac{x+1}{x-1} \\ln x$ et la comparer à 2, \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

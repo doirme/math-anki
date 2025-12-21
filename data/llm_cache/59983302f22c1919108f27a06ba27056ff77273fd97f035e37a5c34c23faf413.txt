@@ -1,0 +1,28 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_135_bdc889f1",
+      "relation": "has_proof",
+      "confidence": 1.0,
+      "reason": "Le bloc 'block\_135\_bdc889f1' a une démonstration fournie dans le bloc 'block\_136\_b35fb6c1'."
+    },
+    {
+      "block_id": "block_135_bdc889f1",
+      "relation": "proves",
+      "confidence": 1.0,
+      "reason": "Le bloc 'block\_135\_bdc889f1' prouve que la fonction est constante et vaut 'π/2' sur l'intervalle [-1, 1], ce qui est démontré dans le bloc 'block\_136\_b35fb6c1'."
+    },
+    {
+      "block_id": "block_136_b35fb6c1",
+      "relation": "uses_theorem",
+      "confidence": 1.0,
+      "reason": "Le bloc 'block\_136\_b35fb6c1' utilise le théorème selon lequel une fonction dérivable et dont la dérivée est nulle sur un intervalle est constante."
+    },
+    {
+      "block_id": "block_136_b35fb6c1",
+      "relation": "uses_definition",
+      "confidence": 1.0,
+      "reason": "Le bloc 'block\_136\_b35fb6c1' utilise la définition de la fonction Arccos et Arcsin pour démontrer la constance de la fonction."
+    }
+  ]
+}

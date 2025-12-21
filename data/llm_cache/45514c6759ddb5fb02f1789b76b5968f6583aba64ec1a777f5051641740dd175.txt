@@ -1,0 +1,12 @@
+ {
+  "steps": [
+    "Si une fonction f est bornée, alors elle est à la fois minorée et majorée.",
+    "Réciproquement, si une fonction est minorée et majorée, alors elle est bornée."
+  ],
+  "uses_definitions": [
+    "Définition (Fonction majorée)",
+    "Définition (Fonction minorée)",
+    "Définition (Fonction bornée)"
+  ],
+  "uses_theorems": []
+}

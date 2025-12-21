@@ -1,0 +1,11 @@
+{
+  "name": "Théorème (Dérivable implique continue)",
+  "normalized_name": "Derivable implies continuous",
+  "hypotheses": ["f est dérivable en a"],
+  "hypothesis_text": "f est dérivable en a",
+  "conclusion": "f est continue en a",
+  "conclusion_text": "f(x) = f'(a) × 0 + f(a) = f(a)",
+  "has_proof": true,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["dérivable", "continue"]
+}

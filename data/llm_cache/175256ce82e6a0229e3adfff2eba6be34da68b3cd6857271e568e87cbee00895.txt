@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration\n- On commence par placer $\\frac{20\\pi}{3}$ sur le cercle trigonométrique.\n- **Arccosinus** : $\\frac{20\\pi}{3}$ appartient à $2\\pi$ près au domaine privilégié du cosinus : $\\frac{20\\pi}{3} \\in [0, \\pi] + 2\\pi\\mathbb{Z}$.\n  - Il suffit donc d'ôter un certain nombre de fois $2\\pi$ et c'est fini.\n- **Arcsinus** : $\\frac{20\\pi}{3}$ n'appartient pas au domaine privilégié du sinus : $\\frac{20\\pi}{3} \\notin [-\\frac{\\pi}{2}, \\frac{\\pi}{2}] + 2\\pi\\mathbb{Z}$.\n  - On peut se ramener à SINUS CONSTANT grâce à la relation $\\sin(\\pi - x) = \\sin x$.\n  - Par $2\\pi$-périodicité : $\\sin \\frac{20\\pi}{3} = \\sin \\frac{2\\pi}{3}$.\n  - Puis $\\sin \\frac{20\\pi}{3} = \\sin (\\pi - \\frac{2\\pi}{3}) = \\sin \\frac{\\pi}{3}$.\n  - Et bien sûr $\\frac{\\pi}{3} \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.\n- ![Graphes illustrant les domaines privilégiés de cosinus et sinus. Le graphe de cosinus est limité à [0, pi] + 2piZ. Le graphe de sinus est limité à [-pi/2, pi/2] + 2piZ. Les points 20pi/3 sont indiqués sur les deux courbes.]()",
+    "tags": ["proof", "trigonometry", "arccos", "arcsin", "periodicity"]
+  }
+]
+```

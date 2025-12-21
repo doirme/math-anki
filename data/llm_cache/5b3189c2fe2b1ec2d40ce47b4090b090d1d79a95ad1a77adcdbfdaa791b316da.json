@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_36_180930e6 - definition]\n**Définition (Dérivées successives)** Soit $f: E \\to \\mathbb{R}$ une fonction. On pose $f^{(0)} = f$ . Ensuite, pour tout $k \\in \\mathbb{N}^*$ , si on a réussi à définir $f^{(k-1)}$ de proche en proche et si elle est dérivable sur $E$ , on dit que $f$ est $k$ fois dérivable sur $E$ et on pose $f^{(k)} = (f^{(k-1)})'$ . La fonction $f^{(k)}$ est alors appelée la *dérivée k<sup>ème</sup> de $f$* . On préfère généralement les notations $f$ , $f'$ , $f''$ et $f'''$ aux notations $f^{(0)}$ , $f^{(1)}\n\nCandidate blocks:\n[Block block_37_4c6bc40c - example]: **Exemple** Soit $n \\in \\mathbb{N}$ . La fonction $x \\xrightarrow{f} x^n$ est indéfiniment dérivable sur $\\mathbb{R}$ et pour tous $k \\in \\mathbb{N}$ et $x \\in \\mathbb{R}$ : $$f^{(k)}(x) = \\begin{case\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

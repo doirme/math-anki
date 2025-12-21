@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_83_36262ea3",
+      "relation": "uses_theorem",
+      "confidence": 0.6,
+      "reason": "Le bloc candidat mentionne des principes de calcul des limites, ce qui pourrait être lié à l'utilisation de théorèmes ou de propriétés mathématiques dans la démonstration du bloc analysé."
+    }
+  ]
+}
+```

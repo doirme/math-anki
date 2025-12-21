@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_44_d8010535",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc utilise le concept de dérivabilité et de dérivée, qui est souvent lié aux opérations sur les fonctions dérivables, comme mentionné dans le théorème."
+    },
+    {
+      "block_id": "block_46_ca6fb776",
+      "relation": "no_relation",
+      "confidence": 0.9,
+      "reason": "Le bloc de démonstration et l'exemple ne semblent pas avoir de relation directe, car ils traitent de sujets différents (dérivabilité de l'inverse d'une fonction vs. exemple de fonction définie et dérivable)."
+    }
+  ]
+}
+```

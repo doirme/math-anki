@@ -1,0 +1,12 @@
+{
+"relationships": [
+{
+"block\_id": "block\_29\_ca307591",
+"relation": "uses\_definition",
+"confidence": 0.9,
+"reason": "Le théorème sur les opérations des fonctions continues fait référence à des fonctions continues, ce qui signifie qu'il utilise la définition d'une fonction continue donnée dans le block_28\_5347a732."
+}
+]
+}
+
+La confiance est élevée car il est très probable que le théorème sur les opérations des fonctions continues fasse référence à la définition d'une fonction continue.

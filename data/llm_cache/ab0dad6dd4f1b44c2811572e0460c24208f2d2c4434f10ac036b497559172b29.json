@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_43_9a91e05b - definition]\n**Définition (Fonction de classe $\\mathcal{C}^k$ )** Soit $f: E \\to \\mathbb{R}$ une fonction. - **Classe $\\mathcal{C}^k$** : Pour tout $k \\in \\mathbb{N}$ , on dit que $f$ est de classe $\\mathcal{C}^k$ sur $E$ si $f$ est $k$ fois dérivable sur $E$ et si $f^{(k)}$ est continue sur $E$ . L'ensemble des fonctions de classe $\\mathcal{C}^k$ sur $E$ est noté $\\mathcal{C}^k(E, \\mathbb{R})$ . - **Classe $\\mathcal{C}^\\infty$** : On dit que $f$ est de classe $\\mathcal{C}^\\infty$ sur $E$ si $f$ est $k$ fois\n\nCandidate blocks:\n[Block block_44_d8010535 - theorem]: **Théorème (Opérations sur les fonctions dérivables/k fois dérivables/de classe $\\mathcal{C}^k$ )** - **Combinaison linéaire, produit, quotient** : Pour toutes fonctions $f, g \\in \\mathcal{D}(E, \\math\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

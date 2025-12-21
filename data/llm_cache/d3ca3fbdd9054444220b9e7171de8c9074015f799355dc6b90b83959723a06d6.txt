@@ -1,0 +1,16 @@
+ ```json
+{
+  "steps": [
+    "La fonction \( x \mapsto e^{-x} - x \) est continue et strictement décroissante sur \( \mathbb{R} \) par somme des fonctions \( x \mapsto e^{-x} \) et \( x \mapsto -x \) qui le sont.",
+    "Par ailleurs, \( f(x) \xrightarrow{x \to +\infty} -\infty \) et \( f(x) \xrightarrow{x \to -\infty} +\infty \).",
+    "Donc \( f \) s'annule une et une seule fois sur \( \mathbb{R} \) d'après le TVI strictement monotone."
+  ],
+  "uses_definitions": [
+    "Fonction continue",
+    "Fonction strictement décroissante"
+  ],
+  "uses_theorems": [
+    "Théorème des valeurs intermédiaires (TVI) strictement monotone"
+  ]
+}
+```

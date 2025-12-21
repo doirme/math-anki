@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_19_4979b783",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat illustre graphiquement les transformations affines du graphe d'une fonction, ce qui est directement lié au théorème présenté dans le bloc à analyser."
+    }
+  ]
+}
+```

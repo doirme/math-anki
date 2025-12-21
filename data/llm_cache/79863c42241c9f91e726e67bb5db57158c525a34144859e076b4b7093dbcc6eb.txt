@@ -1,0 +1,12 @@
+ <s> [OUT] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_104_dc17a074",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser discute des fonctions réciproques des fonctions trigonométriques (arccosinus, arcsinus, arctangente), tandis que le bloc candidat définit explicitement ces fonctions réciproques. Le bloc à analyser fait référence à la nécessité de restreindre le domaine des fonctions trigonométriques pour définir leurs réciproques, ce qui correspond à la définition donnée dans le bloc candidat."
+    }
+  ]
+}
+```

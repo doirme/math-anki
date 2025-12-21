@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "La composée $g ∘ f$ de deux fonctions $f: E → ℝ$ et $g: F → ℝ$ est définie si $f(E) ⊂ F$. Exemple : la fonction $e^f$ est toujours définie car l'exponentielle est définie sur $ℝ$.",
+  "tags": []
+}

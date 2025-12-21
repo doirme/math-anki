@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["Ensemble de définition de la fonction", "Preuve complète de la continuité et de la dérivabilité"],
+  "needs_preceding": true,
+  "needs_following": true,
+  "suggested_merge_with": ["PRECEDING CONTEXT", "FOLLOWING CONTEXT"],
+  "normalized_text": "La fonction \( x \xrightarrow{f} \ln(x + \sqrt{x(1-x)}) \) est définie et continue sur \([0, 1]\) et dérivable sur \([0, 1[\).\n\n**Démonstration**\n- La fonction est définie sur \([0, 1]\) car \(x(1-x) \ge 0\) et \(x + \sqrt{x(1-x)} > 0\) pour \(x \in ]0, 1[\).\n- La fonction est continue sur \([0, 1]\) car les fonctions usuelles utilisées sont continues en tout point où elles sont définies.\n- La fonction est dérivable sur \(]0, 1[\) car la racine carrée est dérivable sur \(\mathbb{R}_+\).",
+  "tags": ["Fonction continue", "Fonction dérivable", "Ensemble de définition"]
+}
+```

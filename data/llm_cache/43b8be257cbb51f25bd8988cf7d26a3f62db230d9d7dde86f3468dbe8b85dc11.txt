@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_138_cdf4b270",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "La dérivée de Arcsin(x) est donnée dans le tableau, et pourrait être utilisée dans la résolution de l'équation proposée dans le bloc candidat."
+    }
+  ]
+}

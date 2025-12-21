@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : $(1+x)^{\\frac{1}{x}} \\xrightarrow{x \\to 0} e$.\n\nDémonstration :\n- Il est tentant d'analyser la situation ainsi : $1^{+\infty} = 1$, mais c'est très faux !\n- Pour faire communiquer correctement $1+x$ et son exposant $\\frac{1}{x}$, plaçons-les AU MÊME NIVEAU, i.e. au sommet d'une exponentielle.\n- Aussitôt : $(1+x)^{\\frac{1}{x}} = e^{\\frac{\\ln(1+x)}{x}} \\xrightarrow{x \\to 0} e^1 = e$.\n\n× Attention !\n- Dans un calcul de limite, aucun théorème de substitution ne permet de remplacer un morceau par sa limite sans toucher au reste.\n- Par exemple, si $f(x) \\xrightarrow{x \\to +\\infty} 2$, il n'est pas du tout possible d'affirmer, contrairement à ce que vous pensez souvent, que : $\\lim_{x \\to +\\infty} \\frac{x}{x+f(x)} = \\lim_{x \\to +\\infty} \\frac{x}{x+2} = 1$ et $\\lim_{x \\to +\\infty} f(x)^x = \\lim_{x \\to +\\infty} 2^x = +\\infty$.\n- En d'autres termes, on ne peut pas remplacer $f(x)$ par sa limite 2 dans les expressions $\\frac{x}{x+f(x)}$ et $f(x)^x$ quand $x$ tend vers $+\\infty$.\n- Par exemple, $(1+x) \\xrightarrow{x \\to 0} 1$ mais $\\lim_{x \\to 0} (1+x)^{\\frac{1}{x}} = e \\neq 1 = \\lim_{x \\to 0} 1^{\\frac{1}{x}}$.",
+    "tags": ["exemple", "démonstration", "limite", "exponentielle", "attention"]
+  }
+]
+```

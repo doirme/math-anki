@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_138_cdf4b270 - manual_review]\n**Exemple** On veut résoudre l'équation $\\text{Arccos } x = \\text{Arcsin } x$ d'inconnue $x \\in [-1, 1]$ . On a bien envie de passer au cosinus (ou au sinus) des deux côtés de l'équation, mais on perd l'équivalence en faisant cela car en toute généralité : $\\cos x = \\cos y \\not\\Rightarrow x = y$ , autrement dit la fonction cosinus n'est pas injective sur $\\mathbb{R}$ . Elle l'est sur de plus petits domaines sur lesquels elle est strictement monotone, par exemple $[-\\pi, 0]$ , $[0, \\pi]$ ou $[\\pi\n\nCandidate blocks:\n[Block block_139_a8baa53d - unknown]: ## 6 TABLEAUX RÉCAPITULATIFS DES DÉRIVÉES USUELLES | Fonction | Dérivée | |-------------------------------------------------------|---------------------------------------------------| | $e^x$ | $e^x$ \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

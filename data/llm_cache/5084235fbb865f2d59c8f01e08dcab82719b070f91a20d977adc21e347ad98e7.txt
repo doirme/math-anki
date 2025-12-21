@@ -1,0 +1,11 @@
+ ```json
+{
+  "term": "Lien du cosinus et du sinus avec le cercle trigonométrique",
+  "normalized_term": "Lien du cosinus et du sinus avec le cercle trigonométrique",
+  "statement": "Pour tout θ ∈ ℝ : cos²θ + sin²θ = 1. Réciproquement, pour tout couple (x, y) ∈ ℝ² tel que x² + y² = 1, il existe un réel θ, unique modulo 2π, tel que (x, y) = (cosθ, sinθ). Tout point du cercle trigonométrique a des coordonnées (cosθ, sinθ).",
+  "domain_tags": ["trigonométrie", "géométrie"],
+  "characteristics": ["cercle trigonométrique", "coordonnées polaires"],
+  "is_multiple": false,
+  "definitions": []
+}
+```

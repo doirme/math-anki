@@ -1,0 +1,13 @@
+{
+  "name": "Théorème des valeurs intermédiaires ou TVI",
+  "normalized_name": "Intermediate Value Theorem",
+  "hypotheses": [
+    "f est une fonction continue sur l'intervalle [a, b] avec a < b"
+  ],
+  "hypothesis_text": "f est une fonction continue sur l'intervalle [a, b] avec a < b",
+  "conclusion": "Pour tout réel y compris entre f(a) et f(b), il existe au moins un réel x dans [a, b] tel que f(x) = y",
+  "conclusion_text": "Pour tout réel y compris entre f(a) et f(b), il existe au moins un réel x dans [a, b] tel que f(x) = y",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["continue"]
+}

@@ -1,0 +1,14 @@
+{
+  "steps": [
+    "Step 1: The proof begins by handling the case where β ≤ 0.",
+    "Step 2: The case where β > 0 is considered next.",
+    "Step 3: A substitution is made, u = x^(α/β), and another substitution, v = ln(u)/u.",
+    "Step 4: The expression is simplified using the substitutions.",
+    "Step 5: The limits of the terms in the expression are analyzed.",
+    "Step 6: The limit of the original expression is concluded to be 0 as x approaches infinity."
+  ],
+  "uses_definitions": [],
+  "uses_theorems": [
+    "Théorème (Croissances comparées des fonctions logarithme, exponentielle et puissances)"
+  ]
+}

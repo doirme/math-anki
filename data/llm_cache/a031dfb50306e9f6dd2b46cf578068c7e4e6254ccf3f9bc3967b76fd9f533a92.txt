@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_129_4c866564",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "Le bloc utilise le théorème mentionné dans le bloc candidat pour établir une relation entre cosinus et arcsinus."
+    },
+    {
+      "block_id": "block_131_d2ac7dbf",
+      "relation": "has_proof",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat semble être une autre démonstration liée à une fonction réciproque, mais n'est pas directement lié à la démonstration de l'arcsinus."
+    }
+  ]
+}
+```

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Image d'un intervalle par une fonction continue) - Version image d'un intervalle du TVI :\n- Pour toute fonction f ∈ C(E, ℝ) et tout intervalle I inclus dans E, f(I) est aussi un intervalle.\n- Si f est continue et croissante sur [a, b], alors f([a, b]) = [f(a), f(b)].\n- Si f est continue et décroissante sur [a, b], alors f([a, b]) = [f(b), f(a)].\n\nRemarques :\n- En général, f([a, b]) ≠ [f(a), f(b)] sauf si f est monotone.\n- Si f n'est pas continue, f([a, b]) peut avoir des trous ou plusieurs morceaux.\n- Même si f([a, b]) est un intervalle, il n'a pas nécessairement f(a) et f(b) pour bornes si f n'est pas monotone.\n\nThéorème (TVI strictement monotone) :\n- Si f est continue et strictement croissante sur [a, b], alors f([a, b]) = [f(a), lim_{b→b^+} f].\n- Si f est continue et strictement décroissante sur [a, b], alors f([a, b]) = [lim_{b→a^+} f, lim_{b→b^-} f].",
+  "tags": ["Théorème (Image d'un intervalle par une fonction continue)", "Théorème (TVI strictement monotone)"]
+}
+```

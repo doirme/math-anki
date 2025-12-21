@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "## 5 FONCTIONS TRIGONOMÉTRIQUES\nSoit $\\alpha \\in \\mathbb{R}$.\n- La relation de congruence modulo $\\alpha$ est une relation d'équivalence sur $\\mathbb{R}$ définie par :\n  $x \\equiv y [\\alpha] \\iff \\exists k \\in \\mathbb{Z}, x = y + k\\alpha$.\n- Pour tout $\\beta \\in \\mathbb{R}$, la classe d'équivalence de $\\beta$ est :\n  $\\beta + \\alpha\\mathbb{Z} = \\{\\beta + k\\alpha \\mid k \\in \\mathbb{Z}\\}$.\n- Pour toute partie $E$ de $\\mathbb{R}$, on note $E + \\alpha\\mathbb{Z}$ l'ensemble :\n  $\\{x + k\\alpha \\mid k \\in \\mathbb{Z}\\} = \\bigcup_{x \\in E} (x + \\alpha\\mathbb{Z}) = \\bigcup_{k \\in \\mathbb{Z}} (E + k\\alpha)$.\n- Le motif $E$ est répété indéfiniment tous les $\\alpha$ vers la gauche et vers la droite.\n\n**Exemple**\nOn obtient $]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ en répétant $]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[$ tous les $\\pi$.\nLe résultat final est presque $\\mathbb{R}$ tout entier, mais pas tout à fait :\n$]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z} = \\mathbb{R} \\setminus \\left(\\frac{\\pi}{2} + \\pi\\mathbb{Z}\\right)$.",
+  "tags": ["relation de congruence modulo α", "classe d'équivalence", "ensemble E + αℤ"]
+}
+```

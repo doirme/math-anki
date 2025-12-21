@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_0_37205b00 - definition]\n# RAPPELS ET COMPLÉMENTS SUR LES FONCTIONS RÉELLES\n\nDans ce chapitre,  $E$  et  $F$  sont des parties quelconques de  $\\mathbb{R}$ , pas forcément des intervalles.\nLe vocabulaire des applications a été présenté en toute généralité au chapitre « Relations binaires et applications », mais les fonctions de  $\\mathbb{R}$  dans  $\\mathbb{R}$  vont de pair avec un vocabulaire propre aux réels — monotonicité, caractère majoré/minoré, continuité, dérivabilité. — qui est l'objet du chapitre.\nMais d'abord\n\nCandidate blocks:\n[Block block_2_647f0427 - example]: **Exemple** La fonction  $x \\mapsto \\ln(x^2 - 3x + 2)$  est définie sur  $]-\\infty, 1[ \\cup ]2, +\\infty[$ .\n\n**Démonstration** La fonction  $x \\mapsto x^2 - 3x + 2$  est définie sur  $\\mathbb{R}$  et \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

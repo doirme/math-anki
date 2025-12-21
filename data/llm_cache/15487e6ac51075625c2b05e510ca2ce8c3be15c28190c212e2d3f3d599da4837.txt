@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Définition**\n- cosinus hyperbolique de $x$: $\\text{ch } x = \\frac{e^x + e^{-x}}{2}$\n- sinus hyperbolique de $x$: $\\text{sh } x = \\frac{e^x - e^{-x}}{2}$",
+    "tags": ["definition"]
+  }
+]

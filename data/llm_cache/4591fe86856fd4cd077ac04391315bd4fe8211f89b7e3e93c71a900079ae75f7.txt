@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Définition :\n- Ensemble : $$\{x \in \mathbb{R} \mid x(1-x) \ge 0 \text{ et } x + \sqrt{x(1-x)} > 0\} = ]0, 1[.$$\n- Tableau de signes :\n| x | $-\infty$ | 0 | 1 | $+\infty$ |\n|----------|-----------|---|---|-----------|\n| x | - | 0 | + | |\n| $1-x$ | + | 0 | - | |\n| $x(1-x)$ | - | 0 | + | - |\n- Ensemble de continuité : Les fonctions usuelles utilisées pour construire $f$ sont toutes continues en tout point en lequel elles sont définies, donc $f$ est continue sur $[0, 1]$.\n- Ensemble de dérivabilité : La fonction racine carrée est dérivable seulement sur $\mathbb{R}_+$. La fonction $f$ est donc dérivable sur $\{x \in \mathbb{R} \mid x(1-x) > 0 \text{ et } x + \sqrt{x(1-x)} > 0\} = ]0, 1[$.",
+    "tags": ["définition", "ensemble", "continuité", "dérivabilité"]
+  }
+]
+```

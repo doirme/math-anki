@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "### Définition (Fonction convexe/concave)\nSoient \( I \) un intervalle et \( f: I \to \mathbb{R} \) une fonction.\n- **Fonction convexe** : \( f \) est convexe si son graphe est situé en-dessous de toutes ses cordes, i.e. :\n  \[ \forall x, y \in I, \forall \lambda \in [0, 1], f((1-\lambda)x + \lambda y) \le (1-\lambda)f(x) + \lambda f(y) \]\n- **Fonction concave** : \( f \) est concave si son graphe est situé au-dessus de toutes ses cordes, i.e. :\n  \[ \forall x, y \in I, \forall \lambda \in [0, 1], f((1-\lambda)x + \lambda y) \ge (1-\lambda)f(x) + \lambda f(y) \]\nIl est équivalent de dire que \( -f \) est convexe.",
+  "tags": ["Définition (Fonction convexe/concave)"]
+}
+```

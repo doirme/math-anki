@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_37_4c6bc40c",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "L'exemple utilise la définition des dérivées successives pour montrer que la fonction \( f(x) = x^n \) est indéfiniment dérivable et pour exprimer ses dérivées successives."
+    }
+  ]
+}
+```

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_6_5a84bf7a",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat contient du vocabulaire usuel qui pourrait être utilisé pour définir ou expliquer les termes et concepts mathématiques présents dans le bloc à analyser, comme 'fonction', 'définie sur', et 'ensemble de définition'."
+    }
+  ]
+}
+```

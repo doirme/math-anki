@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_79_3009fef0",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "L'exemple utilise la définition des puissances quelconques donnée dans le bloc block_78_fb184d3e, en appliquant la formule \(x^y = \exp(y \ln x)\) pour démontrer une égalité spécifique."
+    }
+  ]
+}
+```

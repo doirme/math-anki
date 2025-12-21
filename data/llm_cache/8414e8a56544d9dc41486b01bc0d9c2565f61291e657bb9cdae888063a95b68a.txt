@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_92_1d9d759b",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "The block uses the definition of the hyperbolic sine and cosine functions, which are defined in block_91_ae70fb7c."
+    }
+  ]
+}

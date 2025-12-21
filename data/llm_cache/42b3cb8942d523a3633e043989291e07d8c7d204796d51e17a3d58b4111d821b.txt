@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_28_74568522",
+      "relation": "generalizes",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat généralise le théorème des valeurs intermédiaires en l'étendant à l'image d'un intervalle par une fonction continue, ce qui est une version plus large du théorème présenté dans le bloc à analyser."
+    }
+  ]
+}
+```

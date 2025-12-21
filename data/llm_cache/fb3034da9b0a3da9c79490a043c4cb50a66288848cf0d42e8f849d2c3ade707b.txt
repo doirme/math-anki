@@ -1,0 +1,13 @@
+{
+  "steps": [
+    "Étape 1 : Démontrer que cos(x) = sin(x) équivaut à sin(π/2 - x) = sin(x)",
+    "Étape 2 : Montrer que sin(π/2 - x) = sin(x) équivaut à π/2 - x ≡ x [2π] ou π/2 - x ≡ π - x [2π]",
+    "Étape 3 : Déduire que π/2 - x ≡ x [2π] ou π/2 - x ≡ π - x [2π] équivaut à 2x ≡ π/2 [2π] ou π/2 ≡ π [2π]",
+    "Étape 4 : Conclure que cos(x) = sin(x) équivaut à x ≡ π/4 [π]"
+  ],
+  "uses_definitions": ["Définition des fonctions cosinus, sinus et tangente"],
+  "uses_theorems": [
+    "Propriétés des fonctions cosinus et sinus (cos est paire, 2π-périodique, de classe C^∞ sur R, et cos' = -sin ; sin est impaire, 2π-périodique, de classe C^∞ sur R, et sin' = cos)",
+    "La fonction sin est bornée par la fonction linéaire, c'est-à-dire |sin(x)| ≤ |x|"
+  ]
+}

@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_87_969d85d4",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Les deux blocs traitent de limites de fonctions lorsque x tend vers l'infini, mais le bloc candidat généralise le concept en présentant deux exemples distincts de limites, tandis que le bloc analysé se concentre sur un seul exemple spécifique."
+    }
+  ]
+}
+```

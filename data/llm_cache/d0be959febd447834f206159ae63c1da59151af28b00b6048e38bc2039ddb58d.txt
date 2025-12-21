@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_10_121782a9",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser fournit une démonstration détaillée pour le théorème sur les opérations sur les fonctions monotones, en particulier pour l'addition et le produit de fonctions croissantes et décroissantes."
+    },
+    {
+      "block_id": "block_12_55319d7e",
+      "relation": "none",
+      "confidence": 0.0,
+      "reason": "Le bloc exemple ne semble pas avoir de relation directe avec la démonstration fournie."
+    }
+  ]
+}
+```

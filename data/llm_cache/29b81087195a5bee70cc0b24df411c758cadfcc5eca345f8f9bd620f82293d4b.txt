@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Théorème (Fonction tangente hyperbolique)**\n- Définition : la fonction tangente hyperbolique th est définie sur ℝ.\n- th est impaire et de classe C^∞ sur ℝ.\n- th' = 1 - th² = 1/ch².\n- th est convexe sur ℝ+.",
+  "tags": ["Fonction tangente hyperbolique", "th", "Définition", "Théorème", "th'", "ch", "convexité"]
+}

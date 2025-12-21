@@ -1,0 +1,22 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": [
+      "Définition de la fonction exponentielle",
+      "Théorème de dérivabilité d'une réciproque"
+    ],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Démonstration\n- La fonction ln est bijective de ℝ₊* sur ℝ.\n- La dérivée de ln est x ↦ 1/x, qui ne s'annule pas sur ℝ₊*.\n- D'après le théorème de dérivabilité d'une réciproque, ln⁻¹ = exp est de classe C∞ sur ℝ.\n- La dérivée de exp est exp' = (ln⁻¹)' = 1/(ln' ∘ ln⁻¹) = ln⁻¹ = exp.\n- exp' est croissante sur ℝ, donc exp est convexe.\n- exp(x) ≥ exp'(0)x + exp(0) = x + 1 pour tout x ∈ ℝ.",
+    "tags": [
+      "Preuve",
+      "Fonction exponentielle",
+      "Dérivabilité",
+      "Convexité"
+    ]
+  }
+]
+```

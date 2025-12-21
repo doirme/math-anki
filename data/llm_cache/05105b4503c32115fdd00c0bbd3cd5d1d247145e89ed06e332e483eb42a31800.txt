@@ -1,0 +1,11 @@
+ <s> ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition - Point d'inflexion\n\nSoient $I$ un intervalle, $f: I \to \mathbb{R}$ une fonction et $a \in I$ un point qui n'est pas une borne de $I$. On dit que $f$ possède un point d'inflexion en $a$ si :\n- $f$ est convexe au voisinage de $a$ à gauche et concave au voisinage de $a$ à droite, ou l'inverse.\n- Si $f$ est deux fois dérivable sur $I$, alors $f$ possède un point d'inflexion en $a$ si et seulement si $f''(a) = 0$ et $f''$ change de signe autour de $a$ (positive à gauche et négative à droite, ou l'inverse).",
+  "tags": ["Point d'inflexion"]
+}
+```

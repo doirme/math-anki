@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_89_1eb6c3d9",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc utilise la limite standard \( \lim_{x \to 0} (1+x)^{1/x} = e \) pour justifier une étape de la démonstration."
+    }
+  ]
+}
+```

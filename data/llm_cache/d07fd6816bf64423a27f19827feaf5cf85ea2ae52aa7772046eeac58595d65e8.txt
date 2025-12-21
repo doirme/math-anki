@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_116_75034535",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat fournit une démonstration complète de l'énoncé du bloc à analyser, en calculant la valeur de la fonction en 0 et en utilisant la continuité pour les bornes de l'intervalle."
+    }
+  ]
+}
+```

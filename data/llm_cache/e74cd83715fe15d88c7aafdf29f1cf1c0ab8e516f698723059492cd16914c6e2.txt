@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_29_ca307591",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème cité dans le bloc candidat fait référence à des fonctions continues, ce qui repose sur la définition de continuité donnée dans le bloc à analyser."
+    }
+  ]
+}
+```

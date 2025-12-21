@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_138_cdf4b270",
+      "relation": "uses_theorem",
+      "confidence": 0.6,
+      "reason": "Le bloc candidat mentionne une équation impliquant des fonctions trigonométriques inverses, ce qui pourrait être lié à la démonstration du bloc analysé, bien que le lien ne soit pas direct."
+    }
+  ]
+}
+```

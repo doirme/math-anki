@@ -1,0 +1,19 @@
+ ```json
+{
+  "steps": [
+    "Analyser la situation de manière incorrecte en écrivant \(1^{+\infty} = 1\)",
+    "Corriger l'analyse en plaçant \(1 + x\) et son exposant \(\frac{1}{x}\) au même niveau, i.e. au sommet d'une exponentielle",
+    "Exprimer \((1 + x)^{\frac{1}{x}}\) sous la forme \(e^{\frac{\ln(1 + x)}{x}}\)",
+    "Calculer la limite de \(e^{\frac{\ln(1 + x)}{x}}\) lorsque \(x\) tend vers 0, qui donne \(e^1 = e\)",
+    "Mettre en garde contre l'utilisation incorrecte des théorèmes de substitution dans les calculs de limites",
+    "Illustrer cette mise en garde avec des exemples où le remplacement par la limite n'est pas valable"
+  ],
+  "uses_definitions": [
+    "Relation de congruence modulo \(\alpha\)",
+    "Classe d'équivalence pour \(\equiv [\alpha]\)"
+  ],
+  "uses_theorems": [
+    "Théorème de substitution dans les limites (mentionné comme incorrect dans certains cas)"
+  ]
+}
+```

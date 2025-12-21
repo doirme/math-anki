@@ -1,0 +1,6 @@
+{
+"relationships": [
+{"block\_id": "block\_85\_fe106ade", "relation": "uses\_definition", "confidence": 0.9, "reason": "The block uses the definition of mathematical functions."},
+{"block\_id": "block\_87\_6f65a29c", "relation": "has\_proof", "confidence": 0.8, "reason": "The block provides a proof for the properties of mathematical functions."}
+]
+}

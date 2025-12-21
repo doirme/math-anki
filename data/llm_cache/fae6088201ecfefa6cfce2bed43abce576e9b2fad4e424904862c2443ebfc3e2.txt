@@ -1,0 +1,22 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": [
+      "Définition de fonction impaire",
+      "Définition de symétrie par rapport à 0",
+      "Théorème ou propriété utilisé pour la démonstration"
+    ],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Soit \( y \in F \), disons \( y = f(x) \) pour un certain \( x \in E \). Aussitôt, \( -x \in E \) car \( E \) est symétrique par rapport à 0, donc \( -y = -f(x) = f(-x) \in F \) par impairité de \( f \). Conclusion : \( F \) est symétrique par rapport à 0. Ensuite : \( f^{-1}(-y) = f^{-1}(-f(x)) = f^{-1}(f(-x)) = -x = -f^{-1}(y) \), donc \( f^{-1} \) est impaire.",
+    "tags": [
+      "Preuve",
+      "Fonction impaire",
+      "Symétrie"
+    ]
+  }
+]
+```

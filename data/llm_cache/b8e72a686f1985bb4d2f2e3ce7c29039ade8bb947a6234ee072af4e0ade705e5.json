@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_99_64e43cec - theorem]\nthéorème(Fonction tangente) -\n\n**Définition et régularité** : On appelle fonction tangente la fonction $\\tan = \\frac{\\sin}{\\cos}$ sur $]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ . Impaire et $\\pi$ -périodique, tan est de classe $\\mathcal{C}^\\infty$ sur son ensemble de définition et : ![Graphique de la fonction y = tan x, montrant ses asymptotes verticales en -pi/2 et pi/2.]()![](_page_18_Figure_22.jpeg) $$\\tan' = 1 + \\tan^2 = \\frac{1}{\\cos^2}.$$ ![Diagramme de la fonction tangente dans le \n\nCandidate blocks:\n[Block block_100_c158fd55 - formula]: **Formules d'addition et de duplication** : Dès que chaque terme est bien défini : $$\\tan(x + y) = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}, \\quad \\tan(x - y) = \\frac{\\tan x - \\tan y}{1 + \\tan x \\tan\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

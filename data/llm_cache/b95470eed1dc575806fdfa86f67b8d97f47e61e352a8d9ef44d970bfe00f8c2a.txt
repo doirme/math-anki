@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_134\_5a7157de",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc contient une équation qui peut être démontrée, et le bloc candidat fournit une démonstration pour cette équation."
+    },
+    {
+      "block\_id": "block\_134\_5a7157de",
+      "relation": "uses_theorem",
+      "confidence": 0.8,
+      "reason": "Le bloc peut utiliser les propriétés des fonctions Arccos et Arcsin, qui peuvent être considérées comme des théorèmes."
+    }
+  ]
+}

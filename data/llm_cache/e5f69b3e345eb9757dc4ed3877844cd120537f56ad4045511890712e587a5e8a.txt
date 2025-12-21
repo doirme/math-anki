@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Démonstration de la dérivée de la fonction arc tangente\n\n- La dérivée de la fonction tangente est donnée par : $\\tan'(x) = 1 + \\tan^2 x \\ne 0$ pour tout $x \\in \\mathbb{R}$.\n- La fonction arc tangente est dérivable sur $\\mathbb{R}$ car la tangente n'a pas de tangente horizontale.\n- Pour tout $x \\in \\mathbb{R}$ : $\\text{Arctan}'(x) = \\frac{1}{\\tan' \\circ \\text{Arctan}(x)} = \\frac{1}{1 + \\tan^2 \\text{Arctan } x} = \\frac{1}{1 + x^2}$.\n- Conclusion : $\\text{Arctan}'(x) = \\frac{1}{1 + x^2}$ pour tout $x \\in \\mathbb{R}$.",
+    "tags": ["dérivée", "fonction arc tangente", "théorème de dérivabilité"]
+  }
+]
+```

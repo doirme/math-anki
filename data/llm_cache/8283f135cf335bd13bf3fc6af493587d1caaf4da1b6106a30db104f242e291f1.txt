@@ -1,0 +1,14 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_38\_9eeb0389",
+      "relation": "uses\_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser définit la dérivabilité d'une fonction en un point en termes de limite, qui est la définition même de la dérivabilité. Il utilise donc la définition donnée dans le bloc block\_39\_98aedbc4."
+    }
+  ]
+}
+
+Explication :
+
+Le bloc à analyser ("block\_38\_9eeb0389") définit la dérivabilité d'une fonction en un point en termes de limite. Cette définition correspond exactement à la définition donnée dans le bloc "block\_39\_98aedbc4". Ainsi, on peut conclure que le bloc à analyser "uses\_definition" du bloc "block\_39\_98aedbc4" avec une confiance de 0.9.

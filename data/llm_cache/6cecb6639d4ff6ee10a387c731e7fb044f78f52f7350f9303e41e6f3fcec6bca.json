@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_7_7f4e8b42 - unknown]\n### 1.1 MONOTONIE\n\n**Définition (Fonction monotone)** Soit  $f: E \\to \\mathbb{R}$  une fonction.\n- On dit que  $f$  est croissante si :  $\\forall x, y \\in E, x < y \\implies f(x) \\le f(y)$ .\n- On dit que  $f$  est strictement croissante si :  $\\forall x, y \\in E, x < y \\implies f(x) < f(y)$ .\n- On dit que  $f$  est décroissante si :  $\\forall x, y \\in E, x < y \\implies f(x) \\ge f(y)$ .\n- On dit que  $f$  est (resp. strictement) monotone si  $f$  est (resp. strictement) croissante ou décroissante.\n\nCandidate blocks:\n[Block block_9_99a09d7f - theorem]: **Théorème (Injectivité et stricte monotonicité)** Soit  $f: E \\to \\mathbb{R}$  une fonction.\nSi  $f$  est strictement monotone,  $f$  est injective.\nLes résultats qui suivent sont énoncés en termes d\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

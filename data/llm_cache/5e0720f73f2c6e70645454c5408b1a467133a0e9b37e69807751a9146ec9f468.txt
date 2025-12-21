@@ -1,0 +1,22 @@
+ <s> [OUT] ```json
+{
+  "name": "Croissances comparées des fonctions logarithme, exponentielle et puissances",
+  "normalized_name": "Croissances comparées des fonctions logarithme, exponentielle et puissances",
+  "hypotheses": [
+    "α > 0",
+    "β ∈ ℝ"
+  ],
+  "hypothesis_text": "α > 0 et β ∈ ℝ",
+  "conclusion": "lim (x^β / e^x) = 0 quand x → +∞, lim ((ln x)^β / x^α) = 0 quand x → +∞, lim (x^α |ln x|^β) = 0 quand x → 0",
+  "conclusion_text": "lim (x^β / e^x) = 0 quand x → +∞, lim ((ln x)^β / x^α) = 0 quand x → +∞, lim (x^α |ln x|^β) = 0 quand x → 0",
+  "has_proof": true,
+  "domain_tags": [
+    "analyse réelle",
+    "calcul différentiel"
+  ],
+  "characteristics": [
+    "asymptotique",
+    "limites"
+  ]
+}
+```

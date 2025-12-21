@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Cette équivalence se lit bien sur le cercle trigonométrique, mais on peut aussi la démontrer par le calcul. Pour tout $x \\in \\mathbb{R}$ : $\\\\cos x = \\\\sin x \\iff \\\\sin\\left(\\\\frac{\\\\pi}{2} - x\\right) = \\\\sin x$ $\\\\iff \\\\frac{\\\\pi}{2} - x \\\\equiv x [2\\\\pi] \\\\text{ ou } \\\\frac{\\\\pi}{2} - x \\\\equiv \\\\pi - x [2\\\\pi] \\\\iff 2x \\\\equiv \\\\frac{\\\\pi}{2} [2\\\\pi] \\\\text{ ou } \\\\frac{\\\\pi}{2} \\\\equiv \\\\pi [2\\\\pi] \\\\iff x \\\\equiv \\\\frac{\\\\pi}{4} [\\\\pi]$ .",
+    "tags": ["proof"]
+  }
+]
+```

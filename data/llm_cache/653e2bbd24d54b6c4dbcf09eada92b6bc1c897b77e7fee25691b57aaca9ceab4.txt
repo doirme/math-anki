@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Preuve**\n- Pour $x$ très grand : $\\sqrt{x^2 + x} - \\sqrt{x} = x \\left(\\sqrt{1 + \\frac{1}{x}} - \\frac{1}{\\sqrt{x}}\\right) \\xrightarrow{x \\to +\\infty} 0$\n- Pour $x$ très grand, $\\sqrt{x^2 \\pm x} \\approx \\sqrt{x^2} = x$, donc $\\sqrt{x^2 + x}$ et $\\sqrt{x^2 - x}$ s'annulent mutuellement par soustraction, mais que reste-t-il ?\n  + Par exemple, quand on soustrait deux réels proches de 1000, que reste-t-il ?\n  + Ça dépend de ce qu'on soustrait : $1010 - 1000 = 10$ et $1000,001 - 1000 = 0,001$, et pourtant $1010$ et $1000,001$ sont tous les deux proches de 1000.\n  + La technique de la quantité conjuguée, qui repose sur l'identité remarquable $(a+b)(a-b) = a^2 - b^2$, permet de mesurer la taille du reste après soustraction : $$\\sqrt{x^2+x}-\\sqrt{x^2-x} = \\frac{(x^2+x)-(x^2-x)}{\\sqrt{x^2+x}+\\sqrt{x^2-x}} = \\frac{2x}{x\\left(\\sqrt{1+\\frac{1}{x}}+\\sqrt{1-\\frac{1}{x}}\\right)} = \\frac{2}{\\sqrt{1+\\frac{1}{x}}+\\sqrt{1-\\frac{1}{x}}} \\xrightarrow{x \\to +\\infty} \\frac{2}{1+1} = 1.$",
+    "tags": []
+  }
+]

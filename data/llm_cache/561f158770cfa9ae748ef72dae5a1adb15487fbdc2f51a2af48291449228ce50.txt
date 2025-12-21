@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["contenu manquant"],
+  "needs_preceding": true,
+  "needs_following": true,
+  "suggested_merge_with": ["contexte précédent", "contexte suivant"],
+  "normalized_text": "Preuve\n\nOn suppose par l'absurde que $\\mathbb{R}$ est dénombrable. On peut alors énumérer ses éléments : $x_1, x_2, \\dots$.\nOn construit un intervalle fermé $I_1$ ne contenant pas $x_1$. Puis $I_2 \\subset I_1$ ne contenant pas $x_2$, etc.\nL'intersection des $I_n$ est non vide (théorème des segments emboîtés), soit $x \\in \\cap I_n$.\nAlors $x$ n'est aucun des $x_i$, contradiction.",
+  "tags": ["théorème des segments emboîtés"]
+}
+```

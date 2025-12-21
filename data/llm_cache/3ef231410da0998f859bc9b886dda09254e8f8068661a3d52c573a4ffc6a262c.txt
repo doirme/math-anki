@@ -1,0 +1,9 @@
+ ```json
+{
+  "name": "Formule de l'addition pour la tangente",
+  "normalized_name": "Formule de l'addition pour la tangente",
+  "statement": "\\tan(x+y) = \\frac{\\sin(x+y)}{\\cos(x+y)} = \\frac{\\sin x \\cos y + \\cos x \\sin y}{\\cos x \\cos y - \\sin x \\sin y} = \\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y}",
+  "domain_tags": ["trigonométrie"],
+  "characteristics": ["identité"]
+}
+```

@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Définition de la constante de Néper :** La fonction $\\ln$ est continue, strictement croissante sur $\\mathbb{R}_+^*$, bijective de $\\mathbb{R}_+^*$ sur $\\mathbb{R}$ et prend la valeur 1 en un unique réel $e$ noté *constante de Néper* : $e  \\approx 2,71828$.",
+  "tags": ["constante de Néper"]
+}

@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème (Caractérisation des fonctions dérivables constantes/monotones)\nSoient \( I \) un intervalle et \( f \in \mathcal{D}(I, \mathbb{R}) \).\n\n- **Constance** : \( f \) est constante sur \( I \) si et seulement si \( f' \) est nulle sur \( I \).\n- **Monotonie** : \( f \) est croissante sur \( I \) si et seulement si \( f' \) est positive (ou nulle) sur \( I \).\n- **Monotonie stricte** : \( f \) est strictement croissante sur \( I \) si et seulement si \( f' \) est positive (ou nulle) sur \( I \) et n'est identiquement nulle sur aucun intervalle \([a, b] \subset I \) avec \( a < b \).\n  - En particulier, si \( f' \) est strictement positive sur \( I \), \( f \) est strictement croissante sur \( I \).\n\nRemarque : \( I \) doit être un intervalle. \( f \) peut être constante sur \( I_1 \) et \( I_2 \) sans être constante sur \( I_1 \cup I_2 \).\n\( f \) peut être croissante sur \( I_1 \) et \( I_2 \) sans être croissante sur \( I_1 \cup I_2 \).",
+  "tags": ["Théorème (Caractérisation des fonctions dérivables constantes/monotones)"]
+}
+```

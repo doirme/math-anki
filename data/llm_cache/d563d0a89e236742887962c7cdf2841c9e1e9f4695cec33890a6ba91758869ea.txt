@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Définition (Fonction dérivable, tangente)**\n- **Dérivabilité** : Pour tout $a$ dans $E$, $f$ est dérivable en $a$ si la fonction $x \\mapsto \\frac{f(x) - f(a)}{x - a}$ admet une limite finie en $a$, notée $f'(a)$. On appelle ce réel le *nombre dérivé de $f$ en $a$*. $f$ est dérivable sur $E$ si $f$ est dérivable en tout point de $E$. La fonction $x \\mapsto f'(x)$ est appelée la *dérivée de $f$*. L'ensemble des fonctions dérivables sur $E$ est noté $\\mathcal{D}(E, \\mathbb{R})$.\n- **Tangente** : Pour tout $a$ dans $E$ en lequel $f$ est dérivable en $a$, la droite d'équation $y = f(a) + f'(a)(x - a)$ est appelée la *tangente de $f$ en $a$*.",
+  "tags": ["dérivabilité", "dérivée", "tangente"]
+}

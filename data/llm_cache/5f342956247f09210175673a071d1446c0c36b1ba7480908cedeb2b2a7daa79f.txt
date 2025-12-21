@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_75_362c1eef",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser est la preuve du théorème énoncé dans le bloc block_75_362c1eef. Les deux blocs partagent le même titre et le même énoncé initial."
+    },
+    {
+      "block_id": "block_77_436308a2",
+      "relation": "none",
+      "confidence": 0.9,
+      "reason": "Le bloc block_77_436308a2 traite des fonctions hyperboliques, ce qui est un sujet distinct et sans lien direct avec les croissances comparées des fonctions logarithme, exponentielle et puissances."
+    }
+  ]
+}
+```

@@ -1,0 +1,10 @@
+{
+"relationships": [
+{
+"block\_id": "block\_125\_f2233218",
+"relation": "proves",
+"confidence": 0.9,
+"reason": "This block provides a proof related to the link between the coordinates of a point on a circle, which is a concept covered in the candidate theorem block."
+}
+]
+}

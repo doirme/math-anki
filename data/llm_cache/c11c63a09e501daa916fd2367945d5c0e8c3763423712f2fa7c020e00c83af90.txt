@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : Pour tout $x \\in \\mathbb{R}$ : $\\cos x = \\sin x \\iff x \\equiv \\frac{\\\\pi}{4} [\\pi]$.\n\nDémonstration : Cette équivalence se lit bien sur le cercle trigonométrique, mais on peut aussi la démontrer par le calcul. Pour tout $x \\in \\mathbb{R}$ : $\\cos x = \\sin x \\iff \\sin\\left(\\frac{\\\\pi}{2} - x\\right) = \\sin x \\iff \\frac{\\\\pi}{2} - x \\equiv x [2\\pi] \\text{ ou } \\frac{\\\\pi}{2} - x \\equiv \\pi - x [2\\pi] \\iff 2x \\equiv \\frac{\\\\pi}{2} [2\\pi] \\text{ ou } \\frac{\\\\pi}{2} \\equiv \\pi [2\\pi] \\iff x \\equiv \\frac{\\\\pi}{4} [\\pi]$.\n\nLes valeurs remarquables du cosinus, du sinus et de la tangente doivent être connues par cœur !\n\n| $x$ | 0 | $\\frac{\\\\pi}{4}$ | $\\frac{\\\\pi}{6}$ | $\\frac{\\\\pi}{3}$ | $\\frac{\\\\pi}{2}$ |\n|----------|---|----------------------|----------------------|----------------------|-----------------|\n| $\\cos x$ | 1 | $\\frac{1}{\\\\sqrt{2}}$ | $\\frac{\\\\sqrt{3}}{2}$ | $\\frac{1}{2}$ | 0 |\n| $\\sin x$ | 0 | $\\frac{1}{\\\\sqrt{2}}$ | $\\frac{1}{2}$ | $\\frac{\\\\sqrt{3}}{2}$ | 1 |\n| $\\tan x$ | 0 | 1 | $\\frac{1}{\\\\sqrt{3}}$ | $\\sqrt{3}$ | $\\infty$ |",
+    "tags": ["exemple", "démonstration", "valeurs remarquables"]
+  }
+]
+```

@@ -1,0 +1,12 @@
+ <s> [/INST] ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_115_4d1844cd",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc utilise la relation fondamentale entre Arccos et Arcsin mentionnée dans le bloc candidat, bien que cela ne soit pas explicitement cité."
+    }
+  ]
+}
+```

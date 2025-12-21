@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Définitions de ch et sh", "Théorème ou propriété mentionnée"],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Démonstration : Pour tout \( x \in \mathbb{R} \), on a \( \text{ch}^2 x - \text{sh}^2 x = 1 \).",
+    "tags": ["Démonstration", "Identité hyperbolique"]
+  }
+]
+```

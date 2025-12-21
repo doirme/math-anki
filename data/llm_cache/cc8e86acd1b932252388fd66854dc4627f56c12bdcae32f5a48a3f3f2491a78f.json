@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_45_c6570b8f - proof]\n**Démonstration** La dérivabilité de $f^{-1}$ demande du travail, mais la formule de dérivation en découle aisément. En dérivant simplement la relation $f \\circ f^{-1} = \\text{Id}_J$ , on obtient $(f^{-1})' \\times f' \\circ f^{-1} = 1$ . X Attention ! - Pour la dérivabilité de $f^{-1}$ , l'hypothèse de non-annulation de $f'$ est cruciale ! Sur la figure ci-contre, $f'$ s'annule en $a$ , donc $f$ possède une tangente horizontale en $a$ . Il en découle que $f^{-1}$ possède une tangente verticale en\n\nCandidate blocks:\n[Block block_44_d8010535 - theorem]: **Théorème (Opérations sur les fonctions dérivables/k fois dérivables/de classe $\\mathcal{C}^k$ )** - **Combinaison linéaire, produit, quotient** : Pour toutes fonctions $f, g \\in \\mathcal{D}(E, \\math\n\n[Block block_46_ca6fb776 - example]: **Exemple** La fonction $x \\xrightarrow{f} \\ln(x + \\sqrt{x(1-x)})$ est définie et continue sur $[0, 1]$ et dérivable sur $[0, 1[$ .\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

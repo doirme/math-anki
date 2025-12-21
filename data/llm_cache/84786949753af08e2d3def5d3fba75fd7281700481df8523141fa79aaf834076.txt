@@ -1,0 +1,11 @@
+{
+  "name": "Fonction tangente hyperbolique",
+  "normalized_name": "Hyperbolic tangent function",
+  "hypotheses": [],
+  "hypothesis_text": "",
+  "conclusion": "La fonction tangente hyperbolique th est définie sur ℝ, impaire et de classe C^∞ sur ℝ avec th' = 1 - th^2 = 1/ch^2. Elle est convexe sur ℝ+, concave sur ℝ- avec un point d'inflexion en 0 et possède une asymptote d'équation y = 1 au voisinage de +∞ (resp. y = -1 au voisinage de -∞).",
+  "conclusion_text": "The hyperbolic tangent function th is defined on ℝ, odd and of class C^∞ on ℝ with th' = 1 - th^2 = 1/ch^2. It is convex on ℝ+, concave on ℝ- with an inflection point at 0 and has an asymptote of equation y = 1 in the vicinity of +∞ (resp. y = -1 in the vicinity of -∞).",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "fonctions spéciales"],
+  "characteristics": ["continue", "différentiable", "convexe", "concave", "ayant une asymptote"]
+}

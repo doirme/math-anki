@@ -1,0 +1,21 @@
+{
+  "name": "Opérations sur les fonctions périodiques",
+  "normalized_name": "Operations on periodic functions",
+  "hypotheses": [
+    "T > 0",
+    "E est T-périodique",
+    "f: E → ℝ et g: E → ℝ sont deux fonctions T-périodiques"
+  ],
+  "hypothesis_text": "T > 0, E est T-périodique, f: E → ℝ et g: E → ℝ sont deux fonctions T-périodiques",
+  "conclusion": "Les fonctions f + g, f × g sont aussi T-périodiques, ainsi que f/g si g ne s'annule pas, et x ↦ f(ωx) est T/ω-périodique sur l'ensemble dilaté/contracté ω¹ E",
+  "conclusion_text": "Pour tout ω > 0, la fonction x ↦ f(ωx) est T/ω-périodique sur l'ensemble dilaté/contracté ω¹ E",
+  "has_proof": true,
+  "domain_tags": [
+    "analyse réelle",
+    "théorie des fonctions"
+  ],
+  "characteristics": [
+    "T-périodique",
+    "fonctions réelles"
+  ]
+}

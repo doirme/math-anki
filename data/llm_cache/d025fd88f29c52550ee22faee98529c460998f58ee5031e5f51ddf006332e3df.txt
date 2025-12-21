@@ -1,0 +1,5 @@
+{
+  "is_self_contained": true,
+  "normalized_text": "Théorème (Dérivée de la fonction Arctangente) : Pour tout $x ∈ ℝ$ : $\\text{Arctan}'(x) = \frac{1}{1 + x^2}$",
+  "tags": ["fonction Arctangente", "dérivée"]
+}

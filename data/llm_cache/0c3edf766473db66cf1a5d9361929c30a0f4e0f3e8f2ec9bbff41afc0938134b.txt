@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Démonstration:\n- La fonction ln est bijective de classe C^∞ sur ℝ_+^* avec dérivée x ↦ 1/x.\n- D'après le théorème de dérivabilité d'une réciproque, ln⁻¹ = exp est de classe C^∞ sur ℝ avec dérivée exp' = exp.\n- exp' est croissante sur ℝ, donc exp est convexe.\n- exp(x) ≥ exp'(0)x + exp(0) = x + 1 pour tout x ∈ ℝ.\n\nDéfinition (Puissances quelconques et racines n-èmes d'un réel strictement positif):\n- Pour x > 0 et y ∈ ℝ, x^y = exp(y ln x).\n- Pour n ∈ ℕ*, x^(1/n) = √[n]{x}.\n- Pour x = e, e^y = exp(y) pour tout y ∈ ℝ.\n- Attention: La définition x^y = e^(y ln x) n'est valable que pour x > 0.",
+  "tags": ["Théorème de dérivabilité d'une réciproque", "Fonction exponentielle", "Fonction logarithme", "Puissances quelconques", "Racines n-èmes"]
+}
+```

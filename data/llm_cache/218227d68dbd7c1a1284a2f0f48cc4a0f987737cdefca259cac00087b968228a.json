@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Extract the structure of this proof.\n\nBlock:\n**Démonstration** Soit $y \\in F$ , disons $y = f(x)$ pour un certain $x \\in E$ . Aussitôt, $-x \\in E$ car $E$ est symétrique par rapport à $0$ , donc $-y = -f(x) = f(-x) \\in F$ par impairité de $f$ . Conclusion : $F$ est symétrique par rapport à $0$ . Ensuite : $f^{-1}(-y) = f^{-1}(-f(x)) = f^{-1}(f(-x)) = -x = -f^{-1}(y)$ , donc $f^{-1}$ est impaire.\n\nContext (may be empty):\n**Théorème (Réciproque d'une fonction bijective impaire)** Soit $f: E \\to F$ une fonction bijective de $E$ sur $F$ . Si $E$ est symétrique par rapport à $0$ et si $f$ est impaire, $F$ est symétrique par rapport à $0$ et $f^{-1}$ est impaire.\n\n**Définition (Fonction périodique)** Soit $T > 0$ . On suppose que $E$ est $T$ -périodique, i.e. que : $\\forall x \\in E, x+T \\in E$ et $x-T \\in E$ . Soit $f: E \\to \\mathbb{R}$ une fonction. On dit que $f$ est $T$ -périodique ou *périodique de période $T$* si : $\\forall x \\in E, f(x+T) = f(x)$ . Le réel $T$ est alors appelé *UNE période de $f$* . Graphique d'une fonction périodique de période $T$ . ![](_page_3_Figure_23.jpeg) Pas besoin d'étudier une fonction $f: E \\to \\mathbb{R}$ $T$ -périodique\n\nRules:\n- Identify the main steps of the proof\n- Identify definitions used (mentioned in the text)\n- Identify theorems used (mentioned in the text)\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"steps\": [\"step 1\", \"step 2\", ...],\n  \"uses_definitions\": [\"definition X\", \"definition Y\"],\n  \"uses_theorems\": [\"theorem A\", \"theorem B\"]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

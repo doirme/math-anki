@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_15_50fa9367 - proposition]\nproposition :  $\\exists K \\ge 0$ ,  $\\forall x \\in E$ ,  $|f(x)| \\le K$ .\n- Si pour un certain  $K \\ge 0$ , il est vrai que  $|f(x)| \\le K$  pour tout  $x \\in E$ , alors  $-K \\le f(x) \\le K$  pour tout  $x \\in E$ , donc  $f$  est minorée par  $-K$  et majorée par  $K$ .\n- Pour la réciproque, supposons  $f$  minorée par  $m$  et majorée par  $M$  et posons  $K = \\max\\{|m|, |M|\\}$ . Pour tout  $x \\in E$  :  $-K \\le -|m| \\le m \\le f(x) \\le M \\le |M| \\le K$ , donc  $|f(x)| \\le K$ .\n\nCandidate blocks:\n[Block block_16_f3a7e220 - definition]: **Définition (Maximum/minimum d'une fonction)** Soient  $f: E \\to \\mathbb{R}$  une fonction et  $a \\in E$ .\n- On dit que  $f$  possède un maximum en  $a$  si :  $\\forall x \\in E$ ,  $f(x) \\le f(a)$ . \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

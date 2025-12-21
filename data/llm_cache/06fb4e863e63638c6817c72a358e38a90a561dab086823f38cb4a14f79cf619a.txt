@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_50_4925f1a6",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc contient des références à des propriétés de fonctions dérivées (nulle, positive), qui peuvent être liées à des théorèmes établis dans d'autres blocs, comme le bloc_51_42205b7a."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_24_a5085955 - definition]\n**Définition (Fonction périodique)** Soit $T > 0$ . On suppose que $E$ est $T$ -périodique, i.e. que : $\\forall x \\in E, x+T \\in E$ et $x-T \\in E$ . Soit $f: E \\to \\mathbb{R}$ une fonction. On dit que $f$ est $T$ -périodique ou *périodique de période $T$* si : $\\forall x \\in E, f(x+T) = f(x)$ . Le réel $T$ est alors appelé *UNE période de $f$* . Graphique d'une fonction périodique de période $T$ . ![](_page_3_Figure_23.jpeg) Pas besoin d'étudier une fonction $f: E \\to \\mathbb{R}$ $T$ -périodique\n\nCandidate blocks:\n[Block block_25_fb33071d - theorem]: **Théorème (Opérations sur les fonctions périodiques)** Soit $T > 0$ . On suppose que $E$ est $T$ -périodique. Soient $f: E \\to \\mathbb{R}$ et $g: E \\to \\mathbb{R}$ deux fonctions $T$ -périodiques. (i\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

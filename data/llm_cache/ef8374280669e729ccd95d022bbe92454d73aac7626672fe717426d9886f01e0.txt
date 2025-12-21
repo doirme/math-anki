@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_0_47bf9e92",
+      "relation": "proves",
+      "confidence": 0.95,
+      "reason": "Le bloc analysé fournit une preuve par l'absurde du théorème de Cantor selon lequel ℝ n'est pas dénombrable, ce qui correspond exactement au théorème énoncé dans le bloc candidat."
+    }
+  ]
+}
+```

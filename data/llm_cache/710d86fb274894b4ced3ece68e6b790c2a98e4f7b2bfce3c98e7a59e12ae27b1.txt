@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["Preuve du théorème de Cantor"],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": [],
+  "normalized_text": "Théorème de Cantor\n\nLe corps ℝ n'est pas dénombrable.",
+  "tags": ["Théorème de Cantor"]
+}
+```

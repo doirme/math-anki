@@ -1,0 +1,20 @@
+ ```json
+{
+  "steps": [
+    "La fonction th est de classe C^∞ par quotient.",
+    "Calcul de la dérivée th' en utilisant les dérivées de sh et ch.",
+    "Simplification de l'expression de th' pour obtenir 1 - th^2.",
+    "Analyse de la croissance stricte de th.",
+    "Étude de la convexité et de la concavité de th en utilisant la dérivée seconde.",
+    "Calcul de la limite de th en +∞ en utilisant l'expression exponentielle."
+  ],
+  "uses_definitions": [
+    "Fonction tangente hyperbolique th = sh/ch",
+    "Dérivées des fonctions hyperboliques sh et ch"
+  ],
+  "uses_theorems": [
+    "Théorème de la dérivée d'une fonction quotient",
+    "Théorème de la dérivée d'une fonction composée"
+  ]
+}
+```

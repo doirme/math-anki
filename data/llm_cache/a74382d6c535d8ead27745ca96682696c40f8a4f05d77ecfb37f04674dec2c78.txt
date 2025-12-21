@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Fonctions cosinus hyperbolique et sinus hyperbolique)\n- Pour tout \( x \in \mathbb{R} \), on appelle cosinus hyperbolique de \( x \) le réel \( \text{ch } x = \frac{e^x + e^{-x}}{2} \) et sinus hyperbolique de \( x \) le réel \( \text{sh } x = \frac{e^x - e^{-x}}{2} \).\n- Pour tout \( x \in \mathbb{R} \): \( \text{ch}^2 x - \text{sh}^2 x = 1 \).\n- Les fonctions \( \text{ch} \) et \( \text{sh} \), respectivement paire et impaire, sont définies et de classe \( C^\infty \) sur \( \mathbb{R} \) avec : \( \text{ch}' = \text{sh} \) et \( \text{sh}' = \text{ch} \).\n- La fonction \( \text{ch} \) est convexe.\n- La fonction \( \text{sh} \) est convexe sur \( \mathbb{R}_+ \) et convexe sur \( \mathbb{R}_- \) avec un point d'inflexion en 0.",
+    "tags": ["théorème", "définition", "propriétés"]
+  }
+]
+```

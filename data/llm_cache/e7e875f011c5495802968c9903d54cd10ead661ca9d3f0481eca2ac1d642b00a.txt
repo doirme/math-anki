@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Exemple** Avec les notations du théorème :\n- Arccosinus :\n  - Hypothèse : $x > 0$ et $y < 0$\n  - $\\theta$ n'appartient pas au domaine privilégié $[0, π]$ , mais on peut l'y ramener grâce à la relation $\\cos(-x) = \\cos x$ .\n  - Conclusion : $\\theta = -\\arccos \frac{x}{r}$ .\n- Arcsinus :\n  - Hypothèse : $x > 0$ et $y < 0$\n  - $\\theta$ appartient au domaine privilégié $]-\\frac{π}{2}, \\frac{π}{2}[$ et $\\sin \\theta = \frac{y}{r}$ .\n  - Conclusion : $\\theta = \\arcsin \frac{y}{r}$ .",
+    "tags": ["example", "arccosinus", "arcsinus"]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "• Démonstration :\n    - La fonction $x  unmapsto x + 3$ est définie sur $\\mathbb{R}$\n    - Pour tout $x ∈ \\mathbb{R}$, $x + 3 ≥ 0$ si et seulement si $x ∈ [-3, +∞[$",
+    "tags": ["proof"]
+  }
+]

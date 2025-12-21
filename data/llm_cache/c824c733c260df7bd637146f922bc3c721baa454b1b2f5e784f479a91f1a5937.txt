@@ -1,0 +1,17 @@
+ <s>```json
+{
+  "name": "Image d'un intervalle par une fonction continue",
+  "normalized_name": "Image d'un intervalle par une fonction continue",
+  "hypotheses": [
+    "Pour toute fonction f ∈ C(E, ℝ) et tout intervalle I inclus dans E, f(I) est aussi un intervalle.",
+    "Si f est continue et croissante sur [a, b], alors f([a, b]) = [f(a), f(b)].",
+    "Si f est continue et décroissante sur [a, b], alors f([a, b]) = [f(b), f(a)]."
+  ],
+  "hypothesis_text": "Pour toute fonction f ∈ C(E, ℝ) et tout intervalle I inclus dans E, f(I) est aussi un intervalle. Si f est continue et croissante sur [a, b], alors f([a, b]) = [f(a), f(b)]. Si f est continue et décroissante sur [a, b], alors f([a, b]) = [f(b), f(a)].",
+  "conclusion": "f([a, b]) est un intervalle.",
+  "conclusion_text": "f([a, b]) est un intervalle.",
+  "has_proof": true,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["continue", "croissante", "décroissante"]
+}
+```

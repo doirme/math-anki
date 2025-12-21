@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_26_1153fd8c",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "This block provides a proof for the periodicity of the sum of two periodic functions, which is stated in theorem block_25_fb33071d."
+    },
+    {
+      "block_id": "block_26_1153fd8c",
+      "relation": "uses_theorem",
+      "confidence": 0.8,
+      "reason": "This block uses the definition of a periodic function, which is a fundamental concept for this proof."
+    }
+  ]
+}

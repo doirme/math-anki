@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_31_c971911b",
+      "relation": "specializes",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat donne des exemples spécifiques de cas où la fonction est strictement croissante ou décroissante, ce qui spécialise le théorème général du bloc analysé."
+    }
+  ]
+}
+```

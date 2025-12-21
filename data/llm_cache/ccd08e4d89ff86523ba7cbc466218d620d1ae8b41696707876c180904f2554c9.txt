@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_82\_362c1eef",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le théorème dans le bloc block\_82\_362c1eef est démontré dans les blocs block\_81\_4583aa8d et block\_83\_ab1de7e9."
+    },
+    {
+      "block\_id": "block\_81\_4583aa8d",
+      "relation": "uses\_theorem",
+      "confidence": 0.8,
+      "reason": "La dérivée de x^α est calculée en utilisant la règle de dérivation d'une fonction composée, qui est une conséquence du théorème dans le bloc block\_82\_362c1eef."
+    },
+    {
+      "block\_id": "block\_83\_ab1de7e9",
+      "relation": "uses\_theorem",
+      "confidence": 0.7,
+      "reason": "Le comportement asymptotique de (ln x)^β est utilisé dans la démonstration, ce qui est une conséquence du théorème dans le bloc block\_82\_362c1eef."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "- **Théorème (Opérations sur les fonctions monotones)**\n- (i) **Addition** : Soient $f : E \\to \\mathbb{R}$ et $g : E \\to \\mathbb{R}$ deux fonctions.\n  - Si $f$ et $g$ sont croissantes, $f+g$ l'est aussi.\n  - Si $f$ et $g$ sont décroissantes, $f+g$ l'est aussi.\n- (ii) **Produit** : Soient $f : E \\to \\mathbb{R}$ et $g : E \\to \\mathbb{R}$ deux fonctions.\n  - Si $f$ et $g$ sont croissantes **POSITIVES**, $f \\cdot g$ est croissante.\n  - Si $f$ et $g$ sont décroissantes **POSITIVES**, $f \\cdot g$ est décroissante.\n- (iii) **Composition** : Soient $f : E \\to F$ et $g : F \\to \\mathbb{R}$ deux fonctions.\n  - Si $f$ et $g$ sont monotones de même sens de variation, $g \\circ f$ est croissante.\n  - Si $f$ et $g$ sont monotones de sens de variation opposés, $g \\circ f$ est décroissante.\n- (iv) **Réciproque** : Soit $f : E \\to F$ une fonction bijective de $E$ sur $F$.\n  - Si $f$ est monotone, elle l'est strictement et $f^{-1}$ est strictement monotone de même sens de variation.",
+    "tags": []
+  }
+]

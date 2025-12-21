@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Démonstration\n- On étudie le signe de la fonction \( f(x) = (x+1) \ln x - 2(x-1) \) sur \( \mathbb{R}_+^* \).\n- Pour tout \( x > 0 \) : \( f'(x) = \ln x + \frac{1}{x} - 1 \) et \( f''(x) = \frac{x-1}{x^2} \).\n- On conclut grâce au tableau ci-contre.",
+    "tags": ["proof"]
+  }
+]
+```

@@ -1,0 +1,14 @@
+ ```json
+{
+  "steps": [
+    "Si pour un certain K ≥ 0, |f(x)| ≤ K pour tout x ∈ E, alors -K ≤ f(x) ≤ K pour tout x ∈ E, donc f est minorée par -K et majorée par K.",
+    "Pour la réciproque, supposons f minorée par m et majorée par M et posons K = max{|m|, |M|}. Pour tout x ∈ E : -K ≤ -|m| ≤ m ≤ f(x) ≤ M ≤ |M| ≤ K, donc |f(x)| ≤ K."
+  ],
+  "uses_definitions": [
+    "Fonction majorée",
+    "Fonction minorée",
+    "Fonction bornée"
+  ],
+  "uses_theorems": []
+}
+```

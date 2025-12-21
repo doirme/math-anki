@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Théorème ou proposition à laquelle la démonstration fait référence"],
+    "needs_preceding": true,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Démonstration de la deuxième limite du théorème sur les fonctions puissances :\n- Si β ≤ 0, alors lim_{x → +∞} (ln x)^β / x^α = 0 car (ln x)^β tend vers 0 ou 1 et x^α tend vers +∞.\n- Si β > 0, alors en posant u = x^(α/β) et v = (ln u)/u, on a :\n  - (ln x)^β / x^α = (β/α)^β * v^β.\n  - lim_{u → +∞} (ln u)/u = 0.\n  - lim_{v → 0} v^β = 0.\n  - Donc, par composition, lim_{x → +∞} (ln x)^β / x^α = 0.",
+    "tags": ["démonstration", "limite", "fonction puissance", "analyse"]
+  }
+]
+```

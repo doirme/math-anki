@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "Exemple :\n- Pour tout \( x > 0 \) : \( \text{Arctan } x + \text{Arctan } \frac{1}{x} = \frac{\pi}{2} \).\n- Pour tout \( x < 0 \) : \( \text{Arctan } x + \text{Arctan } \frac{1}{x} = -\frac{\pi}{2} \).\n\nExemple :\n- \( f(0) = \text{Arccos } 0 + \text{Arcsin } 0 = \frac{\pi}{2} + 0 = \frac{\pi}{2} \).\n- \( f(1) \) et \( f(-1) \) valent la même chose par continuité de \( f \) sur l'intervalle fermé \([-1, 1]\).",
+  "tags": ["Propriété de l'arc tangente", "Propriété de l'arc cosinus et arc sinus"]
+}
+```

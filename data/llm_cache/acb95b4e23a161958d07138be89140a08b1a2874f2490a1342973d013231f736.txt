@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_81_f8e6b813",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat contient une démonstration qui semble être une généralisation de l'exemple donné dans le bloc à analyser, en particulier pour l'équation ch x = y."
+    }
+  ]
+}
+```

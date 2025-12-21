@@ -1,0 +1,10 @@
+ <s> ```json
+{
+  "term": "Fonction majorée/minorée/bornée",
+  "normalized_term": "Fonction majorée/minorée/bornée",
+  "statement": "Soit \( f : E \to \mathbb{R} \) une fonction. On dit que \( f \) est majorée si : \(\exists M \in \mathbb{R}, \forall x \in E, f(x) \le M\). Un tel réel \( M \) est appelé un majorant de \( f \). On dit aussi que \( f \) est majorée par \( M \) ou que \( M \) majoré \( f \). On dit que \( f \) est minorée si : \(\exists m \in \mathbb{R}, \forall x \in E, f(x) \ge m\). Un tel réel \( m \) est appelé un minorant de \( f \). On dit aussi que \( f \) est minorée par \( m \) ou que \( m \) minore \( f \). On dit que \( f \) est bornée si \( f \) est à la fois majorée et minorée, i.e. si : \(\exists K \ge 0, \forall x \in E, |f(x)| \le K\).",
+  "domain_tags": ["analyse réelle", "analyse"],
+  "characteristics": ["majorée", "minorée", "bornée"],
+  "is_multiple": false
+}
+```

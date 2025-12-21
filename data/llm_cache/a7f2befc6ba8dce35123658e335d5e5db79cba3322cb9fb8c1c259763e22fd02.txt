@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_70_3009fef0",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat utilise le théorème de la dérivabilité d'une réciproque mentionné dans le bloc à analyser."
+    }
+  ]
+}
+```

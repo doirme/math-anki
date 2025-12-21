@@ -1,0 +1,11 @@
+ ```json
+{
+  "is_self_contained": false,
+  "missing": ["definition of 'fonctions logarithme et exponentielle'"],
+  "needs_preceding": false,
+  "needs_following": true,
+  "suggested_merge_with": [],
+  "normalized_text": "Définition de fonctions logarithme et exponentielle",
+  "tags": []
+}
+```

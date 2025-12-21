@@ -1,0 +1,16 @@
+ <s> ```json
+{
+  "name": "Caractérisation des fonctions convexes dérivables",
+  "normalized_name": "Caractérisation des fonctions convexes dérivables",
+  "hypotheses": [
+    "Soient $I$ un intervalle et $f \\in \\mathcal{C}(I, \\mathbb{R})$.",
+    "Les assertions suivantes sont équivalentes :"
+  ],
+  "hypothesis_text": "Soient $I$ un intervalle et $f \\in \\mathcal{C}(I, \\mathbb{R})$. Les assertions suivantes sont équivalentes :",
+  "conclusion": "Les assertions suivantes sont équivalentes :",
+  "conclusion_text": "1. $f$ est convexe sur $I$. 2. $f'$ est croissante sur $I$ — ou bien $f'' \\ge 0$ si $f$ est deux fois dérivable sur $I$. 3. Le graphe de $f$ est situé au-dessus de toutes ses tangentes. On dispose bien sûr d'une caractérisation analogue de la concavité.",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "fonctions convexes"],
+  "characteristics": ["convexe", "dérivable", "croissante"]
+}
+```

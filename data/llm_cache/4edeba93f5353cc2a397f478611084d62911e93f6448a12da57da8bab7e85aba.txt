@@ -1,0 +1,11 @@
+{
+  "name": "Théorème (Fonction tangente)",
+  "normalized_name": "Tangent function theorem",
+  "hypotheses": [],
+  "hypothesis_text": "",
+  "conclusion": "La fonction tangente est définie sur ]-π/2, π/2[ + πZ, impaire et π-périodique, de classe C^∞ sur son ensemble de définition avec tan' = 1 + tan² = 1/cos².",
+  "conclusion_text": "The tangent function is defined on ]-π/2, π/2[ + πZ, is odd and π-periodic, of class C^∞ on its definition set with tan' = 1 + tan² = 1/cos².",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle", "fonctions", "trigonométrie"],
+  "characteristics": ["fonction tangente", "définition", "régularité", "parité", "périodicité"]
+}

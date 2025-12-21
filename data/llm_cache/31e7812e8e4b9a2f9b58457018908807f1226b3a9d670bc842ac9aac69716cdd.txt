@@ -1,0 +1,17 @@
+ {
+  "steps": [
+    "Step 1: The proof starts by stating that deriving f inverse requires work, but its derivative formula can be easily obtained.",
+    "Step 2: The proof then derives the relation f o f^(-1) = Id_J to get (f^(-1))' × f' o f^(-1) = 1.",
+    "Step 3: The proof mentions the necessity of f' not cancelling for the derivability of f^(-1).",
+    "Step 4: An example is given of a function that is not derivable at a specific point due to f' cancelling."
+  ],
+  "uses_definitions": [
+    "definition of the derivative of a function",
+    "definition of the inverse function"
+  ],
+  "uses_theorems": [
+    "theorem on the derivative of a composite function",
+    "theorem on the derivative of a product of functions",
+    "theorem on the derivative of a quotient of functions"
+  ]
+}

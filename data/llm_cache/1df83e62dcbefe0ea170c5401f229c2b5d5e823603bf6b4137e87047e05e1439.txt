@@ -1,0 +1,11 @@
+ <s> ```json
+{
+  "term": "Propriétés algébriques des puissances",
+  "normalized_term": "Propriétés algébriques des puissances",
+  "statement": "Pour tous \( x, x' > 0 \) et \( y, y' \in \mathbb{R} \) : \( \ln(x^y) = y \ln x \), \( x^{y+y'} = x^y x^{y'} \), \( x^{y y'} = (x^y)^{y'} \), \( (x x')^y = x^y x^{y'} \) et \( x^{-y} = \frac{1}{x^y} = \left(\frac{1}{x}\right)^y \).",
+  "domain_tags": ["analyse réelle", "algèbre"],
+  "characteristics": ["puissances", "logarithme naturel"],
+  "is_multiple": false,
+  "definitions": []
+}
+```

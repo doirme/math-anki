@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "théorème (Fonction tangente hyperbolique)\n- La fonction tangente hyperbolique th = sh/ch est définie sur ℝ.\n- Elle est impaire et de classe C^∞ sur ℝ et : th' = 1 - th^2 = 1/ch^2.\n- Elle est convexe sur ℝ+ et concave sur ℝ- avec un point d'inflexion en 0.\n- Elle possède enfin une asymptote d'équation y = 1 au voisinage de +∞ (resp. y = -1 au voisinage de -∞).",
+    "tags": ["theorem"]
+  }
+]

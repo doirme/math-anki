@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_15_50fa9367",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "La proposition utilise la définition du maximum/minimum d'une fonction pour démontrer que, si une constante K majore la valeur absolue de f(x) pour tout x dans E, alors f est bornée par -K et K. Cela permet de définir des bornes supérieures et inférieures pour la fonction f."
+    }
+  ]
+}

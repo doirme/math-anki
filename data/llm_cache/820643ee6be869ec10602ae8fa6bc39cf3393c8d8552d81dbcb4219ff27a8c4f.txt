@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_98_969d85d4",
+      "relation": "generalizes",
+      "confidence": 0.7,
+      "reason": "Les deux blocs traitent de limites en utilisant des approximations pour des valeurs grandes de x, mais le bloc candidat généralise le concept en montrant des exemples spécifiques."
+    }
+  ]
+}
+```

@@ -1,0 +1,18 @@
+ <s> ```json
+{
+  "name": "Propriétés des fonctions arc cosinus, arc sinus et arc tangente",
+  "normalized_name": "Propriétés des fonctions arc cosinus, arc sinus et arc tangente",
+  "hypotheses": [
+    "Pour tout $x \\in [-1, 1]$ : $\\cos \\arcsin x = \\sin \\arccos x = \\sqrt{1-x^2}$",
+    "Arccos est continue sur $[-1, 1]$ et de classe $\\mathcal{C}^\\infty$ sur $]-1, 1[$, mais pas dérivable en $-1$ et $1$. Pour tout $x \\in ]-1, 1[$ : $\\arccos'(x) = -\\frac{1}{\\sqrt{1-x^2}}$",
+    "Arcsin est impair et continue sur $[-1, 1]$ et de classe $\\mathcal{C}^\\infty$ sur $]-1, 1[$, mais pas dérivable en $-1$ et $1$. Pour tout $x \\in ]-1, 1[$ : $\\arccos'(x) = \\frac{1}{\\sqrt{1-x^2}}$",
+    "Arctan est impair et de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$. Pour tout $x \\in \\mathbb{R}$ : $\\arctan'(x) = \\frac{1}{1+x^2}$"
+  ],
+  "hypothesis_text": "Pour tout $x \\in [-1, 1]$ : $\\cos \\arcsin x = \\sin \\arccos x = \\sqrt{1-x^2}$. Arccos est continue sur $[-1, 1]$ et de classe $\\mathcal{C}^\\infty$ sur $]-1, 1[$, mais pas dérivable en $-1$ et $1$. Pour tout $x \\in ]-1, 1[$ : $\\arccos'(x) = -\\frac{1}{\\sqrt{1-x^2}}$. Arcsin est impair et continue sur $[-1, 1]$ et de classe $\\mathcal{C}^\\infty$ sur $]-1, 1[$, mais pas dérivable en $-1$ et $1$. Pour tout $x \\in ]-1, 1[$ : $\\arccos'(x) = \\frac{1}{\\sqrt{1-x^2}}$. Arctan est impair et de classe $\\mathcal{C}^\\infty$ sur $\\mathbb{R}$. Pour tout $x \\in \\mathbb{R}$ : $\\arctan'(x) = \\frac{1}{1+x^2}$",
+  "conclusion": "La non-dérivabilité d'Arccos et Arcsin en $\\pm 1$ s'explique bien géométriquement, les tangentes horizontales de sin et cos deviennent verticales quand on les symétrise par rapport à la droite d'équation $y = x$",
+  "conclusion_text": "La non-dérivabilité d'Arccos et Arcsin en $\\pm 1$ s'explique bien géométriquement, les tangentes horizontales de sin et cos deviennent verticales quand on les symétrise par rapport à la droite d'équation $y = x$",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "trigonométrie"],
+  "characteristics": ["continue", "impair", "dérivable", "non-dérivable"]
+}
+```

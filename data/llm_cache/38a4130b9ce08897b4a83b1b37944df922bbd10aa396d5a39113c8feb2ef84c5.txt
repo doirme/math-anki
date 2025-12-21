@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_61_fe106ade",
+      "relation": "uses_definition",
+      "confidence": 0.8,
+      "reason": "Le bloc utilise le concept de fonction concave, qui est probablement défini dans le bloc de définition."
+    }
+  ]
+}
+```

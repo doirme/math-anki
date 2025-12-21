@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "La fonction $x  unmaps; to; √x$ est concave sur $\mathbb{R}_+^*$ car sa dérivée $x  unmaps; to; 1/(2√x)$ est décroissante.\n- Hypothèse : $x > 0$",
+  "tags": ["Concavity", "Derivative"]
+}

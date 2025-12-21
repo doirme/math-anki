@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Exemple 1: Soit \( n \in \mathbb{N} \). La fonction puissance \( x \mapsto x^{2n} \) est convexe sur \( \mathbb{R} \) car sa dérivée seconde \( x \mapsto 2n(2n-1)x^{2(n-1)} \) est positive sur \( \mathbb{R} \).\n\nExemple 2: Pour tout \( x > 0 \) : \( \sqrt{x} \le \frac{x+1}{2} \).",
+    "tags": ["exemple", "convexité", "fonction puissance", "inégalité"]
+  }
+]
+```

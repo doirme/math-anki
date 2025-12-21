@@ -1,0 +1,14 @@
+ <s> ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": false,
+    "missing": ["Définition de la continuité et de la monotonicité stricte", "Énoncé complet du théorème"],
+    "needs_preceding": true,
+    "needs_following": true,
+    "suggested_merge_with": [1, 2],
+    "normalized_text": "Théorème (TVI strictement monotone) - En cas de continuité et monotonicité stricte, la forme des intervalles est correctement préservée.",
+    "tags": ["Théorème", "Continuité", "Monotonicité"]
+  }
+]
+``` 

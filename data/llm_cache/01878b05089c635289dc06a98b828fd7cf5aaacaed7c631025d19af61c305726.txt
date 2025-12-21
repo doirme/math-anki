@@ -1,0 +1,12 @@
+ [
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "**Démonstration**\n- Les équations ch x = y et sh x = y d'inconnue x à y fixé se ramènent aisément à des équations du second degré.\n- Pour tout x ∈ ℝ :\n  - ch x = 2 ⟺ (e^x)^2 - 4e^x + 1 = 0 ⟺ e^x = 2 + √3 ou e^x = 2 - √3 ⟺ x = ln(2 + √3) ou x = ln(2 - √3).",
+    "tags": ["proof"]
+  }
+]

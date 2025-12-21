@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "$\$\frac{\ln(e^x + 1)}{e^{x+\ln x} + 1} = \frac{1 + \frac{\ln(1 + e^{-x})}{x}}{e^x \left(1 + \frac{1}{x e^x}\right)} \xrightarrow{x \to +\infty} 0.\$",
+  "tags": ["limite"]
+}

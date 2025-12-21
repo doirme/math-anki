@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Théorème (Opérations sur les fonctions périodiques)\n- Soit $T > 0$.\n- On suppose que $E$ est $T$-périodique.\n- Soient $f: E → ℝ$ et $g: E → ℝ$ deux fonctions $T$-périodiques.\n(i) Les fonctions $f + g$ et $f × g$ sont aussi $T$-périodiques, ainsi que $\frac{f}{g}$ si $g$ ne s'annule pas.\n(ii) Pour tout $ω > 0$, la fonction $x ↦ f(ωx)$ est $\frac{T}{ω}$-périodique sur l'ensemble dilaté/contracté $\frac{1}{ω} E$ .",
+    "tags": ["theorem"]
+  }
+]

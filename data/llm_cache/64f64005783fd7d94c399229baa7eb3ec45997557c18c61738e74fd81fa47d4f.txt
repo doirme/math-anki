@@ -1,0 +1,15 @@
+ ```json
+{
+  "steps": [
+    "Montrer que la somme de deux fonctions périodiques est périodique",
+    "Montrer que le produit de deux fonctions périodiques est périodique",
+    "Montrer que le quotient de deux fonctions périodiques est périodique si le dénominateur ne s'annule pas",
+    "Définir une nouvelle fonction g(x) = f(ωx) sur l'ensemble dilaté/contracté",
+    "Montrer que g est périodique avec période T/ω"
+  ],
+  "uses_definitions": [
+    "Fonction périodique"
+  ],
+  "uses_theorems": []
+}
+```

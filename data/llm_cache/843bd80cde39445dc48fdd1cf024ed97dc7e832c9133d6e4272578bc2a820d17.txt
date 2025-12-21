@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_73_66725724",
+      "relation": "used_in_theorem",
+      "confidence": 0.9,
+      "reason": "The definition of the logarithm function is used in the statement of the theorem."
+    }
+  ]
+}

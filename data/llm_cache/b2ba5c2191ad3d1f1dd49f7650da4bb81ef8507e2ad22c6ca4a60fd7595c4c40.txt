@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_105_d3b47e69",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat utilise les définitions des fonctions arc-cosinus, arc-sinus et arc-tangente fournies dans le bloc à analyser pour illustrer des exemples et des propriétés."
+    }
+  ]
+}
+```

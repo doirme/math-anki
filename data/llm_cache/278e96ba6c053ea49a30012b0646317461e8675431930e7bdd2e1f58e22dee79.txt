@@ -1,0 +1,9 @@
+ {
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Définition**\n- Fonction hyperbolique cosinus : $\text{ch } x = \frac{e^x + e^{-x}}{2}$\n- Fonction hyperbolique sinus : $\text{sh } x = \frac{e^x - e^{-x}}{2}$",
+  "tags": ["fonction hyperbolique cosinus", "fonction hyperbolique sinus"]
+}

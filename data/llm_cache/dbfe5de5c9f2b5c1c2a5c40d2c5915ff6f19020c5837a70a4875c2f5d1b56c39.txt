@@ -1,0 +1,11 @@
+ {
+  "name": "Réciproque d'une fonction bijective impaire",
+  "normalized_name": "Reciprocal of an odd bijective function",
+  "hypotheses": ["f: E → F est une fonction bijective de E sur F", "E est symétrique par rapport à 0", "f est impaire"],
+  "hypothesis_text": "f: E → F is a bijective function from E to F, E is symmetric with respect to 0, and f is odd",
+  "conclusion": "F est symétrique par rapport à 0 et f^(-1) est impaire",
+  "conclusion_text": "F is symmetric with respect to 0 and f^(-1) is odd",
+  "has_proof": true,
+  "domain_tags": ["analyse réelle", "théorie des fonctions"],
+  "characteristics": ["bijective", "impaire", "symétrique"]
+}

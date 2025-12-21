@@ -1,0 +1,14 @@
+ ```json
+{
+  "steps": [
+    "La fonction \( x \mapsto x+3 \) est définie sur \( \mathbb{R} \) et la fonction \( \sqrt{\cdot} \) l'est sur \( \mathbb{R}_+ \).",
+    "Pour qu'un \( x \in \mathbb{R} \) soit dans le domaine de \( \sqrt{x+3} \), il faut que \( x+3 \ge 0 \).",
+    "Résolution de l'inéquation \( x+3 \ge 0 \) donne \( x \in [-3, +\infty[ \)."
+  ],
+  "uses_definitions": [
+    "Fonction définie sur un ensemble",
+    "Domaine de définition d'une fonction"
+  ],
+  "uses_theorems": []
+}
+```

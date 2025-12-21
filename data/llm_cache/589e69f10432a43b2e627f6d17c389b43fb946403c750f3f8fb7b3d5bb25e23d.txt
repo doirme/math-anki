@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Définition (Fonction majorée/minorée/bornée)**\n- **Fonction majorée** : $f$ est majorée si $\exists M \in \mathbb{R}, \forall x \in E, f(x) \le M$. $M$ est appelé un majorant de $f$.\n- **Fonction minorée** : $f$ est minorée si $\exists m \in \mathbb{R}, \forall x \in E, f(x) \ge m$. $m$ est appelé un minorant de $f$.\n- **Fonction bornée** : $f$ est bornée si $f$ est à la fois majorée et minorée, i.e. $\exists K \ge 0, \forall x \in E, |f(x)| \le K$.",
+  "tags": ["fonction majorée", "fonction minorée", "fonction bornée"]
+}

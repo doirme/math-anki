@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_116_c158fd55",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "La fonction tangente utilisée dans les formules d'addition et de duplication est définie et sa régularité est décrite dans le bloc cible."
+    }
+  ]
+}

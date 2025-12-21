@@ -1,0 +1,9 @@
+{
+  "is_self_contained": true,
+  "missing": [],
+  "needs_preceding": false,
+  "needs_following": false,
+  "suggested_merge_with": [],
+  "normalized_text": "**Définition (Fonction convexe/concave)**\n- *Fonction convexe* : $f$ est convexe si $\\forall x, y \\in I, \\forall λ \\in [0, 1], f((1-λ)x + λy) \\le (1-λ)f(x) + λf(y)$.\n- *Fonction concave* : $f$ est concave si $\\forall x, y \\in I, \\forall λ \\in [0, 1], f((1-λ)x + λy) \\ge (1-λ)f(x) + λf(y)$. Équivalent à $-f$ convexe.",
+  "tags": ["Fonction convexe/concave"]
+}

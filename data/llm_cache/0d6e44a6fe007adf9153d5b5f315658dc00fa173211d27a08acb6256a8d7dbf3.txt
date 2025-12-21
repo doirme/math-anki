@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "Définition et régularité : La fonction logarithme $\\ln$ est définie, de classe $\\mathcal{C}^\\infty$ et concave sur $\\mathbb{R}_+$ . Pour tout $x > 0$ : $\\ln'(x) = \\frac{1}{x}$ et $\\ln(1) = 0$ .\n- Transformation des produits en sommes : Pour tous $x, y > 0$ : $\\ln(xy) = \\ln x + \\ln y$ et $\\ln \\frac{1}{x} = -\\ln x$ .\n- Constante de Néper : La fonction logarithme prend la valeur 1 en un unique réel e appelé parfois la *constante de Néper* : $e \\approx 2,71828$ .\n- Croissances comparées en 0 et $+\\infty$ : $\\frac{\\ln x}{x} \\xrightarrow{x \\to +\\infty} 0$ et $x \\ln x \\xrightarrow{x \\to 0} 0$ . Le graphe du logarithme est situé sous sa tangente en 1 : $\\left\\{\\begin{array}{l} \\forall x > 0, \\ln x \\le x - 1 \\\\ \\forall x > -1, \\ln(1+x) \\le x. \\end{array}\\right.$ En outre, $\\frac{\\ln x}{x-1} \\xrightarrow{x \\to 1} 1$ et $\\frac{\\ln(1+x)}{x} \\xrightarrow{x \\to 0} 1$ , i.e. intuitivement : $\\left\\{\\begin{array}{l} \\ln x \\approx x - 1 \\text{ pour } x \\text{ proche de } 1 \\\\ \\ln(1+x) \\approx x \\text{ pour } x \\text{ proche de } 1. \\end{array}\\right.$ Par définition du nombre dérivé : $\\frac{\\ln x}{x-1} \\xrightarrow{x \\to 1} \\ln'(1) = 1$ , donc $\\ln x \\approx x - 1$ pour $x$ proche de 1. Par exemple, $\\ln(1,1) \\approx 0,09531$ et $\\ln(1,01) \\approx 0,00995$ . Les limites $\\frac{\\ln x}{x} \\xrightarrow{x \\to +\\infty} 0$ et $x \\ln x \\xrightarrow{x \\to 0} 0$ sont quant à elles des formes indéterminées $\\frac{+\\infty}{+\\infty}$ et $0 \\times (+\\infty)$ au premier abord, mais le combat de $x$ et $\\ln x$ est gagné par $x$ dans les deux cas.",
+    "tags": ["définition", "régularité", "propriétés", "croissances comparées"]
+  }
+]
+```

@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_61_c4861e96 - definition]\n## 3.2 FONCTIONS LOGARITHME ET EXPONENTIELLE\n\n### Définition-\n\nthéorème(Fonction logarithme) -\n\n**Définition et régularité** : La fonction logarithme $\\ln$ est définie, de classe $\\mathcal{C}^\\infty$ et concave sur $\\mathbb{R}_+$ . Pour tout $x > 0$ : $\\ln'(x) = \\frac{1}{x}$ et $\\ln(1) = 0$ . - **Transformation des produits en sommes** : Pour tous $x, y > 0$ : $\\ln(xy) = \\ln x + \\ln y$ et $\\ln \\frac{1}{x} = -\\ln x$ . - **Constante de Néper** : La fonction logarithme prend la valeur 1 en un uniqu\n\nCandidate blocks:\n[Block block_63_bd457b63 - manual_review]: **Démonstration** D'après le théorème fondamental du calcul intégral que nous démontrerons plus tard, toute fonction continue sur un intervalle $y$ possède des primitives. La fonction inverse possède \n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "- Si $f$ est continue et strictement croissante sur $[a, b]$ : $f([a, b]) = [f(a), \lim\_{b \to b^+} f(b)]$,\n- Si $f$ est continue et strictement décroissante sur $[a, b]$ : $f([a, b]) = [\lim\_{b \to a^+} f(a), \lim\_{b \to b^-} f(b)]$",
+    "tags": []
+  }
+]

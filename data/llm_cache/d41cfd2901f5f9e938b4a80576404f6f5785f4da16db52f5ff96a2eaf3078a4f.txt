@@ -1,0 +1,18 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_57_5161ebc9",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "La démonstration dans le bloc block_58_722a29f5 prouve une partie du théorème énoncé dans le bloc block_57_5161ebc9, en particulier l'implication (ii) ⇒ (iii) qui montre que si la dérivée f' est croissante, alors la fonction f est convexe."
+    },
+    {
+      "block_id": "block_59_e697dd55",
+      "relation": "uses_theorem",
+      "confidence": 0.7,
+      "reason": "Bien que le bloc block_59_e697dd55 soit un exemple, il pourrait utiliser implicitement le théorème du bloc block_57_5161ebc9 pour justifier la convexité de la fonction puissance. Cependant, la relation n'est pas explicite dans le texte fourni."
+    }
+  ]
+}
+```

@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_81_4583aa8d - proof]\n### Démonstration $$\\text{(i) Pour tout } x > 0 : \\quad \\frac{d}{dx}(x^\\alpha) = \\frac{d}{dx}(e^{\\alpha \\ln x}) = \\frac{\\alpha}{x} \\times e^{\\alpha \\ln x} = \\alpha x^{-1} x^\\alpha = \\alpha x^{\\alpha-1}.$$ A fortiori : $\\frac{d^2 f}{dx^2}(x^\\alpha) = \\alpha(\\alpha-1)x^{\\alpha-2}$ , donc la dérivée seconde de $x \\mapsto x^\\alpha$ est négative sur $\\mathbb{R}_+^*$ si $\\alpha \\in ]0, 1]$ et positive si $\\alpha \\in ]-\\infty, 0] \\cup [1, +\\infty[$ . (ii) Soient $x > 0$ et $\\alpha, \\beta \\in \\mathbb{R}\n\nCandidate blocks:\n[Block block_82_362c1eef - theorem]: **Théorème (Croissances comparées des fonctions logarithme, exponentielle et puissances)** Le principe général, c'est que l'exponentielle est plus puissante que les puissances, qui sont elles-mêmes pl\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

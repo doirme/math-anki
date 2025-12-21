@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_4_dbd9a4e8",
+      "relation": "has_proof",
+      "confidence": 0.9,
+      "reason": "Le bloc block_3_647f0427 énonce une propriété sur le domaine de définition d'une fonction, tandis que le bloc block_4_dbd9a4e8 fournit une démonstration détaillée de cette propriété."
+    }
+  ]
+}
+```

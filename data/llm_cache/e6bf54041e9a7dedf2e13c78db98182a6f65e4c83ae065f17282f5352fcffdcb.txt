@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Exemple : L'ensemble $\\frac{\\pi}{4} + \\pi\\mathbb{Z}$ est $\\pi$-périodique, donc rencontre l'intervalle $[0, 3\\pi]$ de longueur $3\\pi$ en exactement trois points : $\\left(\\frac{\\pi}{4} + \\pi\\mathbb{Z}\\right) \\cap [0, 3\\pi] = \\left\\{\\frac{\\pi}{4}, \\frac{5\\pi}{4}, \\frac{9\\pi}{4}\\right\\}$.",
+    "tags": ["exemple", "périodicité", "ensemble"]
+  }
+]
+```

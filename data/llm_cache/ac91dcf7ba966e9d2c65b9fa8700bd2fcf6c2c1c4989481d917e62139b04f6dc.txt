@@ -1,0 +1,24 @@
+ ```json
+{
+  "term": "Fonctions arc-cosinus, arc-sinus et arc-tangente",
+  "normalized_term": "Fonctions arc-cosinus, arc-sinus et arc-tangente",
+  "statement": "La restriction $\\cos|_{[0, \\pi]}$ est bijective de $[0, \\pi]$ sur $[-1, 1]$ et sa réciproque *arccosinus* est notée *Arcos*. Pour tout $x \\in [-1, 1]$ , $\\text{Arcos } x$ est l'unique réel $\\theta$ de $[0, \\pi]$ pour lequel $\\cos \\theta = x$. La restriction $\\sin|_{[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]}$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $[-1, 1]$ et sa réciproque *arcsinus* est notée *Arcsin*. Pour tout $x \\in [-1, 1]$ , $\\text{Arcsin } x$ est l'unique réel $\\theta$ de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ pour lequel $\\sin \\theta = x$. La restriction $\\tan|_{[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]}$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $\\mathbb{R}$ et sa réciproque *arctangente* est notée *Arctan*. Pour tout $x \\in \\mathbb{R}$ , $\\text{Arctan } x$ est l'unique réel $\\theta$ de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ pour lequel $\\tan \\theta = x$.",
+  "domain_tags": ["analyse réelle", "trigonométrie"],
+  "characteristics": ["bijective", "réciproque", "unique"],
+  "is_multiple": true,
+  "definitions": [
+    {
+      "term": "Arccosinus",
+      "statement": "La restriction $\\cos|_{[0, \\pi]}$ est bijective de $[0, \\pi]$ sur $[-1, 1]$ et sa réciproque *arccosinus* est notée *Arcos*. Pour tout $x \\in [-1, 1]$ , $\\text{Arcos } x$ est l'unique réel $\\theta$ de $[0, \\pi]$ pour lequel $\\cos \\theta = x$."
+    },
+    {
+      "term": "Arcsinus",
+      "statement": "La restriction $\\sin|_{[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]}$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $[-1, 1]$ et sa réciproque *arcsinus* est notée *Arcsin*. Pour tout $x \\in [-1, 1]$ , $\\text{Arcsin } x$ est l'unique réel $\\theta$ de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ pour lequel $\\sin \\theta = x$."
+    },
+    {
+      "term": "Arctangente",
+      "statement": "La restriction $\\tan|_{[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]}$ est bijective de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ sur $\\mathbb{R}$ et sa réciproque *arctangente* est notée *Arctan*. Pour tout $x \\in \\mathbb{R}$ , $\\text{Arctan } x$ est l'unique réel $\\theta$ de $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$ pour lequel $\\tan \\theta = x$."
+    }
+  ]
+}
+```

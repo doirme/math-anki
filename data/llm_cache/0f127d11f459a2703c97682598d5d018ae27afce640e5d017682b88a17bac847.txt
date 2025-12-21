@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_34_98aedbc4",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le théorème cité dans le bloc candidat utilise la définition de dérivabilité donnée dans le bloc à analyser."
+    }
+  ]
+}
+```

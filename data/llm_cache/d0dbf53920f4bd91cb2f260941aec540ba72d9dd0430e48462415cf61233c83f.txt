@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggest_merge_with": [],
+    "normalized_text": "## 6 TABLEAUX RÉCAPITULATIFS DES DÉRIVÉES USUELLES\n\n| Fonction | Dérivée |\n|-------------------------------------------------------|---------------------------------------------------|\n| $e^x$ | $e^x$ |\n| $\\ln x$ | $\\frac{1}{x}$ |\n| $x^\\alpha = e^{\\alpha \\ln x}$ | $\\alpha x^{\\alpha-1}$ |\n| $\\mathrm{ch} x = \\frac{e^x - e^{-x}}{2}$ | $\\mathrm{sh} x$ |\n| $\\mathrm{sh} x = \\frac{e^x + e^{-x}}{2}$ | $\\mathrm{ch} x$ |\n| $\\mathrm{th} x = \\frac{\\mathrm{sh} x}{\\mathrm{ch} x}$ | $1 - \\mathrm{th}^2 x = \\frac{1}{\\mathrm{ch}^2 x}$ |\n\n| Fonction | Dérivée |\n|----------------------------------|-------------------------------------|\n| $\\sin x$ | $\\cos x$ |\n| $\\cos x$ | $-\\sin x$ |\n| $\\tan x = \\frac{\\sin x}{\\cos x}$ | $1 + \\tan^2 x = \\frac{1}{\\cos^2 x}$ |\n| $\\arcsin x$ | $\\frac{1}{\\sqrt{1-x^2}}$ |\n| $\\arccos x$ | $-\\frac{1}{\\sqrt{1-x^2}}$ |\n| $\\arctan x$ | $\\frac{1}{1+x^2}$",
+    "tags": ["tableau", "dérivées", "fonctions usuelles"]
+  }
+]
+```

@@ -1,0 +1,14 @@
+ ```json
+[
+  {
+    "block_index": 0,
+    "is_self_contained": true,
+    "missing": [],
+    "needs_preceding": false,
+    "needs_following": false,
+    "suggested_merge_with": [],
+    "normalized_text": "Définition (Fonction majorée/minorée/bornée)\nSoit \( f : E \to \mathbb{R} \) une fonction.\n- On dit que \( f \) est **majorée** si : \(\exists M \in \mathbb{R}\), \(\forall x \in E\), \( f(x) \le M \).\n  Un tel réel \( M \) est appelé **UN majorant de \( f \)**. On dit aussi que \( f \) est **majorée par \( M \)** ou que \( M \) **majoré \( f \)**.\n- On dit que \( f \) est **minorée** si : \(\exists m \in \mathbb{R}\), \(\forall x \in E\), \( f(x) \ge m \).\n  Un tel réel \( m \) est appelé **UN minorant de \( f \)**. On dit aussi que \( f \) est **minorée par \( m \)** ou que \( m \) **minore \( f \)**.\n- On dit que \( f \) est **bornée** si \( f \) est à la fois majorée et minorée, i.e. si : \(\exists K \ge 0\), \(\forall x \in E\), \( |f(x)| \le K \).\nGraphique d'une fonction majorée non minorée. La fonction est croissante et s'étend vers l'infini, avec une asymptote horizontale en dessous.\nFonction majorée non minorée\nGraphique d'une fonction minorée non majorée. La fonction est décroissante et s'étend vers l'infini, avec une asymptote horizontale en dessus.\nFonction minorée non majorée\nGraphique d'une fonction bornée. La fonction est limitée par deux asymptotes horizontales, une en dessous et une en dessus.\nFonction bornée",
+    "tags": ["définition", "fonction", "majorée", "minorée", "bornée"]
+  }
+]
+```

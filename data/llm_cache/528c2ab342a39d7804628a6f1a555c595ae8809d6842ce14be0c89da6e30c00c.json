@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mixtral-8x7b-instruct",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_86_0d1f98c9 - theorem]\nthéorème (Fonctions cosinus hyperbolique et sinus hyperbolique)** Pour tout $x \\in \\mathbb{R}$ , on appelle cosinus hyperbolique de $x$ le réel $\\text{ch } x = \\frac{e^x + e^{-x}}{2}$ et sinus hyperbolique de $x$ le réel $\\text{sh } x = \\frac{e^x - e^{-x}}{2}$ . Pour tout $x \\in \\mathbb{R}$ : $\\text{ch}^2 x - \\text{sh}^2 x = 1$ . Les fonctions $\\text{ch}$ et $\\text{sh}$ , respectivement paire et impaire, sont définies et de classe $C^\\infty$ sur $\\mathbb{R}$ avec : $\\text{ch}' = \\text{sh}$ et $\\\n\nCandidate blocks:\n[Block block_85_fe106ade - definition]: **Définition-\n\n[Block block_87_6f65a29c - proof]: **Démonstration** Les variations de $\\text{ch}$ et $\\text{sh}$ sont étudiées dans le tableau ci-dessous et pour tout $x \\in \\mathbb{R}$ : $\\text{ch}^2 x - \\text{sh}^2 x = (\\text{ch } x + \\text{sh } x)\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}

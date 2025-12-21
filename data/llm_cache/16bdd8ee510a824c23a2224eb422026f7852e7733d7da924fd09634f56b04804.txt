@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_127_2acc1b54",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser prouve une partie du théorème dans block_126_7ec012cd en démontrant la formule pour r lorsque x > 0."
+    },
+    {
+      "block_id": "block_127_2acc1b54",
+      "relation": "uses_theorem",
+      "confidence": 0.8,
+      "reason": "Le bloc à analyser utilise probablement le théorème de block_126_7ec012cd pour relier les coordonnées cartésiennes et polaires."
+    }
+  ]
+}

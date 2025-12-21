@@ -1,0 +1,18 @@
+ ```json
+{
+  "name": "Fonction tangente",
+  "normalized_name": "Fonction tangente",
+  "hypotheses": [
+    "La fonction tangente est définie par $\\tan = \\frac{\\sin}{\\cos}$ sur $]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$.",
+    "Elle est impaire et $\\pi$-périodique.",
+    "Elle est de classe $\\mathcal{C}^\\infty$ sur son ensemble de définition.",
+    "Sa dérivée est donnée par : $\\tan' = 1 + \\tan^2 = \\frac{1}{\\cos^2}$."
+  ],
+  "hypothesis_text": "La fonction tangente est définie par $\\tan = \\frac{\\sin}{\\cos}$ sur $]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$. Elle est impaire et $\\pi$-périodique. Elle est de classe $\\mathcal{C}^\\infty$ sur son ensemble de définition. Sa dérivée est donnée par : $\\tan' = 1 + \\tan^2 = \\frac{1}{\\cos^2}$.",
+  "conclusion": "Pour tous $x, y \\in ]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ : $\\tan x = \\tan y \\iff x \\equiv y \\pmod{\\pi}$.",
+  "conclusion_text": "Pour tous $x, y \\in ]-\\frac{\\pi}{2}, \\frac{\\pi}{2}[ + \\pi\\mathbb{Z}$ : $\\tan x = \\tan y \\iff x \\equiv y \\pmod{\\pi}$.",
+  "has_proof": false,
+  "domain_tags": ["analyse réelle", "trigonométrie"],
+  "characteristics": ["impair", "périodique", "dérivable"]
+}
+```

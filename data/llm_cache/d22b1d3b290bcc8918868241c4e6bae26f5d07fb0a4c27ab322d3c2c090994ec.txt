@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_26_ca307591",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc candidat définit des opérations sur les fonctions continues, ce qui suppose implicitement la définition de continuité donnée dans le bloc à analyser."
+    }
+  ]
+}
+```

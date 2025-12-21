@@ -1,0 +1,10 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_77_9f313a4d",
+      "relation": "uses_definition",
+      "confidence": 0.9,
+      "reason": "Le bloc à analyser discute des puissances quelconques et des racines n-ièmes d'un réel strictement positif, qui sont définies dans le bloc candidat."
+    }
+  ]
+}

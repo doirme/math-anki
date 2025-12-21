@@ -1,0 +1,10 @@
+ {
+  "relationships": [
+    {
+      "block_id": "block_95_3eace8ca",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "La démonstration fournie dans le bloc block_95_3eace8ca prouve que la limite de la fonction dans le bloc block_96_181b828d tend vers +∞."
+    }
+  ]
+}

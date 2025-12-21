@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block\_id": "block\_109\_b7d1e64c",
+      "relation": "proves",
+      "confidence": 0.9,
+      "reason": "Le bloc contient une équivalence qui peut être considérée comme un théorème."
+    },
+    {
+      "block\_id": "block\_110\_0b9da681",
+      "relation": "has\_proof",
+      "confidence": 0.95,
+      "reason": "Le bloc suivant fournit une démonstration pour l'équivalence présentée dans le bloc actuel."
+    }
+  ]
+}

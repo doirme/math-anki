@@ -1,0 +1,16 @@
+{
+  "relationships": [
+    {
+      "block_id": "block_56_cd17df10",
+      "relation": "uses_theorem",
+      "confidence": 0.9,
+      "reason": "L'exemple utilise l'inégalité triangulaire, qui est un théorème, pour démontrer la convexité de la valeur absolue sur R."
+    },
+    {
+      "block_id": "block_56_cd17df10",
+      "relation": "proves",
+      "confidence": 0.1,
+      "reason": "Bien que cet exemple ne soit pas un théorème en soi, il prouve une propriété spécifique de la valeur absolue."
+    }
+  ]
+}

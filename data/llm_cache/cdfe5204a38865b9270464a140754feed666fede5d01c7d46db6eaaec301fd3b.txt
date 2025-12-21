@@ -1,0 +1,18 @@
+ ```json
+{
+  "steps": [
+    "Étude de la fonction f(x) = (x+1)/(x^2+3) sur l'intervalle [0, 2]",
+    "Calcul de la dérivée f'(x) pour analyser le comportement de la fonction",
+    "Analyse du signe de la dérivée pour déterminer les variations de la fonction",
+    "Utilisation du tableau de variations pour conclure sur les bornes de f(x) sur [0, 2]",
+    "Comparaison avec l'encadrement naïf pour montrer l'efficacité de la méthode"
+  ],
+  "uses_definitions": [
+    "Fonction dérivable sur ℝ",
+    "Intervalle"
+  ],
+  "uses_theorems": [
+    "Théorème de caractérisation des fonctions dérivables constantes/monotones"
+  ]
+}
+```

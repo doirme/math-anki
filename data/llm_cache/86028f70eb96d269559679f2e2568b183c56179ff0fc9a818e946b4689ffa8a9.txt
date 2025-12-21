@@ -1,0 +1,17 @@
+{
+  "name": "Théorème (Opérations sur les fonctions continues)",
+  "normalized_name": "Operations on continuous functions",
+  "hypotheses": [
+    "f, g sont continues sur E",
+    "λ, μ sont réels",
+    "g ne s'annule pas sur E",
+    "f est bijective de I sur J",
+    "f(E) ⊂ F"
+  ],
+  "hypothesis_text": "f et g sont des fonctions continues définies sur E à valeurs dans ℝ, λ et μ sont des réels, g ne s'annule pas sur E, f est bijective de I sur J, f(E) est inclus dans F",
+  "conclusion": "λf + μg, fg, f/g, g ∘ f et f^-1 sont continues",
+  "conclusion_text": "La combinaison linéaire λf + μg, le produit fg, le quotient f/g (lorsque g ne s'annule pas), la composition g ∘ f et la réciproque f^-1 (lorsque f est bijective de I sur J) sont continues",
+  "has_proof": null,
+  "domain_tags": ["analyse réelle"],
+  "characteristics": ["continu"]
+}

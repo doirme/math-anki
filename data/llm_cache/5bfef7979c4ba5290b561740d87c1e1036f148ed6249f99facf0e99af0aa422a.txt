@@ -1,0 +1,12 @@
+ ```json
+{
+  "relationships": [
+    {
+      "block_id": "block_1_d3a1583c",
+      "relation": "uses_definition",
+      "confidence": 0.7,
+      "reason": "Le bloc candidat présente un exemple de fonction définie sur un intervalle, ce qui est en lien avec le vocabulaire des applications et des fonctions réelles mentionné dans le bloc à analyser."
+    }
+  ]
+}
+```

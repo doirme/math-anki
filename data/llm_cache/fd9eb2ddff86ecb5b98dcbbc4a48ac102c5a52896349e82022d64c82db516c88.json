@@ -1,0 +1,9 @@
+{
+  "backend": "openrouter",
+  "model": "mistralai/mistral-7b-instruct:free",
+  "system": null,
+  "prompt": "Analyze the relationships between this mathematical block and candidate blocks.\n\nBlock to analyze:\n[Block block_74_fc1520ec - theorem]\nthéorème (Fonction exponentielle) -\n\n**Définition :** La fonction logarithme est bijective de $\\mathbb{R}_+^*$ sur $\\mathbb{R}$ . On appelle *fonction exponentielle* et on note $\\exp$ sa réciproque, bijective de $\\mathbb{R}$ sur $\\mathbb{R}_+^*$ . En particulier : $\\exp(1) = e$ et les graphes des fonctions $\\exp$ et $\\ln$ sont symétriques l'un de l'autre par rapport à la droite d'équation $y = x$ . Pour tout $x \\in \\mathbb{R}$ : $\\ln(\\exp(x)) = x$ et pour tout $x > 0$ : $\\exp(\\ln x) = x$ . - **R\n\nCandidate blocks:\n[Block block_73_66725724 - definition]: ### Définition-\n\n[Block block_76_56115b2d - proof]: **Démonstration** Nous avons déjà tiré du TVI strictement monotone la bijectivité de $\\ln$ de $\\mathbb{R}_+^*$ sur $\\mathbb{R}$ . Cela justifie à la fois la définition de l'exponentielle et sa régular\n\nDetect possible relationships:\n- \"has_proof\": this block has a proof in another block\n- \"proves\": this block proves a theorem in another block\n- \"uses_definition\": this block uses a definition from another block\n- \"uses_theorem\": this block uses a theorem from another block\n- \"generalizes\": this block generalizes another block\n- \"specializes\": this block specializes another block\n\nIMPORTANT: Respond in French (fr). All output text, field values, and JSON content must be in French.\n\nRespond in strict JSON:\n{\n  \"relationships\": [\n    {\"block_id\": \"...\", \"relation\": \"uses_definition\", \"confidence\": 0.8, \"reason\": \"...\"},\n    ...\n  ]\n}",
+  "temperature": 0.0,
+  "max_tokens": null,
+  "extra": {}
+}
