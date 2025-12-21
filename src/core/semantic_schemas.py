@@ -51,6 +51,9 @@ class ValidatedBlock(BaseModel):
     # Relationships (will be populated by linker)
     relationships: List[Dict[str, Any]] = Field(default_factory=list)
 
+    # Rich metadata for semantic extraction (optional)
+    metadata: Dict[str, Any] = Field(default_factory=dict)
+
 
 class LinkedBlock(BaseModel):
     """Block with relationships established."""

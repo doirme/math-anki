@@ -11,6 +11,8 @@ Extracts structured data from validated blocks:
 
 from __future__ import annotations
 
+import concurrent.futures
+import os
 from typing import Any, Dict, List, Optional
 
 from tqdm import tqdm
@@ -39,95 +41,101 @@ class SemanticExtractor:
         self, linked_blocks: List[LinkedBlock], *, output_language: str = "fr"
     ) -> List[Dict[str, Any]]:
         """
-        Extract semantic data from linked blocks.
+        Extract semantic data from linked blocks in parallel.
 
         Returns:
             List of extracted semantic objects (definitions, theorems, etc.)
         """
+        # Filter blocks to extract (exclude context)
+        blocks_to_process = [
+            lb for lb in linked_blocks if lb.block.kind != BlockKind.context
+        ]
+
+        if not blocks_to_process:
+            return []
+
         extracted = []
 
-        for linked_block in tqdm(linked_blocks, desc="Extracting semantic data"):
-            block = linked_block.block
+        # Determine number of workers (max 10 by default or via env)
+        max_workers = int(os.getenv("MAX_EXTRACTION_WORKERS", "10"))
 
-            # Only extract from semantic target blocks (not context)
-            if block.kind == BlockKind.context:
-                continue
+        # Use ThreadPoolExecutor for parallel extraction
+        with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+            # Map blocks to processing function
+            future_to_block = {
+                executor.submit(
+                    self._process_single_block, lb, linked_blocks, output_language
+                ): lb
+                for lb in blocks_to_process
+            }
 
-            # Get context from linked blocks
-            context_text = self._get_context_text(linked_block, linked_blocks)
-
-            # Extract based on block kind
-            if block.kind == BlockKind.definition:
-                result = self._extract_definition(
-                    block, context_text, output_language=output_language
-                )
-                if result:
-                    extracted.append(
-                        {
-                            "block_id": block.id,
-                            "kind": "definition",
-                            "data": result,
-                        }
-                    )
-
-            elif block.kind in (
-                BlockKind.theorem,
-                BlockKind.proposition,
-                BlockKind.lemma,
-                BlockKind.corollary,
+            # Collect results with progress bar
+            for future in tqdm(
+                concurrent.futures.as_completed(future_to_block),
+                total=len(blocks_to_process),
+                desc="Extracting semantic data (parallel)",
             ):
-                result = self._extract_theorem(
-                    block, context_text, linked_block, output_language=output_language
-                )
+                result = future.result()
                 if result:
-                    extracted.append(
-                        {
-                            "block_id": block.id,
-                            "kind": "theorem",
-                            "data": result,
-                        }
-                    )
+                    extracted.append(result)
 
-            elif block.kind == BlockKind.formula:
-                result = self._extract_formula(
-                    block, context_text, output_language=output_language
-                )
-                if result:
-                    extracted.append(
-                        {
-                            "block_id": block.id,
-                            "kind": "formula",
-                            "data": result,
-                        }
-                    )
-
-            elif block.kind == BlockKind.proof:
-                result = self._extract_proof(
-                    block, context_text, linked_block, output_language=output_language
-                )
-                if result:
-                    extracted.append(
-                        {
-                            "block_id": block.id,
-                            "kind": "proof",
-                            "data": result,
-                        }
-                    )
-
-            elif block.kind == BlockKind.exercise:
-                result = self._extract_exercise(
-                    block, context_text, output_language=output_language
-                )
-                if result:
-                    extracted.append(
-                        {
-                            "block_id": block.id,
-                            "kind": "exercise",
-                            "data": result,
-                        }
-                    )
+        # Sort extracted items to match original order of blocks for consistency
+        block_id_to_order = {lb.block.id: i for i, lb in enumerate(linked_blocks)}
+        extracted.sort(key=lambda x: block_id_to_order.get(x["block_id"], 999999))
 
         return extracted
+
+    def _process_single_block(
+        self,
+        linked_block: LinkedBlock,
+        all_blocks: List[LinkedBlock],
+        output_language: str,
+    ) -> Optional[Dict[str, Any]]:
+        """Helper to process a single block for parallel extraction."""
+        block = linked_block.block
+        context_text = self._get_context_text(linked_block, all_blocks)
+
+        if block.kind == BlockKind.definition:
+            result = self._extract_definition(
+                block, context_text, output_language=output_language
+            )
+            if result:
+                return {"block_id": block.id, "kind": "definition", "data": result}
+
+        elif block.kind in (
+            BlockKind.theorem,
+            BlockKind.proposition,
+            BlockKind.lemma,
+            BlockKind.corollary,
+        ):
+            result = self._extract_theorem(
+                block, context_text, linked_block, output_language=output_language
+            )
+            if result:
+                return {"block_id": block.id, "kind": "theorem", "data": result}
+
+        elif block.kind == BlockKind.formula:
+            result = self._extract_formula(
+                block, context_text, output_language=output_language
+            )
+            if result:
+                return {"block_id": block.id, "kind": "formula", "data": result}
+
+        elif block.kind == BlockKind.proof:
+            result = self._extract_proof(
+                block, context_text, linked_block, output_language=output_language
+            )
+            if result:
+                return {"block_id": block.id, "kind": "proof", "data": result}
+
+        elif block.kind == BlockKind.exercise:
+            result = self._extract_exercise(
+                block, context_text, output_language=output_language
+            )
+            if result:
+                return {"block_id": block.id, "kind": "exercise", "data": result}
+
+        return None
 
     def _get_context_text(
         self, linked_block: LinkedBlock, all_blocks: List[LinkedBlock]
@@ -163,6 +171,28 @@ class SemanticExtractor:
         output_language: str = "fr",
     ) -> Optional[ExtractedDefinition]:
         """Extract definition with splitting support."""
+        # 1. Reuse existing metadata if sufficiently complete
+        meta = block.metadata or {}
+        if block.normalized_text and block.tags:
+            # Basic check: if we have normalized text and tags, we might be able to skip
+            # In many cases, the chunked extractor already gave us the core info.
+            # However, ExtractedDefinition wants a 'term'.
+            # We can infer it from normalized_name if present.
+            term = (
+                block.metadata.get("term")
+                or block.normalized_text.split(":")[0].replace("**", "").strip()
+            )
+
+            return ExtractedDefinition(
+                term=term,
+                normalized_term=block.metadata.get("normalized_term") or term,
+                statement=block.normalized_text,
+                domain_tags=block.tags,
+                characteristics=meta.get("characteristics", []),
+                is_multiple=meta.get("is_multiple", False),
+                definitions=meta.get("definitions", []),
+            )
+
         from .language_detector import format_language_instruction
 
         lang_instruction = format_language_instruction(output_language)
@@ -210,7 +240,9 @@ Respond in strict JSON:
 }}"""
 
         try:
-            response = self.llm.generate("extraction", prompt, expect_json=True)
+            response = self.llm.generate(
+                prompt=prompt, task_name="extraction", expect_json=True
+            )
             data = extract_json_obj(response)
             return ExtractedDefinition(**data)
         except Exception as e:
@@ -231,13 +263,32 @@ Respond in strict JSON:
         output_language: str = "fr",
     ) -> Optional[ExtractedTheorem]:
         """Extract theorem with hypothesis/conclusion isolation."""
-        from .language_detector import format_language_instruction
+        # 1. Reuse existing metadata if sufficiently complete
+        meta = block.metadata or {}
 
         # Find proof block ID
         proof_block_id = None
         for rel in linked_block.linked_to:
             if rel.get("relation") == "has_proof":
                 proof_block_id = rel.get("block_id")
+
+        if block.normalized_text and meta.get("hypotheses") and meta.get("conclusion"):
+            return ExtractedTheorem(
+                name=meta.get("name")
+                or block.normalized_text.split(":")[0].replace("**", "").strip(),
+                normalized_name=meta.get("normalized_name")
+                or block.normalized_text.split(":")[0].replace("**", "").strip(),
+                hypotheses=meta.get("hypotheses"),
+                conclusion=meta.get("conclusion"),
+                hypothesis_text="\n".join(meta.get("hypotheses", [])),
+                conclusion_text=meta.get("conclusion", ""),
+                domain_tags=block.tags,
+                characteristics=meta.get("characteristics", []),
+                has_proof=proof_block_id is not None,
+                proof_block_id=proof_block_id,
+            )
+
+        from .language_detector import format_language_instruction
 
         lang_instruction = format_language_instruction(output_language)
 
@@ -296,7 +347,9 @@ Respond in strict JSON:
 }}"""
 
         try:
-            response = self.llm.generate("extraction", prompt, expect_json=True)
+            response = self.llm.generate(
+                prompt=prompt, task_name="extraction", expect_json=True
+            )
             data = extract_json_obj(response)
             data["proof_block_id"] = proof_block_id
             return ExtractedTheorem(**data)
@@ -319,6 +372,22 @@ Respond in strict JSON:
         output_language: str = "fr",
     ) -> Optional[ExtractedFormula]:
         """Extract formula structure."""
+        # 1. Reuse existing metadata if sufficiently complete
+        if block.normalized_text and block.kind == BlockKind.formula:
+            return ExtractedFormula(
+                name=block.normalized_text.split(":")[0].replace("**", "").strip()
+                if ":" in block.normalized_text
+                else None,
+                normalized_name=block.metadata.get("normalized_name")
+                if block.metadata
+                else None,
+                statement=block.normalized_text,
+                domain_tags=block.tags,
+                characteristics=block.metadata.get("characteristics", [])
+                if block.metadata
+                else [],
+            )
+
         from .language_detector import format_language_instruction
 
         lang_instruction = format_language_instruction(output_language)
@@ -360,7 +429,9 @@ Respond in strict JSON:
 }}"""
 
         try:
-            response = self.llm.generate("extraction", prompt, expect_json=True)
+            response = self.llm.generate(
+                prompt=prompt, task_name="extraction", expect_json=True
+            )
             data = extract_json_obj(response)
             return ExtractedFormula(**data)
         except Exception as e:
@@ -379,13 +450,24 @@ Respond in strict JSON:
         output_language: str = "fr",
     ) -> Optional[ExtractedProof]:
         """Extract proof structure."""
-        from .language_detector import format_language_instruction
+        # 1. Reuse existing metadata if sufficiently complete
+        meta = block.metadata or {}
 
         # Find theorem block ID
         theorem_block_id = None
         for rel in linked_block.linked_to:
             if rel.get("relation") == "proves":
                 theorem_block_id = rel.get("block_id")
+
+        if meta.get("steps"):
+            return ExtractedProof(
+                steps=meta.get("steps"),
+                uses_definitions=meta.get("uses_definitions", []),
+                uses_theorems=meta.get("uses_theorems", []),
+                theorem_block_id=theorem_block_id,
+            )
+
+        from .language_detector import format_language_instruction
 
         lang_instruction = format_language_instruction(output_language)
 
@@ -412,7 +494,9 @@ Respond in strict JSON:
 }}"""
 
         try:
-            response = self.llm.generate("extraction", prompt, expect_json=True)
+            response = self.llm.generate(
+                prompt=prompt, task_name="extraction", expect_json=True
+            )
             data = extract_json_obj(response)
             data["theorem_block_id"] = theorem_block_id
             return ExtractedProof(**data)
@@ -433,6 +517,20 @@ Respond in strict JSON:
         output_language: str = "fr",
     ) -> Optional[ExtractedExercise]:
         """Extract exercise structure."""
+        # 1. Reuse existing metadata if sufficiently complete
+        meta = block.metadata or {}
+
+        if meta.get("questions") or meta.get(
+            "steps"
+        ):  # Steps might contain solution steps
+            return ExtractedExercise(
+                questions=meta.get("questions")
+                or [block.normalized_text or block.validated_text],
+                solution_steps=meta.get("steps") or [],
+                solved=meta.get("solved", False) or len(meta.get("steps", [])) > 0,
+                uses_concepts=meta.get("uses_concepts", []),
+            )
+
         from .language_detector import format_language_instruction
 
         lang_instruction = format_language_instruction(output_language)
@@ -461,7 +559,9 @@ Respond in strict JSON:
 }}"""
 
         try:
-            response = self.llm.generate("extraction", prompt, expect_json=True)
+            response = self.llm.generate(
+                prompt=prompt, task_name="extraction", expect_json=True
+            )
             data = extract_json_obj(response)
             return ExtractedExercise(**data)
         except Exception as e:

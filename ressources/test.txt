@@ -1,0 +1,33 @@
+# RAPPELS ET COMPLÉMENTS SUR LES FONCTIONS RÉELLES
+
+Dans ce chapitre,  $E$  et  $F$  sont des parties quelconques de  $\mathbb{R}$ , pas forcément des intervalles.
+
+Le vocabulaire des applications a été présenté en toute généralité au chapitre « Relations binaires et applications », mais les fonctions de  $\mathbb{R}$  dans  $\mathbb{R}$  vont de pair avec un vocabulaire propre aux réels — monotonicité, caractère majoré/minoré, continuité, dérivabilité. — qui est l'objet du chapitre.
+
+Mais d'abord, un mot sur les composées. Soient  $f: E \to \mathbb{R}$  et  $g: F \to \mathbb{R}$  deux fonctions. La composée  $g \circ f$  n'est définie que si  $f$  est à valeurs dans  $F$ , i.e. si  $f(E) \subset F$ . On donne ci-dessous quelques exemples de recherche d'ensemble de définition.
+
+Quand la fonction extérieure  $g$  est définie sur  $\mathbb{R}$  tout entier, la condition  $f(E) \subset \mathbb{R}$  est trivialement vraie et  $g \circ f$  est définie sans qu'aucun obstacle se soit présenté. La fonction  $e^f$  ne pose par exemple jamais aucun problème de définition car la fonction exponentielle est définie sur  $\mathbb{R}$  tout entier.
+
+**Exemple** La fonction  $x \mapsto \sqrt{x+3}$  est définie sur  $[-3, +\infty[$ .
+
+**Démonstration** La fonction  $x \mapsto x+3$  est définie sur  $\mathbb{R}$  et la fonction  $\sqrt{\cdot}$  l'est sur  $\mathbb{R}_+$ , mais quand  $x$  décrit  $\mathbb{R}$ ,  $x+3$  n'appartient pas forcément à  $\mathbb{R}_+$ . Pour quels  $x \in \mathbb{R}$  est-il vrai que  $x+3 \ge 0$ ? Réponse :  $x \in [-3, +\infty[$ .
+
+**Exemple** La fonction  $x \mapsto \ln(x^2 - 3x + 2)$  est définie sur  $]-\infty, 1[ \cup ]2, +\infty[$ .
+
+**Démonstration** La fonction  $x \mapsto x^2 - 3x + 2$  est définie sur  $\mathbb{R}$  et  $x \mapsto \ln x$  l'est sur  $\mathbb{R}_+$ , mais quand  $x$  décrit  $\mathbb{R}$ ,  $x^2 - 3x + 2$  n'appartient pas forcément à  $\mathbb{R}_+$ . Pour quels  $x \in \mathbb{R}$  est-il vrai que  $x^2 - 3x + 2 > 0$ ? Réponse :  $x \in ]-\infty, 1[ \cup ]2, +\infty[$  car les racines du polynôme sont 1 et 2 et son coefficient dominant est strictement positif.
+
+**Exemple** La fonction  $x \mapsto \frac{1 + e^{\sqrt{x}}}{x\sqrt{2-x}}$  est définie sur  $\{x \in \mathbb{R} | x\sqrt{2-x} \neq 0 \text{ et } 2-x \ge 0 \text{ et } x \ge 0\}$   
+ $= \{x \in \mathbb{R} | x \neq 0 \text{ et } x \neq 2 \text{ et } 0 \le x \le 2\} = ]0, 2[$ .
+
+## 1 VOCABULAIRE USUEL
+
+### 1.1 MONOTONIE
+
+**Définition (Fonction monotone)** Soit  $f: E \to \mathbb{R}$  une fonction.
+
+- On dit que  $f$  est croissante si :  $\forall x, y \in E, x < y \implies f(x) \le f(y)$ .
+- On dit que  $f$  est strictement croissante si :  $\forall x, y \in E, x < y \implies f(x) < f(y)$ .
+- On dit que  $f$  est décroissante si :  $\forall x, y \in E, x < y \implies f(x) \ge f(y)$ .
+- On dit que  $f$  est (resp. strictement) monotone si  $f$  est (resp. strictement) croissante ou décroissante.
+
+Une fonction croissante (resp. décroissante) est une fonction qui préserve (resp. renverse) les inégalités.

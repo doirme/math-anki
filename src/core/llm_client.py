@@ -34,7 +34,7 @@ class LLMClient:
         model: str,
         *,
         ollama_host: Optional[str] = None,
-        timeout: float = 60.0,
+        timeout: float = 120.0,
         max_retries: int = 2,
         usage_callback: Optional[callable] = None,
     ):
@@ -56,7 +56,6 @@ class LLMClient:
     def generate(
         self,
         prompt: str,
-        *,
         system: Optional[str] = None,
         temperature: float = 0.0,
         max_tokens: Optional[int] = None,
@@ -71,6 +70,11 @@ class LLMClient:
 
         # Check cache
         if self.cache:
+            # Include expect_json in cache key to distinguish between plain text and JSON mode
+            cache_extra = extra.copy()
+            if expect_json:
+                cache_extra["_expect_json"] = True
+
             cached = self.cache.get(
                 backend=self.backend,
                 model=self.model,
@@ -78,7 +82,7 @@ class LLMClient:
                 system=system,
                 temperature=temperature,
                 max_tokens=max_tokens,
-                extra=extra,
+                extra=cache_extra,
             )
             if cached:
                 print(f"DEBUG: LLM cache hit for task={task_name}")
@@ -101,6 +105,7 @@ class LLMClient:
                 max_tokens=max_tokens,
                 extra=extra,
                 task_name=task_name,
+                expect_json=expect_json,
             )
         elif self.backend == "openai":
             response = self._openai_generate(
@@ -110,6 +115,7 @@ class LLMClient:
                 max_tokens=max_tokens,
                 extra=extra,
                 task_name=task_name,
+                expect_json=expect_json,
             )
         else:
             raise ValueError(f"Unknown backend: {self.backend}")
@@ -129,6 +135,11 @@ class LLMClient:
                     should_cache = False
 
             if should_cache:
+                # Use same cache_extra for setting as used for getting
+                cache_extra = extra.copy()
+                if expect_json:
+                    cache_extra["_expect_json"] = True
+
                 self.cache.set(
                     backend=self.backend,
                     model=self.model,
@@ -136,7 +147,7 @@ class LLMClient:
                     system=system,
                     temperature=temperature,
                     max_tokens=max_tokens,
-                    extra=extra,
+                    extra=cache_extra,
                     response=response,
                 )
 
@@ -220,6 +231,7 @@ class LLMClient:
         max_tokens: Optional[int],
         extra: Dict[str, Any],
         task_name: str,
+        expect_json: bool = False,
     ) -> str:
         # OpenRouter parle l'API OpenAI. On utilise le SDK openai avec base_url custom.
         try:
@@ -263,6 +275,9 @@ class LLMClient:
         }
         if max_tokens is not None:
             args["max_tokens"] = max_tokens
+
+        if expect_json:
+            args["response_format"] = {"type": "json_object"}
 
         # Transférer quelques extras courants (top_p, stop, etc.)
         for k in ("top_p", "frequency_penalty", "presence_penalty", "stop"):
@@ -335,6 +350,7 @@ class LLMClient:
         max_tokens: Optional[int],
         extra: Dict[str, Any],
         task_name: str,
+        expect_json: bool = False,
     ) -> str:
         from openai import OpenAI
 
@@ -354,6 +370,10 @@ class LLMClient:
         }
         if max_tokens is not None:
             args["max_tokens"] = max_tokens
+
+        if expect_json:
+            args["response_format"] = {"type": "json_object"}
+
         for k in ("top_p", "frequency_penalty", "presence_penalty", "stop"):
             if k in extra:
                 args[k] = extra[k]

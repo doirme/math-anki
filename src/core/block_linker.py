@@ -231,7 +231,9 @@ Respond in strict JSON:
 }}"""
 
         try:
-            response = self.llm.generate("block_linking", prompt, expect_json=True)
+            response = self.llm.generate(
+                prompt=prompt, task_name="block_linking", expect_json=True
+            )
             data = extract_json_obj(response)
             return data.get("relationships", [])
         except Exception:

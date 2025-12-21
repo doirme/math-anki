@@ -17,6 +17,15 @@ class Settings(BaseModel):
         "true",
         "yes",
     )
+    # Chunked extraction settings
+    chunk_size_chars: int = int(os.getenv("CHUNK_SIZE_CHARS", "40000"))
+    chunk_overlap_chars: int = int(os.getenv("CHUNK_OVERLAP_CHARS", "5000"))
+    dedupe_similarity_threshold: float = float(
+        os.getenv("DEDUPE_SIMILARITY_THRESHOLD", "0.9")
+    )
+    dedupe_offset_overlap_threshold: float = float(
+        os.getenv("DEDUPE_OFFSET_OVERLAP_THRESHOLD", "0.7")
+    )
 
     # --- Cache & Marker API ---
     marker_api_key: str | None = os.getenv("MARKER_API_KEY")  # Datalab Marker API key

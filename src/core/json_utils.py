@@ -15,9 +15,9 @@ def extract_json_obj(text: str) -> Any:
         raise ValueError("Aucun objet ou liste JSON détecté")
     blob = m.group(0).strip()
 
-    # Tentative directe
+    # Tentative directe avec strict=False pour autoriser les retours à la ligne littéraux dans les chaînes
     try:
-        return json.loads(blob)
+        return json.loads(blob, strict=False)
     except Exception:
         pass
 
@@ -31,34 +31,45 @@ def extract_json_obj(text: str) -> Any:
     repaired = repaired.replace("None", "null")
 
     # 3. Échappement des backslashes LaTeX (le plus fréquent)
-    # On cherche les backslashes qui ne sont pas déjà suivis d'un caractère d'échappement JSON valide
-    # Caractères valides: " \ / b f n r t u
-    # On utilise une approche prudente : on double les backslashes s'ils ne sont pas suivis d'un des caractères ci-dessus
-    # Mais attention aux doubles backslashes déjà présents.
-
     try:
-        return json.loads(repaired)
+        return json.loads(repaired, strict=False)
     except json.JSONDecodeError:
         # Si ça échoue encore, on tente une réparation plus agressive des backslashes
-        # On remplace les backslashes par des doubles backslashes, SAUF s'ils sont déjà doublés
-        # ou s'ils précèdent une quote (qui doit rester \")
-        def fix_slashes(match):
+        # On double TOUS les backslashes sauf s'ils sont déjà doublés ou s'ils échappent une quote
+
+        def aggressive_fix(match):
             s = match.group(0)
             if s == '\\"':
-                return '\\"'  # Garder l'échappement de quote
+                return '\\"'  # quote
             if s == "\\\\":
-                return "\\\\"  # Garder le double backslash
-            return "\\\\" + s[1:]  # Doubler le backslash
+                return "\\\\"  # already double
+            if s == "\\n":
+                return "\\n"  # newline literal (\n)
+            if s == "\\t":
+                return "\\t"  # tab
+            if s == "\\r":
+                return "\\r"  # carriage return
+            if s == "\\/":
+                return "\\/"  # slash
+            if s == "\\b":
+                return "\\b"  # backspace
+            if s == "\\f":
+                return "\\f"  # formfeed
+            if s == "\\u":
+                return s  # unicode escape
 
-        repaired_slashes = re.sub(r"\\.", fix_slashes, repaired)
-        # On doit aussi gérer les backslashes isolés en fin de mot ou avant ponctuation
-        repaired_slashes = re.sub(r'\\([^\s"\\/bfnrtu])', r"\\\\\1", repaired)
+            # Pour tout le reste (dont LaTeX!), on double le backslash
+            return "\\\\" + s[1:]
+
+        # On cherche \ suivi de n'importe quoi
+        repaired_aggr = re.sub(r"\\.", aggressive_fix, repaired)
+
+        # Gérer aussi les backslashes isolés (ex: en fin de ligne)
+        repaired_aggr = re.sub(r'\\(?![\\nrt"/\bfu])', r"\\\\", repaired_aggr)
 
         try:
-            return json.loads(repaired_slashes)
+            return json.loads(repaired_aggr, strict=False)
         except Exception as e:
-            # Dernier recours : si on a toujours une erreur d'escape, on peut essayer de supprimer les backslashes problématiques
-            # ou lever l'erreur originale pour debug
             raise ValueError(
-                f"Échec final du parsing JSON après réparations: {e}\nBlob: {blob[:200]}..."
+                f"Échec parsing JSON (repaired_aggr): {e}\nDébut du blob: {blob[:500]}..."
             )

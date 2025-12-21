@@ -52,7 +52,7 @@ class LLMTaskManager:
         },
         "extraction": {
             "backend": "openrouter",
-            "model": "mistralai/mistral-7b-instruct:free",
+            "model": "xiaomi/mimo-v2-flash:free",
             "temperature": 0.0,
         },
         "normalization": {

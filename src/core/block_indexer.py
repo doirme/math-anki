@@ -240,7 +240,7 @@ Respond only with the normalized name in {norm_lang.upper()}, or "null" if no st
 Respond in JSON: {{"normalized": "name" | null}}"""
 
         try:
-            response = self.llm.generate("normalization", prompt)
+            response = self.llm.generate(prompt=prompt, task_name="normalization")
             data = extract_json_obj(response)
             return data.get("normalized")
         except Exception:
