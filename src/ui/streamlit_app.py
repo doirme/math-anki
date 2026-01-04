@@ -87,6 +87,56 @@ def init_session_state():
 
 init_session_state()
 
+
+def save_to_db_action():
+    """Helper function to save current session blocks to database"""
+    if not st.session_state.validated_blocks:
+        st.error("No validated blocks to save.")
+        return
+
+    with st.spinner("Saving to database and generating embeddings..."):
+        try:
+            db_manager = DatabaseManager()
+
+            # Save document
+            doc_id = db_manager.save_document(
+                st.session_state.pdf_path, st.session_state.markdown_text
+            )
+            st.session_state.document_id = doc_id
+
+            # Save blocks with embeddings
+            progress_text = st.empty()
+            progress_text.text("Saving blocks...")
+
+            block_ids = db_manager.save_blocks(
+                st.session_state.validated_blocks,
+                doc_id,
+                generate_embeddings=True,
+            )
+
+            progress_text.text("Checking for duplicates...")
+
+            # Check for duplicates but exclude current document to avoid self-detection
+            duplicates = db_manager.find_duplicates(
+                st.session_state.validated_blocks, exclude_document_id=doc_id
+            )
+            st.session_state.duplicates_found = duplicates
+
+            st.session_state.saved_to_db = True
+
+            st.success(f"✅ Saved {len(block_ids)} blocks to database!")
+
+            if duplicates:
+                st.warning(
+                    f"⚠️ Found {len(duplicates)} potential duplicates. "
+                    "Check the Database tab to review."
+                )
+
+        except Exception as e:
+            st.error(f"❌ Database save failed: {str(e)}")
+            st.exception(e)
+
+
 # Sidebar
 with st.sidebar:
     st.title("🧮 Math-Anki")
@@ -291,47 +341,7 @@ with tab2:
                 type="primary",
                 use_container_width=True,
             ):
-                with st.spinner("Saving to database and generating embeddings..."):
-                    try:
-                        db_manager = DatabaseManager()
-
-                        # Save document
-                        doc_id = db_manager.save_document(
-                            st.session_state.pdf_path, st.session_state.markdown_text
-                        )
-                        st.session_state.document_id = doc_id
-
-                        # Save blocks with embeddings
-                        progress_text = st.empty()
-                        progress_text.text("Generating embeddings...")
-
-                        block_ids = db_manager.save_blocks(
-                            st.session_state.validated_blocks,
-                            doc_id,
-                            generate_embeddings=True,  # ✅ Embeddings enabled for DB
-                        )
-
-                        progress_text.text("Checking for duplicates...")
-
-                        # Check for duplicates
-                        duplicates = db_manager.find_duplicates(
-                            st.session_state.validated_blocks
-                        )
-                        st.session_state.duplicates_found = duplicates
-
-                        st.session_state.saved_to_db = True
-
-                        st.success(f"✅ Saved {len(block_ids)} blocks to database!")
-
-                        if duplicates:
-                            st.warning(
-                                f"⚠️ Found {len(duplicates)} potential duplicates. "
-                                "Check the Database tab to review."
-                            )
-
-                    except Exception as e:
-                        st.error(f"❌ Database save failed: {str(e)}")
-                        st.exception(e)
+                save_to_db_action()
         else:
             st.success("✅ Already saved to database")
             if st.session_state.duplicates_found:
@@ -368,6 +378,13 @@ with tab3:
             if st.button("Refresh"):
                 st.rerun()
 
+        # Add quick save button here too
+        if not st.session_state.saved_to_db:
+            st.warning("⚠️ These blocks are not yet saved to the database.")
+            if st.button("💾 Save All to Database", type="primary"):
+                save_to_db_action()
+            st.markdown("---")
+
         # Display blocks
         blocks_to_show = st.session_state.validated_blocks
         if filter_type != "All":
@@ -403,6 +420,10 @@ with tab3:
                 st.markdown(
                     f"**Self-contained:** {'✅' if block.get('is_self_contained') else '❌'}"
                 )
+
+                if block.get("metadata"):
+                    st.markdown("**AI Metadata:**")
+                    st.json(block.get("metadata"))
 
 # TAB 4: Manual Review
 with tab4:
@@ -457,6 +478,12 @@ with tab5:
         with col_export1:
             st.subheader("Generate Cards")
 
+            use_steps_for_proofs = st.checkbox(
+                "Use AI steps for proof card backs",
+                value=True,
+                help="If checked, proof cards will show numbered steps from metadata instead of the executive summary.",
+            )
+
             if st.button(
                 "🎴 Generate Flashcards", type="primary", use_container_width=True
             ):
@@ -467,6 +494,7 @@ with tab5:
                         "doc_id": Path(st.session_state.pdf_filename).stem
                         if st.session_state.pdf_filename
                         else "unknown",
+                        "use_steps_for_proofs": use_steps_for_proofs,
                     }
 
                     for block in st.session_state.validated_blocks:
@@ -523,6 +551,10 @@ with tab5:
                                         type("tag", (object,), {"name": t})()
                                         for t in block.get("tags", [])
                                     ],
+                                    "proof_metadata": meta_data,
+                                    "equivalent_statements": meta_data.get(
+                                        "equivalent_statements", []
+                                    ),
                                 },
                             )()
                             cards.extend(make_theorem_cards(thm_obj, meta))
@@ -632,6 +664,17 @@ with tab6:
 
     with col_db3:
         st.metric("Duplicates Found", len(st.session_state.duplicates_found))
+
+    # Add save option if not saved
+    if st.session_state.validated_blocks and not st.session_state.saved_to_db:
+        st.markdown("---")
+        st.info(
+            "💡 You have validated blocks from the current session that are not in the database."
+        )
+        if st.button(
+            "💾 Save Session Blocks to DB", type="primary", use_container_width=True
+        ):
+            save_to_db_action()
 
     st.markdown("---")
 
@@ -889,6 +932,10 @@ with tab7:
                             key=f"gen_summary_{block['id']}",
                         )
 
+                        if block.get("metadata"):
+                            st.markdown("**Metadata (AI):**")
+                            st.json(block.get("metadata"))
+
                     with col_sources:
                         st.markdown("**Source Documents:**")
                         if block.get("sources"):
@@ -917,6 +964,13 @@ with tab7:
                     "Output Folder", value="./data/cards", key="output_folder_from_db"
                 )
 
+            use_steps_from_db = st.checkbox(
+                "Use AI steps for proof card backs",
+                value=True,
+                key="use_steps_from_db",
+                help="If checked, proof cards will show numbered steps from metadata instead of the executive summary.",
+            )
+
             if st.button(
                 "🎴 Generate .apkg from Selected Blocks",
                 type="primary",
@@ -933,7 +987,11 @@ with tab7:
 
                         # Generate cards
                         cards = []
-                        meta = {"deck": deck_name_from_db, "doc_id": "database_export"}
+                        meta = {
+                            "deck": deck_name_from_db,
+                            "doc_id": "database_export",
+                            "use_steps_for_proofs": use_steps_from_db,
+                        }
 
                         for block in blocks_to_export:
                             kind = block.get("kind", "")
@@ -961,18 +1019,30 @@ with tab7:
                                     {
                                         "name": block.get("name", "Theorem"),
                                         "hypotheses": type(
-                                            "obj", (object,), {"summary": "See block"}
+                                            "obj",
+                                            (object,),
+                                            {
+                                                "summary": block.get("hypotheses_text")
+                                                or "See block"
+                                            },
                                         )(),
                                         "conclusion": type(
                                             "obj",
                                             (object,),
-                                            {"summary": block.get("summary", "")},
+                                            {
+                                                "summary": block.get("conclusion_text")
+                                                or block.get("summary", "")
+                                            },
                                         )(),
                                         "summary": block.get("summary", ""),
                                         "tags": [
                                             type("tag", (object,), {"name": t})()
                                             for t in block.get("tags", [])
                                         ],
+                                        "proof_metadata": block.get("metadata", {}),
+                                        "equivalent_statements": block.get(
+                                            "metadata", {}
+                                        ).get("equivalent_statements", []),
                                     },
                                 )()
                                 cards.extend(make_theorem_cards(thm_obj, meta))

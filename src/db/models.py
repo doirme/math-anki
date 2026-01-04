@@ -5,6 +5,7 @@ from typing import List, Optional
 
 from core.enums import BlockKind, MathObjectKind, RelationPredicate, SourceRole
 from sqlalchemy import (
+    JSON,
     DateTime,
     Float,
     ForeignKey,
@@ -142,6 +143,7 @@ class SemanticBlock(Base):
     name: Mapped[Optional[str]] = mapped_column(String, index=True)
     short_slug: Mapped[Optional[str]] = mapped_column(String, index=True)
     summary: Mapped[Optional[str]] = mapped_column(Text)
+    meta_data: Mapped[Optional[dict]] = mapped_column(JSON)
     importance_score: Mapped[Optional[float]] = mapped_column(Float)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
     math_object_id: Mapped[Optional[int]] = mapped_column(

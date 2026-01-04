@@ -4,6 +4,9 @@ Phase 1: Smart Block Creation with Chunked LLM Extraction
 Creates semantic blocks from markdown using chunked batch processing and LLM extraction.
 """
 
+from __future__ import annotations
+
+import os
 from typing import List
 
 from .chunked_extractor import ChunkedBlockExtractor, ExtractedBlock

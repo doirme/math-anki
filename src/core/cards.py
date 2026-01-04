@@ -84,6 +84,93 @@ def _md_to_html(text: str) -> str:
     return html
 
 
+def _get_context_prefix(block: Any) -> str:
+    """Extraire le contexte (domaines + document + page + chemin) pour l'afficher sur le recto."""
+    contexts = []
+
+    # 1. Domaines (tags)
+    tags = []
+    if hasattr(block, "tags") and block.tags:
+        tags = block.tags
+    elif isinstance(block, dict) and block.get("tags"):
+        tags = block["tags"]
+
+    if tags:
+        # tags can be list of Tag objects or list of strings
+        domains = []
+        for t in tags:
+            if hasattr(t, "name"):
+                domains.append(t.name)
+            else:
+                domains.append(str(t))
+        if domains:
+            contexts.append(", ".join(domains))
+
+    # 2. Source (Document & Page)
+    sources = []
+    if hasattr(block, "sources") and block.sources:
+        sources = block.sources
+    elif isinstance(block, dict) and block.get("sources"):
+        sources = block["sources"]
+    doc_title = None
+    page_num = None
+    path = None
+
+    if sources:
+        for src in sources:
+            # Handle ORM objects (SemanticSourceLink)
+            if hasattr(src, "text_block") and src.text_block:
+                if (
+                    not doc_title
+                    and hasattr(src.text_block, "document")
+                    and src.text_block.document
+                ):
+                    doc_title = src.text_block.document.title
+                if page_num is None and hasattr(src.text_block, "page_number"):
+                    page_num = src.text_block.page_number
+                if not path and hasattr(src.text_block, "heading_path"):
+                    path = src.text_block.heading_path
+            # Handle dictionaries (from get_blocks_by_ids)
+            elif isinstance(src, dict):
+                if not doc_title:
+                    doc_title = src.get("title")
+                if page_num is None:
+                    page_num = src.get("page")
+                if not path:
+                    path = src.get("path") or src.get("heading_path")
+
+                if doc_title and page_num is not None and path:
+                    break
+
+    # Fallback for page if it's directly on the block (like in ValidatedBlock/Pydantic)
+    if page_num is None:
+        if hasattr(block, "page"):
+            page_num = block.page
+        elif isinstance(block, dict) and "page" in block:
+            page_num = block["page"]
+
+    if doc_title:
+        contexts.append(f"Doc: {doc_title}")
+
+    if page_num is not None and page_num > 0:
+        contexts.append(f"p. {page_num}")
+
+    # 3. Hiérarchie (heading_path)
+    if path:
+        # On simplifie le chemin s'il est trop long (ex: "Chap1 > Sec2 > Sub3" -> "Sec2 > Sub3")
+        parts = [p.strip() for p in path.split(">") if p.strip()]
+        if len(parts) > 2:
+            path = " > ".join(parts[-2:])
+        else:
+            path = " > ".join(parts)
+        contexts.append(path)
+
+    if not contexts:
+        return ""
+
+    return f"<small>[{ ' | '.join(contexts) }]</small><br>"
+
+
 def _purge_hints_from_conclusion(conclusion: str) -> str:
     """Évite de divulguer des hypothèses dans la conclusion affichée en question."""
     c = conclusion.strip()
@@ -110,13 +197,19 @@ def make_definition_card(defi: SemanticBlock, meta: Dict[str, Any]) -> Flashcard
     )
 
     # 2. Extract specific term if present in bold at the start: **Term**
-    # This is crucial if name is just "Définition"
+    # This is crucial if name is just "Définition" or a generic tag
     bold_match = re.search(r"^\s*\**([^*:]+)\**\s*[:\-]*\s*", summary)
     if bold_match:
         extracted_term = bold_match.group(1).strip()
 
-        # If the extracted term is more useful than the current name
-        if name.lower() == "définition" and len(extracted_term) > 2:
+        # Get list of tag names for comparison
+        tag_names = [t.name.lower() for t in getattr(defi, "tags", [])]
+
+        # Override if name is generic OR just a tag (suggesting it was a fallback)
+        is_generic = name.lower() in ["définition", "definition"]
+        is_tag_fallback = name.lower() in tag_names
+
+        if (is_generic or is_tag_fallback) and len(extracted_term) > 2:
             name = extracted_term
             # Remove it from summary to avoid duplication in Back
             summary = re.sub(r"^\s*\**[^*:]+\**\s*[:\-]*\s*", "", summary).strip()
@@ -124,15 +217,20 @@ def make_definition_card(defi: SemanticBlock, meta: Dict[str, Any]) -> Flashcard
             extracted_term.lower() in name.lower()
             or name.lower() in extracted_term.lower()
         ):
-            # Name and summary-prefix match, remove prefix from summary
+            # Name and summary-prefix match (e.g. Name="Archimédien", Prefix="Corps archimédien")
+            # Prefer the extracted one as it might be more complete
+            if len(extracted_term) > len(name):
+                name = extracted_term
+            # Remove prefix from summary
             summary = re.sub(r"^\s*\**[^*:]+\**\s*[:\-]*\s*", "", summary).strip()
 
-    front = f"Rappeler la définition de : <br><b>{name}</b>"
+    front = f"{_get_context_prefix(defi)}Rappeler la définition de : <br><b>{name}</b>"
     back = summary
 
     tags = ["type::definition", f"source::{meta.get('doc_id', 'unknown')}"]
-    if defi.tags:
-        for tag in defi.tags:
+    defi_tags = getattr(defi, "tags", [])
+    if defi_tags:
+        for tag in defi_tags:
             tags.append(f"domain::{tag.name}")
 
     return Flashcard(
@@ -144,29 +242,34 @@ def make_theorem_cards(thm: SemanticBlock, meta: Dict[str, Any]) -> List[Flashca
     cards = []
 
     # Access linked hypotheses/conclusion blocks
-    H = thm.hypotheses.summary if thm.hypotheses else "(hypothèses non extraites)"
-    C = thm.conclusion.summary if thm.conclusion else (thm.summary or "")
+    H = (
+        thm.hypotheses.summary if thm.hypotheses else "<i>(non spécifiées)</i>"
+    ).strip()
+    C = (thm.conclusion.summary if thm.conclusion else (thm.summary or "")).strip()
+
+    # Handle equivalent statements (i <=> ii <=> iii)
+    equivs = getattr(thm, "equivalent_statements", [])
+    if equivs and isinstance(equivs, list) and len(equivs) > 0:
+        # Format as a list for the conclusion
+        # If the conclusion is just "They are equivalent", we replace it with the properties
+        items_html = "".join([f"<li>{s}</li>" for s in equivs])
+        C = f"Les propositions suivantes sont équivalentes :<ul>{items_html}</ul>"
+
     name = (thm.name or "Théorème").strip()
 
+    context = _get_context_prefix(thm)
     Cq = _purge_hints_from_conclusion(C)
 
     base_tags = ["type::theorem", f"name::{name}"]
-    if thm.tags:
-        for tag in thm.tags:
+    thm_tags = getattr(thm, "tags", [])
+    if thm_tags:
+        for tag in thm_tags:
             base_tags.append(f"domain::{tag.name}")
 
-    # 1. Carte HYPOTHÈSES : Sous quelles hypothèses peut-on conclure C ?
-    cards.append(
-        Flashcard(
-            deck=meta["deck"],
-            note_type="Basic",
-            front=f"Sous quelles hypothèses peut-on conclure : <br><br> {Cq} ?",
-            back=f"<b>Hypothèses :</b><br>{H}",
-            tags=base_tags + ["facet::hypotheses"],
-        )
-    )
+    # --- SÉLECTION DE LA QUESTION (Sémantique / Identification) ---
+    # Pour chaque théorème, on ne génère qu'UNE SEULE question de ce type
+    # pour éviter la redondance, en alternant selon l'ID.
 
-    # 2. Carte NOM : Uniquement si le nom est "célèbre" (pas juste "Théorème")
     generic_names = [
         "théorème",
         "proposition",
@@ -175,20 +278,61 @@ def make_theorem_cards(thm: SemanticBlock, meta: Dict[str, Any]) -> List[Flashca
         "propriété",
         "propriété.",
         "théorème.",
+        "définition-proposition",
+        "proposition-définition",
     ]
-    if name.lower() not in generic_names:
+    is_generic = name.lower() in generic_names
+
+    # Choix du type de question basé sur l'ID (déterministe)
+    # On utilise getattr car les objets de session Streamlit n'ont pas d'ID
+    q_type_idx = (getattr(thm, "id", 0) or 0) % 3
+
+    if is_generic:
+        # Toujours TYPE A pour les noms génériques (Hypothèses)
         cards.append(
             Flashcard(
                 deck=meta["deck"],
-                note_type="Basic (and reversed)",
-                front=f"Quel est le nom du résultat mathématique correspondant à : <br><br> {Cq} ?",
-                back=f"<b>{name}</b>",
-                tags=base_tags + ["facet::name"],
+                note_type="Basic",
+                front=f"{context}Sous quelles hypothèses peut-on conclure : <br><br> {Cq} ?",
+                back=f"<b>Hypothèses :</b><br>{H}",
+                tags=base_tags + ["facet::hypotheses"],
             )
         )
+    else:
+        # Pour les noms célèbres, on varie :
+        # 0: Hypothèses, 1: Nom via Conclusion, 2: Énoncé via Nom
+        if q_type_idx == 0:
+            cards.append(
+                Flashcard(
+                    deck=meta["deck"],
+                    note_type="Basic",
+                    front=f"{context}Sous quelles hypothèses peut-on conclure : <br><br> {Cq} ?",
+                    back=f"<b>Hypothèses :</b><br>{H}",
+                    tags=base_tags + ["facet::hypotheses"],
+                )
+            )
+        elif q_type_idx == 1:
+            cards.append(
+                Flashcard(
+                    deck=meta["deck"],
+                    note_type="Basic",
+                    front=f"{context}Quel est le nom du résultat qui permet de conclure : <br><br> {Cq} ?",
+                    back=f"<b>{name}</b>",
+                    tags=base_tags + ["facet::name"],
+                )
+            )
+        else:
+            cards.append(
+                Flashcard(
+                    deck=meta["deck"],
+                    note_type="Basic",
+                    front=f"{context}Énoncer le résultat suivant : <br><b>{name}</b>",
+                    back=f"<i>Hypothèses :</i> {H}<br><br><i>Conclusion :</i> {C}",
+                    tags=base_tags + ["facet::statement"],
+                )
+            )
 
-    # 3. Carte DÉMONSTRATION : Énoncé complet -> Preuve
-    # On cherche si une preuve est liée
+    # --- CARTE DÉMONSTRATION (Si elle existe) ---
     proof_text = None
     if hasattr(thm, "proof") and thm.proof:
         proof_text = thm.proof.summary
@@ -201,11 +345,18 @@ def make_theorem_cards(thm: SemanticBlock, meta: Dict[str, Any]) -> List[Flashca
                     break
 
     if proof_text:
+        # User preference: use steps instead of summary if available
+        if meta.get("use_steps_for_proofs") and hasattr(thm, "proof_metadata"):
+            steps = thm.proof_metadata.get("steps")
+            if steps and isinstance(steps, list):
+                steps_html = "".join([f"<li>{s}</li>" for s in steps])
+                proof_text = f"<ol>{steps_html}</ol>"
+
         cards.append(
             Flashcard(
                 deck=meta["deck"],
                 note_type="Basic",
-                front=f"<b>Démontrer le résultat suivant ({name}) :</b><br><br><i>Hypothèses :</i> {H}<br><br><i>Conclusion :</i> {C}",
+                front=f"{context}<b>Démontrer le résultat suivant ({name}) :</b><br><br><i>Hypothèses :</i> {H}<br><br><i>Conclusion :</i> {C}",
                 back=f"<b>Démonstration :</b><br>{proof_text}",
                 tags=base_tags + ["facet::proof"],
             )

@@ -9,8 +9,8 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from core.block_indexer import BlockIndexer
-from core.enums import BlockKind
-from db.models import Document, SemanticBlock, Tag
+from core.enums import BlockKind, SourceRole
+from db.models import Document, SemanticBlock, SemanticSourceLink, Tag, TextBlock
 from db.session import get_db_session
 
 
@@ -77,15 +77,55 @@ class DatabaseManager:
                 kind = self._map_kind(kind_str)
 
                 # Create semantic block
+                meta_data = block_data.get("metadata", {})
+
+                # Prioritize AI-extracted name/term
+                name = (
+                    block_data.get("name")
+                    or meta_data.get("term")
+                    or meta_data.get("normalized_term")
+                    or meta_data.get("name")
+                    or meta_data.get("normalized_name")
+                    or self._extract_name(block_data)
+                )
+
+                # Prioritize AI-extracted statement (definition) or conclusion (theorem)
+                summary = (
+                    meta_data.get("statement")
+                    or meta_data.get("conclusion")
+                    or block_data.get("normalized_text")
+                    or block_data.get("validated_text", "")
+                )
+
                 semantic_block = SemanticBlock(
                     kind=kind,
-                    name=self._extract_name(block_data),
-                    summary=block_data.get("normalized_text", ""),
+                    name=name,
+                    summary=summary,
+                    meta_data=meta_data,
                     created_at=datetime.utcnow(),
                 )
 
                 session.add(semantic_block)
                 session.flush()
+
+                # Create a source TextBlock for this semantic block
+                # This is essential for document-based filtering and context preservation
+                text_block = TextBlock(
+                    document_id=document_id,
+                    page_number=block_data.get("page", 0),
+                    raw_text=block_data.get("validated_text", ""),
+                    normalized_text=block_data.get("normalized_text", ""),
+                )
+                session.add(text_block)
+                session.flush()
+
+                # Create link between semantic and text block
+                source_link = SemanticSourceLink(
+                    semantic_block_id=semantic_block.id,
+                    text_block_id=text_block.id,
+                    role=SourceRole.full,
+                )
+                session.add(source_link)
 
                 # Add tags
                 for tag_name in block_data.get("tags", []):
@@ -94,6 +134,42 @@ class DatabaseManager:
                         tag = Tag(name=tag_name)
                         session.add(tag)
                     semantic_block.tags.append(tag)
+
+                # Special handling for theorems: save hypotheses and conclusion as sub-blocks
+                if kind in [
+                    BlockKind.theorem,
+                    BlockKind.proposition,
+                    BlockKind.lemma,
+                    BlockKind.corollary,
+                ]:
+                    # Hypotheses
+                    hyp_data = meta_data.get("hypotheses")
+                    if hyp_data:
+                        hyp_text = (
+                            "\n".join(hyp_data)
+                            if isinstance(hyp_data, list)
+                            else str(hyp_data)
+                        )
+                        hyp_block = SemanticBlock(
+                            kind=BlockKind.hypotheses,
+                            summary=hyp_text,
+                            created_at=datetime.utcnow(),
+                        )
+                        session.add(hyp_block)
+                        session.flush()
+                        semantic_block.hypotheses_id = hyp_block.id
+
+                    # Conclusion
+                    conc_text = meta_data.get("conclusion")
+                    if conc_text:
+                        conc_block = SemanticBlock(
+                            kind=BlockKind.conclusion,
+                            summary=conc_text,
+                            created_at=datetime.utcnow(),
+                        )
+                        session.add(conc_block)
+                        session.flush()
+                        semantic_block.conclusion_id = conc_block.id
 
                 # Generate and store embeddings if requested
                 if generate_embeddings:
@@ -104,7 +180,10 @@ class DatabaseManager:
             return block_ids
 
     def find_duplicates(
-        self, blocks: List[Dict[str, Any]], threshold: float = 0.85
+        self,
+        blocks: List[Dict[str, Any]],
+        threshold: float = 0.85,
+        exclude_document_id: Optional[int] = None,
     ) -> List[Tuple[Dict[str, Any], List[Dict[str, Any]]]]:
         """
         Find potential duplicates for given blocks
@@ -112,6 +191,7 @@ class DatabaseManager:
         Args:
             blocks: New blocks to check
             threshold: Similarity threshold (0.0-1.0)
+            exclude_document_id: Optional ID of document to exclude from check
 
         Returns:
             List of (new_block, [similar_existing_blocks])
@@ -123,9 +203,17 @@ class DatabaseManager:
                 kind = self._map_kind(block.get("kind", "unknown"))
 
                 # Query existing blocks of same kind
-                existing_blocks = (
-                    session.query(SemanticBlock).filter_by(kind=kind).all()
-                )
+                query = session.query(SemanticBlock).filter_by(kind=kind)
+
+                # Exclude specific document if requested
+                if exclude_document_id:
+                    query = (
+                        query.join(SemanticBlock.sources)
+                        .join(SemanticSourceLink.text_block)
+                        .filter(TextBlock.document_id != exclude_document_id)
+                    )
+
+                existing_blocks = query.distinct().all()
 
                 similar_blocks = []
 
@@ -166,17 +254,41 @@ class DatabaseManager:
 
             blocks = query.all()
 
-            return [
-                {
-                    "id": b.id,
-                    "kind": b.kind.value,
-                    "name": b.name,
-                    "summary": b.summary,
-                    "tags": [t.name for t in b.tags],
-                    "created_at": b.created_at.isoformat() if b.created_at else None,
-                }
-                for b in blocks
-            ]
+            result = []
+            for b in blocks:
+                source_docs = []
+                for source_link in b.sources:
+                    if source_link.text_block and source_link.text_block.document:
+                        doc = source_link.text_block.document
+                        source_docs.append(
+                            {
+                                "title": doc.title,
+                                "page": source_link.text_block.page_number,
+                                "path": source_link.text_block.heading_path,
+                            }
+                        )
+
+                result.append(
+                    {
+                        "id": b.id,
+                        "kind": b.kind.value,
+                        "name": b.name,
+                        "summary": b.summary,
+                        "metadata": b.meta_data or {},
+                        "hypotheses_text": b.hypotheses.summary
+                        if b.hypotheses
+                        else None,
+                        "conclusion_text": b.conclusion.summary
+                        if b.conclusion
+                        else None,
+                        "tags": [t.name for t in b.tags],
+                        "created_at": b.created_at.isoformat()
+                        if b.created_at
+                        else None,
+                        "sources": source_docs,
+                    }
+                )
+            return result
 
     def delete_block(self, block_id: int):
         """Delete a block from database"""
@@ -281,12 +393,21 @@ class DatabaseManager:
                         "kind": block.kind.value,
                         "name": block.name,
                         "summary": block.summary,
+                        "metadata": block.meta_data or {},
+                        "hypotheses_text": block.hypotheses.summary
+                        if block.hypotheses
+                        else None,
+                        "conclusion_text": block.conclusion.summary
+                        if block.conclusion
+                        else None,
                         "tags": [t.name for t in block.tags],
                         "created_at": block.created_at.isoformat()
                         if block.created_at
                         else None,
                         "sources": source_docs,
-                        "source_count": len(source_docs),
+                        "source_count": session.query(SemanticSourceLink)
+                        .filter_by(semantic_block_id=block.id)
+                        .count(),
                     }
                 )
 
@@ -326,12 +447,6 @@ class DatabaseManager:
     def get_blocks_by_ids(self, block_ids: List[int]) -> List[Dict[str, Any]]:
         """
         Retrieve specific blocks by their IDs
-
-        Args:
-            block_ids: List of block IDs to retrieve
-
-        Returns:
-            List of block dictionaries
         """
         with get_db_session() as session:
             blocks = (
@@ -340,17 +455,41 @@ class DatabaseManager:
                 .all()
             )
 
-            return [
-                {
-                    "id": b.id,
-                    "kind": b.kind.value,
-                    "name": b.name,
-                    "summary": b.summary,
-                    "tags": [t.name for t in b.tags],
-                    "created_at": b.created_at.isoformat() if b.created_at else None,
-                }
-                for b in blocks
-            ]
+            result = []
+            for b in blocks:
+                source_docs = []
+                for source_link in b.sources:
+                    if source_link.text_block and source_link.text_block.document:
+                        doc = source_link.text_block.document
+                        source_docs.append(
+                            {
+                                "title": doc.title,
+                                "page": source_link.text_block.page_number,
+                                "path": source_link.text_block.heading_path,
+                            }
+                        )
+
+                result.append(
+                    {
+                        "id": b.id,
+                        "kind": b.kind.value,
+                        "name": b.name,
+                        "summary": b.summary,
+                        "metadata": b.meta_data or {},
+                        "hypotheses_text": b.hypotheses.summary
+                        if b.hypotheses
+                        else None,
+                        "conclusion_text": b.conclusion.summary
+                        if b.conclusion
+                        else None,
+                        "tags": [t.name for t in b.tags],
+                        "created_at": b.created_at.isoformat()
+                        if b.created_at
+                        else None,
+                        "sources": source_docs,
+                    }
+                )
+            return result
 
     # Helper methods
 
@@ -371,6 +510,18 @@ class DatabaseManager:
 
     def _extract_name(self, block_data: Dict[str, Any]) -> Optional[str]:
         """Extract name from block data"""
+        meta = block_data.get("metadata", {})
+
+        # Check for AI extracted term/name
+        if meta.get("term"):
+            return meta["term"]
+        if meta.get("normalized_term"):
+            return meta["normalized_term"]
+        if meta.get("name"):
+            return meta["name"]
+        if meta.get("normalized_name"):
+            return meta["normalized_name"]
+
         tags = block_data.get("tags", [])
         return tags[0] if tags else None
 
