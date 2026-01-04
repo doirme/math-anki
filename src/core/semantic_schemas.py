@@ -92,6 +92,9 @@ class ExtractedTheorem(BaseModel):
     normalized_name: Optional[str] = None  # e.g., "Cayley-Hamilton"
     hypotheses: List[str] = Field(default_factory=list)
     conclusion: str
+    equivalent_statements: List[str] = Field(
+        default_factory=list
+    )  # For equivalences (i <=> ii <=> iii)
     has_proof: bool = False
     proof_block_id: Optional[str] = None  # Link to proof block
 

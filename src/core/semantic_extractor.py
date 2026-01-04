@@ -36,6 +36,61 @@ class SemanticExtractor:
 
     def __init__(self):
         self.llm = get_llm_task_manager()
+        self._debug_counter = 0  # Counter for debug files
+
+    def _debug_log_prompt(
+        self, block: ValidatedBlock, extraction_type: str, prompt: str
+    ):
+        """Log extraction prompt to file for debugging."""
+        import json
+        from datetime import datetime
+        from pathlib import Path
+
+        # Create debug directory
+        debug_dir = Path("./debug_extraction_logs")
+        debug_dir.mkdir(exist_ok=True)
+
+        # Increment counter
+        self._debug_counter += 1
+
+        # Generate safe filename from block info
+        block_name = block.tags[0] if block.tags else "unknown"
+        block_name = "".join(c if c.isalnum() else "_" for c in block_name)
+        filename = f"{self._debug_counter:03d}_{block.kind}_{block_name}.txt"
+
+        filepath = debug_dir / filename
+
+        # Write log file
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write("=" * 100 + "\n")
+            f.write(f"DEBUG EXTRACTION LOG\n")
+            f.write("=" * 100 + "\n")
+            f.write(f"Timestamp: {datetime.now().isoformat()}\n")
+            f.write(f"Block ID: {block.id}\n")
+            f.write(f"Block Kind: {block.kind}\n")
+            f.write(f"Block Tags: {block.tags}\n")
+            f.write(f"Extraction Type: {extraction_type}\n")
+            f.write(f"Self-contained: {block.is_self_contained}\n")
+            f.write("=" * 100 + "\n\n")
+
+            f.write("BLOCK STATE:\n")
+            f.write("-" * 100 + "\n")
+            f.write(f"Raw Text ({len(block.raw_text)} chars):\n{block.raw_text}\n\n")
+            f.write(
+                f"Validated Text ({len(block.validated_text)} chars):\n{block.validated_text}\n\n"
+            )
+            f.write(f"Normalized Text: {block.normalized_text or 'N/A'}\n\n")
+            f.write(
+                f"Metadata: {json.dumps(block.metadata, indent=2, ensure_ascii=False)}\n"
+            )
+            f.write("-" * 100 + "\n\n")
+
+            f.write("PROMPT SENT TO LLM:\n")
+            f.write("=" * 100 + "\n")
+            f.write(prompt)
+            f.write("\n" + "=" * 100 + "\n")
+
+        print(f"🔍 DEBUG: Logged extraction prompt to {filepath}")
 
     def extract(
         self, linked_blocks: List[LinkedBlock], *, output_language: str = "fr"
@@ -46,6 +101,17 @@ class SemanticExtractor:
         Returns:
             List of extracted semantic objects (definitions, theorems, etc.)
         """
+        # DEBUG: Log all blocks BEFORE filtering
+        if os.getenv("DEBUG_EXTRACTION", "false").lower() == "true":
+            print(f"\n{'='*80}")
+            print(f"DEBUG EXTRACTION: Received {len(linked_blocks)} linked blocks")
+            print(f"{'='*80}")
+            for lb in linked_blocks:
+                print(
+                    f"  Block {lb.block.id[:8]}: kind={lb.block.kind} (type={type(lb.block.kind).__name__})"
+                )
+            print(f"{'='*80}\n")
+
         # Filter blocks to extract (exclude context)
         blocks_to_process = [
             lb for lb in linked_blocks if lb.block.kind != BlockKind.context
@@ -112,7 +178,11 @@ class SemanticExtractor:
                 block, context_text, linked_block, output_language=output_language
             )
             if result:
-                return {"block_id": block.id, "kind": "theorem", "data": result}
+                return {
+                    "block_id": block.id,
+                    "kind": "theorem",
+                    "data": result,
+                }  # TODO: do we want ot force theorem here ?
 
         elif block.kind == BlockKind.formula:
             result = self._extract_formula(
@@ -272,21 +342,33 @@ Respond in strict JSON:
             if rel.get("relation") == "has_proof":
                 proof_block_id = rel.get("block_id")
 
-        if block.normalized_text and meta.get("hypotheses") and meta.get("conclusion"):
-            return ExtractedTheorem(
-                name=meta.get("name")
-                or block.normalized_text.split(":")[0].replace("**", "").strip(),
-                normalized_name=meta.get("normalized_name")
-                or block.normalized_text.split(":")[0].replace("**", "").strip(),
-                hypotheses=meta.get("hypotheses"),
-                conclusion=meta.get("conclusion"),
-                hypothesis_text="\n".join(meta.get("hypotheses", [])),
-                conclusion_text=meta.get("conclusion", ""),
-                domain_tags=block.tags,
-                characteristics=meta.get("characteristics", []),
-                has_proof=proof_block_id is not None,
-                proof_block_id=proof_block_id,
-            )
+        # OPTIMIZATION DISABLED: Skip LLM call if metadata already exists
+        # TODO: Re-enable after validating card quality with the proper check:
+        #   if (block.normalized_text and meta.get("hypotheses") and meta.get("conclusion")
+        #       and "equivalent_statements" in meta):
+        #       # All required fields present, reuse existing metadata
+        #       return ExtractedTheorem(...)
+        #
+        # This optimization saves LLM calls but MUST check for ALL required fields.
+        # Without the equivalent_statements check, blocks from old cache would skip
+        # extraction and never populate the new field.
+        #
+        # if block.normalized_text and meta.get("hypotheses") and meta.get("conclusion"):
+        #     return ExtractedTheorem(
+        #         name=meta.get("name")
+        #         or block.normalized_text.split(":")[0].replace("**", "").strip(),
+        #         normalized_name=meta.get("normalized_name")
+        #         or block.normalized_text.split(":")[0].replace("**", "").strip(),
+        #         hypotheses=meta.get("hypotheses"),
+        #         conclusion=meta.get("conclusion"),
+        #         equivalent_statements=meta.get("equivalent_statements", []),
+        #         hypothesis_text="\n".join(meta.get("hypotheses", [])),
+        #         conclusion_text=meta.get("conclusion", ""),
+        #         domain_tags=block.tags,
+        #         characteristics=meta.get("characteristics", []),
+        #         has_proof=proof_block_id is not None,
+        #         proof_block_id=proof_block_id,
+        #     )
 
         from .language_detector import format_language_instruction
 
@@ -299,7 +381,7 @@ Respond in strict JSON:
 Block (Original):
 {block.validated_text}
 
-Block (Normalized):
+Block (Normalized - can be misleading prioritize original Block):
 {block.normalized_text or "N/A"}
 <<<< TARGET BLOCK END >>>>
 
@@ -320,14 +402,23 @@ Rules:
   * This ensures consistency for duplicate detection across all documents, regardless of their original language.
   * Translate theorem names to English: "Théorème de Cantor" → "Cantor", "Opérations monotones" → "Monotone operations"
 - Clearly separate hypotheses from conclusion.
-- **CRITICAL**: The `hypothesis_text` and `conclusion_text` MUST NOT contain the theorem name, title, or "Théorème" keyword. They should only contain the mathematical statement.
+- **CRITICAL**: The `hypothesis_text` and `conclusion_text` MUST NOT contain the theorem name, title, or "Théorème" keyword. They should only contain the mathematical statement. 
+They should not contain void statement either - should make sense on their own.
 - Extract the mathematical domain (e.g., "analyse réelle", "théorie des groupes"). **ALWAYS provide at least one tag.**
 - Extract key characteristics (e.g., "monotone", "continu", "fini")
+- **EQUIVALENCE THEOREMS**: If the theorem states that several properties are equivalent:
+  * **Detection patterns**: "The following are equivalent:", "TFA:", "P if and only if Q", "Il est équivalent de dire que", numbered lists (1. ... 2. ...)
+  * Extract each distinct property/statement into the `equivalent_statements` list.
+  * In `conclusion`, use a self contained descriptive summary.
+  * Ensure `equivalent_statements` contains the actual math statements, not just "(i), (ii)".
 
 Examples:
 1. "Théorème(Opérations sur les fonctions monotones)" → name: "Opérations sur les fonctions monotones", normalized_name: "Monotone functions operations"
 2. "### Théorème de Pythagore" → name: "Théorème de Pythagore", normalized_name: "Pythagoras"
 3. "**Fundamental Theorem of Calculus**" → name: "Fundamental Theorem of Calculus", normalized_name: "Fundamental theorem of calculus"
+4. "Il est équivalent de dire que 1. A est vrai 2. B est vrai" → 
+   conclusion: "A si et seulement si B", 
+   equivalent_statements: ["A est vrai", "B est vrai"]
 
 - **CRITICAL: JSON Escaping**: In the JSON output, all backslashes in LaTeX MUST be escaped as `\\`.
 
@@ -339,12 +430,26 @@ Respond in strict JSON:
   "normalized_name": "normalized name" | null,
   "hypotheses": ["hypothesis 1", "hypothesis 2"],
   "hypothesis_text": "complete hypothesis text",
-  "conclusion": "conclusion",
+  "conclusion": "conclusion statement",
+  "equivalent_statements": ["statement 1", "statement 2"] | [],
   "conclusion_text": "complete conclusion text",
   "has_proof": true|false,
   "domain_tags": ["domain1", "domain2"],
   "characteristics": ["characteristic1", "characteristic2"]
 }}"""
+
+        # DEBUG MODE: Log prompt instead of calling LLM
+        if os.getenv("DEBUG_EXTRACTION", "false").lower() == "true":
+            self._debug_log_prompt(block, "theorem", prompt)
+            # Return mock data in debug mode
+            return ExtractedTheorem(
+                name="DEBUG_MODE",
+                hypotheses=[],
+                conclusion="Debug mode active - no LLM call",
+                conclusion_text="Debug mode active",
+                has_proof=proof_block_id is not None,
+                proof_block_id=proof_block_id,
+            )
 
         try:
             response = self.llm.generate(
